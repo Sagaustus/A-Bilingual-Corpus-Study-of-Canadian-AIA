@@ -26,4 +26,4 @@ yarn-error.log*
 # Ignore sourcemap files
 *.map
 tests/**/*.spec.js
-src/**/*.js
+src/**/*.js.env

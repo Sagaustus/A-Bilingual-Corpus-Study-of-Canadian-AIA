@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figure 1: Comparative Term Frequencies (EN vs FR)</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        .figure-container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .figure-number {
+            color: #2c3e50;
+            font-size: 1.1em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .figure-title {
+            color: #34495e;
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+        .caption {
+            font-size: 0.95em;
+            color: #555;
+            font-style: italic;
+            margin: 15px 0;
+            padding: 15px;
+            background: #ecf0f1;
+            border-left: 4px solid #3498db;
+        }
+        .interpretation {
+            margin: 25px 0;
+            padding: 20px;
+            background: #e8f5e9;
+            border-radius: 5px;
+            border-left: 4px solid #27ae60;
+        }
+        .interpretation h3 {
+            color: #27ae60;
+            margin-top: 0;
+        }
+        .key-findings {
+            background: #fff3cd;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #f39c12;
+            margin: 25px 0;
+        }
+        .key-findings h3 {
+            color: #d68910;
+            margin-top: 0;
+        }
+        .key-findings ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .metadata {
+            font-size: 0.85em;
+            color: #7f8c8d;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+        .quote {
+            font-size: 1.05em;
+            font-style: italic;
+            color: #2c3e50;
+            padding: 20px;
+            border-left: 5px solid #3498db;
+            background: #ecf0f1;
+            margin: 25px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="figure-container">
+    <div class="figure-number">Figure 1</div>
+    <div class="figure-title">Comparative Term Frequencies: EN vs FR</div>
+    
+    <img src="figures/fig1_comparative_terms.png" alt="Comparative term frequencies showing EN and FR governance terms side by side">
+    
+    <div class="caption">
+        <strong>Figure 1.</strong> Comparative frequencies of 15 governance terms across 16 bilingual AI Impact Assessment pairs. 
+        Blue bars represent English terms, orange bars represent French terms (or combined French equivalents). 
+        N = 751 total term occurrences, 2019–2024.
+    </div>
+
+    <div class="key-findings">
+        <h3>Key Findings</h3>
+        <ul>
+            <li><strong>Assessment/Évaluation:</strong> Highest frequency pair (EN: 290, FR: 313) — French slightly higher, reflecting broader semantic scope of "évaluation"</li>
+            <li><strong>Audit/Vérification:</strong> Divergent usage (EN: 121, FR: 9 for "audit" / FR: 167 for "vérification") — French prefers broader verification terminology</li>
+            <li><strong>Review/Révision:</strong> Severe divergence (EN: 119, FR: 3) — French uses "évaluation" instead</li>
+            <li><strong>Accountability:</strong> EN uses single term (15×) while FR distributes across responsabilité (1), reddition de comptes (11), imputabilité (4)</li>
+            <li><strong>Monitoring vs Contrôle:</strong> EN monitoring (5×) vs FR contrôle (27×) — 5.4× difference reveals control-centric governance philosophy</li>
+        </ul>
+    </div>
+
+    <div class="interpretation">
+        <h3>Interpretation</h3>
+        <p>This comparative visualization reveals three patterns of semantic alignment:</p>
+        
+        <p><strong>1. Perfect Parity (Green zone):</strong> Terms like <em>transparency/transparence</em>, 
+        <em>discrimination</em>, and <em>explanation/explication</em> show 1:1 correspondence, suggesting 
+        shared conceptual frameworks in these domains.</p>
+        
+        <p><strong>2. Moderate Divergence (Yellow zone):</strong> Terms like <em>fairness/équité</em> 
+        and <em>recourse/recours</em> show near-parity with minor variance (0.8–1.2 ratio), indicating 
+        functional equivalence despite different usage frequencies.</p>
+        
+        <p><strong>3. Severe Divergence (Red zone):</strong> The most significant finding — terms like 
+        <em>accountability</em>, <em>monitoring</em>, <em>audit</em>, and <em>review</em> show fragmentation 
+        in French, where single English concepts map to multiple French terms with distinct semantic fields.</p>
+    </div>
+
+    <div class="quote">
+        "Where English documents employ unified governance terms, French versions distribute these concepts 
+        across multiple lexemes reflecting distinct administrative, legal, and technical traditions. This is 
+        not translation variance — it is conceptual divergence embedded in bilingual policy infrastructure."
+    </div>
+
+    <div class="interpretation">
+        <h3>For CSDH 2026 Paper</h3>
+        <p><strong>Research Question:</strong> How does official bilingualism produce parallel meaning systems 
+        in algorithmic governance?</p>
+        
+        <p><strong>This Figure Shows:</strong> Systematic semantic drift rather than isolated translation errors. 
+        The clustering of high-divergence terms (accountability, monitoring, audit) in governance oversight 
+        domains suggests different conceptual frameworks for algorithmic regulation.</p>
+        
+        <p><strong>Theoretical Contribution:</strong> Challenges assumptions about policy coherence in bilingual 
+        jurisdictions. Official bilingualism may inadvertently produce divergent governance epistemologies.</p>
+    </div>
+
+    <div class="metadata">
+        <strong>Methodology:</strong> Computational term extraction from 32 PDF documents (16 EN, 16 FR) using 
+        pdfminer.six. Term frequencies calculated with ±50 character context windows. Visualization created with 
+        matplotlib 3.8.0, 300 DPI PNG export.<br>
+        <strong>Source:</strong> Canadian federal AI Impact Assessments (TBS, IRCC, VAC, ESDC, Transport, PHAC, CBSA)<br>
+        <strong>Analysis Date:</strong> January 2026<br>
+        <strong>Figure File:</strong> fig1_comparative_terms.png (199 KB)
+    </div>
+</div>
+
+</body>
+</html>

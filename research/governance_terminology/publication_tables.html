@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publication Tables - Bilingual AI Governance Terminology</title>
+    <style>
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 40px;
+            border-bottom: 2px solid #bdc3c7;
+            padding-bottom: 8px;
+        }
+        h3 {
+            color: #7f8c8d;
+            margin-top: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            background: white;
+        }
+        th {
+            background: linear-gradient(to bottom, #3498db, #2980b9);
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            border: 1px solid #2980b9;
+        }
+        td {
+            padding: 10px 12px;
+            border: 1px solid #ddd;
+        }
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        tr:hover {
+            background-color: #e8f4f8;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            font-weight: bold;
+        }
+        .note {
+            font-size: 0.9em;
+            color: #666;
+            font-style: italic;
+            margin-top: 10px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-left: 4px solid #3498db;
+        }
+        .interpretation {
+            background: #e8f5e9;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        .ratio-high {
+            color: #c0392b;
+            font-weight: bold;
+        }
+        .ratio-low {
+            color: #2980b9;
+            font-weight: bold;
+        }
+        .ratio-parity {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        caption {
+            caption-side: top;
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        .metadata {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Publication-Ready Tables for CSDH 2026 Paper</h1>
+<p><strong>The Semantics of Accountability: Meaning Drift in Bilingual AI Impact Assessments</strong></p>
+
+<div class="metadata">
+    <strong>Dataset:</strong> 16 bilingual AIA pairs (32 documents)<br>
+    <strong>Term occurrences:</strong> 751<br>
+    <strong>Time span:</strong> 2019–2024<br>
+    <strong>Institutions:</strong> 7 Canadian federal departments
+</div>
+
+<hr>
+
+<!-- TABLE 1 -->
+<h2>Table 1: Comparative Governance Terminology Frequencies (EN vs FR)</h2>
+
+<table>
+    <caption>Frequency comparison of governance terms across 16 bilingual AI Impact Assessment pairs</caption>
+    <thead>
+        <tr>
+            <th>English Term</th>
+            <th>EN Freq</th>
+            <th>French Term(s)</th>
+            <th>FR Freq</th>
+            <th>Ratio (FR:EN)</th>
+            <th>Interpretation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="3"><strong>accountability</strong></td>
+            <td rowspan="3">15</td>
+            <td>responsabilité</td>
+            <td>1</td>
+            <td class="ratio-low">0.07</td>
+            <td>Severe under-representation</td>
+        </tr>
+        <tr>
+            <td>reddition de comptes</td>
+            <td>11</td>
+            <td class="ratio-parity">0.73</td>
+            <td>Functional equivalent</td>
+        </tr>
+        <tr>
+            <td>imputabilité</td>
+            <td>4</td>
+            <td>0.27</td>
+            <td>Technical attribution</td>
+        </tr>
+        <tr>
+            <td rowspan="3"><strong>monitoring</strong></td>
+            <td rowspan="3">5</td>
+            <td>surveillance</td>
+            <td>4</td>
+            <td class="ratio-parity">0.80</td>
+            <td>Near parity</td>
+        </tr>
+        <tr>
+            <td>contrôle</td>
+            <td>27</td>
+            <td class="ratio-high">5.40</td>
+            <td>Over-representation (control)</td>
+        </tr>
+        <tr>
+            <td>suivi</td>
+            <td>4</td>
+            <td class="ratio-parity">0.80</td>
+            <td>Tracking/follow-up</td>
+        </tr>
+        <tr>
+            <td rowspan="2"><strong>bias</strong></td>
+            <td rowspan="2">34</td>
+            <td>biais</td>
+            <td>22</td>
+            <td>0.65</td>
+            <td>Technical bias</td>
+        </tr>
+        <tr>
+            <td>préjugé</td>
+            <td>9</td>
+            <td>0.26</td>
+            <td>Social prejudice</td>
+        </tr>
+        <tr>
+            <td rowspan="2"><strong>audit</strong></td>
+            <td rowspan="2">121</td>
+            <td>audit</td>
+            <td>9</td>
+            <td class="ratio-low">0.07</td>
+            <td>Severe under-representation</td>
+        </tr>
+        <tr>
+            <td>vérification</td>
+            <td>167</td>
+            <td>1.38</td>
+            <td>Verification (broader)</td>
+        </tr>
+        <tr>
+            <td rowspan="2"><strong>review</strong></td>
+            <td rowspan="2">119</td>
+            <td>révision</td>
+            <td>3</td>
+            <td class="ratio-low">0.03</td>
+            <td>Severe under-representation</td>
+        </tr>
+        <tr>
+            <td>évaluation</td>
+            <td>313</td>
+            <td class="ratio-high">2.63</td>
+            <td>Assessment (broader)</td>
+        </tr>
+        <tr>
+            <td><strong>fairness</strong></td>
+            <td>31</td>
+            <td>équité</td>
+            <td>30</td>
+            <td class="ratio-parity">0.97</td>
+            <td>Near parity</td>
+        </tr>
+        <tr>
+            <td><strong>transparency</strong></td>
+            <td>7</td>
+            <td>transparence</td>
+            <td>7</td>
+            <td class="ratio-parity">1.00</td>
+            <td>Perfect parity</td>
+        </tr>
+        <tr>
+            <td><strong>discrimination</strong></td>
+            <td>8</td>
+            <td>discrimination</td>
+            <td>8</td>
+            <td class="ratio-parity">1.00</td>
+            <td>Perfect parity</td>
+        </tr>
+    </tbody>
+</table>
+
+<p class="note"><strong>Note:</strong> Combined total for FR accountability alternatives: 16 (ratio 1.07). 
+Ratios in <span class="ratio-high">red</span> indicate over-representation (>2.0), 
+<span class="ratio-low">blue</span> severe under-representation (<0.5), 
+and <span class="ratio-parity">green</span> near parity (0.8–1.2).</p>
+
+<hr>
+
+<!-- TABLE 2 -->
+<h2>Table 2: The Accountability Gap</h2>
+
+<table>
+    <caption>Semantic distribution of accountability concept in bilingual AIAs</caption>
+    <thead>
+        <tr>
+            <th>Language</th>
+            <th>Term</th>
+            <th>Frequency</th>
+            <th>Percentage</th>
+            <th>Semantic Domain</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>English</strong></td>
+            <td>accountability</td>
+            <td>15</td>
+            <td>100%</td>
+            <td>Unified governance concept</td>
+        </tr>
+        <tr>
+            <td rowspan="3"><strong>French</strong></td>
+            <td>responsabilité</td>
+            <td>1</td>
+            <td>6.3%</td>
+            <td>Legal/moral responsibility</td>
+        </tr>
+        <tr>
+            <td>reddition de comptes</td>
+            <td>11</td>
+            <td>68.8%</td>
+            <td>Administrative reporting</td>
+        </tr>
+        <tr>
+            <td>imputabilité</td>
+            <td>4</td>
+            <td>25.0%</td>
+            <td>Technical attribution</td>
+        </tr>
+        <tr class="highlight">
+            <td colspan="2"><strong>Total FR</strong></td>
+            <td><strong>16</strong></td>
+            <td><strong>106.7%</strong></td>
+            <td>Distributed concept</td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="interpretation">
+    <strong>Interpretation:</strong> While EN uses a single superordinate term, FR distributes accountability across three 
+    subordinate terms reflecting distinct juridical (<em>responsabilité</em>), administrative (<em>reddition de comptes</em>), 
+    and technical (<em>imputabilité</em>) traditions.
+</div>
+
+<hr>
+
+<!-- TABLE 3 -->
+<h2>Table 3: Monitoring vs Control Paradigms</h2>
+
+<table>
+    <caption>Divergent oversight conceptualizations in EN and FR documents</caption>
+    <thead>
+        <tr>
+            <th>Concept</th>
+            <th>EN Term</th>
+            <th>EN Freq</th>
+            <th>FR Term</th>
+            <th>FR Freq</th>
+            <th>Semantic Field</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Passive observation</strong></td>
+            <td>monitoring</td>
+            <td>5</td>
+            <td>surveillance</td>
+            <td>4</td>
+            <td>Watching/tracking</td>
+        </tr>
+        <tr>
+            <td><strong>Active management</strong></td>
+            <td>—</td>
+            <td>0</td>
+            <td>contrôle</td>
+            <td class="ratio-high">27</td>
+            <td>Control/verification</td>
+        </tr>
+        <tr>
+            <td><strong>Follow-up</strong></td>
+            <td>—</td>
+            <td>0</td>
+            <td>suivi</td>
+            <td>4</td>
+            <td>Tracking outcomes</td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="interpretation">
+    <strong>Collocates:</strong><br>
+    • EN <em>monitoring</em>: regular, quality, assurance (observational)<br>
+    • FR <em>contrôle</em>: gouvernement, données, points (managerial)<br><br>
+    <strong>Interpretation:</strong> EN frames oversight as passive monitoring; FR emphasizes active governmental 
+    control (5.4× higher frequency).
+</div>
+
+<hr>
+
+<!-- TABLE 4 -->
+<h2>Table 4: Bias Conceptual Split</h2>
+
+<table>
+    <caption>Lexical distinction of bias in French documents</caption>
+    <thead>
+        <tr>
+            <th>English</th>
+            <th>Frequency</th>
+            <th>French Technical</th>
+            <th>Frequency</th>
+            <th>French Social</th>
+            <th>Frequency</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>bias</strong> (unified)</td>
+            <td>34</td>
+            <td><strong>biais</strong> (algorithmic)</td>
+            <td>22</td>
+            <td><strong>préjugé</strong> (prejudice)</td>
+            <td>9</td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="interpretation">
+    <strong>Collocates:</strong><br>
+    • EN <em>bias</em>: unforeseen, negative, operator (mixed context)<br>
+    • FR <em>biais</em>: données (data-focused)<br>
+    • FR <em>préjugé</em>: atténuation (mitigation-focused)<br><br>
+    <strong>Interpretation:</strong> French lexically distinguishes technical/algorithmic bias (<em>biais</em>) from 
+    social/human prejudice (<em>préjugé</em>), a semantic split absent in English.
+</div>
+
+<hr>
+
+<!-- TABLE 5 -->
+<h2>Table 5: Term Parity vs Divergence Summary</h2>
+
+<table>
+    <caption>Classification of EN-FR term relationships by semantic alignment</caption>
+    <thead>
+        <tr>
+            <th>Parity Category</th>
+            <th>Ratio Range</th>
+            <th>Terms</th>
+            <th>Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Perfect parity</strong></td>
+            <td>1.00</td>
+            <td>transparency, discrimination, explanation</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td><strong>Near parity</strong></td>
+            <td>0.80–1.20</td>
+            <td>fairness, recourse</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td><strong>Moderate divergence</strong></td>
+            <td>0.50–0.79 or 1.21–2.00</td>
+            <td>bias (technical), audit (vérification)</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td><strong>Severe divergence</strong></td>
+            <td>&lt;0.50 or &gt;2.00</td>
+            <td>monitoring/contrôle (5.40), review/évaluation (2.63), accountability (distributed)</td>
+            <td>3</td>
+        </tr>
+    </tbody>
+</table>
+
+<p class="note"><strong>Finding:</strong> 30% of governance terms show severe semantic divergence, 
+suggesting systematic conceptual drift rather than isolated translation variance.</p>
+
+<hr>
+
+<!-- TABLE 6 -->
+<h2>Table 6: Top Collocates Comparison</h2>
+
+<table>
+    <caption>Most frequent words appearing within ±5 word window of key terms</caption>
+    <thead>
+        <tr>
+            <th>Term</th>
+            <th>Language</th>
+            <th>Top 3 Collocates</th>
+            <th>Semantic Field</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2"><strong>Accountability/Responsabilité</strong></td>
+            <td>EN</td>
+            <td>assigned, institution, design</td>
+            <td>Governance assignment</td>
+        </tr>
+        <tr>
+            <td>FR</td>
+            <td>régimes, régissent, internationale</td>
+            <td>Legal/regulatory frameworks</td>
+        </tr>
+        <tr>
+            <td rowspan="2"><strong>Monitoring/Contrôle</strong></td>
+            <td>EN</td>
+            <td>regular, quality, assurance</td>
+            <td>Passive observation</td>
+        </tr>
+        <tr>
+            <td>FR</td>
+            <td>gouvernement, données, points</td>
+            <td>Active government control</td>
+        </tr>
+        <tr>
+            <td rowspan="2"><strong>Bias/Biais</strong></td>
+            <td>EN</td>
+            <td>unforeseen, negative, operator</td>
+            <td>Mixed technical/social</td>
+        </tr>
+        <tr>
+            <td>FR</td>
+            <td>données, en, d</td>
+            <td>Data/technical focus</td>
+        </tr>
+        <tr>
+            <td><strong>Préjugé</strong></td>
+            <td>FR</td>
+            <td>pas, atténuation</td>
+            <td>Social prejudice mitigation</td>
+        </tr>
+    </tbody>
+</table>
+
+<hr>
+
+<div class="metadata">
+    <h3>Methodology Notes</h3>
+    <strong>Corpus:</strong> 16 bilingual pairs, 32 documents, 751 term occurrences<br>
+    <strong>Analysis:</strong> Computational term extraction + GPT-4 semantic matching<br>
+    <strong>Window size:</strong> ±50 characters for context extraction<br>
+    <strong>Collocates:</strong> ±5 words for collocational analysis<br>
+    <strong>Stoplist:</strong> Common function words filtered; governance vocabulary retained<br>
+    <strong>Time span:</strong> 2019–2024<br>
+    <strong>Institutions:</strong> TBS, IRCC, VAC, ESDC, Transport, PHAC, CBSA
+</div>
+
+<div class="metadata">
+    <h3>Citation</h3>
+    <p><strong>For academic use:</strong><br>
+    Bilingual AI Impact Assessment Terminology Analysis Dataset (2019–2024). 
+    16 document pairs from Canadian federal institutions. Computational analysis with LLM-assisted 
+    semantic divergence detection.</p>
+</div>
+
+<hr>
+
+<p style="text-align: center; color: #7f8c8d; font-size: 0.9em; margin-top: 40px;">
+    Generated for CSDH 2026 Conference Submission<br>
+    <em>The Semantics of Accountability: Meaning Drift in Bilingual AI Impact Assessments</em>
+</p>
+
+</body>
+</html>
