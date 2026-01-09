@@ -1,0 +1,92 @@
+{
+  "statistics": {
+    "total_projects": 47,
+    "bilingual_pairs": 2,
+    "en_only": 16,
+    "fr_only": 25,
+    "pure_translations": 0,
+    "divergent_pairs": 2,
+    "total_divergence_points": 10
+  },
+  "pure_translations": [],
+  "divergent_pairs": [
+    {
+      "title": "Client Reporting and Engagement System (CRES/ReportIn) / Système de Rapports et d’engagement des Clients (SREC)/JeMePrésente",
+      "en_proj_id": "10",
+      "fr_proj_id": "31",
+      "en_file": "Client_Reporting_and_Engagement_System_CRESReportIn_en.pdf",
+      "fr_file": "Client_Reporting_and_Engagement_System_CRESReportIn_fr_1.pdf",
+      "differences": [
+        {
+          "table": "governance",
+          "field": "oversight_mechanism",
+          "en": "100% human oversight with multiple levels of review by CBSA ",
+          "fr": "Surveillance humaine à 100 %, trois niveaux d’examen pour la"
+        },
+        {
+          "table": "governance",
+          "field": "appeal_process",
+          "en": "If a facial comparison match is not confirmed, escalating le",
+          "fr": "Possibilité de recours en cas de décision défavorable, avec "
+        },
+        {
+          "table": "governance",
+          "field": "transparency_measures",
+          "en": "Plain language notice posted through all service delivery ch",
+          "fr": "Publication des spécifications du système décisionnel automa"
+        },
+        {
+          "table": "governance",
+          "field": "accountability_framework",
+          "en": "Human judgment and discretion applied to automated decisions",
+          "fr": "Exigence de fournir une explication significative au client "
+        },
+        {
+          "table": "systems",
+          "field": "system_description",
+          "en": "The ReportIn app uses facial comparison and geographic data ",
+          "fr": "Une application de téléphone intelligent accessible au publi"
+        },
+        {
+          "table": "systems",
+          "field": "data_inputs",
+          "en": "Facial biometrics, location data, personal identifiers (e.g.",
+          "fr": "Données biométriques faciales, localisation des personnes, p"
+        },
+        {
+          "table": "systems",
+          "field": "decision_outputs",
+          "en": "Verification of identity and location, compliance assessment",
+          "fr": "Rapports de conformité, évaluations de risque, décisions de "
+        }
+      ]
+    },
+    {
+      "title": "Voice2Text",
+      "en_proj_id": "20",
+      "fr_proj_id": "47",
+      "en_file": "Voice_2_Text_application_en.pdf",
+      "fr_file": "Voice_2_Text_application_fr.pdf",
+      "differences": [
+        {
+          "table": "systems",
+          "field": "system_description",
+          "en": "The application will process audio files and generate a tran",
+          "fr": "Une application Web hors ligne, sur serveur local, qui repos"
+        },
+        {
+          "table": "systems",
+          "field": "data_inputs",
+          "en": "Input data used in the system is lawfully collected by the R",
+          "fr": "Enregistrements audio"
+        },
+        {
+          "table": "systems",
+          "field": "decision_outputs",
+          "en": "The output of the system is a text file transcription of the",
+          "fr": "Transcriptions ou traductions révisées par des transcripteur"
+        }
+      ]
+    }
+  ]
+}

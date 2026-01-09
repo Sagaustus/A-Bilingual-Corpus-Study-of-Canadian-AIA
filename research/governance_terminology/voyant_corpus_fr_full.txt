@@ -1,0 +1,96 @@
+
+
+=== DOCUMENT 1: Services numériques d’AIPRP (Secrétariat du Conseil du Trésor) ===
+
+Termes clés: Résultats de l'Évaluation de l'Incidence Algorithmique, Phase du projet, Implémentation, Examen par les pairs, Avis, Maillon humain de la prise de décisions, Exigences en matière d’explication, Mise à l’essai, Surveillance, Formation
+
+
+
+=== DOCUMENT 2: Outil de soutien aux activités administratives (OSAA) (Citoyenneté et de l'Immigration (Ministère de la)) ===
+
+Termes clés: Résultats de l'évaluation de l'incidence algorithmique, Détails du projet, Nom de la personne sondée, Titre du poste, Ministère, Direction, Titre du projet, Programme ministériel, Phase du projet, Directive sur la prise de décision automatisée
+
+
+
+=== DOCUMENT 3: Triage au moyen de l’analytique avancée des demandes de fiche du visiteur (Citoyenneté et de l'Immigration (Ministère de la)) ===
+
+Termes clés: Résultats de l'évaluation de l'incidence algorithmique, Détails du projet, Nom de la personne sondée, Titre du poste, Ministère, Direction, Titre du projet, Identifiant du projet provenant du Plan TI, Programme ministériel, Phase du projet
+
+
+
+=== DOCUMENT 4: Utilisation de l'Apprentissage Automatique pour réduire les inventaires du programme de l'Assurance emploi. (Emploi et du Développement social (Ministère de l')) ===
+
+Termes clés: Résultats de l'évaluation de l'incidence algorithmique, Consultant en Stratégies d’Opérations, Emploi et du Développement social, Direction Générale des Prestations et des Services Intégrés, Utilisation de l'Apprentissage Automatique pour réduire les inventaires, Programme Assurance-Emploi, Mise en œuvre, Système de Décision Automatisés, Direction de l'Intégrité des Services
+
+
+
+=== DOCUMENT 5: Reconnaissance de preuve de vaccination d’ArriveCAN (Agence de la santé publique du Canada) ===
+
+Termes clés: Résultats de l'évaluation de l'incidence algorithmique, Délégué général aux données, Agence de la santé publique du Canada, Direction générale surveillance et données organisationnelles, Installations de quarantaine et mesures frontalières liées à la COVID-19, Implémentation, technologie d'outil de reconnaissance optique des caractères (ROC), décisions administratives, agents des services frontaliers, inspection manuelle
+
+
+
+=== DOCUMENT 6: Automatiser l'examen des demandes non complexes de visa de résident temporaire et de permis de travail faites dans le cadre de l'Autorisation de voyage d'urgence Canada-Ukraine (AVUCU) (Citoyenneté et de l'Immigration (Ministère de la)) ===
+
+Termes clés: Résultats de l'évaluation de l'incidence algorithmique, Détails du projet, Ministère, Direction, Titre du projet, Programme ministériel, Phase du projet, Facteur opérationnel / Incidence positive, Système, Optimisation des processus et automatisation des flux de travail
+
+
+
+=== DOCUMENT 7: Développement de l’automatisation à l’appui de la prise de décisions en matière de prestations d’invalidité (Anciens Combattants (Ministère des)) ===
+
+Termes clés: Résultats de l'évaluation de l'incidence algorithmique, Détails du projet, Ministère, Direction, Titre du projet, Identifiant du projet provenant du Plan TI, Phase du projet, Système, Analyse du texte et de la parole, Optimisation des processus et automatisation des flux de travail
+
+
+
+=== DOCUMENT 8: Tableau de bord de conformité des exportations (Agence des services frontaliers du Canada) ===
+
+Termes clés: Résultats de l'évaluation de l'incidence algorithmique, Détails du projet, Ministère, Direction, Titre du projet, Phase du projet, Évaluation des risques, Optimisation des processus et automatisation des flux de travail, Niveau d'incidence, Cote actuelle
+
+
+
+=== DOCUMENT 9: Demandes des époux et des conjoints de la catégorie du regroupement familial à l’étranger (Citoyenneté et de l'Immigration (Ministère de la)) ===
+
+Termes clés: Résultats de l'évaluation de l'incidence algorithmique, Détails du projet, Ministère, Direction, Titre du projet, Programme ministériel, Phase du projet, Optimisation des processus et automatisation des flux de travail, Évaluation des risques, Niveau d'incidence
+
+
+
+=== DOCUMENT 10: Outil d’analyse des tendances en matière d’intégrité (Citoyenneté et de l'Immigration (Ministère de la)) ===
+
+Termes clés: Secteur des opérations d'intégrité, Citoyenneté et de l'Immigration, Direction générale de la gestion des risques pour l’intégrité, Outil d’analyse des tendances en matière d’intégrité, Mise en oeuvre, Équipes d’évaluation des risques, activités de vérification, équité procédurale, Loi sur l’immigration et la protection des réfugiés (LIPR), Règlement sur l’immigration et la protection des réfugiés (RIPR)
+
+
+
+=== DOCUMENT 11: Modèle de recevabilité du permis de travail d’Expérience internationale Canada (EIC) (Citoyenneté et de l'Immigration (Ministère de la)) ===
+
+Termes clés: Résultats de l'évaluation de l'incidence algorithmique, Détails du projet, Ministère, Direction, Titre du projet, Programme ministériel, Phase du projet, Niveau d'incidence, Cote actuelle, Cote d'incidence brute
+
+
+
+=== DOCUMENT 12: Avantages pour la santé mentale (Anciens Combattants (Ministère des)) ===
+
+Termes clés: Résultats de l'évaluation de l'incidence algorithmique, Détails du projet, Facteur opérationnel / Incidence positive, À propos du système, Optimisation des processus et automatisation des flux de travail, Niveau d'incidence, Cote actuelle, Cote d'incidence brute, Cote d'atténuation, Exigences spécifiques au niveau d'incidence
+
+
+
+=== DOCUMENT 13: Initiative de modernisation du Programme de passeport (Citoyenneté et de l'Immigration (Ministère de la)) ===
+
+Termes clés: Résultats de l'évaluation de l'incidence algorithmique, Détails du projet, Nom de la personne sondée, Titre du poste, Ministère, Direction, Titre du projet, Identifiant du projet provenant du Plan TI, Programme ministériel, Phase du projet
+
+
+
+=== DOCUMENT 14: Système de reconnaissance faciale du programme de Passeport (Citoyenneté et de l'Immigration) ===
+
+Termes clés: Résultats de l'évaluation de l'incidence algorithmique, Détails du projet, Nom de la personne sondée, Titre du poste, Ministère, Direction, Titre du projet, Identifiant du projet provenant du Plan TI, Programme ministériel, Phase du projet
+
+
+
+=== DOCUMENT 15: Ciblage du fret aérien préalable au chargement (CFAPC) (Transports (Ministère des)) ===
+
+Termes clés: Résultats de l'évaluation de l'incidence algorithmique, Détails du projet, Nom de la personne sondée, Titre du poste, Ministère, Direction, Titre du projet, Identifiant du projet provenant du Plan TI, Programme ministériel, Phase du projet
+
+
+
+=== DOCUMENT 16: Using artificial intelligence (AI) to automate candidate evaluations in the staffing process's assessment phase (Treasury Board Secretariat) ===
+
+Termes clés: Résultats de l'évaluation de l'incidence algorithmique, Nom de la personne sondée, Titre du poste, Ministère, Direction, Titre du projet, Phase du projet, Procédures de sélection, Équité, Objectivité
+

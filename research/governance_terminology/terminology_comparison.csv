@@ -1,0 +1,21 @@
+english_term,en_freq,french_term,fr_freq,ratio,semantic_category,interpretation
+accountability,15,responsabilité,1,0.07,governance,Legal/moral responsibility
+accountability,15,reddition de comptes,11,0.73,governance,Administrative reporting
+accountability,15,imputabilité,4,0.27,governance,Technical attribution
+monitoring,5,surveillance,4,0.80,oversight,Passive observation
+monitoring,5,contrôle,27,5.40,oversight,Active management/control
+monitoring,5,suivi,4,0.80,oversight,Tracking/follow-up
+bias,34,biais,22,0.65,fairness,Technical/algorithmic bias
+bias,34,préjugé,9,0.26,fairness,Social/human prejudice
+audit,121,audit,9,0.07,verification,Financial audit
+audit,121,vérification,167,1.38,verification,Broader verification
+review,119,révision,3,0.03,assessment,Document revision
+review,119,évaluation,313,2.63,assessment,Broader assessment/evaluation
+fairness,31,équité,30,0.97,fairness,Near perfect equivalence
+transparency,7,transparence,7,1.00,transparency,Perfect equivalence
+discrimination,8,discrimination,8,1.00,fairness,Perfect equivalence
+recourse,25,recours,30,1.20,rights,Near parity
+explanation,52,explication,52,1.00,transparency,Perfect equivalence
+liable,16,responsable,0,0.00,accountability,No direct equivalent captured
+challenge,15,contestation,0,0.00,rights,No direct equivalent captured
+openness,1,ouverture,6,6.00,transparency,Higher FR emphasis

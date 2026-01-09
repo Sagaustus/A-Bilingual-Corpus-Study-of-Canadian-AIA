@@ -1,0 +1,96 @@
+
+
+=== DOCUMENT 1: ATIP Digital Services (Treasury Board Secretariat) ===
+
+Key Terms: Algorithmic Impact Assessment Results, Project Phase, Implementation, Peer Review, Notice, Human-in-the-loop for decisions, Explanation Requirement, Testing, Monitoring, Training
+
+
+
+=== DOCUMENT 2: Administrative Activities Support Tool (AAST) (Citizenship and Immigration (Department of)) ===
+
+Key Terms: Algorithmic Impact Assessment Results, Project Details, Name of Respondent, Job Title, Department, Branch, Project Title, Departmental Program, Project Phase, Automated Decision Making
+
+
+
+=== DOCUMENT 3: Advanced Analytics Triage of Visitor Record Applications (Citizenship and Immigration (Department of)) ===
+
+Key Terms: Algorithmic Impact Assessment Results, Project Details, Name of Respondent, Job Title, Department, Branch, Project Title, Project ID from IT Plan, Departmental Program, Project Phase
+
+
+
+=== DOCUMENT 4: Machine Learning Workload (Employment and Social Development (Department of)) ===
+
+Key Terms: Algorithmic Impact Assessment, Senior Economic Analyst / Business Strategies Consultant, Employment and Social Development, Benefits and Integrated Services Branch, Machine Learning Workload, Employment Insurance Program, Implementation, Treasury Board of Canada Secretariat, Automated Decision Systems, Integrity Service Branch
+
+
+
+=== DOCUMENT 5: ArriveCAN Proof of Vaccination Recognition (Public Health Agency of Canada) ===
+
+Key Terms: Algorithmic Impact Assessment Results, Chief Data Officer, Public Health Agency of Canada, Corporate Data and Surveillance Branch, Quarantine Facilities and COVID-19 Border Measures, Implementation, Optical Character Recognition (OCR) technology, administrative decisions, border services officers, manual inspection
+
+
+
+=== DOCUMENT 6: Automate the review of non-complex applications for Temporary Resident Visas and Work Permits made under the Canada-Ukraine Authorization for Emergency Travel (CUAET) (Citizenship and Immigration (Department of)) ===
+
+Key Terms: Algorithmic Impact Assessment Results, Project Details, Department, Branch, Project Title, Departmental Program, Project Phase, Business Driver / Positive Impact, System, Process optimization and workflow automation
+
+
+
+=== DOCUMENT 7: Automation Development to Support Disability Benefit Decision Making (Veterans Affairs (Department of)) ===
+
+Key Terms: Algorithmic Impact Assessment Results, Project Details, Department, Branch, Project Title, Project ID from IT Plan, Project Phase, System, Text and speech analysis, Process optimization and workflow automation
+
+
+
+=== DOCUMENT 8: Export Compliance Dashboard (Canada Border Services Agency) ===
+
+Key Terms: Algorithmic Impact Assessment Results, Project Details, Department, Branch, Project Title, Project Phase, Risk assessment, Process optimization and workflow automation, Impact Level, Current Score
+
+
+
+=== DOCUMENT 9: Family Class Spouses and Partners Overseas Applications (Citizenship and Immigration (Department of)) ===
+
+Key Terms: Algorithmic Impact Assessment Results, Project Details, Department, Branch, Project Title, Departmental Program, Project Phase, Process optimization and workflow automation, Risk assessment, Impact Level
+
+
+
+=== DOCUMENT 10: Integrity trends analysis tool (Citizenship and Immigration (Department of)) ===
+
+Key Terms: Integrity Operations Sector, Citizenship and Immigration, Integrity Risk Management, Integrity trends analysis tool, Implementation, Risk Assessment Units, verification activities, procedural fairness, Immigration and Refugee Protection Act (IRPA), Regulations (IRPR)
+
+
+
+=== DOCUMENT 11: International Experience Canada (IEC) Work Permit Eligibility Model (Citizenship and Immigration (Department of)) ===
+
+Key Terms: Algorithmic Impact Assessment Results, Project Details, Department, Branch, Project Title, Departmental Program, Project Phase, Impact Level, Current Score, Raw Impact Score
+
+
+
+=== DOCUMENT 12: Mental Health Benefit (Veterans Affairs (Department of)) ===
+
+Key Terms: Algorithmic Impact Assessment Results, Project Details, Business Driver / Positive Impact, About The System, Process optimization and workflow automation, Impact Level, Current Score, Raw Impact Score, Mitigation Score, Requirements Specific to Impact Level
+
+
+
+=== DOCUMENT 13: Passport Program Modernization Initiative (Citizenship and Immigration (Department of)) ===
+
+Key Terms: Algorithmic Impact Assessment Results, Project Details, Name of Respondent, Job Title, Department, Branch, Project Title, Project ID from IT Plan, Departmental Program, Project Phase
+
+
+
+=== DOCUMENT 14: Passport Program Facial Recognition System (Citizenship and Immigration (Department of)) ===
+
+Key Terms: Algorithmic Impact Assessment Results, Project Details, Name of Respondent, Job Title, Department, Branch, Project Title, Project ID from IT Plan, Departmental Program, Project Phase
+
+
+
+=== DOCUMENT 15: Pre-load Air Cargo Targeting (PACT) Program (Transport (Department of)) ===
+
+Key Terms: Algorithmic Impact Assessment Results, Project Details, Name of Respondent, Job Title, Department, Branch, Project Title, Project ID from IT Plan, Departmental Program, Project Phase
+
+
+
+=== DOCUMENT 16: Processus de dotation avec la plateforme Knockri : un outil d’évaluation des candidatures (Secrétariat du Conseil du Trésor) ===
+
+Key Terms: Algorithmic Impact Assessment Results, Respondent, Job Title, Department, Branch, Project Title, Project Phase, Selection procedures, Fairness, Objectiveness
+

@@ -1,0 +1,3864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<terminology_analysis>
+  <summary>
+    <total_pairs>16</total_pairs>
+    <en_term_totals>
+      <monitoring>5</monitoring>
+      <accountability>15</accountability>
+      <liable>16</liable>
+      <transparency>7</transparency>
+      <openness>1</openness>
+      <bias>34</bias>
+      <recourse>25</recourse>
+      <review>119</review>
+      <challenge>15</challenge>
+      <audit>121</audit>
+      <assessment>290</assessment>
+      <explanation>52</explanation>
+      <fairness>31</fairness>
+      <discrimination>8</discrimination>
+      <surveillance>2</surveillance>
+      <appeal>1</appeal>
+      <equity>2</equity>
+      <justice>3</justice>
+      <human_review>2</human_review>
+      <evaluation>1</evaluation>
+      <disclosure>1</disclosure>
+    </en_term_totals>
+    <fr_term_totals>
+      <surveillance>4</surveillance>
+      <contr_le>27</contr_le>
+      <transparence>7</transparence>
+      <ouverture>6</ouverture>
+      <biais>22</biais>
+      <recours>30</recours>
+      <_valuation>313</_valuation>
+      <v_rification>167</v_rification>
+      <explication>52</explication>
+      <_quit_>30</_quit_>
+      <discrimination>8</discrimination>
+      <r_vision>3</r_vision>
+      <appel>5</appel>
+      <pr_jug_>9</pr_jug_>
+      <suivi>4</suivi>
+      <responsabilit_>1</responsabilit_>
+      <divulgation>1</divulgation>
+      <audit>9</audit>
+    </fr_term_totals>
+  </summary>
+  <pair_analyses>
+    <item>
+      <pair_number>1</pair_number>
+      <en_project>
+        <id>1</id>
+        <title>ATIP Digital Services</title>
+        <filename>ATIP_Online_Request_Service_en_1.pdf</filename>
+        <department>Treasury Board Secretariat</department>
+      </en_project>
+      <fr_project>
+        <id>21</id>
+        <title>Services numériques d’AIPRP</title>
+        <filename>ATIP_Online_Request_Service_fr_1.pdf</filename>
+        <department>Secrétariat du Conseil du Trésor</department>
+      </fr_project>
+      <term_analysis>
+        <en_frequencies>
+          <monitoring>1</monitoring>
+          <accountability>1</accountability>
+          <liable>1</liable>
+          <transparency>1</transparency>
+          <openness>1</openness>
+          <bias>2</bias>
+          <recourse>1</recourse>
+          <review>3</review>
+          <challenge>1</challenge>
+          <audit>8</audit>
+          <assessment>3</assessment>
+          <explanation>2</explanation>
+        </en_frequencies>
+        <fr_frequencies>
+          <surveillance>1</surveillance>
+          <contr_le>1</contr_le>
+          <transparence>1</transparence>
+          <ouverture>1</ouverture>
+          <biais>2</biais>
+          <recours>1</recours>
+          <_valuation>4</_valuation>
+          <v_rification>7</v_rification>
+          <explication>2</explication>
+        </fr_frequencies>
+        <en_total_terms>25</en_total_terms>
+        <fr_total_terms>20</fr_total_terms>
+      </term_analysis>
+      <llm_semantic_analysis>
+        <key_terms_en>
+          <item>Algorithmic Impact Assessment Results</item>
+          <item>Project Phase</item>
+          <item>Implementation</item>
+          <item>Peer Review</item>
+          <item>Notice</item>
+          <item>Human-in-the-loop for decisions</item>
+          <item>Explanation Requirement</item>
+          <item>Testing</item>
+          <item>Monitoring</item>
+          <item>Training</item>
+          <item>Contingency Planning</item>
+          <item>Approval for the system to operate</item>
+          <item>Directive on Automated Decision-Making Impact Level Requirements</item>
+        </key_terms_en>
+        <key_terms_fr>
+          <item>Résultats de l'Évaluation de l'Incidence Algorithmique</item>
+          <item>Phase du projet</item>
+          <item>Implémentation</item>
+          <item>Examen par les pairs</item>
+          <item>Avis</item>
+          <item>Maillon humain de la prise de décisions</item>
+          <item>Exigences en matière d’explication</item>
+          <item>Mise à l’essai</item>
+          <item>Surveillance</item>
+          <item>Formation</item>
+          <item>Planification de contingence</item>
+          <item>Approbation pour le fonctionnement du système</item>
+          <item>Directive sur les exigences de niveau d'impact de la prise de décision automatisée</item>
+        </key_terms_fr>
+        <semantic_differences>
+          <item>
+            <en_term>Monitoring</en_term>
+            <fr_term>Surveillance</fr_term>
+            <difference>While 'monitoring' in English conveys a sense of routine or regular observation, 'surveillance' in French may imply a more intensive or vigilant observation, potentially suggesting a higher level of scrutiny.</difference>
+          </item>
+          <item>
+            <en_term>Human-in-the-loop for decisions</en_term>
+            <fr_term>Maillon humain de la prise de décisions</fr_term>
+            <difference>'Human-in-the-loop' emphasizes the role of human judgment within automated processes, whereas 'Maillon humain' (human link) in French highlights the human element as a part of a chain, possibly suggesting a more integrated role in the process.</difference>
+          </item>
+          <item>
+            <en_term>Testing</en_term>
+            <fr_term>Mise à l’essai</fr_term>
+            <difference>'Testing' in English is a broad term that can encompass various forms of evaluation, while 'Mise à l’essai' specifically implies a trial or experimental phase, potentially indicating a more structured or formalized testing process.</difference>
+          </item>
+        </semantic_differences>
+        <omissions_en />
+        <omissions_fr />
+        <overall_assessment>The translation between English and French maintains a high level of semantic alignment with key governance terms accurately translated. However, there are subtle semantic differences in terms such as 'monitoring' versus 'surveillance' and 'human-in-the-loop' versus 'maillon humain', which could reflect slight variations in perceived accountability and oversight. These differences are minor and do not significantly impact the overall understanding of the document's intent. The translation quality is high, ensuring that the essence and specificity of governance terminology are preserved across both languages.</overall_assessment>
+      </llm_semantic_analysis>
+      <sample_contexts>
+        <en>
+          <monitoring>
+            <item>
+              <term>monitoring</term>
+              <position>2303</position>
+              <context>it is still relevant, accurate, and up-to-date.
+
+Monitoring
+
+Monitor the outcomes of Automated Decision Syste</context>
+            </item>
+          </monitoring>
+          <accountability>
+            <item>
+              <term>accountability</term>
+              <position>8753</position>
+              <context>ilable?
+ No 
+
+ [ Points: +0 ] 
+
+Have you assigned accountability in your institution for the design, development,</context>
+            </item>
+          </accountability>
+          <liable>
+            <item>
+              <term>liable</term>
+              <position>8960</position>
+              <context>d process to manage the risk that outdated or unreliable data is used 
+to make an automated decision?
+ Yes</context>
+            </item>
+          </liable>
+          <transparency>
+            <item>
+              <term>transparency</term>
+              <position>4506</position>
+              <context>[ Points: +1 ] 
+
+Please describe
+
+ Openness and transparency 
+
+Will the system only be used to assist a decisi</context>
+            </item>
+          </transparency>
+          <openness>
+            <item>
+              <term>openness</term>
+              <position>4493</position>
+              <context>se specify) 
+
+ [ Points: +1 ] 
+
+Please describe
+
+ Openness and transparency 
+
+Will the system only be used t</context>
+            </item>
+          </openness>
+        </en>
+        <fr>
+          <surveillance>
+            <item>
+              <term>surveillance</term>
+              <position>2797</position>
+              <context>soient toujours pertinentes, exactes et à jour.
+
+Surveillance
+
+Surveiller les résultats des systèmes décisionne</context>
+            </item>
+          </surveillance>
+          <contr_le>
+            <item>
+              <term>contrôle</term>
+              <position>7965</position>
+              <context>isir qu’une seule)
+ Aucun 
+
+ [ Points: +0 ] 
+
+Qui contrôle les données?
+ Gouvernement fédéral 
+
+ [ Points: +</context>
+            </item>
+          </contr_le>
+          <transparence>
+            <item>
+              <term>transparence</term>
+              <position>5509</position>
+              <context>ts: +1 ] 
+
+S'il vous plait décrire
+
+ Ouverture et transparence 
+
+Le système sera-t-il seulement utilisé pour aid</context>
+            </item>
+          </transparence>
+          <ouverture>
+            <item>
+              <term>ouverture</term>
+              <position>5496</position>
+              <context>er) 
+
+ [ Points: +1 ] 
+
+S'il vous plait décrire
+
+ Ouverture et transparence 
+
+Le système sera-t-il seulement</context>
+            </item>
+          </ouverture>
+          <biais>
+            <item>
+              <term>biais</term>
+              <position>2494</position>
+              <context>apprentissage soient évaluées pour la présence de biais imprévus dans les données 
+et d’autres facteurs q</context>
+            </item>
+            <item>
+              <term>biais</term>
+              <position>9834</position>
+              <context>és pour tester les jeux de données en fonction de biais 
+et d’autres résultats inattendus? Par exemple, c</context>
+            </item>
+          </biais>
+        </fr>
+      </sample_contexts>
+    </item>
+    <item>
+      <pair_number>2</pair_number>
+      <en_project>
+        <id>4</id>
+        <title>Administrative Activities Support Tool (AAST)</title>
+        <filename>Administrative_Activities_Support_Tool_en.pdf</filename>
+        <department>Citizenship and Immigration (Department of)</department>
+      </en_project>
+      <fr_project>
+        <id>22</id>
+        <title>Outil de soutien aux activités administratives (OSAA)</title>
+        <filename>Administrative_Activities_Support_Tool_fr.pdf</filename>
+        <department>Citoyenneté et de l'Immigration (Ministère de la)</department>
+      </fr_project>
+      <term_analysis>
+        <en_frequencies>
+          <accountability>1</accountability>
+          <liable>1</liable>
+          <fairness>1</fairness>
+          <bias>1</bias>
+          <recourse>2</recourse>
+          <review>17</review>
+          <challenge>1</challenge>
+          <audit>8</audit>
+          <assessment>29</assessment>
+          <explanation>4</explanation>
+        </en_frequencies>
+        <fr_frequencies>
+          <contr_le>1</contr_le>
+          <_quit_>1</_quit_>
+          <biais>1</biais>
+          <recours>2</recours>
+          <_valuation>35</_valuation>
+          <v_rification>7</v_rification>
+          <explication>4</explication>
+        </fr_frequencies>
+        <en_total_terms>65</en_total_terms>
+        <fr_total_terms>51</fr_total_terms>
+      </term_analysis>
+      <llm_semantic_analysis>
+        <key_terms_en>
+          <item>Algorithmic Impact Assessment Results</item>
+          <item>Project Details</item>
+          <item>Name of Respondent</item>
+          <item>Job Title</item>
+          <item>Department</item>
+          <item>Branch</item>
+          <item>Project Title</item>
+          <item>Departmental Program</item>
+          <item>Project Phase</item>
+          <item>Automated Decision Making</item>
+          <item>Biometric and Medical modules</item>
+          <item>Global Case Management System</item>
+          <item>Content generation</item>
+          <item>Process optimization and workflow automation</item>
+          <item>Impact Level</item>
+          <item>Mitigation Score</item>
+          <item>Peer review</item>
+          <item>Gender-based Analysis Plus</item>
+          <item>Notice</item>
+          <item>Human-in-the-loop for decisions</item>
+        </key_terms_en>
+        <key_terms_fr>
+          <item>Résultats de l'évaluation de l'incidence algorithmique</item>
+          <item>Détails du projet</item>
+          <item>Nom de la personne sondée</item>
+          <item>Titre du poste</item>
+          <item>Ministère</item>
+          <item>Direction</item>
+          <item>Titre du projet</item>
+          <item>Programme ministériel</item>
+          <item>Phase du projet</item>
+          <item>Directive sur la prise de décision automatisée</item>
+          <item>module médicale et le module des données biométriques</item>
+          <item>Système de gestion mondiale des cas</item>
+          <item>Génération de contenu</item>
+          <item>Optimisation des processus et automatisation des flux de travail</item>
+          <item>Niveau d'incidence</item>
+          <item>Cote d'incidence</item>
+          <item>Révision par les pairs</item>
+          <item>Analyse comparative entre les sexes plus</item>
+          <item>Avis</item>
+          <item>Intervention humaine dans les décisions</item>
+        </key_terms_fr>
+        <semantic_differences>
+          <item>
+            <en_term>Department</en_term>
+            <fr_term>Ministère</fr_term>
+            <difference>The term 'Ministère' directly translates to 'Ministry', which is a more specific term for government departments in French, potentially implying a higher level of governance.</difference>
+          </item>
+          <item>
+            <en_term>Branch</en_term>
+            <fr_term>Direction</fr_term>
+            <difference>While 'Branch' in English suggests a subdivision, 'Direction' in French implies a more directive or managerial aspect of the subdivision.</difference>
+          </item>
+          <item>
+            <en_term>Automated Decision Making</en_term>
+            <fr_term>Directive sur la prise de décision automatisée</fr_term>
+            <difference>The French term explicitly references a 'Directive', indicating a formal guideline or policy, which is not explicitly mentioned in the English term.</difference>
+          </item>
+          <item>
+            <en_term>Global Case Management System</en_term>
+            <fr_term>Système de gestion mondiale des cas</fr_term>
+            <difference>The translation is direct, but the French term emphasizes the 'global' aspect, which might imply a broader or more international application.</difference>
+          </item>
+          <item>
+            <en_term>Human-in-the-loop for decisions</en_term>
+            <fr_term>Intervention humaine dans les décisions</fr_term>
+            <difference>The French term more explicitly describes the human role as 'intervention', which may connote a more active or necessary human involvement in the decision-making process.</difference>
+          </item>
+        </semantic_differences>
+        <omissions_en />
+        <omissions_fr />
+        <overall_assessment>The translation between English and French maintains a high level of semantic alignment with key governance terms accurately translated. However, there are nuanced differences in how accountability, oversight, and transparency are implied through the use of certain terms, particularly with the more directive connotations in the French version. Both versions effectively communicate the project's scope and requirements, ensuring that the essence of governance and procedural integrity is preserved across languages.</overall_assessment>
+      </llm_semantic_analysis>
+      <sample_contexts>
+        <en>
+          <accountability>
+            <item>
+              <term>accountability</term>
+              <position>20299</position>
+              <context>s: +0 ] 
+
+ [ Points: +0 ] 
+
+11. Have you assigned accountability in your institution for the design, development,</context>
+            </item>
+          </accountability>
+          <liable>
+            <item>
+              <term>liable</term>
+              <position>20510</position>
+              <context>d process to manage the risk that outdated or unreliable data is 
+used to make an automated decision?
+ Yes</context>
+            </item>
+          </liable>
+          <fairness>
+            <item>
+              <term>fairness</term>
+              <position>20803</position>
+              <context>De-Risking and Mitigation Measures - Procedural 
+Fairness
+15. Does the audit trail identify the authority o</context>
+            </item>
+          </fairness>
+          <bias>
+            <item>
+              <term>bias</term>
+              <position>19686</position>
+              <context>ented processes in place to test datasets against biases and other 
+unexpected outcomes? This could incl</context>
+            </item>
+          </bias>
+          <recourse>
+            <item>
+              <term>recourse</term>
+              <position>3473</position>
+              <context>Explanations must also inform clients of relevant recourse options, where appropriate.
+
+Descriptions must b</context>
+            </item>
+            <item>
+              <term>recourse</term>
+              <position>22351</position>
+              <context>he system?
+ No 
+
+ [ Points: +0 ] 
+
+27. Is there a recourse process established for clients that wish to chal</context>
+            </item>
+          </recourse>
+        </en>
+        <fr>
+          <contr_le>
+            <item>
+              <term>contrôle</term>
+              <position>21031</position>
+              <context>Protégé B/Protégé C 
+
+ [ Points: +3 ] 
+
+48. Qui contrôle les données?
+ Gouvernement fédéral 
+
+ [ Points: +</context>
+            </item>
+          </contr_le>
+          <_quit_>
+            <item>
+              <term>équité</term>
+              <position>24936</position>
+              <context>limination des risques et mesures d'atténuation - Équité 
+procédurale
+15. La piste de vérification permet-</context>
+            </item>
+          </_quit_>
+          <biais>
+            <item>
+              <term>biais</term>
+              <position>23569</position>
+              <context>s pour tester les jeux de données en fonction de 
+biais et d’autres résultats inattendus? Par exemple, ce</context>
+            </item>
+          </biais>
+          <recours>
+            <item>
+              <term>recours</term>
+              <position>4068</position>
+              <context>nseignements aux clients sur les possibilités de 
+recours pertinentes, le cas échéant. 
+
+Les descriptions d</context>
+            </item>
+            <item>
+              <term>recours</term>
+              <position>26655</position>
+              <context>oints: +0 ] 
+ Non 
+
+27. Avez-vous un processus de recours prévu ou établi pour les clients qui souhaitent c</context>
+            </item>
+          </recours>
+          <_valuation>
+            <item>
+              <term>évaluation</term>
+              <position>15</position>
+              <context>Résultats de l'évaluation de l'incidence 
+algorithmique
+
+Version: 0.10.0
+
+D</context>
+            </item>
+            <item>
+              <term>évaluation</term>
+              <position>1266</position>
+              <context>tre les inscriptions de données biométriques, les évaluations
+médicales, et les demandes en attente de ces éva</context>
+            </item>
+            <item>
+              <term>évaluation</term>
+              <position>1323</position>
+              <context>ions
+médicales, et les demandes en attente de ces évaluations. Ces 
+fonctionnalités n’examinent pas les résult</context>
+            </item>
+          </_valuation>
+        </fr>
+      </sample_contexts>
+    </item>
+    <item>
+      <pair_number>3</pair_number>
+      <en_project>
+        <id>5</id>
+        <title>Advanced Analytics Triage of Visitor Record Applications</title>
+        <filename>Advanced_Analytics_Triage_of_Visitor_Record_Applications_en_1.pdf</filename>
+        <department>Citizenship and Immigration (Department of)</department>
+      </en_project>
+      <fr_project>
+        <id>24</id>
+        <title>Triage au moyen de l’analytique avancée des demandes de fiche du visiteur</title>
+        <filename>Advanced_Analytics_Triage_of_Visitor_Record_Applications_fr_1.pdf</filename>
+        <department>Citoyenneté et de l'Immigration (Ministère de la)</department>
+      </fr_project>
+      <term_analysis>
+        <en_frequencies>
+          <monitoring>1</monitoring>
+          <accountability>1</accountability>
+          <liable>1</liable>
+          <transparency>1</transparency>
+          <fairness>2</fairness>
+          <bias>5</bias>
+          <discrimination>2</discrimination>
+          <recourse>2</recourse>
+          <review>9</review>
+          <challenge>1</challenge>
+          <audit>8</audit>
+          <assessment>14</assessment>
+          <explanation>4</explanation>
+        </en_frequencies>
+        <fr_frequencies>
+          <surveillance>1</surveillance>
+          <contr_le>1</contr_le>
+          <transparence>1</transparence>
+          <_quit_>2</_quit_>
+          <biais>4</biais>
+          <discrimination>2</discrimination>
+          <recours>2</recours>
+          <r_vision>1</r_vision>
+          <_valuation>13</_valuation>
+          <v_rification>9</v_rification>
+          <explication>4</explication>
+        </fr_frequencies>
+        <en_total_terms>51</en_total_terms>
+        <fr_total_terms>40</fr_total_terms>
+      </term_analysis>
+      <llm_semantic_analysis>
+        <key_terms_en>
+          <item>Algorithmic Impact Assessment Results</item>
+          <item>Project Details</item>
+          <item>Name of Respondent</item>
+          <item>Job Title</item>
+          <item>Department</item>
+          <item>Branch</item>
+          <item>Project Title</item>
+          <item>Project ID from IT Plan</item>
+          <item>Departmental Program</item>
+          <item>Project Phase</item>
+          <item>Process optimization and workflow automation</item>
+        </key_terms_en>
+        <key_terms_fr>
+          <item>Résultats de l'évaluation de l'incidence algorithmique</item>
+          <item>Détails du projet</item>
+          <item>Nom de la personne sondée</item>
+          <item>Titre du poste</item>
+          <item>Ministère</item>
+          <item>Direction</item>
+          <item>Titre du projet</item>
+          <item>Identifiant du projet provenant du Plan TI</item>
+          <item>Programme ministériel</item>
+          <item>Phase du projet</item>
+          <item>Optimisation des processus et automatisation des flux de travail</item>
+        </key_terms_fr>
+        <semantic_differences>
+          <item>
+            <en_term>Various Stakeholders</en_term>
+            <fr_term>Divers intervenants</fr_term>
+            <difference>The term 'stakeholders' in English conveys a broader sense of involvement and interest in the project, whereas 'intervenants' in French might not fully capture the extent of engagement implied.</difference>
+          </item>
+          <item>
+            <en_term>Citizenship and Immigration</en_term>
+            <fr_term>Citoyenneté et de l'Immigration</fr_term>
+            <difference>The addition of 'de la' in French is a linguistic requirement for grammatical correctness, though it does not change the meaning.</difference>
+          </item>
+          <item>
+            <en_term>Advanced Analytics Triage</en_term>
+            <fr_term>Triage au moyen de l’analytique avancée</fr_term>
+            <difference>The French version explicitly mentions 'by means of' (au moyen de), which adds clarity to the method used for triage.</difference>
+          </item>
+          <item>
+            <en_term>Visitor Record Applications</en_term>
+            <fr_term>demandes de fiche du visiteur</fr_term>
+            <difference>The French translation 'fiche du visiteur' might imply a more document-centric approach than the English 'record applications', which is more process-oriented.</difference>
+          </item>
+        </semantic_differences>
+        <omissions_en />
+        <omissions_fr />
+        <overall_assessment>The translation between English and French maintains a high level of semantic alignment with minor differences in connotation and detail. Key governance terms are consistently translated, ensuring clarity and understanding across both languages. The translation effectively communicates the project's objectives, processes, and impact assessment, with careful attention to maintaining the integrity of governance terminology.</overall_assessment>
+      </llm_semantic_analysis>
+      <sample_contexts>
+        <en>
+          <monitoring>
+            <item>
+              <term>monitoring</term>
+              <position>11978</position>
+              <context>d with established eligibility criteria. Regular 
+monitoring and quality assurance measures also help make sur</context>
+            </item>
+          </monitoring>
+          <accountability>
+            <item>
+              <term>accountability</term>
+              <position>16801</position>
+              <context>s: +1 ] 
+
+ [ Points: +0 ] 
+
+13. Have you assigned accountability in your institution for the design, development,</context>
+            </item>
+          </accountability>
+          <liable>
+            <item>
+              <term>liable</term>
+              <position>17012</position>
+              <context>d process to manage the risk that outdated or unreliable data is 
+used to make an automated decision?
+ Yes</context>
+            </item>
+          </liable>
+          <transparency>
+            <item>
+              <term>transparency</term>
+              <position>10106</position>
+              <context>rights of 
+any clients. 
+
+To ensure fairness and transparency, the system’s rules are based only on 
+data eleme</context>
+            </item>
+          </transparency>
+          <fairness>
+            <item>
+              <term>fairness</term>
+              <position>10093</position>
+              <context>not deny the rights of 
+any clients. 
+
+To ensure fairness and transparency, the system’s rules are based on</context>
+            </item>
+            <item>
+              <term>fairness</term>
+              <position>17305</position>
+              <context>De-Risking and Mitigation Measures - Procedural 
+Fairness
+17. Does the audit trail identify the authority o</context>
+            </item>
+          </fairness>
+        </en>
+        <fr>
+          <surveillance>
+            <item>
+              <term>surveillance</term>
+              <position>13958</position>
+              <context>d'éligibilité établis. Des mesures
+régulières de surveillance et d'assurance de la qualité permettent également</context>
+            </item>
+          </surveillance>
+          <contr_le>
+            <item>
+              <term>contrôle</term>
+              <position>16836</position>
+              <context>Protégé B/Protégé C 
+
+ [ Points: +3 ] 
+
+31. Qui contrôle les données?
+ Gouvernement fédéral 
+
+ [ Points: +</context>
+            </item>
+          </contr_le>
+          <transparence>
+            <item>
+              <term>transparence</term>
+              <position>11788</position>
+              <context>oits d’aucun client.
+
+Pour assurer l'équité et la transparence, les règles du système sont basées
+uniquement sur</context>
+            </item>
+          </transparence>
+          <_quit_>
+            <item>
+              <term>équité</term>
+              <position>11775</position>
+              <context>nient les droits d’aucun client.
+
+Pour assurer l'équité et la transparence, les règles du système sont ba</context>
+            </item>
+            <item>
+              <term>équité</term>
+              <position>20230</position>
+              <context>limination des risques et mesures d'atténuation - Équité 
+procédurale
+17. La piste de vérification permet-</context>
+            </item>
+          </_quit_>
+          <biais>
+            <item>
+              <term>biais</term>
+              <position>1351</position>
+              <context>outes les règles sont évaluées pour détecter tout biais ou discrimination 
+potentiels. 
+
+Pour tous les au</context>
+            </item>
+            <item>
+              <term>biais</term>
+              <position>13197</position>
+              <context>ties du
+système (également connu sous le nom de « biais d'automatisation »). En
+outre, un processus conti</context>
+            </item>
+            <item>
+              <term>biais</term>
+              <position>13430</position>
+              <context>ves
+que le système. Ce processus garantit que des biais n'ont pas été introduits
+par le système.
+
+Comme p</context>
+            </item>
+          </biais>
+        </fr>
+      </sample_contexts>
+    </item>
+    <item>
+      <pair_number>4</pair_number>
+      <en_project>
+        <id>6</id>
+        <title>Machine Learning Workload</title>
+        <filename>Algorithmic_Impact_Assessment_-_Employment_Insurance_Machine_Learning_Workload_en.pdf</filename>
+        <department>Employment and Social Development (Department of)</department>
+      </en_project>
+      <fr_project>
+        <id>25</id>
+        <title>Utilisation de l'Apprentissage Automatique pour réduire les inventaires du programme de l'Assurance emploi.</title>
+        <filename>Algorithmic_Impact_Assessment_-_Employment_Insurance_Machine_Learning_Workload_fr.pdf</filename>
+        <department>Emploi et du Développement social (Ministère de l')</department>
+      </fr_project>
+      <term_analysis>
+        <en_frequencies>
+          <accountability>1</accountability>
+          <liable>1</liable>
+          <fairness>3</fairness>
+          <bias>1</bias>
+          <recourse>2</recourse>
+          <review>8</review>
+          <challenge>1</challenge>
+          <audit>8</audit>
+          <assessment>32</assessment>
+          <explanation>4</explanation>
+        </en_frequencies>
+        <fr_frequencies>
+          <contr_le>1</contr_le>
+          <_quit_>1</_quit_>
+          <biais>1</biais>
+          <recours>2</recours>
+          <r_vision>1</r_vision>
+          <_valuation>34</_valuation>
+          <v_rification>8</v_rification>
+          <explication>4</explication>
+        </fr_frequencies>
+        <en_total_terms>61</en_total_terms>
+        <fr_total_terms>52</fr_total_terms>
+      </term_analysis>
+      <llm_semantic_analysis>
+        <key_terms_en>
+          <item>Algorithmic Impact Assessment</item>
+          <item>Senior Economic Analyst / Business Strategies Consultant</item>
+          <item>Employment and Social Development</item>
+          <item>Benefits and Integrated Services Branch</item>
+          <item>Machine Learning Workload</item>
+          <item>Employment Insurance Program</item>
+          <item>Implementation</item>
+          <item>Treasury Board of Canada Secretariat</item>
+          <item>Automated Decision Systems</item>
+          <item>Integrity Service Branch</item>
+        </key_terms_en>
+        <key_terms_fr>
+          <item>Résultats de l'évaluation de l'incidence algorithmique</item>
+          <item>Consultant en Stratégies d’Opérations</item>
+          <item>Emploi et du Développement social</item>
+          <item>Direction Générale des Prestations et des Services Intégrés</item>
+          <item>Utilisation de l'Apprentissage Automatique pour réduire les inventaires</item>
+          <item>Programme Assurance-Emploi</item>
+          <item>Mise en œuvre</item>
+          <item>Système de Décision Automatisés</item>
+          <item>Direction de l'Intégrité des Services</item>
+        </key_terms_fr>
+        <semantic_differences>
+          <item>
+            <en_term>Senior Economic Analyst / Business Strategies Consultant</en_term>
+            <fr_term>Consultant en Stratégies d’Opérations</fr_term>
+            <difference>The French term focuses more on operational strategies, potentially narrowing the scope of the role compared to the English version.</difference>
+          </item>
+          <item>
+            <en_term>Benefits and Integrated Services Branch</en_term>
+            <fr_term>Direction Générale des Prestations et des Services Intégrés</fr_term>
+            <difference>The French term emphasizes the general direction aspect, which could imply a broader, more strategic focus than the English term.</difference>
+          </item>
+          <item>
+            <en_term>Treasury Board of Canada Secretariat</en_term>
+            <fr_term>Système de Décision Automatisés</fr_term>
+            <difference>This is a mismatch in terms. The French term directly translates to 'Automated Decision Systems,' indicating a potential omission or error in translation.</difference>
+          </item>
+          <item>
+            <en_term>Integrity Service Branch</en_term>
+            <fr_term>Direction de l'Intégrité des Services</fr_term>
+            <difference>The French term suggests a more formal or structured entity focused on service integrity, potentially implying a broader mandate.</difference>
+          </item>
+        </semantic_differences>
+        <omissions_en>
+          <item>Random Forest</item>
+        </omissions_en>
+        <omissions_fr>
+          <item>Automated Decision Making</item>
+        </omissions_fr>
+        <overall_assessment>The translation between English and French shows a high degree of semantic alignment with minor differences in the scope and focus of certain terms. However, there are discrepancies in the translation of governance-related terms and a notable omission related to machine learning techniques in the French version. Overall, the translation maintains the integrity of the original document but could benefit from adjustments for consistency and clarity in the representation of specific technical and governance terms.</overall_assessment>
+      </llm_semantic_analysis>
+      <sample_contexts>
+        <en>
+          <accountability>
+            <item>
+              <term>accountability</term>
+              <position>19351</position>
+              <context>le? 
+
+No 
+
+[ Points: +0 ] 
+
+10. Have you assigned accountability in your institution for the design, development,</context>
+            </item>
+          </accountability>
+          <liable>
+            <item>
+              <term>liable</term>
+              <position>19624</position>
+              <context>process to manage the risk that outdated or 
+
+unreliable data is used to make an automated decision? 
+
+Yes</context>
+            </item>
+          </liable>
+          <fairness>
+            <item>
+              <term>fairness</term>
+              <position>2861</position>
+              <context>eclared contentious issues to ensure accuracy and fairness. 
+
+Additionally, the workload process is modified</context>
+            </item>
+            <item>
+              <term>fairness</term>
+              <position>7766</position>
+              <context>eclared contentious issues to ensure accuracy and fairness. 
+
+Additionally, the workload process is modified</context>
+            </item>
+            <item>
+              <term>fairness</term>
+              <position>19917</position>
+              <context>De-Risking and Mitigation Measures - Procedural 
+
+Fairness 
+
+14. Does the audit trail identify the authority</context>
+            </item>
+          </fairness>
+          <bias>
+            <item>
+              <term>bias</term>
+              <position>18730</position>
+              <context>ented processes in place to test datasets against biases and 
+
+other unexpected outcomes? This could inc</context>
+            </item>
+          </bias>
+          <recourse>
+            <item>
+              <term>recourse</term>
+              <position>4332</position>
+              <context>Explanations must also inform clients of relevant recourse options, where appropriate. 
+
+Descriptions must b</context>
+            </item>
+            <item>
+              <term>recourse</term>
+              <position>21594</position>
+              <context>he system? 
+
+No 
+
+[ Points: +0 ] 
+
+26. Is there a recourse process established for clients that wish to chal</context>
+            </item>
+          </recourse>
+        </en>
+        <fr>
+          <contr_le>
+            <item>
+              <term>contrôle</term>
+              <position>19807</position>
+              <context>une seule) 
+
+Protégé A 
+
+[ Points: +1 ] 
+
+46. Qui contrôle les données? 
+
+Gouvernement fédéral 
+
+[ Points: +</context>
+            </item>
+          </contr_le>
+          <_quit_>
+            <item>
+              <term>équité</term>
+              <position>22953</position>
+              <context>limination des risques et mesures d'atténuation - Équité 
+
+procédurale 
+
+14. La piste de vérification perm</context>
+            </item>
+          </_quit_>
+          <biais>
+            <item>
+              <term>biais</term>
+              <position>21501</position>
+              <context>pour tester les jeux de données en 
+
+fonction de biais et d’autres résultats inattendus? Par exemple, ce</context>
+            </item>
+          </biais>
+          <recours>
+            <item>
+              <term>recours</term>
+              <position>3554</position>
+              <context>seignements aux clients sur les 
+
+possibilités de recours pertinentes, le cas échéant. 
+
+Les descriptions d</context>
+            </item>
+            <item>
+              <term>recours</term>
+              <position>24838</position>
+              <context>[ Points: +0 ] 
+
+26. Avez-vous un processus de recours prévu ou établi pour les clients qui 
+
+souhaitent</context>
+            </item>
+          </recours>
+          <r_vision>
+            <item>
+              <term>révision</term>
+              <position>7872</position>
+              <context>es clients ont la possibilité de solliciter 
+
+une révision de leur dossier auprès des agents experts de l'As</context>
+            </item>
+          </r_vision>
+        </fr>
+      </sample_contexts>
+    </item>
+    <item>
+      <pair_number>5</pair_number>
+      <en_project>
+        <id>7</id>
+        <title>ArriveCAN Proof of Vaccination Recognition</title>
+        <filename>ArriveCAN_Proof_of_Vaccination_Recognition_en.pdf</filename>
+        <department>Public Health Agency of Canada</department>
+      </en_project>
+      <fr_project>
+        <id>26</id>
+        <title>Reconnaissance de preuve de vaccination d’ArriveCAN</title>
+        <filename>ArriveCAN_Proof_of_Vaccination_Recognition_fr.pdf</filename>
+        <department>Agence de la santé publique du Canada</department>
+      </fr_project>
+      <term_analysis>
+        <en_frequencies>
+          <surveillance>1</surveillance>
+          <accountability>1</accountability>
+          <liable>1</liable>
+          <bias>1</bias>
+          <recourse>1</recourse>
+          <review>3</review>
+          <challenge>1</challenge>
+          <audit>8</audit>
+          <assessment>11</assessment>
+          <explanation>2</explanation>
+        </en_frequencies>
+        <fr_frequencies>
+          <surveillance>1</surveillance>
+          <contr_le>3</contr_le>
+          <ouverture>1</ouverture>
+          <biais>1</biais>
+          <recours>1</recours>
+          <_valuation>10</_valuation>
+          <v_rification>7</v_rification>
+          <explication>2</explication>
+        </fr_frequencies>
+        <en_total_terms>30</en_total_terms>
+        <fr_total_terms>26</fr_total_terms>
+      </term_analysis>
+      <llm_semantic_analysis>
+        <key_terms_en>
+          <item>Algorithmic Impact Assessment Results</item>
+          <item>Chief Data Officer</item>
+          <item>Public Health Agency of Canada</item>
+          <item>Corporate Data and Surveillance Branch</item>
+          <item>Quarantine Facilities and COVID-19 Border Measures</item>
+          <item>Implementation</item>
+          <item>Optical Character Recognition (OCR) technology</item>
+          <item>administrative decisions</item>
+          <item>border services officers</item>
+          <item>manual inspection</item>
+          <item>Peer Review</item>
+          <item>Mitigation Score</item>
+        </key_terms_en>
+        <key_terms_fr>
+          <item>Résultats de l'évaluation de l'incidence algorithmique</item>
+          <item>Délégué général aux données</item>
+          <item>Agence de la santé publique du Canada</item>
+          <item>Direction générale surveillance et données organisationnelles</item>
+          <item>Installations de quarantaine et mesures frontalières liées à la COVID-19</item>
+          <item>Implémentation</item>
+          <item>technologie d'outil de reconnaissance optique des caractères (ROC)</item>
+          <item>décisions administratives</item>
+          <item>agents des services frontaliers</item>
+          <item>inspection manuelle</item>
+          <item>Revue par les pairs</item>
+          <item>Score de mitigation</item>
+        </key_terms_fr>
+        <semantic_differences>
+          <item>
+            <en_term>Chief Data Officer</en_term>
+            <fr_term>Délégué général aux données</fr_term>
+            <difference>The French term conveys a broader sense of delegation and general oversight of data, potentially implying a wider scope of responsibilities.</difference>
+          </item>
+          <item>
+            <en_term>Corporate Data and Surveillance Branch</en_term>
+            <fr_term>Direction générale surveillance et données organisationnelles</fr_term>
+            <difference>The French version emphasizes 'organizational' aspects, which could imply a focus on the structure and management of data and surveillance.</difference>
+          </item>
+          <item>
+            <en_term>Optical Character Recognition (OCR) technology</en_term>
+            <fr_term>technologie d'outil de reconnaissance optique des caractères (ROC)</fr_term>
+            <difference>The French term specifies 'tool' (outil), which might suggest a more concrete or practical application of the technology.</difference>
+          </item>
+          <item>
+            <en_term>administrative decisions</en_term>
+            <fr_term>décisions administratives</fr_term>
+            <difference>While directly translated, the connotation in French emphasizes the bureaucratic aspect, potentially implying a more formal or procedural decision-making process.</difference>
+          </item>
+          <item>
+            <en_term>Peer Review</en_term>
+            <fr_term>Revue par les pairs</fr_term>
+            <difference>Direct translation, but 'peers' in French can connote a more scholarly or academic review process.</difference>
+          </item>
+        </semantic_differences>
+        <omissions_en />
+        <omissions_fr />
+        <overall_assessment>The translation between English and French maintains a high level of semantic alignment with key governance terms accurately translated. Minor semantic differences do not significantly alter the meaning but rather provide nuanced connotations that are typical in bilingual government documents. The translation quality is high, ensuring both versions convey the intended administrative and technical processes effectively.</overall_assessment>
+      </llm_semantic_analysis>
+      <sample_contexts>
+        <en>
+          <surveillance>
+            <item>
+              <term>surveillance</term>
+              <position>195</position>
+              <context>alth Agency of Canada
+
+Branch
+
+Corporate Data and Surveillance Branch
+
+Project Title
+
+ArriveCAN Proof of Vaccina</context>
+            </item>
+          </surveillance>
+          <accountability>
+            <item>
+              <term>accountability</term>
+              <position>18849</position>
+              <context>available?
+No
+
+[ Points: +0 ]
+
+Have you assigned accountability in your institution for the design, development,</context>
+            </item>
+          </accountability>
+          <liable>
+            <item>
+              <term>liable</term>
+              <position>19051</position>
+              <context>d process to manage the risk that outdated or unreliable data is used
+to make an automated decision?
+No
+
+[</context>
+            </item>
+          </liable>
+          <bias>
+            <item>
+              <term>bias</term>
+              <position>18283</position>
+              <context>ented processes in place to test datasets against biases and other
+unexpected outcomes? This could inclu</context>
+            </item>
+          </bias>
+          <recourse>
+            <item>
+              <term>recourse</term>
+              <position>20705</position>
+              <context>rs of the system?
+Yes
+
+[ Points: +1 ]
+
+Is there a recourse process established for clients that wish to chal</context>
+            </item>
+          </recourse>
+        </en>
+        <fr>
+          <surveillance>
+            <item>
+              <term>surveillance</term>
+              <position>242</position>
+              <context>publique du Canada
+
+Direction
+
+Direction générale surveillance et données organisationnelles
+
+Titre du projet
+
+R</context>
+            </item>
+          </surveillance>
+          <contr_le>
+            <item>
+              <term>contrôle</term>
+              <position>9972</position>
+              <context>les ne limitent pas la capacité du gouvernement à contrôler le statut vaccinal de
+tous les voyageurs entrant</context>
+            </item>
+            <item>
+              <term>contrôle</term>
+              <position>10065</position>
+              <context>yageurs entrants. L’automatisation assure que des contrôles sont effectués pour
+chaque preuve de vaccination</context>
+            </item>
+            <item>
+              <term>contrôle</term>
+              <position>12835</position>
+              <context>e seule)
+Protégé B/Protégé C
+
+[ Points: +3 ]
+
+Qui contrôle les données?
+Gouvernement fédéral
+
+[ Points: +1 ]</context>
+            </item>
+          </contr_le>
+          <ouverture>
+            <item>
+              <term>ouverture</term>
+              <position>1027</position>
+              <context>geurs entrants et sa capacité de s’adapter à la réouverture
+progressive de la frontière aux voyageurs interna</context>
+            </item>
+          </ouverture>
+          <biais>
+            <item>
+              <term>biais</term>
+              <position>21343</position>
+              <context>és pour tester les jeux de données en fonction de biais
+et d’autres résultats inattendus? Par exemple, ce</context>
+            </item>
+          </biais>
+          <recours>
+            <item>
+              <term>recours</term>
+              <position>24174</position>
+              <context>e?
+Oui
+
+[ Points: +1 ]
+
+Avez-vous un processus de recours prévu ou établi pour les clients qui souhaitent c</context>
+            </item>
+          </recours>
+        </fr>
+      </sample_contexts>
+    </item>
+    <item>
+      <pair_number>6</pair_number>
+      <en_project>
+        <id>8</id>
+        <title>Automate the review of non-complex applications for Temporary Resident Visas and Work Permits made under the Canada-Ukraine Authorization for Emergency Travel (CUAET)</title>
+        <filename>Automate_the_review_of_non-complex_applications_for_Temporary_Resident_Visas_and_Work_Permits_made_u_en.pdf</filename>
+        <department>Citizenship and Immigration (Department of)</department>
+      </en_project>
+      <fr_project>
+        <id>27</id>
+        <title>Automatiser l'examen des demandes non complexes de visa de résident temporaire et de permis de travail faites dans le cadre de l'Autorisation de voyage d'urgence Canada-Ukraine (AVUCU)</title>
+        <filename>Automate_the_review_of_non-complex_applications_for_Temporary_Resident_Visas_and_Work_Permits_made_u_fr_1.pdf</filename>
+        <department>Citoyenneté et de l'Immigration (Ministère de la)</department>
+      </fr_project>
+      <term_analysis>
+        <en_frequencies>
+          <monitoring>1</monitoring>
+          <accountability>1</accountability>
+          <liable>1</liable>
+          <fairness>2</fairness>
+          <bias>2</bias>
+          <discrimination>1</discrimination>
+          <recourse>1</recourse>
+          <review>8</review>
+          <challenge>1</challenge>
+          <audit>8</audit>
+          <assessment>9</assessment>
+          <explanation>2</explanation>
+        </en_frequencies>
+        <fr_frequencies>
+          <surveillance>1</surveillance>
+          <contr_le>1</contr_le>
+          <_quit_>2</_quit_>
+          <biais>2</biais>
+          <discrimination>1</discrimination>
+          <recours>1</recours>
+          <_valuation>10</_valuation>
+          <v_rification>7</v_rification>
+          <explication>2</explication>
+        </fr_frequencies>
+        <en_total_terms>37</en_total_terms>
+        <fr_total_terms>27</fr_total_terms>
+      </term_analysis>
+      <llm_semantic_analysis>
+        <key_terms_en>
+          <item>Algorithmic Impact Assessment Results</item>
+          <item>Project Details</item>
+          <item>Department</item>
+          <item>Branch</item>
+          <item>Project Title</item>
+          <item>Departmental Program</item>
+          <item>Project Phase</item>
+          <item>Business Driver / Positive Impact</item>
+          <item>System</item>
+          <item>Process optimization and workflow automation</item>
+          <item>Impact Level</item>
+          <item>Current Score</item>
+          <item>Raw Impact Score</item>
+          <item>Mitigation Score</item>
+          <item>Requirements Specific to Impact Level</item>
+          <item>Peer Review</item>
+          <item>Notice</item>
+        </key_terms_en>
+        <key_terms_fr>
+          <item>Résultats de l'évaluation de l'incidence algorithmique</item>
+          <item>Détails du projet</item>
+          <item>Ministère</item>
+          <item>Direction</item>
+          <item>Titre du projet</item>
+          <item>Programme ministériel</item>
+          <item>Phase du projet</item>
+          <item>Facteur opérationnel / Incidence positive</item>
+          <item>Système</item>
+          <item>Optimisation des processus et automatisation des flux de travail</item>
+          <item>Niveau d'incidence</item>
+          <item>Cote actuelle</item>
+          <item>Cote d'incidence brute</item>
+          <item>Cote d'atténuation</item>
+          <item>Exigences spécifiques au niveau d'incidence</item>
+          <item>Examen par les pairs</item>
+          <item>Avis</item>
+        </key_terms_fr>
+        <semantic_differences>
+          <item>
+            <en_term>Business Driver / Positive Impact</en_term>
+            <fr_term>Facteur opérationnel / Incidence positive</fr_term>
+            <difference>The French term emphasizes operational factors and positive outcomes, while the English term focuses on business motivation and positive impact, suggesting a slight shift towards operational efficiency in French.</difference>
+          </item>
+          <item>
+            <en_term>Notice</en_term>
+            <fr_term>Avis</fr_term>
+            <difference>The English term 'Notice' is broader and could imply various forms of communication, while 'Avis' in French is more specifically associated with formal notices or advisories, potentially indicating a more formal communication strategy in the French version.</difference>
+          </item>
+        </semantic_differences>
+        <omissions_en />
+        <omissions_fr />
+        <overall_assessment>The translation between English and French maintains a high level of semantic alignment with key governance terms accurately translated. However, there are subtle semantic differences in terms describing accountability, oversight, and transparency, reflecting slight shifts in emphasis towards operational efficiency in the French version. No significant concepts are omitted in either language, indicating a careful consideration of equivalence and meaning. The overall quality of translation and semantic alignment is commendable, with minor differences not detracting from the document's coherence or comprehensibility.</overall_assessment>
+      </llm_semantic_analysis>
+      <sample_contexts>
+        <en>
+          <monitoring>
+            <item>
+              <term>monitoring</term>
+              <position>7582</position>
+              <context>y, 
+operations, legal, and privacy areas. Regular monitoring and quality assurance 
+measures will also help ma</context>
+            </item>
+          </monitoring>
+          <accountability>
+            <item>
+              <term>accountability</term>
+              <position>12168</position>
+              <context>s: +1 ] 
+
+ [ Points: +0 ] 
+
+11. Have you assigned accountability in your institution for the design, development,</context>
+            </item>
+          </accountability>
+          <liable>
+            <item>
+              <term>liable</term>
+              <position>12379</position>
+              <context>d process to manage the risk that outdated or unreliable data is 
+used to make an automated decision?
+ Yes</context>
+            </item>
+          </liable>
+          <fairness>
+            <item>
+              <term>fairness</term>
+              <position>6260</position>
+              <context>cess, all applications are subject to procedural 
+fairness.
+
+18. The impacts that the decision will have on</context>
+            </item>
+            <item>
+              <term>fairness</term>
+              <position>12672</position>
+              <context>De-Risking and Mitigation Measures - Procedural 
+Fairness
+
+15. Does the audit trail identify the authority</context>
+            </item>
+          </fairness>
+          <bias>
+            <item>
+              <term>bias</term>
+              <position>7744</position>
+              <context>and that any unforeseen negative impacts such as bias or 
+discrimination can be identified early and mi</context>
+            </item>
+            <item>
+              <term>bias</term>
+              <position>11553</position>
+              <context>ented processes in place to test datasets against biases and other 
+unexpected outcomes? This could incl</context>
+            </item>
+          </bias>
+        </en>
+        <fr>
+          <surveillance>
+            <item>
+              <term>surveillance</term>
+              <position>8916</position>
+              <context>vée. Des mesures d'assurance de la qualité et de 
+surveillance régulières aideront à s'assurer que le système co</context>
+            </item>
+          </surveillance>
+          <contr_le>
+            <item>
+              <term>contrôle</term>
+              <position>11786</position>
+              <context>Protégé B/Protégé C 
+
+ [ Points: +3 ] 
+
+31. Qui contrôle les données?
+ Gouvernement fédéral 
+
+ [ Points: +</context>
+            </item>
+          </contr_le>
+          <_quit_>
+            <item>
+              <term>équité</term>
+              <position>7238</position>
+              <context>normal, toutes les demandes 
+sont assujetties à l'équité procédurale.
+
+18. Les incidences de la décision</context>
+            </item>
+            <item>
+              <term>équité</term>
+              <position>14910</position>
+              <context>limination des risques et mesures d'atténuation - Équité 
+procédurale
+15. La piste de vérification permet-</context>
+            </item>
+          </_quit_>
+          <biais>
+            <item>
+              <term>biais</term>
+              <position>9062</position>
+              <context>et que les impacts négatifs imprévus, comme les 
+biais ou la discrimination, peuvent être rapidement déc</context>
+            </item>
+            <item>
+              <term>biais</term>
+              <position>13541</position>
+              <context>s pour tester les jeux de données en fonction de 
+biais et d’autres résultats inattendus? Par exemple, ce</context>
+            </item>
+          </biais>
+          <discrimination>
+            <item>
+              <term>discrimination</term>
+              <position>9074</position>
+              <context>impacts négatifs imprévus, comme les 
+biais ou la discrimination, peuvent être rapidement décelés  et atténués.</context>
+            </item>
+          </discrimination>
+        </fr>
+      </sample_contexts>
+    </item>
+    <item>
+      <pair_number>7</pair_number>
+      <en_project>
+        <id>9</id>
+        <title>Automation Development to Support Disability Benefit Decision Making</title>
+        <filename>Automation_Development_to_Support_Disability_Benefit_Decision_Making_en.pdf</filename>
+        <department>Veterans Affairs (Department of)</department>
+      </en_project>
+      <fr_project>
+        <id>29</id>
+        <title>Développement de l’automatisation à l’appui de la prise de décisions en matière de prestations d’invalidité</title>
+        <filename>Automation_Development_to_Support_Disability_Benefit_Decision_Making_fr.pdf</filename>
+        <department>Anciens Combattants (Ministère des)</department>
+      </fr_project>
+      <term_analysis>
+        <en_frequencies>
+          <accountability>1</accountability>
+          <liable>1</liable>
+          <fairness>1</fairness>
+          <bias>1</bias>
+          <appeal>1</appeal>
+          <recourse>2</recourse>
+          <review>6</review>
+          <challenge>1</challenge>
+          <audit>8</audit>
+          <assessment>9</assessment>
+          <explanation>4</explanation>
+        </en_frequencies>
+        <fr_frequencies>
+          <contr_le>1</contr_le>
+          <_quit_>1</_quit_>
+          <biais>1</biais>
+          <recours>2</recours>
+          <appel>1</appel>
+          <r_vision>1</r_vision>
+          <_valuation>10</_valuation>
+          <v_rification>8</v_rification>
+          <explication>4</explication>
+        </fr_frequencies>
+        <en_total_terms>35</en_total_terms>
+        <fr_total_terms>29</fr_total_terms>
+      </term_analysis>
+      <llm_semantic_analysis>
+        <key_terms_en>
+          <item>Algorithmic Impact Assessment Results</item>
+          <item>Project Details</item>
+          <item>Department</item>
+          <item>Branch</item>
+          <item>Project Title</item>
+          <item>Project ID from IT Plan</item>
+          <item>Project Phase</item>
+          <item>System</item>
+          <item>Text and speech analysis</item>
+          <item>Process optimization and workflow automation</item>
+          <item>Image and object recognition</item>
+          <item>Content generation</item>
+          <item>Impact Level</item>
+          <item>Current Score</item>
+          <item>Raw Impact Score</item>
+          <item>Mitigation Score</item>
+          <item>Requirements Specific to Impact Level</item>
+          <item>Peer review</item>
+          <item>Gender-based Analysis Plus</item>
+          <item>Notice</item>
+          <item>Human-in-the-loop for decisions</item>
+        </key_terms_en>
+        <key_terms_fr>
+          <item>Résultats de l'évaluation de l'incidence algorithmique</item>
+          <item>Détails du projet</item>
+          <item>Ministère</item>
+          <item>Direction</item>
+          <item>Titre du projet</item>
+          <item>Identifiant du projet provenant du Plan TI</item>
+          <item>Phase du projet</item>
+          <item>Système</item>
+          <item>Analyse du texte et de la parole</item>
+          <item>Optimisation des processus et automatisation des flux de travail</item>
+          <item>Reconnaissance d'images et d'objets</item>
+          <item>Génération de contenu</item>
+          <item>Niveau d'incidence</item>
+          <item>Cote actuelle</item>
+          <item>Cote d'incidence brute</item>
+          <item>Cote d'atténuation</item>
+          <item>Exigences spécifiques au niveau d'incidence</item>
+          <item>Examen par les pairs</item>
+          <item>Analyse comparative entre les sexes plus</item>
+          <item>Avis</item>
+          <item>Intervention humaine dans les décisions</item>
+        </key_terms_fr>
+        <semantic_differences>
+          <item>
+            <en_term>Department</en_term>
+            <fr_term>Ministère</fr_term>
+            <difference>Direct translation, though 'Ministère' emphasizes the governmental aspect more explicitly.</difference>
+          </item>
+          <item>
+            <en_term>Branch</en_term>
+            <fr_term>Direction</fr_term>
+            <difference>'Direction' in French conveys a sense of management or directionality, which might not fully capture the structural implication of 'Branch' in English.</difference>
+          </item>
+          <item>
+            <en_term>Impact Level</en_term>
+            <fr_term>Niveau d'incidence</fr_term>
+            <difference>The term 'incidence' in French can imply both impact and incidence, potentially offering a broader interpretation.</difference>
+          </item>
+          <item>
+            <en_term>Peer review</en_term>
+            <fr_term>Examen par les pairs</fr_term>
+            <difference>Both terms are direct translations but 'Examen par les pairs' in French emphasizes the examination aspect, potentially implying a more rigorous review process.</difference>
+          </item>
+          <item>
+            <en_term>Gender-based Analysis Plus</en_term>
+            <fr_term>Analyse comparative entre les sexes plus</fr_term>
+            <difference>The French term directly translates but adds 'comparative,' which emphasizes the analysis's comparative nature across different genders and identities.</difference>
+          </item>
+        </semantic_differences>
+        <omissions_en />
+        <omissions_fr />
+        <overall_assessment>The translation between English and French maintains a high level of semantic alignment with key governance terms accurately translated. There are subtle semantic differences in terms related to accountability, oversight, and transparency, reflecting linguistic nuances. No significant concepts are omitted in either version, ensuring a consistent understanding across both languages. The translation quality is high, effectively preserving the document's integrity and meaning.</overall_assessment>
+      </llm_semantic_analysis>
+      <sample_contexts>
+        <en>
+          <accountability>
+            <item>
+              <term>accountability</term>
+              <position>10942</position>
+              <context>s: +0 ] 
+
+ [ Points: +0 ] 
+
+12. Have you assigned accountability in your institution for the design, development,</context>
+            </item>
+          </accountability>
+          <liable>
+            <item>
+              <term>liable</term>
+              <position>11155</position>
+              <context>d process to manage the risk that outdated or unreliable data is 
+used to make an automated decision?
+ No</context>
+            </item>
+          </liable>
+          <fairness>
+            <item>
+              <term>fairness</term>
+              <position>11468</position>
+              <context>De-Risking and Mitigation Measures - Procedural 
+Fairness
+16. Will the audit trail identify the authority o</context>
+            </item>
+          </fairness>
+          <bias>
+            <item>
+              <term>bias</term>
+              <position>10360</position>
+              <context>ented processes in place to test datasets against biases and other 
+unexpected outcomes? This could incl</context>
+            </item>
+          </bias>
+          <appeal>
+            <item>
+              <term>appeal</term>
+              <position>10224</position>
+              <context>escribe) 
+
+6. Please describe
+Veterans Review and Appeal Board
+
+De-Risking and Mitigation Measures - Data</context>
+            </item>
+          </appeal>
+        </en>
+        <fr>
+          <contr_le>
+            <item>
+              <term>contrôle</term>
+              <position>10470</position>
+              <context>Protégé B/Protégé C 
+
+ [ Points: +3 ] 
+
+29. Qui contrôle les données?
+ Gouvernement fédéral 
+
+ [ Points: +</context>
+            </item>
+          </contr_le>
+          <_quit_>
+            <item>
+              <term>équité</term>
+              <position>13886</position>
+              <context>limination des risques et mesures d'atténuation - Équité 
+procédurale
+16. La piste de vérification permett</context>
+            </item>
+          </_quit_>
+          <biais>
+            <item>
+              <term>biais</term>
+              <position>12568</position>
+              <context>s pour tester les jeux de données en fonction de 
+biais et d’autres résultats inattendus? Par exemple, ce</context>
+            </item>
+          </biais>
+          <recours>
+            <item>
+              <term>recours</term>
+              <position>4352</position>
+              <context>nseignements aux clients sur les possibilités de 
+recours pertinentes, le cas échéant. 
+
+Une description gé</context>
+            </item>
+            <item>
+              <term>recours</term>
+              <position>15641</position>
+              <context>[ Points: +1 ] 
+
+28. Y aura-t-il un processus de recours prévu ou établi pour les clients qui souhaitent c</context>
+            </item>
+          </recours>
+          <appel>
+            <item>
+              <term>appel</term>
+              <position>12397</position>
+              <context>ire
+Tribunal des anciens combattants (révision et appel)
+
+Élimination des risques et mesures d'atténuatio</context>
+            </item>
+          </appel>
+        </fr>
+      </sample_contexts>
+    </item>
+    <item>
+      <pair_number>8</pair_number>
+      <en_project>
+        <id>11</id>
+        <title>Export Compliance Dashboard</title>
+        <filename>Export_Compliance_en.pdf</filename>
+        <department>Canada Border Services Agency</department>
+      </en_project>
+      <fr_project>
+        <id>32</id>
+        <title>Tableau de bord de conformité des exportations</title>
+        <filename>Export_Compliance_fr.pdf</filename>
+        <department>Agence des services frontaliers du Canada</department>
+      </fr_project>
+      <term_analysis>
+        <en_frequencies>
+          <accountability>1</accountability>
+          <liable>1</liable>
+          <fairness>1</fairness>
+          <bias>1</bias>
+          <recourse>2</recourse>
+          <review>4</review>
+          <challenge>1</challenge>
+          <audit>8</audit>
+          <assessment>17</assessment>
+          <explanation>4</explanation>
+        </en_frequencies>
+        <fr_frequencies>
+          <contr_le>2</contr_le>
+          <_quit_>1</_quit_>
+          <biais>1</biais>
+          <recours>3</recours>
+          <_valuation>18</_valuation>
+          <v_rification>13</v_rification>
+          <explication>4</explication>
+        </fr_frequencies>
+        <en_total_terms>40</en_total_terms>
+        <fr_total_terms>42</fr_total_terms>
+      </term_analysis>
+      <llm_semantic_analysis>
+        <key_terms_en>
+          <item>Algorithmic Impact Assessment Results</item>
+          <item>Project Details</item>
+          <item>Department</item>
+          <item>Branch</item>
+          <item>Project Title</item>
+          <item>Project Phase</item>
+          <item>Risk assessment</item>
+          <item>Process optimization and workflow automation</item>
+          <item>Impact Level</item>
+          <item>Current Score</item>
+          <item>Raw Impact Score</item>
+          <item>Mitigation Score</item>
+          <item>Peer review</item>
+          <item>Gender-based Analysis Plus</item>
+          <item>Notice</item>
+          <item>Human-in-the-loop for decisions</item>
+          <item>Explanation</item>
+          <item>Training</item>
+          <item>IT and business continuity management</item>
+        </key_terms_en>
+        <key_terms_fr>
+          <item>Résultats de l'évaluation de l'incidence algorithmique</item>
+          <item>Détails du projet</item>
+          <item>Ministère</item>
+          <item>Direction</item>
+          <item>Titre du projet</item>
+          <item>Phase du projet</item>
+          <item>Évaluation des risques</item>
+          <item>Optimisation des processus et automatisation des flux de travail</item>
+          <item>Niveau d'incidence</item>
+          <item>Cote actuelle</item>
+          <item>Cote d'incidence brute</item>
+          <item>Cote d'atténuation</item>
+          <item>Examen par les pairs</item>
+          <item>Analyse comparative entre les sexes plus</item>
+          <item>Avis</item>
+          <item>Maillon humain de la prise de décisions</item>
+          <item>Explication</item>
+          <item>Formation</item>
+          <item>Gestion de la continuité des activités informatiques et commerciales</item>
+        </key_terms_fr>
+        <semantic_differences>
+          <item>
+            <en_term>Manager</en_term>
+            <fr_term>Gestionnaire</fr_term>
+            <difference>While both terms refer to a role of oversight, 'gestionnaire' in French conveys a broader sense of management or administration.</difference>
+          </item>
+          <item>
+            <en_term>Commercial and Trade</en_term>
+            <fr_term>Secteur commercial et échanges commerciaux</fr_term>
+            <difference>The French term expands on 'trade' to specifically mention 'commercial exchanges', implying a broader scope of activities.</difference>
+          </item>
+          <item>
+            <en_term>Human-in-the-loop for decisions</en_term>
+            <fr_term>Maillon humain de la prise de décisions</fr_term>
+            <difference>The French term 'Maillon humain' suggests a more integral role of the human element within a process chain, as opposed to the English term which suggests human oversight.</difference>
+          </item>
+        </semantic_differences>
+        <omissions_en />
+        <omissions_fr />
+        <overall_assessment>The translation between English and French maintains a high level of semantic alignment with minor differences in connotation and scope. Key governance terms are consistently translated, ensuring clarity and understanding across both languages. The translation effectively communicates the project's objectives, requirements, and impact assessment, preserving the integrity and transparency of the original document.</overall_assessment>
+      </llm_semantic_analysis>
+      <sample_contexts>
+        <en>
+          <accountability>
+            <item>
+              <term>accountability</term>
+              <position>18265</position>
+              <context>s: +0 ] 
+
+ [ Points: +0 ] 
+
+13. Have you assigned accountability in your institution for the design, development,</context>
+            </item>
+          </accountability>
+          <liable>
+            <item>
+              <term>liable</term>
+              <position>18476</position>
+              <context>d process to manage the risk that outdated or unreliable data is 
+used to make an automated decision?
+ Yes</context>
+            </item>
+          </liable>
+          <fairness>
+            <item>
+              <term>fairness</term>
+              <position>18771</position>
+              <context>De-Risking and Mitigation Measures - Procedural 
+Fairness
+17. Does the audit trail identify the authority o</context>
+            </item>
+          </fairness>
+          <bias>
+            <item>
+              <term>bias</term>
+              <position>17649</position>
+              <context>ented processes in place to test datasets against biases and other 
+unexpected outcomes? This could incl</context>
+            </item>
+          </bias>
+          <recourse>
+            <item>
+              <term>recourse</term>
+              <position>2758</position>
+              <context>Explanations must also inform clients of relevant recourse options, where appropriate.
+
+Descriptions must be</context>
+            </item>
+            <item>
+              <term>recourse</term>
+              <position>20319</position>
+              <context>e system?
+ Yes 
+
+ [ Points: +1 ] 
+
+29. Is there a recourse process established for clients that wish to chal</context>
+            </item>
+          </recourse>
+        </en>
+        <fr>
+          <contr_le>
+            <item>
+              <term>contrôle</term>
+              <position>10066</position>
+              <context>estion des frontières : évaluation des risques et contrôle des expéditions
+d'exportation.
+
+Évaluation de l'i</context>
+            </item>
+            <item>
+              <term>contrôle</term>
+              <position>18529</position>
+              <context>une seule)
+ Protégé A 
+
+ [ Points: +1 ] 
+
+48. Qui contrôle les données?
+ Gouvernement fédéral 
+
+ [ Points: +</context>
+            </item>
+          </contr_le>
+          <_quit_>
+            <item>
+              <term>équité</term>
+              <position>23001</position>
+              <context>limination des risques et mesures d'atténuation - Équité 
+procédurale
+17. La piste de vérification permet-</context>
+            </item>
+          </_quit_>
+          <biais>
+            <item>
+              <term>biais</term>
+              <position>21633</position>
+              <context>s pour tester les jeux de données en fonction de 
+biais et d’autres résultats inattendus? Par exemple, ce</context>
+            </item>
+          </biais>
+          <recours>
+            <item>
+              <term>recours</term>
+              <position>3449</position>
+              <context>nseignements aux clients sur les possibilités de 
+recours pertinentes, le cas échéant. 
+
+Les descriptions</context>
+            </item>
+            <item>
+              <term>recours</term>
+              <position>7706</position>
+              <context>le été 
+l’option choisie?
+Le personnel régional a recours à d'autres processus manuels qui sont moins
+Effic</context>
+            </item>
+            <item>
+              <term>recours</term>
+              <position>24719</position>
+              <context>oints: +1 ] 
+ Oui 
+
+29. Avez-vous un processus de recours prévu ou établi pour les clients qui souhaitent c</context>
+            </item>
+          </recours>
+          <_valuation>
+            <item>
+              <term>évaluation</term>
+              <position>15</position>
+              <context>Résultats de l'évaluation de l'incidence 
+algorithmique
+
+Version: 0.10.0
+
+D</context>
+            </item>
+            <item>
+              <term>évaluation</term>
+              <position>809</position>
+              <context>voyées pour un examen physique ou nécessitant une évaluation plus
+approfondie.
+
+L'outil compare les informatio</context>
+            </item>
+            <item>
+              <term>évaluation</term>
+              <position>1850</position>
+              <context>capacités suivantes s'applique à votre système.
+ Évaluation des risques: Analyser de volumineux jeux de donné</context>
+            </item>
+          </_valuation>
+        </fr>
+      </sample_contexts>
+    </item>
+    <item>
+      <pair_number>9</pair_number>
+      <en_project>
+        <id>12</id>
+        <title>Family Class Spouses and Partners Overseas Applications</title>
+        <filename>Family_Class_Spouses_and_Partners_Overseas_Applications_en_1.pdf</filename>
+        <department>Citizenship and Immigration (Department of)</department>
+      </en_project>
+      <fr_project>
+        <id>33</id>
+        <title>Demandes des époux et des conjoints de la catégorie du regroupement familial à l’étranger</title>
+        <filename>Family_Class_Spouses_and_Partners_Overseas_Applications_fr_1.pdf</filename>
+        <department>Citoyenneté et de l'Immigration (Ministère de la)</department>
+      </fr_project>
+      <term_analysis>
+        <en_frequencies>
+          <accountability>1</accountability>
+          <liable>1</liable>
+          <fairness>1</fairness>
+          <equity>1</equity>
+          <bias>1</bias>
+          <recourse>2</recourse>
+          <review>6</review>
+          <challenge>1</challenge>
+          <audit>8</audit>
+          <assessment>17</assessment>
+          <explanation>4</explanation>
+        </en_frequencies>
+        <fr_frequencies>
+          <contr_le>1</contr_le>
+          <_quit_>2</_quit_>
+          <biais>1</biais>
+          <recours>2</recours>
+          <_valuation>20</_valuation>
+          <v_rification>7</v_rification>
+          <explication>4</explication>
+        </fr_frequencies>
+        <en_total_terms>43</en_total_terms>
+        <fr_total_terms>37</fr_total_terms>
+      </term_analysis>
+      <llm_semantic_analysis>
+        <key_terms_en>
+          <item>Algorithmic Impact Assessment Results</item>
+          <item>Project Details</item>
+          <item>Department</item>
+          <item>Branch</item>
+          <item>Project Title</item>
+          <item>Departmental Program</item>
+          <item>Project Phase</item>
+          <item>Process optimization and workflow automation</item>
+          <item>Risk assessment</item>
+          <item>Impact Level</item>
+          <item>Current Score</item>
+          <item>Raw Impact Score</item>
+          <item>Mitigation Score</item>
+          <item>Requirements Specific to Impact Level</item>
+          <item>Peer review</item>
+          <item>Gender-based Analysis Plus</item>
+          <item>Human-in-the-loop for decisions</item>
+          <item>Notice</item>
+        </key_terms_en>
+        <key_terms_fr>
+          <item>Résultats de l'évaluation de l'incidence algorithmique</item>
+          <item>Détails du projet</item>
+          <item>Ministère</item>
+          <item>Direction</item>
+          <item>Titre du projet</item>
+          <item>Programme ministériel</item>
+          <item>Phase du projet</item>
+          <item>Optimisation des processus et automatisation des flux de travail</item>
+          <item>Évaluation des risques</item>
+          <item>Niveau d'incidence</item>
+          <item>Cote actuelle</item>
+          <item>Cote d'incidence brute</item>
+          <item>Cote d'atténuation</item>
+          <item>Exigences spécifiques au niveau d'incidence</item>
+          <item>Examen par les pairs</item>
+          <item>Analyse comparative entre les sexes plus</item>
+          <item>Décision avec intervention humaine</item>
+          <item>Avis</item>
+        </key_terms_fr>
+        <semantic_differences>
+          <item>
+            <en_term>Human-in-the-loop for decisions</en_term>
+            <fr_term>Décision avec intervention humaine</fr_term>
+            <difference>The English term suggests a process design where humans are part of the decision-making loop, implying potential oversight. The French term directly translates to 'decision with human intervention,' which might imply a corrective or after-the-fact involvement rather than an integrated part of the process.</difference>
+          </item>
+          <item>
+            <en_term>Notice</en_term>
+            <fr_term>Avis</fr_term>
+            <difference>While both terms refer to the communication of information, 'notice' in English carries a slightly more formal and possibly legal connotation, whereas 'avis' in French is a general term for any announcement or advice.</difference>
+          </item>
+        </semantic_differences>
+        <omissions_en />
+        <omissions_fr />
+        <overall_assessment>The translation between English and French maintains a high level of semantic alignment with minor differences in connotation. Key governance terms are consistently translated, ensuring clarity in both versions. The subtle semantic drift in terms like 'Human-in-the-loop for decisions' reflects slight variations in how accountability and oversight might be perceived, but does not significantly impact the overall understanding or transparency of the document.</overall_assessment>
+      </llm_semantic_analysis>
+      <sample_contexts>
+        <en>
+          <accountability>
+            <item>
+              <term>accountability</term>
+              <position>18683</position>
+              <context>s: +1 ] 
+
+ [ Points: +0 ] 
+
+12. Have you assigned accountability in your institution for the design, development,</context>
+            </item>
+          </accountability>
+          <liable>
+            <item>
+              <term>liable</term>
+              <position>18896</position>
+              <context>d process to manage the risk that outdated or unreliable data is 
+used to make an automated decision?
+ Yes</context>
+            </item>
+          </liable>
+          <fairness>
+            <item>
+              <term>fairness</term>
+              <position>19189</position>
+              <context>De-Risking and Mitigation Measures - Procedural 
+Fairness
+16. Does the audit trail identify the authority o</context>
+            </item>
+          </fairness>
+          <equity>
+            <item>
+              <term>equity</term>
+              <position>17734</position>
+              <context>International Platform Branch) 
+• Other (GBA+ and Equity Policy) 
+• Other (Anti-racism task force)
+
+4. Ext</context>
+            </item>
+          </equity>
+          <bias>
+            <item>
+              <term>bias</term>
+              <position>18067</position>
+              <context>ented processes in place to test datasets against biases and other 
+unexpected outcomes? This could incl</context>
+            </item>
+          </bias>
+        </en>
+        <fr>
+          <contr_le>
+            <item>
+              <term>contrôle</term>
+              <position>19215</position>
+              <context>isir qu’une seule)
+ Protégé B/Protégé C 
+
+49. Qui contrôle les données?
+ Gouvernement fédéral 
+
+ [ Points: +</context>
+            </item>
+          </contr_le>
+          <_quit_>
+            <item>
+              <term>équité</term>
+              <position>21635</position>
+              <context>rme internationale)
+• Autres (ACS+ et politique d’équité)
+• Autre (Groupe de travail anti-racisme)
+• Autre</context>
+            </item>
+            <item>
+              <term>équité</term>
+              <position>23421</position>
+              <context>limination des risques et mesures d'atténuation - Équité 
+procédurale
+16. La piste de vérification permet-</context>
+            </item>
+          </_quit_>
+          <biais>
+            <item>
+              <term>biais</term>
+              <position>22053</position>
+              <context>s pour tester les jeux de données en fonction de 
+biais et d’autres résultats inattendus? Par exemple, ce</context>
+            </item>
+          </biais>
+          <recours>
+            <item>
+              <term>recours</term>
+              <position>4321</position>
+              <context>nseignements aux clients sur les possibilités de 
+recours pertinentes, le cas échéant. 
+
+Une description gé</context>
+            </item>
+            <item>
+              <term>recours</term>
+              <position>25141</position>
+              <context>oints: +1 ] 
+ Oui 
+
+28. Avez-vous un processus de recours prévu ou établi pour les clients qui souhaitent c</context>
+            </item>
+          </recours>
+          <_valuation>
+            <item>
+              <term>évaluation</term>
+              <position>15</position>
+              <context>Résultats de l'évaluation de l'incidence 
+algorithmique
+
+Version: 0.10.0
+
+D</context>
+            </item>
+            <item>
+              <term>évaluation</term>
+              <position>1461</position>
+              <context>d'automatiser des flux de travail spécifique. 
+ Évaluation des risques: Analyser de volumineux jeux de donné</context>
+            </item>
+            <item>
+              <term>évaluation</term>
+              <position>4462</position>
+              <context>ent être mise à disposition par l’entremise 
+de l’évaluation de l’incidence algorithmique et être repérable su</context>
+            </item>
+          </_valuation>
+        </fr>
+      </sample_contexts>
+    </item>
+    <item>
+      <pair_number>10</pair_number>
+      <en_project>
+        <id>13</id>
+        <title>Integrity trends analysis tool</title>
+        <filename>Integrity_trends_analysis_tool_en_1.pdf</filename>
+        <department>Citizenship and Immigration (Department of)</department>
+      </en_project>
+      <fr_project>
+        <id>35</id>
+        <title>Outil d’analyse des tendances en matière d’intégrité</title>
+        <filename>Integrity_trends_analysis_tool_fr.pdf</filename>
+        <department>Citoyenneté et de l'Immigration (Ministère de la)</department>
+      </fr_project>
+      <term_analysis>
+        <en_frequencies>
+          <accountability>1</accountability>
+          <liable>1</liable>
+          <transparency>3</transparency>
+          <fairness>13</fairness>
+          <justice>3</justice>
+          <bias>6</bias>
+          <recourse>2</recourse>
+          <review>7</review>
+          <challenge>1</challenge>
+          <human_review>1</human_review>
+          <audit>8</audit>
+          <evaluation>1</evaluation>
+          <assessment>29</assessment>
+          <explanation>4</explanation>
+        </en_frequencies>
+        <fr_frequencies>
+          <contr_le>1</contr_le>
+          <transparence>3</transparence>
+          <_quit_>12</_quit_>
+          <biais>1</biais>
+          <pr_jug_>5</pr_jug_>
+          <recours>2</recours>
+          <appel>1</appel>
+          <_valuation>31</_valuation>
+          <v_rification>48</v_rification>
+          <explication>4</explication>
+        </fr_frequencies>
+        <en_total_terms>80</en_total_terms>
+        <fr_total_terms>108</fr_total_terms>
+      </term_analysis>
+      <llm_semantic_analysis>
+        <key_terms_en>
+          <item>Integrity Operations Sector</item>
+          <item>Citizenship and Immigration</item>
+          <item>Integrity Risk Management</item>
+          <item>Integrity trends analysis tool</item>
+          <item>Implementation</item>
+          <item>Risk Assessment Units</item>
+          <item>verification activities</item>
+          <item>procedural fairness</item>
+          <item>Immigration and Refugee Protection Act (IRPA)</item>
+          <item>Regulations (IRPR)</item>
+          <item>Temporary Resident applications</item>
+          <item>adverse outcomes</item>
+        </key_terms_en>
+        <key_terms_fr>
+          <item>Secteur des opérations d'intégrité</item>
+          <item>Citoyenneté et de l'Immigration</item>
+          <item>Direction générale de la gestion des risques pour l’intégrité</item>
+          <item>Outil d’analyse des tendances en matière d’intégrité</item>
+          <item>Mise en oeuvre</item>
+          <item>Équipes d’évaluation des risques</item>
+          <item>activités de vérification</item>
+          <item>équité procédurale</item>
+          <item>Loi sur l’immigration et la protection des réfugiés (LIPR)</item>
+          <item>Règlement sur l’immigration et la protection des réfugiés (RIPR)</item>
+          <item>demandes de résidence temporaire</item>
+          <item>résultats défavorables</item>
+        </key_terms_fr>
+        <semantic_differences>
+          <item>
+            <en_term>Risk Assessment Units</en_term>
+            <fr_term>Équipes d’évaluation des risques</fr_term>
+            <difference>The French term emphasizes a team approach (équipes) to risk assessment, potentially implying a more collaborative or collective effort compared to the English term.</difference>
+          </item>
+          <item>
+            <en_term>verification activities</en_term>
+            <fr_term>activités de vérification</fr_term>
+            <difference>While directly translated, the connotation in French may emphasize the procedural aspect of these activities more strongly.</difference>
+          </item>
+          <item>
+            <en_term>procedural fairness</en_term>
+            <fr_term>équité procédurale</fr_term>
+            <difference>Both terms refer to the same concept of fairness in processes, but équité procédurale in French emphasizes equity, which might convey a slightly broader or different nuance of fairness.</difference>
+          </item>
+        </semantic_differences>
+        <omissions_en />
+        <omissions_fr />
+        <overall_assessment>The translation between English and French maintains a high degree of semantic alignment with key governance terms accurately translated. There are subtle semantic differences in terms related to team dynamics, procedural emphasis, and nuances of fairness, but these do not significantly alter the overall meaning or implications of the governance terms. The translation quality is high, ensuring that accountability, oversight, and transparency are described in a manner that is consistent across both languages, with no significant omissions or connotational differences that would impact the understanding of the document's intent or content.</overall_assessment>
+      </llm_semantic_analysis>
+      <sample_contexts>
+        <en>
+          <accountability>
+            <item>
+              <term>accountability</term>
+              <position>28058</position>
+              <context>s: +1 ] 
+
+ [ Points: +0 ] 
+
+13. Have you assigned accountability in your institution for the design, development,</context>
+            </item>
+          </accountability>
+          <liable>
+            <item>
+              <term>liable</term>
+              <position>28269</position>
+              <context>d process to manage the risk that outdated or unreliable data is 
+used to make an automated decision?
+ Yes</context>
+            </item>
+          </liable>
+          <transparency>
+            <item>
+              <term>transparency</term>
+              <position>7435</position>
+              <context>on process. 
+These needs primarily revolve around transparency, efficiency, and procedural 
+fairness.  Verificat</context>
+            </item>
+            <item>
+              <term>transparency</term>
+              <position>7911</position>
+              <context>tive 
+final decision for the applicant, enhancing transparency and fairness in the 
+decision-making process. By</context>
+            </item>
+            <item>
+              <term>transparency</term>
+              <position>12928</position>
+              <context>nterests, including fairness, accessibility, 
+and transparency. This approach ensures that while applications ar</context>
+            </item>
+          </transparency>
+          <fairness>
+            <item>
+              <term>fairness</term>
+              <position>1162</position>
+              <context>make final decisions consistent 
+with procedural fairness and in accordance with the requirements of the IR</context>
+            </item>
+            <item>
+              <term>fairness</term>
+              <position>7477</position>
+              <context>around transparency, efficiency, and procedural 
+fairness.  Verifications, including requests for additiona</context>
+            </item>
+            <item>
+              <term>fairness</term>
+              <position>7928</position>
+              <context>ion for the applicant, enhancing transparency and fairness in the 
+decision-making process. By adopting the</context>
+            </item>
+          </fairness>
+          <justice>
+            <item>
+              <term>justice</term>
+              <position>15827</position>
+              <context>red in 
+accordance with the principles of natural justice and procedural fairness.
+
+21. Does the decision p</context>
+            </item>
+            <item>
+              <term>justice</term>
+              <position>17177</position>
+              <context>, ensuring adherence to the principles of natural justice 
+and procedural fairness. Thus, the system is two</context>
+            </item>
+            <item>
+              <term>justice</term>
+              <position>20886</position>
+              <context>, ensuring adherence to the principles of natural justice 
+and procedural fairness. Thus, the system is two</context>
+            </item>
+          </justice>
+        </en>
+        <fr>
+          <contr_le>
+            <item>
+              <term>contrôle</term>
+              <position>29683</position>
+              <context>Protégé B/Protégé C 
+
+ [ Points: +3 ] 
+
+49. Qui contrôle les données?
+ Gouvernement fédéral 
+
+ [ Points: +</context>
+            </item>
+          </contr_le>
+          <transparence>
+            <item>
+              <term>transparence</term>
+              <position>8696</position>
+              <context>ation. Ces besoins sont principalement 
+liés à la transparence, à l’efficacité et à l’équité procédurale. Les vé</context>
+            </item>
+            <item>
+              <term>transparence</term>
+              <position>9238</position>
+              <context>et positive pour le demandeur, 
+ce qui accroît la transparence et l’équité du processus décisionnel. En 
+adoptan</context>
+            </item>
+            <item>
+              <term>transparence</term>
+              <position>14998</position>
+              <context>ients, notamment l’équité, 
+l’accessibilité et la transparence.
+
+8. D’autres options de processus non automatisé</context>
+            </item>
+          </transparence>
+          <_quit_>
+            <item>
+              <term>équité</term>
+              <position>1355</position>
+              <context>ennent des décisions 
+définitives en respectant l’équité procédurale et les exigences de la LIPR et du 
+RI</context>
+            </item>
+            <item>
+              <term>équité</term>
+              <position>8732</position>
+              <context>nt 
+liés à la transparence, à l’efficacité et à l’équité procédurale. Les vérifications, 
+y compris les de</context>
+            </item>
+            <item>
+              <term>équité</term>
+              <position>9256</position>
+              <context>e demandeur, 
+ce qui accroît la transparence et l’équité du processus décisionnel. En 
+adoptant ce système</context>
+            </item>
+          </_quit_>
+          <biais>
+            <item>
+              <term>biais</term>
+              <position>32276</position>
+              <context>s pour tester les jeux de données en fonction de 
+biais et d’autres résultats inattendus? Par exemple, ce</context>
+            </item>
+          </biais>
+          <pr_jug_>
+            <item>
+              <term>préjugé</term>
+              <position>12736</position>
+              <context>’une mesure clé 
+d’atténuation des risques et des préjugés, qui garantit que la probabilité 
+d’approbation</context>
+            </item>
+            <item>
+              <term>préjugé</term>
+              <position>13571</position>
+              <context>e l’outil n’introduise pas ou n’exacerbe 
+pas les préjugés. De plus, l’incidence d’un faux positif n’est pa</context>
+            </item>
+            <item>
+              <term>préjugé</term>
+              <position>21202</position>
+              <context>à ce que les tendances de risque ne créent pas de préjugés réels ou 
+perçus en ce qui a trait à des facteur</context>
+            </item>
+          </pr_jug_>
+        </fr>
+      </sample_contexts>
+    </item>
+    <item>
+      <pair_number>11</pair_number>
+      <en_project>
+        <id>14</id>
+        <title>International Experience Canada (IEC) Work Permit Eligibility Model</title>
+        <filename>International_Experience_Canada_Work_Permit_Eligibility_Model_en.pdf</filename>
+        <department>Citizenship and Immigration (Department of)</department>
+      </en_project>
+      <fr_project>
+        <id>36</id>
+        <title>Modèle de recevabilité du permis de travail d’Expérience internationale Canada (EIC)</title>
+        <filename>International_Experience_Canada_Work_Permit_Eligibility_Model_fr_1.pdf</filename>
+        <department>Citoyenneté et de l'Immigration (Ministère de la)</department>
+      </fr_project>
+      <term_analysis>
+        <en_frequencies>
+          <monitoring>2</monitoring>
+          <accountability>1</accountability>
+          <liable>1</liable>
+          <transparency>2</transparency>
+          <fairness>3</fairness>
+          <bias>7</bias>
+          <discrimination>4</discrimination>
+          <recourse>2</recourse>
+          <review>16</review>
+          <challenge>1</challenge>
+          <audit>8</audit>
+          <assessment>51</assessment>
+          <explanation>4</explanation>
+        </en_frequencies>
+        <fr_frequencies>
+          <contr_le>2</contr_le>
+          <suivi>2</suivi>
+          <transparence>2</transparence>
+          <_quit_>3</_quit_>
+          <biais>2</biais>
+          <discrimination>4</discrimination>
+          <pr_jug_>4</pr_jug_>
+          <recours>2</recours>
+          <_valuation>54</_valuation>
+          <v_rification>9</v_rification>
+          <explication>4</explication>
+        </fr_frequencies>
+        <en_total_terms>102</en_total_terms>
+        <fr_total_terms>88</fr_total_terms>
+      </term_analysis>
+      <llm_semantic_analysis>
+        <key_terms_en>
+          <item>Algorithmic Impact Assessment Results</item>
+          <item>Project Details</item>
+          <item>Department</item>
+          <item>Branch</item>
+          <item>Project Title</item>
+          <item>Departmental Program</item>
+          <item>Project Phase</item>
+          <item>Impact Level</item>
+          <item>Current Score</item>
+          <item>Raw Impact Score</item>
+          <item>Mitigation Score</item>
+          <item>Requirements Specific to Impact Level</item>
+          <item>Peer review</item>
+        </key_terms_en>
+        <key_terms_fr>
+          <item>Résultats de l'évaluation de l'incidence algorithmique</item>
+          <item>Détails du projet</item>
+          <item>Ministère</item>
+          <item>Direction</item>
+          <item>Titre du projet</item>
+          <item>Programme ministériel</item>
+          <item>Phase du projet</item>
+          <item>Niveau d'incidence</item>
+          <item>Cote actuelle</item>
+          <item>Cote d'incidence brute</item>
+          <item>Cote d'atténuation</item>
+          <item>Exigences spécifiques au niveau d'incidence</item>
+          <item>Examen par les pairs</item>
+        </key_terms_fr>
+        <semantic_differences>
+          <item>
+            <en_term>Project Phase</en_term>
+            <fr_term>Phase du projet</fr_term>
+            <difference>No significant semantic drift, but 'implementation' is translated as 'mise en oeuvre', which could imply a broader scope of action in French.</difference>
+          </item>
+          <item>
+            <en_term>Impact Level</en_term>
+            <fr_term>Niveau d'incidence</fr_term>
+            <difference>The term 'impact' in English carries a broader implication, potentially encompassing both positive and negative effects, whereas 'incidence' in French tends to lean more towards the implications or consequences of an action.</difference>
+          </item>
+          <item>
+            <en_term>Mitigation Score</en_term>
+            <fr_term>Cote d'atténuation</fr_term>
+            <difference>While both terms refer to measures taken to reduce adverse effects, 'mitigation' in English has a slightly broader usage, potentially encompassing prevention, while 'atténuation' in French focuses more on reduction of effects already occurring or expected to occur.</difference>
+          </item>
+        </semantic_differences>
+        <omissions_en />
+        <omissions_fr />
+        <overall_assessment>The translation between English and French maintains a high level of semantic alignment with minor differences in connotation. Key governance terms are consistently translated, ensuring clarity and coherence in both versions. The slight semantic drifts observed do not significantly alter the understanding or interpretation of the governance processes described. Overall, the translation quality is high, effectively preserving accountability, oversight, and transparency across languages.</overall_assessment>
+      </llm_semantic_analysis>
+      <sample_contexts>
+        <en>
+          <monitoring>
+            <item>
+              <term>monitoring</term>
+              <position>20635</position>
+              <context>d with established eligibility criteria. Regular 
+monitoring and quality assurance measures also help make sur</context>
+            </item>
+            <item>
+              <term>monitoring</term>
+              <position>23336</position>
+              <context>d with established eligibility criteria. Regular 
+monitoring and quality assurance measures also help make sur</context>
+            </item>
+          </monitoring>
+          <accountability>
+            <item>
+              <term>accountability</term>
+              <position>29070</position>
+              <context>s: +1 ] 
+
+ [ Points: +0 ] 
+
+11. Have you assigned accountability in your institution for the design, development,</context>
+            </item>
+          </accountability>
+          <liable>
+            <item>
+              <term>liable</term>
+              <position>29281</position>
+              <context>d process to manage the risk that outdated or unreliable data is 
+used to make an automated decision?
+ Yes</context>
+            </item>
+          </liable>
+          <transparency>
+            <item>
+              <term>transparency</term>
+              <position>18564</position>
+              <context>to facilitate 
+approvals.
+
+To ensure fairness and transparency, the system’s rules are based only on 
+data eleme</context>
+            </item>
+            <item>
+              <term>transparency</term>
+              <position>21318</position>
+              <context>to facilitate approvals.
+
+To ensure fairness and transparency, the system’s rules are based only on 
+data eleme</context>
+            </item>
+          </transparency>
+          <fairness>
+            <item>
+              <term>fairness</term>
+              <position>18551</position>
+              <context>ications and to facilitate 
+approvals.
+
+To ensure fairness and transparency, the system’s rules are based on</context>
+            </item>
+            <item>
+              <term>fairness</term>
+              <position>21305</position>
+              <context>ications and 
+to facilitate approvals.
+
+To ensure fairness and transparency, the system’s rules are based on</context>
+            </item>
+            <item>
+              <term>fairness</term>
+              <position>29574</position>
+              <context>De-Risking and Mitigation Measures - Procedural 
+Fairness
+15. Does the audit trail identify the authority o</context>
+            </item>
+          </fairness>
+        </en>
+        <fr>
+          <contr_le>
+            <item>
+              <term>contrôle</term>
+              <position>30507</position>
+              <context>Protégé B/Protégé C 
+
+ [ Points: +3 ] 
+
+48. Qui contrôle les données?
+
+ Gouvernement fédéral 
+
+ [ Points:</context>
+            </item>
+            <item>
+              <term>contrôle</term>
+              <position>31740</position>
+              <context>oncernant les personnes qui ont fait l’objet d’un contrôle à un 
+point d’entrée ou d’une enquête dans un bur</context>
+            </item>
+          </contr_le>
+          <suivi>
+            <item>
+              <term>suivi</term>
+              <position>24530</position>
+              <context>ées sur les critères de 
+recevabilité établis. Un suivi régulier et des mesures d’assurance de la qualité</context>
+            </item>
+            <item>
+              <term>suivi</term>
+              <position>27662</position>
+              <context>ées sur les critères de 
+recevabilité établis. Un suivi régulier et des mesures d’assurance de la qualité</context>
+            </item>
+          </suivi>
+          <transparence>
+            <item>
+              <term>transparence</term>
+              <position>22120</position>
+              <context>r les approbations.
+
+Pour garantir l’équité et la transparence, les règles du système sont basées 
+uniquement su</context>
+            </item>
+            <item>
+              <term>transparence</term>
+              <position>25339</position>
+              <context>les approbations. 
+
+Pour garantir l’équité et la transparence, les règles du système sont basées 
+uniquement su</context>
+            </item>
+          </transparence>
+          <_quit_>
+            <item>
+              <term>équité</term>
+              <position>22107</position>
+              <context>et à faciliter les approbations.
+
+Pour garantir l’équité et la transparence, les règles du système sont ba</context>
+            </item>
+            <item>
+              <term>équité</term>
+              <position>25326</position>
+              <context>t à faciliter les approbations. 
+
+Pour garantir l’équité et la transparence, les règles du système sont ba</context>
+            </item>
+            <item>
+              <term>équité</term>
+              <position>34964</position>
+              <context>limination des risques et mesures d'atténuation - Équité 
+procédurale
+15. La piste de vérification permet-</context>
+            </item>
+          </_quit_>
+          <biais>
+            <item>
+              <term>biais</term>
+              <position>24054</position>
+              <context>sus garantit que le système n’a pas 
+introduit de biais.
+
+Comme garantie supplémentaire, les règles du sy</context>
+            </item>
+            <item>
+              <term>biais</term>
+              <position>33598</position>
+              <context>s pour tester les jeux de données en fonction de 
+biais et d’autres résultats inattendus? Par exemple, ce</context>
+            </item>
+          </biais>
+        </fr>
+      </sample_contexts>
+    </item>
+    <item>
+      <pair_number>12</pair_number>
+      <en_project>
+        <id>15</id>
+        <title>Mental Health Benefit</title>
+        <filename>Mental_Health_Benefit_en.pdf</filename>
+        <department>Veterans Affairs (Department of)</department>
+      </en_project>
+      <fr_project>
+        <id>37</id>
+        <title>Avantages pour la santé mentale</title>
+        <filename>Mental_Health_Benefit_fr.pdf</filename>
+        <department>Anciens Combattants (Ministère des)</department>
+      </fr_project>
+      <term_analysis>
+        <en_frequencies>
+          <accountability>1</accountability>
+          <liable>1</liable>
+          <fairness>1</fairness>
+          <bias>1</bias>
+          <recourse>1</recourse>
+          <review>3</review>
+          <challenge>1</challenge>
+          <audit>8</audit>
+          <assessment>7</assessment>
+          <explanation>2</explanation>
+        </en_frequencies>
+        <fr_frequencies>
+          <contr_le>1</contr_le>
+          <ouverture>4</ouverture>
+          <_quit_>1</_quit_>
+          <biais>1</biais>
+          <recours>1</recours>
+          <_valuation>8</_valuation>
+          <v_rification>7</v_rification>
+          <explication>2</explication>
+        </fr_frequencies>
+        <en_total_terms>26</en_total_terms>
+        <fr_total_terms>25</fr_total_terms>
+      </term_analysis>
+      <llm_semantic_analysis>
+        <key_terms_en>
+          <item>Algorithmic Impact Assessment Results</item>
+          <item>Project Details</item>
+          <item>Business Driver / Positive Impact</item>
+          <item>About The System</item>
+          <item>Process optimization and workflow automation</item>
+          <item>Impact Level</item>
+          <item>Current Score</item>
+          <item>Raw Impact Score</item>
+          <item>Mitigation Score</item>
+          <item>Requirements Specific to Impact Level</item>
+          <item>Peer Review</item>
+          <item>Notice</item>
+          <item>Human-in-the-loop for decisions</item>
+          <item>Explanation Requirement</item>
+          <item>Training</item>
+          <item>Contingency Planning</item>
+          <item>Approval for the system to operate</item>
+          <item>Directive on Automated Decision-Making</item>
+          <item>Privacy Impact Assessment</item>
+        </key_terms_en>
+        <key_terms_fr>
+          <item>Résultats de l'évaluation de l'incidence algorithmique</item>
+          <item>Détails du projet</item>
+          <item>Facteur opérationnel / Incidence positive</item>
+          <item>À propos du système</item>
+          <item>Optimisation des processus et automatisation des flux de travail</item>
+          <item>Niveau d'incidence</item>
+          <item>Cote actuelle</item>
+          <item>Cote d'incidence brute</item>
+          <item>Cote d'atténuation</item>
+          <item>Exigences spécifiques au niveau d'incidence</item>
+          <item>Examen par les pairs</item>
+          <item>Avis</item>
+          <item>Maillon humain de la prise de décisions</item>
+          <item>Exigences en matière d’explication</item>
+          <item>Formation</item>
+          <item>Planification de contingence</item>
+          <item>Approbation pour le fonctionnement du système</item>
+          <item>Directive sur la prise de décision automatisée</item>
+          <item>Évaluation de l'impact sur la vie privée</item>
+        </key_terms_fr>
+        <semantic_differences>
+          <item>
+            <en_term>Business Driver / Positive Impact</en_term>
+            <fr_term>Facteur opérationnel / Incidence positive</fr_term>
+            <difference>The French term introduces 'operational' aspect, which is not explicit in English, suggesting a broader scope of impact.</difference>
+          </item>
+          <item>
+            <en_term>Training</en_term>
+            <fr_term>Formation</fr_term>
+            <difference>While both terms refer to the concept of education or preparation, 'Formation' in French can also imply the process of forming or developing something, potentially adding a layer of meaning not explicitly present in the English term.</difference>
+          </item>
+          <item>
+            <en_term>Contingency Planning</en_term>
+            <fr_term>Planification de contingence</fr_term>
+            <difference>Both terms refer to the same concept, but 'Planification de contingence' may carry a connotation of a more structured and formal planning process.</difference>
+          </item>
+          <item>
+            <en_term>Privacy Impact Assessment</en_term>
+            <fr_term>Évaluation de l'impact sur la vie privée</fr_term>
+            <difference>The French term emphasizes the impact on 'privacy' more directly than the English 'Privacy Impact Assessment', which could imply a broader assessment scope.</difference>
+          </item>
+        </semantic_differences>
+        <omissions_en />
+        <omissions_fr />
+        <overall_assessment>The translation between English and French demonstrates a high degree of semantic alignment with careful attention to governance terminology. However, subtle differences in connotation and scope, particularly in terms related to operational impacts and privacy, suggest a nuanced understanding of the terms in each language. Overall, the translation maintains the integrity and intent of the original document, ensuring clarity and transparency across both languages.</overall_assessment>
+      </llm_semantic_analysis>
+      <sample_contexts>
+        <en>
+          <accountability>
+            <item>
+              <term>accountability</term>
+              <position>9246</position>
+              <context>ints: +0 ]
+
+[ Points: +0 ]
+
+11. Have you assigned accountability in your institution for the design, development,</context>
+            </item>
+          </accountability>
+          <liable>
+            <item>
+              <term>liable</term>
+              <position>9452</position>
+              <context>d process to manage the risk that outdated or unreliable data is
+used to make an automated decision?
+No
+
+[</context>
+            </item>
+          </liable>
+          <fairness>
+            <item>
+              <term>fairness</term>
+              <position>9731</position>
+              <context>De-Risking and Mitigation Measures - Procedural
+Fairness
+15. Does the audit trail identify the authority o</context>
+            </item>
+          </fairness>
+          <bias>
+            <item>
+              <term>bias</term>
+              <position>8661</position>
+              <context>ented processes in place to test datasets against biases and other
+unexpected outcomes? This could inclu</context>
+            </item>
+          </bias>
+          <recourse>
+            <item>
+              <term>recourse</term>
+              <position>11222</position>
+              <context>of the system?
+No
+
+[ Points: +0 ]
+
+27. Is there a recourse process established for clients that wish to chal</context>
+            </item>
+          </recourse>
+        </en>
+        <fr>
+          <contr_le>
+            <item>
+              <term>contrôle</term>
+              <position>8947</position>
+              <context>ule)
+Protégé B/Protégé C
+
+[ Points: +3 ]
+
+29. Qui contrôle les données?
+Gouvernement fédéral
+
+[ Points: +1 ]</context>
+            </item>
+          </contr_le>
+          <ouverture>
+            <item>
+              <term>ouverture</term>
+              <position>644</position>
+              <context>tions d’invalidité avant d’être admissibles à la couverture
+en vertu du Programme d’avantages médicaux. Le pr</context>
+            </item>
+            <item>
+              <term>ouverture</term>
+              <position>1135</position>
+              <context>pour certains problèmes
+de santé mentale. Cette couverture pourrait s’échelonner sur une période
+allant jusq</context>
+            </item>
+            <item>
+              <term>ouverture</term>
+              <position>5863</position>
+              <context>os possibles :
+
+si la décision est favorable, la couverture des avantages pour la santé mentale
+prendra fin,</context>
+            </item>
+          </ouverture>
+          <_quit_>
+            <item>
+              <term>équité</term>
+              <position>11867</position>
+              <context>limination des risques et mesures d'atténuation - Équité
+procédurale
+15. La piste de vérification permet-e</context>
+            </item>
+          </_quit_>
+          <biais>
+            <item>
+              <term>biais</term>
+              <position>10545</position>
+              <context>és pour tester les jeux de données en fonction de
+biais et d’autres résultats inattendus? Par exemple, ce</context>
+            </item>
+          </biais>
+          <recours>
+            <item>
+              <term>recours</term>
+              <position>13529</position>
+              <context>[ Points: +0 ]
+Non
+
+27. Avez-vous un processus de recours prévu ou établi pour les clients qui souhaitent c</context>
+            </item>
+          </recours>
+        </fr>
+      </sample_contexts>
+    </item>
+    <item>
+      <pair_number>13</pair_number>
+      <en_project>
+        <id>16</id>
+        <title>Passport Program Modernization Initiative</title>
+        <filename>Passport_Automated_Decision-Making_in_IRCCs_Global_Case_Management_System_GCMS_en.pdf</filename>
+        <department>Citizenship and Immigration (Department of)</department>
+      </en_project>
+      <fr_project>
+        <id>39</id>
+        <title>Initiative de modernisation du Programme de passeport</title>
+        <filename>Passport_Automated_Decision-Making_in_IRCCs_Global_Case_Management_System_GCMS_fr.pdf</filename>
+        <department>Citoyenneté et de l'Immigration (Ministère de la)</department>
+      </fr_project>
+      <term_analysis>
+        <en_frequencies>
+          <accountability>1</accountability>
+          <liable>1</liable>
+          <fairness>1</fairness>
+          <bias>1</bias>
+          <recourse>1</recourse>
+          <review>3</review>
+          <challenge>1</challenge>
+          <audit>8</audit>
+          <assessment>7</assessment>
+          <explanation>3</explanation>
+        </en_frequencies>
+        <fr_frequencies>
+          <contr_le>1</contr_le>
+          <suivi>1</suivi>
+          <_quit_>1</_quit_>
+          <biais>1</biais>
+          <recours>2</recours>
+          <_valuation>9</_valuation>
+          <v_rification>9</v_rification>
+          <explication>3</explication>
+        </fr_frequencies>
+        <en_total_terms>27</en_total_terms>
+        <fr_total_terms>27</fr_total_terms>
+      </term_analysis>
+      <llm_semantic_analysis>
+        <key_terms_en>
+          <item>Algorithmic Impact Assessment Results</item>
+          <item>Project Details</item>
+          <item>Name of Respondent</item>
+          <item>Job Title</item>
+          <item>Department</item>
+          <item>Branch</item>
+          <item>Project Title</item>
+          <item>Project ID from IT Plan</item>
+          <item>Departmental Program</item>
+          <item>Project Phase</item>
+          <item>Business Driver / Positive Impact</item>
+          <item>Content generation</item>
+          <item>Process optimization and workflow automation</item>
+          <item>Image and object recognition</item>
+          <item>Impact Level</item>
+          <item>Current Score</item>
+          <item>Raw Impact Score</item>
+          <item>Mitigation Score</item>
+          <item>Requirements Specif</item>
+        </key_terms_en>
+        <key_terms_fr>
+          <item>Résultats de l'évaluation de l'incidence algorithmique</item>
+          <item>Détails du projet</item>
+          <item>Nom de la personne sondée</item>
+          <item>Titre du poste</item>
+          <item>Ministère</item>
+          <item>Direction</item>
+          <item>Titre du projet</item>
+          <item>Identifiant du projet provenant du Plan TI</item>
+          <item>Programme ministériel</item>
+          <item>Phase du projet</item>
+          <item>Facteur opérationnel / Incidence positive</item>
+          <item>Génération de contenu</item>
+          <item>Optimisation des processus et a</item>
+        </key_terms_fr>
+        <semantic_differences>
+          <item>
+            <en_term>Department</en_term>
+            <fr_term>Ministère</fr_term>
+            <difference>While both terms refer to governmental entities, 'Ministère' in French more specifically denotes a ministerial department, which might imply a narrower scope of authority or specialization in the context of governance.</difference>
+          </item>
+          <item>
+            <en_term>Branch</en_term>
+            <fr_term>Direction</fr_term>
+            <difference>'Branch' in English suggests a subdivision of a larger organization, while 'Direction' in French could imply both direction in terms of management or a specific department, potentially adding a layer of administrative authority.</difference>
+          </item>
+          <item>
+            <en_term>Business Driver / Positive Impact</en_term>
+            <fr_term>Facteur opérationnel / Incidence positive</fr_term>
+            <difference>The English term focuses on business and positive outcomes, while the French translation incorporates operational factors, suggesting a broader consideration of impacts beyond just business or positive outcomes.</difference>
+          </item>
+        </semantic_differences>
+        <omissions_en />
+        <omissions_fr />
+        <overall_assessment>The translation between English and French maintains a high level of semantic alignment with key governance terms accurately translated. However, subtle semantic differences in terms of administrative authority and scope are present, reflecting nuanced differences in governance terminology. The translation quality is high, ensuring clear communication of the project's objectives and processes across both languages.</overall_assessment>
+      </llm_semantic_analysis>
+      <sample_contexts>
+        <en>
+          <accountability>
+            <item>
+              <term>accountability</term>
+              <position>11735</position>
+              <context>s: +1 ] 
+
+ [ Points: +0 ] 
+
+12. Have you assigned accountability in your institution for the design, development,</context>
+            </item>
+          </accountability>
+          <liable>
+            <item>
+              <term>liable</term>
+              <position>11946</position>
+              <context>d process to manage the risk that outdated or unreliable data is 
+used to make an automated decision?
+ Yes</context>
+            </item>
+          </liable>
+          <fairness>
+            <item>
+              <term>fairness</term>
+              <position>12239</position>
+              <context>De-Risking and Mitigation Measures - Procedural 
+Fairness
+16. Does the audit trail identify the authority o</context>
+            </item>
+          </fairness>
+          <bias>
+            <item>
+              <term>bias</term>
+              <position>11119</position>
+              <context>ented processes in place to test datasets against biases and other 
+unexpected outcomes? This could incl</context>
+            </item>
+          </bias>
+          <recourse>
+            <item>
+              <term>recourse</term>
+              <position>13789</position>
+              <context>e system?
+ Yes 
+
+ [ Points: +1 ] 
+
+28. Is there a recourse process established for clients that wish to chal</context>
+            </item>
+          </recourse>
+        </en>
+        <fr>
+          <contr_le>
+            <item>
+              <term>contrôle</term>
+              <position>11163</position>
+              <context>Protégé B/Protégé C 
+
+ [ Points: +3 ] 
+
+29. Qui contrôle les données?
+ Gouvernement fédéral 
+
+ [ Points: +</context>
+            </item>
+          </contr_le>
+          <suivi>
+            <item>
+              <term>suivi</term>
+              <position>2277</position>
+              <context>correspondant aux étapes manuelles actuellement suivies par les agents.
+
+Facteur opérationnel / Inciden</context>
+            </item>
+          </suivi>
+          <_quit_>
+            <item>
+              <term>équité</term>
+              <position>14967</position>
+              <context>limination des risques et mesures d'atténuation - Équité 
+procédurale
+16. La piste de vérification permet-</context>
+            </item>
+          </_quit_>
+          <biais>
+            <item>
+              <term>biais</term>
+              <position>13597</position>
+              <context>s pour tester les jeux de données en fonction de 
+biais et d’autres résultats inattendus? Par exemple, ce</context>
+            </item>
+          </biais>
+          <recours>
+            <item>
+              <term>recours</term>
+              <position>691</position>
+              <context>adiens a été modifié en 2019 afin d’autoriser 
+le recours à la prise de décisions automatisée, ce qui a per</context>
+            </item>
+            <item>
+              <term>recours</term>
+              <position>16686</position>
+              <context>oints: +1 ] 
+ Oui 
+
+28. Avez-vous un processus de recours prévu ou établi pour les clients qui souhaitent c</context>
+            </item>
+          </recours>
+        </fr>
+      </sample_contexts>
+    </item>
+    <item>
+      <pair_number>14</pair_number>
+      <en_project>
+        <id>17</id>
+        <title>Passport Program Facial Recognition System</title>
+        <filename>Passport_Program_Facial_Recognition_System_en_1.pdf</filename>
+        <department>Citizenship and Immigration (Department of)</department>
+      </en_project>
+      <fr_project>
+        <id>40</id>
+        <title>Système de reconnaissance faciale du programme de Passeport</title>
+        <filename>Passport_Program_Facial_Recognition_System_fr_1.pdf</filename>
+        <department>Citoyenneté et de l'Immigration</department>
+      </fr_project>
+      <term_analysis>
+        <en_frequencies>
+          <accountability>1</accountability>
+          <liable>2</liable>
+          <fairness>1</fairness>
+          <equity>1</equity>
+          <bias>2</bias>
+          <recourse>2</recourse>
+          <review>13</review>
+          <challenge>1</challenge>
+          <human_review>1</human_review>
+          <audit>8</audit>
+          <assessment>22</assessment>
+          <explanation>4</explanation>
+        </en_frequencies>
+        <fr_frequencies>
+          <contr_le>2</contr_le>
+          <_quit_>2</_quit_>
+          <biais>2</biais>
+          <recours>2</recours>
+          <appel>2</appel>
+          <_valuation>25</_valuation>
+          <v_rification>14</v_rification>
+          <explication>4</explication>
+        </fr_frequencies>
+        <en_total_terms>58</en_total_terms>
+        <fr_total_terms>53</fr_total_terms>
+      </term_analysis>
+      <llm_semantic_analysis>
+        <key_terms_en>
+          <item>Algorithmic Impact Assessment Results</item>
+          <item>Project Details</item>
+          <item>Name of Respondent</item>
+          <item>Job Title</item>
+          <item>Department</item>
+          <item>Branch</item>
+          <item>Project Title</item>
+          <item>Project ID from IT Plan</item>
+          <item>Departmental Program</item>
+          <item>Project Phase</item>
+          <item>project description</item>
+          <item>facial recognition technology</item>
+          <item>identity authentication</item>
+          <item>fraud detection</item>
+          <item>facial biometric templates</item>
+          <item>one-to-many (1:N) identification</item>
+          <item>one-to-one (1:1) verification</item>
+          <item>Impact Level</item>
+          <item>Current Score</item>
+          <item>Raw Impact Score</item>
+          <item>Mitigation Score</item>
+          <item>Peer review</item>
+        </key_terms_en>
+        <key_terms_fr>
+          <item>Résultats de l'évaluation de l'incidence algorithmique</item>
+          <item>Détails du projet</item>
+          <item>Nom de la personne sondée</item>
+          <item>Titre du poste</item>
+          <item>Ministère</item>
+          <item>Direction</item>
+          <item>Titre du projet</item>
+          <item>Identifiant du projet provenant du Plan TI</item>
+          <item>Programme ministériel</item>
+          <item>Phase du projet</item>
+          <item>description du projet</item>
+          <item>technologie de reconnaissance faciale</item>
+          <item>authentification de l’identité</item>
+          <item>détection de la fraude</item>
+          <item>modèles biométriques faciaux</item>
+          <item>identification « un à plusieurs » (1:N)</item>
+          <item>vérification « un à un » (1:1)</item>
+          <item>Niveau d'impact</item>
+          <item>Score actuel</item>
+          <item>Score d'impact brut</item>
+          <item>Score de mitigation</item>
+          <item>Revue par les pairs</item>
+        </key_terms_fr>
+        <semantic_differences>
+          <item>
+            <en_term>Department</en_term>
+            <fr_term>Ministère</fr_term>
+            <difference>While both terms refer to government entities, 'Ministère' emphasizes the governmental aspect more strongly, potentially implying a broader scope of authority in French.</difference>
+          </item>
+          <item>
+            <en_term>Branch</en_term>
+            <fr_term>Direction</fr_term>
+            <difference>'Direction' in French conveys a sense of strategic leadership and management direction, which might not be as explicitly conveyed by 'Branch' in English.</difference>
+          </item>
+          <item>
+            <en_term>Peer review</en_term>
+            <fr_term>Revue par les pairs</fr_term>
+            <difference>Both terms indicate a review process by equals, but 'Revue par les pairs' may carry a more academic or scientific connotation in French.</difference>
+          </item>
+        </semantic_differences>
+        <omissions_en />
+        <omissions_fr />
+        <overall_assessment>The translation between English and French maintains a high level of semantic alignment with key governance terms accurately translated. There are subtle semantic differences in terms related to organizational structure and review processes, reflecting nuanced connotations in each language. However, these differences do not significantly alter the overall meaning or impact of the document. The translation quality is high, ensuring clear communication of the project's governance and operational details across both languages.</overall_assessment>
+      </llm_semantic_analysis>
+      <sample_contexts>
+        <en>
+          <accountability>
+            <item>
+              <term>accountability</term>
+              <position>26515</position>
+              <context>s: +1 ] 
+
+ [ Points: +0 ] 
+
+11. Have you assigned accountability in your institution for the design, development,</context>
+            </item>
+          </accountability>
+          <liable>
+            <item>
+              <term>liable</term>
+              <position>16620</position>
+              <context>ardized) 
+minimizes the risk that outdated or unreliable data is used. Passport officers 
+are trained to r</context>
+            </item>
+            <item>
+              <term>liable</term>
+              <position>26726</position>
+              <context>d process to manage the risk that outdated or unreliable data is 
+used to make an automated decision?
+ Yes</context>
+            </item>
+          </liable>
+          <fairness>
+            <item>
+              <term>fairness</term>
+              <position>27021</position>
+              <context>De-Risking and Mitigation Measures - Procedural 
+Fairness
+15. Does the audit trail identify the authority o</context>
+            </item>
+          </fairness>
+          <equity>
+            <item>
+              <term>equity</term>
+              <position>25667</position>
+              <context>al Policy 
+ Other (describe) 
+
+3. Please describe
+Equity and GBA Plus
+
+4. External Stakeholders (groups in</context>
+            </item>
+          </equity>
+          <bias>
+            <item>
+              <term>bias</term>
+              <position>17507</position>
+              <context>ore is not shown to the operator to 
+avoid adding bias to their decision. This operator is unaware of wh</context>
+            </item>
+            <item>
+              <term>bias</term>
+              <position>25900</position>
+              <context>ented processes in place to test datasets against biases and other 
+unexpected outcomes? This could incl</context>
+            </item>
+          </bias>
+        </en>
+        <fr>
+          <contr_le>
+            <item>
+              <term>contrôle</term>
+              <position>7858</position>
+              <context>tation du Canada d’avoir en place des mesures de 
+contrôle rigoureuses, comme l’utilisation de la technologi</context>
+            </item>
+            <item>
+              <term>contrôle</term>
+              <position>29158</position>
+              <context>Protégé B/Protégé C 
+
+ [ Points: +3 ] 
+
+49. Qui contrôle les données?
+ Gouvernement fédéral 
+
+ [ Points: +</context>
+            </item>
+          </contr_le>
+          <_quit_>
+            <item>
+              <term>équité</term>
+              <position>31596</position>
+              <context>Autre (décrire) 
+
+3. S'il vous plait décrire
+ L’équité et l’ACS Plus 
+
+4. Intervenants externes (groupes</context>
+            </item>
+            <item>
+              <term>équité</term>
+              <position>33244</position>
+              <context>limination des risques et mesures d'atténuation - Équité 
+procédurale
+15. La piste de vérification permet-</context>
+            </item>
+          </_quit_>
+          <biais>
+            <item>
+              <term>biais</term>
+              <position>21827</position>
+              <context>e n’est pas montrée à l’opérateur pour éviter de 
+biaiser sa décision. L’opérateur ne sait pas pour quel</context>
+            </item>
+            <item>
+              <term>biais</term>
+              <position>31877</position>
+              <context>s pour tester les jeux de données en fonction de 
+biais et d’autres résultats inattendus? Par exemple, ce</context>
+            </item>
+          </biais>
+          <recours>
+            <item>
+              <term>recours</term>
+              <position>5961</position>
+              <context>nseignements aux clients sur les possibilités de 
+recours pertinentes, le cas échéant. 
+
+Une description gé</context>
+            </item>
+            <item>
+              <term>recours</term>
+              <position>34963</position>
+              <context>oints: +1 ] 
+ Oui 
+
+27. Avez-vous un processus de recours prévu ou établi pour les clients qui souhaitent c</context>
+            </item>
+          </recours>
+          <appel>
+            <item>
+              <term>appel</term>
+              <position>1580</position>
+              <context>milarité évaluée par ordinateur : c’est ce qu’on 
+appelle une identification « un à plusieurs » (1:N). Le</context>
+            </item>
+            <item>
+              <term>appel</term>
+              <position>1851</position>
+              <context>à la 
+même identité revendiquée : c’est ce qu’on appelle une vérification « un à un 
+» (1:1).
+Pour les b</context>
+            </item>
+          </appel>
+        </fr>
+      </sample_contexts>
+    </item>
+    <item>
+      <pair_number>15</pair_number>
+      <en_project>
+        <id>18</id>
+        <title>Pre-load Air Cargo Targeting (PACT) Program</title>
+        <filename>Pre-load_Air_Cargo_Targeting_en_1.pdf</filename>
+        <department>Transport (Department of)</department>
+      </en_project>
+      <fr_project>
+        <id>41</id>
+        <title>Ciblage du fret aérien préalable au chargement (CFAPC)</title>
+        <filename>Pre-load_Air_Cargo_Targeting_fr.pdf</filename>
+        <department>Transports (Ministère des)</department>
+      </fr_project>
+      <term_analysis>
+        <en_frequencies>
+          <accountability>1</accountability>
+          <liable>1</liable>
+          <disclosure>1</disclosure>
+          <fairness>1</fairness>
+          <bias>2</bias>
+          <recourse>2</recourse>
+          <review>13</review>
+          <challenge>1</challenge>
+          <audit>8</audit>
+          <assessment>33</assessment>
+          <explanation>5</explanation>
+        </en_frequencies>
+        <fr_frequencies>
+          <contr_le>8</contr_le>
+          <suivi>1</suivi>
+          <responsabilit_>1</responsabilit_>
+          <divulgation>1</divulgation>
+          <_quit_>1</_quit_>
+          <biais>1</biais>
+          <recours>3</recours>
+          <appel>1</appel>
+          <_valuation>32</_valuation>
+          <v_rification>7</v_rification>
+          <explication>5</explication>
+        </fr_frequencies>
+        <en_total_terms>68</en_total_terms>
+        <fr_total_terms>61</fr_total_terms>
+      </term_analysis>
+      <llm_semantic_analysis>
+        <key_terms_en>
+          <item>Algorithmic Impact Assessment Results</item>
+          <item>Project Details</item>
+          <item>Name of Respondent</item>
+          <item>Job Title</item>
+          <item>Department</item>
+          <item>Branch</item>
+          <item>Project Title</item>
+          <item>Project ID from IT Plan</item>
+          <item>Departmental Program</item>
+          <item>Project Phase</item>
+          <item>risk mitigation measures</item>
+          <item>advanced cargo information</item>
+          <item>emerging technologies</item>
+          <item>manual methods</item>
+          <item>data analysis</item>
+          <item>Deputy Minister’s Committee on Policy Innovation</item>
+          <item>proof of concept</item>
+          <item>risk assessment framework</item>
+          <item>Requests for Information (RFI)</item>
+          <item>Requests for Screening (RFS)</item>
+          <item>Do Not Load (DNL) notices</item>
+        </key_terms_en>
+        <key_terms_fr>
+          <item>Résultats de l'évaluation de l'incidence algorithmique</item>
+          <item>Détails du projet</item>
+          <item>Nom de la personne sondée</item>
+          <item>Titre du poste</item>
+          <item>Ministère</item>
+          <item>Direction</item>
+          <item>Titre du projet</item>
+          <item>Identifiant du projet provenant du Plan TI</item>
+          <item>Programme ministériel</item>
+          <item>Phase du projet</item>
+          <item>mesures d’atténuation des risques</item>
+          <item>information préalable</item>
+          <item>technologies émergentes</item>
+          <item>méthodes manuelles</item>
+          <item>analyse des données</item>
+          <item>Comité des sous-ministres sur l’innovation en matière de politiques</item>
+          <item>validation de principe</item>
+          <item>cadre d’évaluation des risques</item>
+        </key_terms_fr>
+        <semantic_differences>
+          <item>
+            <en_term>Department</en_term>
+            <fr_term>Ministère</fr_term>
+            <difference>Direct translation, though 'ministère' conveys a broader governmental scope in French.</difference>
+          </item>
+          <item>
+            <en_term>Branch</en_term>
+            <fr_term>Direction</fr_term>
+            <difference>'Direction' in French implies a more strategic or directive role than 'Branch' in English, which suggests a subdivision.</difference>
+          </item>
+          <item>
+            <en_term>proof of concept</en_term>
+            <fr_term>validation de principe</fr_term>
+            <difference>'Validation de principe' suggests a validation of the principle or theory, whereas 'proof of concept' in English implies a demonstration that a concept is feasible.</difference>
+          </item>
+        </semantic_differences>
+        <omissions_en />
+        <omissions_fr />
+        <overall_assessment>The translation between English and French maintains a high level of semantic alignment and quality. Key governance terms are consistently translated, preserving the original meanings and implications. There are minor semantic differences that reflect the nuances of each language, but these do not detract from the overall clarity or accuracy of the translation. No significant concepts are omitted in either version, indicating a careful and thorough translation process.</overall_assessment>
+      </llm_semantic_analysis>
+      <sample_contexts>
+        <en>
+          <accountability>
+            <item>
+              <term>accountability</term>
+              <position>29072</position>
+              <context>s: +1 ] 
+
+ [ Points: +0 ] 
+
+13. Have you assigned accountability in your institution for the design, development,</context>
+            </item>
+          </accountability>
+          <liable>
+            <item>
+              <term>liable</term>
+              <position>29283</position>
+              <context>d process to manage the risk that outdated or unreliable data is 
+used to make an automated decision?
+ Yes</context>
+            </item>
+          </liable>
+          <disclosure>
+            <item>
+              <term>disclosure</term>
+              <position>32216</position>
+              <context>pact Assessment will review the collection, 
+use, disclosure, and retention of personal information collected</context>
+            </item>
+          </disclosure>
+          <fairness>
+            <item>
+              <term>fairness</term>
+              <position>29576</position>
+              <context>De-Risking and Mitigation Measures - Procedural 
+Fairness
+
+17. Does the audit trail identify the authority</context>
+            </item>
+          </fairness>
+          <bias>
+            <item>
+              <term>bias</term>
+              <position>21064</position>
+              <context>ificantly 
+reduce the potential for unintentional bias that could otherwise impact 
+individuals’ dignity</context>
+            </item>
+            <item>
+              <term>bias</term>
+              <position>28456</position>
+              <context>ented processes in place to test datasets against biases and other 
+unexpected outcomes? This could incl</context>
+            </item>
+          </bias>
+        </en>
+        <fr>
+          <contr_le>
+            <item>
+              <term>contrôle</term>
+              <position>3195</position>
+              <context>demandes de renseignements (RFI), de demandes de contrôle (RFS) 
+ou d’avis « ne pas charger » (DNL).
+
+À pro</context>
+            </item>
+            <item>
+              <term>contrôle</term>
+              <position>20601</position>
+              <context>n sélectionnée ci-dessus). 
+Lorsqu’une demande de contrôle est formulée, l’espoir est que le contrôle 
+révèl</context>
+            </item>
+            <item>
+              <term>contrôle</term>
+              <position>20644</position>
+              <context>nde de contrôle est formulée, l’espoir est que le contrôle 
+révèle l’absence d’engin explosif improvisé diss</context>
+            </item>
+          </contr_le>
+          <suivi>
+            <item>
+              <term>suivi</term>
+              <position>29352</position>
+              <context>luation environnementale 
+stratégique (EES) a été suivie et une évaluation du transport durable (ETD) a</context>
+            </item>
+          </suivi>
+          <responsabilit_>
+            <item>
+              <term>responsabilité</term>
+              <position>24257</position>
+              <context>ités internationaux qui régissent les régimes de 
+responsabilité pour l’expédition de marchandises à bord d’aérone</context>
+            </item>
+          </responsabilit_>
+          <divulgation>
+            <item>
+              <term>divulgation</term>
+              <position>38465</position>
+              <context>e CFAPC examinera la collecte, l’utilisation, la 
+divulgation et la conservation des renseignements personnels</context>
+            </item>
+          </divulgation>
+          <_quit_>
+            <item>
+              <term>équité</term>
+              <position>35454</position>
+              <context>limination des risques et mesures d'atténuation - Équité 
+procédurale
+17. La piste de vérification permet-</context>
+            </item>
+          </_quit_>
+        </fr>
+      </sample_contexts>
+    </item>
+    <item>
+      <pair_number>16</pair_number>
+      <en_project>
+        <id>19</id>
+        <title>Processus de dotation avec la plateforme Knockri : un outil d’évaluation des candidatures</title>
+        <filename>Using_artificial_intelligence_AI_to_automate_candidate_evaluations_in_the_staffing_processs_assessme_en.pdf</filename>
+        <department>Secrétariat du Conseil du Trésor</department>
+      </en_project>
+      <fr_project>
+        <id>46</id>
+        <title>Using artificial intelligence (AI) to automate candidate evaluations in the staffing process's assessment phase</title>
+        <filename>Using_artificial_intelligence_AI_to_automate_candidate_evaluations_in_the_staffing_processs_assessme_fr.pdf</filename>
+        <department>Treasury Board Secretariat</department>
+      </fr_project>
+      <term_analysis>
+        <en_frequencies>
+          <surveillance>1</surveillance>
+          <discrimination>1</discrimination>
+          <audit>1</audit>
+        </en_frequencies>
+        <fr_frequencies>
+          <discrimination>1</discrimination>
+          <recours>2</recours>
+          <audit>9</audit>
+        </fr_frequencies>
+        <en_total_terms>3</en_total_terms>
+        <fr_total_terms>12</fr_total_terms>
+      </term_analysis>
+      <llm_semantic_analysis>
+        <key_terms_en>
+          <item>Algorithmic Impact Assessment Results</item>
+          <item>Respondent</item>
+          <item>Job Title</item>
+          <item>Department</item>
+          <item>Branch</item>
+          <item>Project Title</item>
+          <item>Project Phase</item>
+          <item>Selection procedures</item>
+          <item>Fairness</item>
+          <item>Objectiveness</item>
+          <item>Structured interview</item>
+          <item>Rater bias</item>
+          <item>Automation</item>
+          <item>Talent acquisition</item>
+          <item>Recruitment efforts</item>
+        </key_terms_en>
+        <key_terms_fr>
+          <item>Résultats de l'évaluation de l'incidence algorithmique</item>
+          <item>Nom de la personne sondée</item>
+          <item>Titre du poste</item>
+          <item>Ministère</item>
+          <item>Direction</item>
+          <item>Titre du projet</item>
+          <item>Phase du projet</item>
+          <item>Procédures de sélection</item>
+          <item>Équité</item>
+          <item>Objectivité</item>
+          <item>Entrevue structurée</item>
+          <item>Biais de l'évaluateur</item>
+          <item>Automatisation</item>
+          <item>Acquisition de talents</item>
+          <item>Efforts de recrutement</item>
+        </key_terms_fr>
+        <semantic_differences>
+          <item>
+            <en_term>Rater bias</en_term>
+            <fr_term>Biais de l'évaluateur</fr_term>
+            <difference>The term 'rater bias' in English focuses on the bias of the individual conducting the rating, while 'Biais de l'évaluateur' in French emphasizes the evaluator's bias, suggesting a slightly more personal responsibility in the French version.</difference>
+          </item>
+          <item>
+            <en_term>Structured interview</en_term>
+            <fr_term>Entrevue structurée</fr_term>
+            <difference>Both terms refer to a similar concept but the connotation in French might imply a more formal and rigid process.</difference>
+          </item>
+          <item>
+            <en_term>Fairness</en_term>
+            <fr_term>Équité</fr_term>
+            <difference>While both terms aim to convey impartiality and justice in the process, 'fairness' in English is broader, potentially encompassing more general fairness beyond procedural aspects, whereas 'équité' in French specifically denotes equity, often with a focus on equality and fairness within a societal or systemic context.</difference>
+          </item>
+          <item>
+            <en_term>Objectiveness</en_term>
+            <fr_term>Objectivité</fr_term>
+            <difference>Both terms denote impartiality and the absence of bias, but 'objectiveness' in English suggests a slightly broader concept that includes the ability to be objective in thought and action, whereas 'objectivité' in French focuses more narrowly on the quality of being objective, particularly in judgment.</difference>
+          </item>
+        </semantic_differences>
+        <omissions_en>
+          <item>Providing all candidates with equal opportunity for employment within the Canadian government.</item>
+        </omissions_en>
+        <omissions_fr />
+        <overall_assessment>The translation between English and French maintains a high degree of semantic alignment with key governance terms accurately translated. However, there are subtle semantic differences, particularly in terms related to accountability and fairness, where the French terms carry slightly different connotations emphasizing personal responsibility and societal equity. The English version includes a statement about equal employment opportunity within the Canadian government that is absent in the French excerpt, which could be an oversight or a deliberate choice. Overall, the translation quality is high, but attention to these subtle differences and omissions is important for ensuring complete semantic alignment.</overall_assessment>
+      </llm_semantic_analysis>
+      <sample_contexts>
+        <en>
+          <surveillance>
+            <item>
+              <term>surveillance</term>
+              <position>36233</position>
+              <context>t, embauche, promotion, évaluation de rendement, 
+surveillance, habilitation de sécurité) 
+
+ [ Points: +1 ] 
+
+Év</context>
+            </item>
+          </surveillance>
+          <discrimination>
+            <item>
+              <term>discrimination</term>
+              <position>41745</position>
+              <context>de postuler à un emploi et d’être évaluées sans discrimination fondée sur le 
+
+statut de groupe en quête d’équi</context>
+            </item>
+          </discrimination>
+          <audit>
+            <item>
+              <term>audit</term>
+              <position>12369</position>
+              <context>yen de la plateforme 
+Knockri fournit une piste d’audit claire pour disséquer le rendement de 
+l’évaluati</context>
+            </item>
+          </audit>
+        </en>
+        <fr>
+          <discrimination>
+            <item>
+              <term>discrimination</term>
+              <position>34031</position>
+              <context>nt, and to be assessed in a way that is free from discrimination 
+based on protected group status. In addition, ca</context>
+            </item>
+          </discrimination>
+          <recours>
+            <item>
+              <term>recours</term>
+              <position>8266</position>
+              <context>Explanations must also inform clients of relevant recourse options, where appropriate.
+
+Descriptions must b</context>
+            </item>
+            <item>
+              <term>recours</term>
+              <position>41360</position>
+              <context>e system?
+ Yes 
+
+ [ Points: +1 ] 
+
+27. Is there a recourse process established for clients that wish to cha</context>
+            </item>
+          </recours>
+          <audit>
+            <item>
+              <term>audit</term>
+              <position>10242</position>
+              <context>retained, the Knockri assessment provides a clear audit 
+trail for dissecting assessment performance that</context>
+            </item>
+            <item>
+              <term>audit</term>
+              <position>39834</position>
+              <context>tion Measures - Procedural 
+Fairness
+15. Does the audit trail identify the authority or delegated authori</context>
+            </item>
+            <item>
+              <term>audit</term>
+              <position>39975</position>
+              <context>[ Points: +1 ] 
+
+16. Does the system provide an audit trail that records all the recommendations or dec</context>
+            </item>
+          </audit>
+        </fr>
+      </sample_contexts>
+    </item>
+  </pair_analyses>
+</terminology_analysis>

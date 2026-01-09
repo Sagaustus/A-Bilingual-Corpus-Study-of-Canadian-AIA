@@ -1,0 +1,114 @@
+================================================================================
+📚 GOVERNANCE TERMINOLOGY EXTRACTION
+================================================================================
+✅ Loaded 16 bilingual pairs
+
+📄 Processing 16 bilingual pairs...
+
+[1/16] ATIP Digital Services...
+  🤖 Analyzing semantic drift for: ATIP Digital Services...
+  ✅ EN: 25 governance terms found
+  ✅ FR: 20 governance terms found
+[2/16] Administrative Activities Support Tool (AAST)...
+  🤖 Analyzing semantic drift for: Administrative Activities Support Tool (AAST)...
+  ✅ EN: 65 governance terms found
+  ✅ FR: 51 governance terms found
+[3/16] Advanced Analytics Triage of Visitor Record Applications...
+  🤖 Analyzing semantic drift for: Advanced Analytics Triage of Visitor Record Applic...
+  ✅ EN: 51 governance terms found
+  ✅ FR: 40 governance terms found
+[4/16] Machine Learning Workload...
+  🤖 Analyzing semantic drift for: Machine Learning Workload...
+  ✅ EN: 61 governance terms found
+  ✅ FR: 52 governance terms found
+[5/16] ArriveCAN Proof of Vaccination Recognition...
+  🤖 Analyzing semantic drift for: ArriveCAN Proof of Vaccination Recognition...
+  ✅ EN: 30 governance terms found
+  ✅ FR: 26 governance terms found
+[6/16] Automate the review of non-complex applications for Temporar...
+  🤖 Analyzing semantic drift for: Automate the review of non-complex applications fo...
+  ✅ EN: 37 governance terms found
+  ✅ FR: 27 governance terms found
+[7/16] Automation Development to Support Disability Benefit Decisio...
+  🤖 Analyzing semantic drift for: Automation Development to Support Disability Benef...
+  ✅ EN: 35 governance terms found
+  ✅ FR: 29 governance terms found
+[8/16] Export Compliance Dashboard...
+  🤖 Analyzing semantic drift for: Export Compliance Dashboard...
+  ✅ EN: 40 governance terms found
+  ✅ FR: 42 governance terms found
+[9/16] Family Class Spouses and Partners Overseas Applications...
+  🤖 Analyzing semantic drift for: Family Class Spouses and Partners Overseas Applica...
+  ✅ EN: 43 governance terms found
+  ✅ FR: 37 governance terms found
+[10/16] Integrity trends analysis tool...
+  🤖 Analyzing semantic drift for: Integrity trends analysis tool...
+  ✅ EN: 80 governance terms found
+  ✅ FR: 108 governance terms found
+[11/16] International Experience Canada (IEC) Work Permit Eligibilit...
+  🤖 Analyzing semantic drift for: International Experience Canada (IEC) Work Permit ...
+  ✅ EN: 102 governance terms found
+  ✅ FR: 88 governance terms found
+[12/16] Mental Health Benefit...
+  🤖 Analyzing semantic drift for: Mental Health Benefit...
+  ✅ EN: 26 governance terms found
+  ✅ FR: 25 governance terms found
+[13/16] Passport Program Modernization Initiative...
+  🤖 Analyzing semantic drift for: Passport Program Modernization Initiative...
+  ✅ EN: 27 governance terms found
+  ✅ FR: 27 governance terms found
+[14/16] Passport Program Facial Recognition System...
+  🤖 Analyzing semantic drift for: Passport Program Facial Recognition System...
+  ✅ EN: 58 governance terms found
+  ✅ FR: 53 governance terms found
+[15/16] Pre-load Air Cargo Targeting (PACT) Program...
+  🤖 Analyzing semantic drift for: Pre-load Air Cargo Targeting (PACT) Program...
+  ✅ EN: 68 governance terms found
+  ✅ FR: 61 governance terms found
+[16/16] Processus de dotation avec la plateforme Knockri : un outil ...
+  🤖 Analyzing semantic drift for: Processus de dotation avec la plateforme Knockri :...
+  ✅ EN: 3 governance terms found
+  ✅ FR: 12 governance terms found
+
+================================================================================
+📊 SUMMARY STATISTICS
+================================================================================
+
+🔤 TOP GOVERNANCE TERMS (ENGLISH):
+  assessment                → 290 occurrences
+  audit                     → 121 occurrences
+  review                    → 119 occurrences
+  explanation               →  52 occurrences
+  bias                      →  34 occurrences
+  fairness                  →  31 occurrences
+  recourse                  →  25 occurrences
+  liable                    →  16 occurrences
+  accountability            →  15 occurrences
+  challenge                 →  15 occurrences
+  discrimination            →   8 occurrences
+  transparency              →   7 occurrences
+  monitoring                →   5 occurrences
+  justice                   →   3 occurrences
+  surveillance              →   2 occurrences
+
+🔤 TOP GOVERNANCE TERMS (FRENCH):
+  évaluation                → 313 occurrences
+  vérification              → 167 occurrences
+  explication               →  52 occurrences
+  recours                   →  30 occurrences
+  équité                    →  30 occurrences
+  contrôle                  →  27 occurrences
+  biais                     →  22 occurrences
+  préjugé                   →   9 occurrences
+  audit                     →   9 occurrences
+  discrimination            →   8 occurrences
+  transparence              →   7 occurrences
+  ouverture                 →   6 occurrences
+  appel                     →   5 occurrences
+  surveillance              →   4 occurrences
+  suivi                     →   4 occurrences
+
+✅ Full results exported to: research/governance_terminology/full_terminology_analysis.json
+  📊 Comparative table: research/governance_terminology/en_fr_terminology_comparison.csv
+  📄 Semantic drift report: research/governance_terminology/semantic_drift_report.md
+================================================================================

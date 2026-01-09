@@ -1,0 +1,529 @@
+{
+  "summary": {
+    "total_projects": 47,
+    "existing_bilingual_pairs": 2,
+    "en_only": 18,
+    "fr_only": 25,
+    "hidden_pairs_found": 16
+  },
+  "en_only_projects": [
+    {
+      "project_id": "1",
+      "title": "ATIP Digital Services",
+      "filename": "ATIP_Online_Request_Service_en_1.pdf",
+      "department": "Treasury Board Secretariat"
+    },
+    {
+      "project_id": "2",
+      "title": "ATIP Digital Services",
+      "filename": "ATIP_Online_Request_Service_en_2.pdf",
+      "department": "Treasury Board Secretariat"
+    },
+    {
+      "project_id": "3",
+      "title": "ATIP Digital Services",
+      "filename": "ATIP_Online_Request_Service_en_3.pdf",
+      "department": "Treasury Board Secretariat"
+    },
+    {
+      "project_id": "4",
+      "title": "Administrative Activities Support Tool (AAST)",
+      "filename": "Administrative_Activities_Support_Tool_en.pdf",
+      "department": "Citizenship and Immigration (Department of)"
+    },
+    {
+      "project_id": "5",
+      "title": "Advanced Analytics Triage of Visitor Record Applications",
+      "filename": "Advanced_Analytics_Triage_of_Visitor_Record_Applications_en_1.pdf",
+      "department": "Citizenship and Immigration (Department of)"
+    },
+    {
+      "project_id": "6",
+      "title": "Machine Learning Workload",
+      "filename": "Algorithmic_Impact_Assessment_-_Employment_Insurance_Machine_Learning_Workload_en.pdf",
+      "department": "Employment and Social Development (Department of)"
+    },
+    {
+      "project_id": "7",
+      "title": "ArriveCAN Proof of Vaccination Recognition",
+      "filename": "ArriveCAN_Proof_of_Vaccination_Recognition_en.pdf",
+      "department": "Public Health Agency of Canada"
+    },
+    {
+      "project_id": "8",
+      "title": "Automate the review of non-complex applications for Temporary Resident Visas and Work Permits made under the Canada-Ukraine Authorization for Emergency Travel (CUAET)",
+      "filename": "Automate_the_review_of_non-complex_applications_for_Temporary_Resident_Visas_and_Work_Permits_made_u_en.pdf",
+      "department": "Citizenship and Immigration (Department of)"
+    },
+    {
+      "project_id": "9",
+      "title": "Automation Development to Support Disability Benefit Decision Making",
+      "filename": "Automation_Development_to_Support_Disability_Benefit_Decision_Making_en.pdf",
+      "department": "Veterans Affairs (Department of)"
+    },
+    {
+      "project_id": "11",
+      "title": "Export Compliance Dashboard",
+      "filename": "Export_Compliance_en.pdf",
+      "department": "Canada Border Services Agency"
+    },
+    {
+      "project_id": "12",
+      "title": "Family Class Spouses and Partners Overseas Applications",
+      "filename": "Family_Class_Spouses_and_Partners_Overseas_Applications_en_1.pdf",
+      "department": "Citizenship and Immigration (Department of)"
+    },
+    {
+      "project_id": "13",
+      "title": "Integrity trends analysis tool",
+      "filename": "Integrity_trends_analysis_tool_en_1.pdf",
+      "department": "Citizenship and Immigration (Department of)"
+    },
+    {
+      "project_id": "14",
+      "title": "International Experience Canada (IEC) Work Permit Eligibility Model",
+      "filename": "International_Experience_Canada_Work_Permit_Eligibility_Model_en.pdf",
+      "department": "Citizenship and Immigration (Department of)"
+    },
+    {
+      "project_id": "15",
+      "title": "Mental Health Benefit",
+      "filename": "Mental_Health_Benefit_en.pdf",
+      "department": "Veterans Affairs (Department of)"
+    },
+    {
+      "project_id": "16",
+      "title": "Passport Program Modernization Initiative",
+      "filename": "Passport_Automated_Decision-Making_in_IRCCs_Global_Case_Management_System_GCMS_en.pdf",
+      "department": "Citizenship and Immigration (Department of)"
+    },
+    {
+      "project_id": "17",
+      "title": "Passport Program Facial Recognition System",
+      "filename": "Passport_Program_Facial_Recognition_System_en_1.pdf",
+      "department": "Citizenship and Immigration (Department of)"
+    },
+    {
+      "project_id": "18",
+      "title": "Pre-load Air Cargo Targeting (PACT) Program",
+      "filename": "Pre-load_Air_Cargo_Targeting_en_1.pdf",
+      "department": "Transport (Department of)"
+    },
+    {
+      "project_id": "19",
+      "title": "Processus de dotation avec la plateforme Knockri : un outil d’évaluation des candidatures",
+      "filename": "Using_artificial_intelligence_AI_to_automate_candidate_evaluations_in_the_staffing_processs_assessme_en.pdf",
+      "department": "Secrétariat du Conseil du Trésor"
+    }
+  ],
+  "fr_only_projects": [
+    {
+      "project_id": "21",
+      "title": "Services numériques d’AIPRP",
+      "filename": "ATIP_Online_Request_Service_fr_1.pdf",
+      "department": "Secrétariat du Conseil du Trésor"
+    },
+    {
+      "project_id": "22",
+      "title": "Outil de soutien aux activités administratives (OSAA)",
+      "filename": "Administrative_Activities_Support_Tool_fr.pdf",
+      "department": "Citoyenneté et de l'Immigration (Ministère de la)"
+    },
+    {
+      "project_id": "23",
+      "title": "Triage au moyen de l’analyse avancée des demandes de visa de résident temporaire présentées depuis l’étranger",
+      "filename": "Advanced_Analytics_Triage_of_Overseas_Temporary_Resident_Visa_Applications_fr.pdf",
+      "department": "Citoyenneté et de l'Immigration (Ministère de la)"
+    },
+    {
+      "project_id": "24",
+      "title": "Triage au moyen de l’analytique avancée des demandes de fiche du visiteur",
+      "filename": "Advanced_Analytics_Triage_of_Visitor_Record_Applications_fr_1.pdf",
+      "department": "Citoyenneté et de l'Immigration (Ministère de la)"
+    },
+    {
+      "project_id": "25",
+      "title": "Utilisation de l'Apprentissage Automatique pour réduire les inventaires du programme de l'Assurance emploi.",
+      "filename": "Algorithmic_Impact_Assessment_-_Employment_Insurance_Machine_Learning_Workload_fr.pdf",
+      "department": "Emploi et du Développement social (Ministère de l')"
+    },
+    {
+      "project_id": "26",
+      "title": "Reconnaissance de preuve de vaccination d’ArriveCAN",
+      "filename": "ArriveCAN_Proof_of_Vaccination_Recognition_fr.pdf",
+      "department": "Agence de la santé publique du Canada"
+    },
+    {
+      "project_id": "27",
+      "title": "Automatiser l'examen des demandes non complexes de visa de résident temporaire et de permis de travail faites dans le cadre de l'Autorisation de voyage d'urgence Canada-Ukraine (AVUCU)",
+      "filename": "Automate_the_review_of_non-complex_applications_for_Temporary_Resident_Visas_and_Work_Permits_made_u_fr_1.pdf",
+      "department": "Citoyenneté et de l'Immigration (Ministère de la)"
+    },
+    {
+      "project_id": "28",
+      "title": "Triage et déterminations positives de la recevabilité automatisés des demandes de permis de travail pour les demandeurs au Canada",
+      "filename": "Automated_Triage_and_Positive_Eligibility_Determinations_of_In-Canada_Work_Permit_Applications_fr.pdf",
+      "department": "Citoyenneté et de l'Immigration (Ministère de la)"
+    },
+    {
+      "project_id": "29",
+      "title": "Développement de l’automatisation à l’appui de la prise de décisions en matière de prestations d’invalidité",
+      "filename": "Automation_Development_to_Support_Disability_Benefit_Decision_Making_fr.pdf",
+      "department": "Anciens Combattants (Ministère des)"
+    },
+    {
+      "project_id": "30",
+      "title": "Utilisation d’outils d’automatisation pour faciliter le traitement des demandes de réfugiés parrainés par le secteur privé",
+      "filename": "Automation_Tools_to_Help_Process_Privately_Sponsored_Refugee_Applications_fr.pdf",
+      "department": "Citoyenneté et de l'Immigration (Ministère de la)"
+    },
+    {
+      "project_id": "32",
+      "title": "Tableau de bord de conformité des exportations",
+      "filename": "Export_Compliance_fr.pdf",
+      "department": "Agence des services frontaliers du Canada"
+    },
+    {
+      "project_id": "33",
+      "title": "Demandes des époux et des conjoints de la catégorie du regroupement familial à l’étranger",
+      "filename": "Family_Class_Spouses_and_Partners_Overseas_Applications_fr_1.pdf",
+      "department": "Citoyenneté et de l'Immigration (Ministère de la)"
+    },
+    {
+      "project_id": "34",
+      "title": "Griffeye",
+      "filename": "Griffeye_Tool_fr.pdf",
+      "department": "Gendarmerie royale du Canada"
+    },
+    {
+      "project_id": "35",
+      "title": "Outil d’analyse des tendances en matière d’intégrité",
+      "filename": "Integrity_trends_analysis_tool_fr.pdf",
+      "department": "Citoyenneté et de l'Immigration (Ministère de la)"
+    },
+    {
+      "project_id": "36",
+      "title": "Modèle de recevabilité du permis de travail d’Expérience internationale Canada (EIC)",
+      "filename": "International_Experience_Canada_Work_Permit_Eligibility_Model_fr_1.pdf",
+      "department": "Citoyenneté et de l'Immigration (Ministère de la)"
+    },
+    {
+      "project_id": "37",
+      "title": "Avantages pour la santé mentale",
+      "filename": "Mental_Health_Benefit_fr.pdf",
+      "department": "Anciens Combattants (Ministère des)"
+    },
+    {
+      "project_id": "38",
+      "title": "Priorisation des absences prolongées pour la Sécurité de la vieillesse",
+      "filename": "Old_Age_Security_Extended_Absence_Leave_Prioritization_fr.pdf",
+      "department": "Emploi et du Développement social"
+    },
+    {
+      "project_id": "39",
+      "title": "Initiative de modernisation du Programme de passeport",
+      "filename": "Passport_Automated_Decision-Making_in_IRCCs_Global_Case_Management_System_GCMS_fr.pdf",
+      "department": "Citoyenneté et de l'Immigration (Ministère de la)"
+    },
+    {
+      "project_id": "40",
+      "title": "Système de reconnaissance faciale du programme de Passeport",
+      "filename": "Passport_Program_Facial_Recognition_System_fr_1.pdf",
+      "department": "Citoyenneté et de l'Immigration"
+    },
+    {
+      "project_id": "41",
+      "title": "Ciblage du fret aérien préalable au chargement (CFAPC)",
+      "filename": "Pre-load_Air_Cargo_Targeting_fr.pdf",
+      "department": "Transports (Ministère des)"
+    },
+    {
+      "project_id": "42",
+      "title": "Évaluation des commentaires des RE",
+      "filename": "Record_of_Employments_ROE_Comments_Assessment_fr.pdf",
+      "department": "Emploi et du Développement social"
+    },
+    {
+      "project_id": "43",
+      "title": "Classifier les demandes de révisions d'Assurance Emploi à l’aide du Machine Learning (Apprentissage Automatique)",
+      "filename": "Reducing_Employment_Insurance_Backlog_A_Machine_Learning_Approach_fr.pdf",
+      "department": "Emploi et du Développement social (Ministère de l')"
+    },
+    {
+      "project_id": "44",
+      "title": "le Programme d'aide au remboursement - Modèle de vérification amélioré (PAR-MVA)",
+      "filename": "Repayment_Assistance_Plan_Enhanced_Verification_Model_fr.pdf",
+      "department": "Emploi et du Développement social"
+    },
+    {
+      "project_id": "45",
+      "title": "Algorithme de sélection des cas du Programme des travailleurs étrangers temporaires",
+      "filename": "Temporary_Foreign_Worker_Program_Case_Selection_Algorithm_fr.pdf",
+      "department": "Emploi et du Développement social"
+    },
+    {
+      "project_id": "46",
+      "title": "Using artificial intelligence (AI) to automate candidate evaluations in the staffing process's assessment phase",
+      "filename": "Using_artificial_intelligence_AI_to_automate_candidate_evaluations_in_the_staffing_processs_assessme_fr.pdf",
+      "department": "Treasury Board Secretariat"
+    }
+  ],
+  "hidden_pairs": [
+    {
+      "en_project": {
+        "project_id": "1",
+        "title": "ATIP Digital Services",
+        "filename": "ATIP_Online_Request_Service_en_1.pdf",
+        "department": "Treasury Board Secretariat"
+      },
+      "fr_project": {
+        "project_id": "21",
+        "title": "Services numériques d’AIPRP",
+        "filename": "ATIP_Online_Request_Service_fr_1.pdf",
+        "department": "Secrétariat du Conseil du Trésor"
+      },
+      "confidence": "high",
+      "reasoning": "Both titles refer to ATIP digital services, indicating the same system."
+    },
+    {
+      "en_project": {
+        "project_id": "4",
+        "title": "Administrative Activities Support Tool (AAST)",
+        "filename": "Administrative_Activities_Support_Tool_en.pdf",
+        "department": "Citizenship and Immigration (Department of)"
+      },
+      "fr_project": {
+        "project_id": "22",
+        "title": "Outil de soutien aux activités administratives (OSAA)",
+        "filename": "Administrative_Activities_Support_Tool_fr.pdf",
+        "department": "Citoyenneté et de l'Immigration (Ministère de la)"
+      },
+      "confidence": "high",
+      "reasoning": "Both titles describe a tool supporting administrative activities, indicating they are about the same program."
+    },
+    {
+      "en_project": {
+        "project_id": "5",
+        "title": "Advanced Analytics Triage of Visitor Record Applications",
+        "filename": "Advanced_Analytics_Triage_of_Visitor_Record_Applications_en_1.pdf",
+        "department": "Citizenship and Immigration (Department of)"
+      },
+      "fr_project": {
+        "project_id": "24",
+        "title": "Triage au moyen de l’analytique avancée des demandes de fiche du visiteur",
+        "filename": "Advanced_Analytics_Triage_of_Visitor_Record_Applications_fr_1.pdf",
+        "department": "Citoyenneté et de l'Immigration (Ministère de la)"
+      },
+      "confidence": "high",
+      "reasoning": "Both titles involve advanced analytics for triaging visitor record applications, indicating the same functionality."
+    },
+    {
+      "en_project": {
+        "project_id": "6",
+        "title": "Machine Learning Workload",
+        "filename": "Algorithmic_Impact_Assessment_-_Employment_Insurance_Machine_Learning_Workload_en.pdf",
+        "department": "Employment and Social Development (Department of)"
+      },
+      "fr_project": {
+        "project_id": "25",
+        "title": "Utilisation de l'Apprentissage Automatique pour réduire les inventaires du programme de l'Assurance emploi.",
+        "filename": "Algorithmic_Impact_Assessment_-_Employment_Insurance_Machine_Learning_Workload_fr.pdf",
+        "department": "Emploi et du Développement social (Ministère de l')"
+      },
+      "confidence": "high",
+      "reasoning": "Both titles mention machine learning in the context of employment insurance, suggesting they describe the same AI system."
+    },
+    {
+      "en_project": {
+        "project_id": "7",
+        "title": "ArriveCAN Proof of Vaccination Recognition",
+        "filename": "ArriveCAN_Proof_of_Vaccination_Recognition_en.pdf",
+        "department": "Public Health Agency of Canada"
+      },
+      "fr_project": {
+        "project_id": "26",
+        "title": "Reconnaissance de preuve de vaccination d’ArriveCAN",
+        "filename": "ArriveCAN_Proof_of_Vaccination_Recognition_fr.pdf",
+        "department": "Agence de la santé publique du Canada"
+      },
+      "confidence": "high",
+      "reasoning": "Both titles are about the ArriveCAN app's proof of vaccination recognition, indicating the same functionality."
+    },
+    {
+      "en_project": {
+        "project_id": "8",
+        "title": "Automate the review of non-complex applications for Temporary Resident Visas and Work Permits made under the Canada-Ukraine Authorization for Emergency Travel (CUAET)",
+        "filename": "Automate_the_review_of_non-complex_applications_for_Temporary_Resident_Visas_and_Work_Permits_made_u_en.pdf",
+        "department": "Citizenship and Immigration (Department of)"
+      },
+      "fr_project": {
+        "project_id": "27",
+        "title": "Automatiser l'examen des demandes non complexes de visa de résident temporaire et de permis de travail faites dans le cadre de l'Autorisation de voyage d'urgence Canada-Ukraine (AVUCU)",
+        "filename": "Automate_the_review_of_non-complex_applications_for_Temporary_Resident_Visas_and_Work_Permits_made_u_fr_1.pdf",
+        "department": "Citoyenneté et de l'Immigration (Ministère de la)"
+      },
+      "confidence": "high",
+      "reasoning": "Both titles discuss automating the review of applications for visas and work permits under CUAET, indicating they are the same project."
+    },
+    {
+      "en_project": {
+        "project_id": "9",
+        "title": "Automation Development to Support Disability Benefit Decision Making",
+        "filename": "Automation_Development_to_Support_Disability_Benefit_Decision_Making_en.pdf",
+        "department": "Veterans Affairs (Department of)"
+      },
+      "fr_project": {
+        "project_id": "29",
+        "title": "Développement de l’automatisation à l’appui de la prise de décisions en matière de prestations d’invalidité",
+        "filename": "Automation_Development_to_Support_Disability_Benefit_Decision_Making_fr.pdf",
+        "department": "Anciens Combattants (Ministère des)"
+      },
+      "confidence": "high",
+      "reasoning": "Both titles refer to automation development to support disability benefit decision making, indicating the same system."
+    },
+    {
+      "en_project": {
+        "project_id": "11",
+        "title": "Export Compliance Dashboard",
+        "filename": "Export_Compliance_en.pdf",
+        "department": "Canada Border Services Agency"
+      },
+      "fr_project": {
+        "project_id": "32",
+        "title": "Tableau de bord de conformité des exportations",
+        "filename": "Export_Compliance_fr.pdf",
+        "department": "Agence des services frontaliers du Canada"
+      },
+      "confidence": "high",
+      "reasoning": "Both titles mention an export compliance dashboard, suggesting they refer to the same tool."
+    },
+    {
+      "en_project": {
+        "project_id": "12",
+        "title": "Family Class Spouses and Partners Overseas Applications",
+        "filename": "Family_Class_Spouses_and_Partners_Overseas_Applications_en_1.pdf",
+        "department": "Citizenship and Immigration (Department of)"
+      },
+      "fr_project": {
+        "project_id": "33",
+        "title": "Demandes des époux et des conjoints de la catégorie du regroupement familial à l’étranger",
+        "filename": "Family_Class_Spouses_and_Partners_Overseas_Applications_fr_1.pdf",
+        "department": "Citoyenneté et de l'Immigration (Ministère de la)"
+      },
+      "confidence": "high",
+      "reasoning": "Both titles are about applications for family class spouses and partners overseas, indicating the same program."
+    },
+    {
+      "en_project": {
+        "project_id": "13",
+        "title": "Integrity trends analysis tool",
+        "filename": "Integrity_trends_analysis_tool_en_1.pdf",
+        "department": "Citizenship and Immigration (Department of)"
+      },
+      "fr_project": {
+        "project_id": "35",
+        "title": "Outil d’analyse des tendances en matière d’intégrité",
+        "filename": "Integrity_trends_analysis_tool_fr.pdf",
+        "department": "Citoyenneté et de l'Immigration (Ministère de la)"
+      },
+      "confidence": "high",
+      "reasoning": "Both titles refer to an integrity trends analysis tool, indicating they are about the same system."
+    },
+    {
+      "en_project": {
+        "project_id": "14",
+        "title": "International Experience Canada (IEC) Work Permit Eligibility Model",
+        "filename": "International_Experience_Canada_Work_Permit_Eligibility_Model_en.pdf",
+        "department": "Citizenship and Immigration (Department of)"
+      },
+      "fr_project": {
+        "project_id": "36",
+        "title": "Modèle de recevabilité du permis de travail d’Expérience internationale Canada (EIC)",
+        "filename": "International_Experience_Canada_Work_Permit_Eligibility_Model_fr_1.pdf",
+        "department": "Citoyenneté et de l'Immigration (Ministère de la)"
+      },
+      "confidence": "high",
+      "reasoning": "Both titles discuss a work permit eligibility model for International Experience Canada, indicating the same project."
+    },
+    {
+      "en_project": {
+        "project_id": "15",
+        "title": "Mental Health Benefit",
+        "filename": "Mental_Health_Benefit_en.pdf",
+        "department": "Veterans Affairs (Department of)"
+      },
+      "fr_project": {
+        "project_id": "37",
+        "title": "Avantages pour la santé mentale",
+        "filename": "Mental_Health_Benefit_fr.pdf",
+        "department": "Anciens Combattants (Ministère des)"
+      },
+      "confidence": "high",
+      "reasoning": "Both titles are about mental health benefits, suggesting they refer to the same program."
+    },
+    {
+      "en_project": {
+        "project_id": "16",
+        "title": "Passport Program Modernization Initiative",
+        "filename": "Passport_Automated_Decision-Making_in_IRCCs_Global_Case_Management_System_GCMS_en.pdf",
+        "department": "Citizenship and Immigration (Department of)"
+      },
+      "fr_project": {
+        "project_id": "39",
+        "title": "Initiative de modernisation du Programme de passeport",
+        "filename": "Passport_Automated_Decision-Making_in_IRCCs_Global_Case_Management_System_GCMS_fr.pdf",
+        "department": "Citoyenneté et de l'Immigration (Ministère de la)"
+      },
+      "confidence": "high",
+      "reasoning": "Both titles involve the modernization of the Passport Program within the context of automated decision-making, indicating the same initiative."
+    },
+    {
+      "en_project": {
+        "project_id": "17",
+        "title": "Passport Program Facial Recognition System",
+        "filename": "Passport_Program_Facial_Recognition_System_en_1.pdf",
+        "department": "Citizenship and Immigration (Department of)"
+      },
+      "fr_project": {
+        "project_id": "40",
+        "title": "Système de reconnaissance faciale du programme de Passeport",
+        "filename": "Passport_Program_Facial_Recognition_System_fr_1.pdf",
+        "department": "Citoyenneté et de l'Immigration"
+      },
+      "confidence": "high",
+      "reasoning": "Both titles mention a facial recognition system for the Passport Program, indicating they are about the same system."
+    },
+    {
+      "en_project": {
+        "project_id": "18",
+        "title": "Pre-load Air Cargo Targeting (PACT) Program",
+        "filename": "Pre-load_Air_Cargo_Targeting_en_1.pdf",
+        "department": "Transport (Department of)"
+      },
+      "fr_project": {
+        "project_id": "41",
+        "title": "Ciblage du fret aérien préalable au chargement (CFAPC)",
+        "filename": "Pre-load_Air_Cargo_Targeting_fr.pdf",
+        "department": "Transports (Ministère des)"
+      },
+      "confidence": "high",
+      "reasoning": "Both titles refer to a program targeting pre-load air cargo, suggesting they describe the same initiative."
+    },
+    {
+      "en_project": {
+        "project_id": "19",
+        "title": "Processus de dotation avec la plateforme Knockri : un outil d’évaluation des candidatures",
+        "filename": "Using_artificial_intelligence_AI_to_automate_candidate_evaluations_in_the_staffing_processs_assessme_en.pdf",
+        "department": "Secrétariat du Conseil du Trésor"
+      },
+      "fr_project": {
+        "project_id": "46",
+        "title": "Using artificial intelligence (AI) to automate candidate evaluations in the staffing process's assessment phase",
+        "filename": "Using_artificial_intelligence_AI_to_automate_candidate_evaluations_in_the_staffing_processs_assessme_fr.pdf",
+        "department": "Treasury Board Secretariat"
+      },
+      "confidence": "high",
+      "reasoning": "Both titles discuss using AI to automate candidate evaluations in the staffing process, indicating they are about the same system."
+    }
+  ]
+}

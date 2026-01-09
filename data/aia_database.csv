@@ -1,0 +1,176 @@
+document_language,extraction_confidence,governance_human_oversight,governance_transparency,key_terms_accountability,key_terms_bias,key_terms_equity,key_terms_transparency,metadata_department,metadata_project_phase,metadata_project_title,pdf_filename,project_overview_description
+en,medium,not mentioned,not mentioned,True,True,False,False,Treasury Board Secretariat,Implementation,ATIP Digital Services,ATIP_Online_Request_Service_en_1.pdf,"Simple central website for Canadians to submit ATIP requests 
+
+What is motivating your team to introduce automation into this decision-making process? 
+(Check all that apply)
+
+ Improve overall quality of decisions 
+ Use innovative approaches 
+Please check which of the following capabilities apply to"
+en,medium,not mentioned,not mentioned,True,True,False,False,Treasury Board Secretariat,Implementation,ATIP Digital Services,ATIP_Online_Request_Service_en_2.pdf,"Simple central website for Canadians to submit ATIP requests 
+
+What is motivating your team to introduce automation into this decision-making process? 
+(Check all that apply)
+
+ Improve overall quality of decisions 
+ Use innovative approaches 
+Please check which of the following capabilities apply to"
+en,medium,not mentioned,not mentioned,True,True,True,False,Treasury Board Secretariat,Implementation,ATIP Digital Services,ATIP_Online_Request_Service_en_3.pdf,"Simple central website for Canadians to submit ATIP requests
+
+Business Driver / Positive Impact
+8."
+en,medium,not mentioned,not mentioned,False,False,False,False,Citizenship and Immigration (Department of),Implementation,Administrative Activities Support Tool (AAST),Administrative_Activities_Support_Tool_en.pdf,"AAST is a processing aid that supports staff in completing administrative 
+tasks for immigration applications, including data-matching and bulk email 
+creation."
+en,medium,not mentioned,not mentioned,False,True,False,False,Citizenship and Immigration (Department of),Implementation,Advanced Analytics Triage of Visitor Record Applications,Advanced_Analytics_Triage_of_Visitor_Record_Applications_en_1.pdf,"This project seeks to streamline the eligibility assessment for all visitor record 
+applications in order to help IRCC decision-makers process applications more 
+efficiently."
+en,medium,not mentioned,not mentioned,False,False,True,False,Employment and Social Development (Department of),Implementation,Machine Learning Workload,Algorithmic_Impact_Assessment_-_Employment_Insurance_Machine_Learning_Workload_en.pdf,"Reducing Recalculation Workload through Machine Learning  
+
+Background: 
+
+The recalculation of Employment Insurance (EI) benefits involves conducting a 
+
+comprehensive review and reassessment of a claim in response to new information or 
+
+changes in circumstances."
+en,medium,not mentioned,not mentioned,False,False,False,False,Public Health Agency of Canada,Implementation,ArriveCAN Proof of Vaccination Recognition,ArriveCAN_Proof_of_Vaccination_Recognition_en.pdf,"[ Points: 0 ]
+
+ArriveCAN is a digital platform that is being used to collect travel and COVID-19-related health
+information from individuals traveling to Canada."
+en,medium,not mentioned,not mentioned,True,True,True,False,Citizenship and Immigration (Department of),Implementation,Automate the review of non-complex applications for Temporary Resident,Automate_the_review_of_non-complex_applications_for_Temporary_Resident_Visas_and_Work_Permits_made_u_en.pdf,"The CUAET program was designed from the beginning to respond urgently to 
+the crisis in Ukraine by streamlining our existing temporary resident process."
+en,medium,not mentioned,not mentioned,True,False,False,False,Veterans Affairs (Department of),Design,Automation Development to Support Disability Benefit Decision Making,Automation_Development_to_Support_Disability_Benefit_Decision_Making_en.pdf,"Project is to increase our use of automation technologies to improve 
+throughput of disability decisions and reduce the overall backlog."
+en,medium,yes,not mentioned,True,False,False,False,Canada Border Services Agency,Implementation,Client Reporting and Engagement System (CRES/ReportIn) / Système de,Client_Reporting_and_Engagement_System_CRESReportIn_en.pdf,"Background
+
+ [ Points: 0 ] 
+
+Canada’s immigration detention program is governed by the Immigration and 
+Refugee Protection Act (IRPA) and the Immigration and Refugee Protection 
+Regulations (IRPR)."
+en,medium,not mentioned,not mentioned,False,False,False,False,Canada Border Services Agency,Implementation,Export Compliance Dashboard,Export_Compliance_en.pdf,"The Export Compliance Dashboard provides additional information related to 
+shipments for export."
+en,medium,not mentioned,not mentioned,False,False,False,False,Citizenship and Immigration (Department of),Implementation,Family Class Spouses and Partners Overseas Applications,Family_Class_Spouses_and_Partners_Overseas_Applications_en_1.pdf,"The project seeks to automate the eligibility approval for both the Sponsor 
+and Principal Applicant of routine Family Class overseas spouse and partner 
+applications."
+en,medium,not mentioned,not mentioned,False,False,True,False,Citizenship and Immigration (Department of),Implementation,Integrity trends analysis tool,Integrity_trends_analysis_tool_en_1.pdf,"The Integrity Trends Analysis Tool (ITAT) analyzes large volumes of data and 
+extracts various risk and fraud patterns within applications containing adverse 
+characteristics, such as inadmissibility findings (e."
+en,medium,not mentioned,not mentioned,False,False,False,False,Citizenship and Immigration (Department of),Implementation,International Experience Canada (IEC) Work Permit Eligibility Model,International_Experience_Canada_Work_Permit_Eligibility_Model_en.pdf,"This project seeks to streamline the eligibility assessment for a subset of IEC
+WP applications in order to help IRCC decision-makers process applications
+more efficiently."
+en,medium,not mentioned,not mentioned,True,True,True,False,Veterans Affairs (Department of),Implementation,Mental Health Benefit,Mental_Health_Benefit_en.pdf,"Currently, Veterans must wait for adjudication of their disability benefits
+application before becoming eligible for coverage for treatment benefits."
+en,medium,not mentioned,not mentioned,True,False,False,False,Citizenship and Immigration (Department of),Implementation,Passport Program Modernization Initiative,Passport_Automated_Decision-Making_in_IRCCs_Global_Case_Management_System_GCMS_en.pdf,"In 2019, the Canadian Passport Order was amended to authorize the use of 
+automated decision-making, enabling the Passport Program to begin 
+automated processing through the Global Case Management System."
+en,medium,not mentioned,not mentioned,False,False,False,False,Citizenship and Immigration (Department of),Implementation,Passport Program Facial Recognition System,Passport_Program_Facial_Recognition_System_en_1.pdf,"The Passport Program (formerly Passport Canada) began using facial 
+recognition technology in 2010 to support identity authentication, help detect 
+fraud, and prevent passport and travel document issuance to ineligible 
+applicants."
+en,medium,not mentioned,not mentioned,False,False,False,False,Transport (Department of),Implementation,Pre-load Air Cargo Targeting (PACT) Program,Pre-load_Air_Cargo_Targeting_en_1.pdf,"PACT aims to identify and apply risk mitigation measures to inbound high-risk 
+air shipments that could contain concealed improvised explosive devices or 
+other threat items prior to loading and departure to Canada."
+en,medium,not mentioned,not mentioned,False,False,False,False,Secrétariat du Conseil du Trésor,Mise en oeuvre,Processus de dotation avec la plateforme Knockri : un outil d’évaluation des,Using_artificial_intelligence_AI_to_automate_candidate_evaluations_in_the_staffing_processs_assessme_en.pdf,"Les procédures de sélection sont utilisées afin d’améliorer les décisions 
+d’embauche et renforcer l’équité et l’objectivité du processus d’embauche."
+en,medium,not mentioned,not mentioned,False,False,False,False,Royal Canadian Mounted Police,Design,Voice2Text,Voice_2_Text_application_en.pdf,"The project involves building a web-based offline, on-premise application that
+uses AI engines to assist with the transcription and/or translation of audio
+files collected during investigations."
+fr,medium,not mentioned,not mentioned,False,False,False,False,Secrétariat du Conseil du Trésor,Implémentation,Services numériques d’AIPRP,ATIP_Online_Request_Service_fr_1.pdf,"[ Points: 0 ] 
+
+ Site Web central et simple permettant aux Canadiens de soumettre des demandes d'AIPRP 
+
+Qu'est-ce qui motive votre équipe à introduire l'automatisation dans ce processus décisionnel? 
+(Cochez toutes les réponses qui s'appliquent."
+fr,medium,not mentioned,not mentioned,False,False,False,False,Citoyenneté et de l'Immigration (Ministère de la),Mise en oeuvre,Outil de soutien aux activités administratives (OSAA),Administrative_Activities_Support_Tool_fr.pdf,"L’OSAA est un soutien du traitement qui aide le personnel à effectuer des 
+tâches administratives liées aux demandes d’immigration, y compris la 
+correspondance d’éléments de données et la création de messages en bloc."
+fr,medium,not mentioned,not mentioned,False,False,False,False,Citoyenneté et de l'Immigration (Ministère de la),Implémentation,Triage au moyen de l’analyse avancée des demandes de visa de résident,Advanced_Analytics_Triage_of_Overseas_Temporary_Resident_Visa_Applications_fr.pdf,"Ce projet vise à simplifier l’évaluation de l’admissibilité pour toutes les 
+demandes de visa de résident temporaire (visa de visiteur) présentées depuis 
+l’étranger afin d’aider les décideurs d’IRCC à traiter les demandes plus 
+efficacement."
+fr,medium,not mentioned,not mentioned,False,True,False,False,Citoyenneté et de l'Immigration (Ministère de la),Mise en oeuvre,Triage au moyen de l’analytique avancée des demandes de fiche du visiteur,Advanced_Analytics_Triage_of_Visitor_Record_Applications_fr_1.pdf,"Ce projet vise à simplifier l’évaluation de la recevabilité pour toutes les 
+demandes de fiche de visiteurs afin d’aider les décideurs d’IRCC à traiter les 
+demandes plus efficacement."
+fr,medium,not mentioned,not mentioned,False,False,False,False,Emploi et du Développement social (Ministère de l'),Mise en œuvre,Utilisation de l'Apprentissage Automatique pour réduire les inventaires du programme de,Algorithmic_Impact_Assessment_-_Employment_Insurance_Machine_Learning_Workload_fr.pdf,"Le réexamen des demandes nécessitant un recalcul des prestations de l'assurance-emploi 
+
+(AE) implique une analyse approfondie et une réévaluation complète en réponse à de 
+
+nouvelles informations ou à des changements de circonstances."
+fr,medium,not mentioned,not mentioned,False,False,False,False,Agence de la santé publique du Canada,Implémentation,Reconnaissance de preuve de vaccination d’ArriveCAN,ArriveCAN_Proof_of_Vaccination_Recognition_fr.pdf,"ArriveCAN est une plateforme numérique qui sert à recueillir des renseignements sur les voyages
+et la santé liés à la COVID-19 auprès des personnes qui se rendent au Canada."
+fr,medium,not mentioned,not mentioned,False,True,False,False,Citoyenneté et de l'Immigration (Ministère de la),Implémentation,Automatiser l'examen des demandes non complexes de visa de résident,Automate_the_review_of_non-complex_applications_for_Temporary_Resident_Visas_and_Work_Permits_made_u_fr_1.pdf,"Ce projet permettra d'automatiser le traitement des demandes pour certains 
+visas de résident temporaire et permis de travail faites dans le cadre de 
+l'Autorisation de voyage d'urgence Canada-Ukraine (AVUCU)."
+fr,medium,not mentioned,not mentioned,False,True,False,False,Citoyenneté et de l'Immigration (Ministère de la),Mise en oeuvre,Triage et déterminations positives de la recevabilité automatisés des,Automated_Triage_and_Positive_Eligibility_Determinations_of_In-Canada_Work_Permit_Applications_fr.pdf,"""Ce projet a pour but de simplifier l’évaluation de la recevabilité des demandes
+de permis de travail postdiplôme (PTPD) et des autres demandes de permis
+de travail au Canada afin d’aider les décideurs d’IRCC à traiter les demandes
+de manière plus efficace."
+fr,medium,not mentioned,not mentioned,False,False,False,False,Anciens Combattants (Ministère des),Conception,Développement de l’automatisation à l’appui de la prise de décisions en,Automation_Development_to_Support_Disability_Benefit_Decision_Making_fr.pdf,"Le projet vise à accroître notre utilisation des technologies d’automatisation 
+afin d’améliorer le traitement des décisions en matière de prestations 
+d’invalidité et de réduire l’arriéré global."
+fr,medium,not mentioned,not mentioned,False,True,False,False,Citoyenneté et de l'Immigration (Ministère de la),Implémentation,Utilisation d’outils d’automatisation pour faciliter le traitement des demandes,Automation_Tools_to_Help_Process_Privately_Sponsored_Refugee_Applications_fr.pdf,"Le système d’automatisation permet de simplifier le traitement des deux 
+parties des demandes de réfugiés parrainés par le secteur privé : la partie 
+concernant le parrainage et la partie concernant le réfugié."
+fr,medium,not mentioned,not mentioned,False,False,False,False,Agence des services frontaliers du Canada,Mise en oeuvre,Client Reporting and Engagement System (CRES/ReportIn) / Système de,Client_Reporting_and_Engagement_System_CRESReportIn_fr_1.pdf,"Contexte
+
+ [ Points: 0 ] 
+
+L’Agence des services frontaliers du Canada (ASFC) est responsable de 
+surveiller et d’appliquer les conditions imposées aux personnes au Canada en 
+vertu de la Loi sur l’immigration et la protection des réfugiés (LIPR) et du 
+Règlement sur l’immigration et la protection d"
+fr,medium,not mentioned,not mentioned,False,False,False,False,Agence des services frontaliers du Canada,Mise en oeuvre,Tableau de bord de conformité des exportations,Export_Compliance_fr.pdf,"Le Tableau de bord de conformité des exportations est un outil qui fournit des 
+informations supplémentaires sur les expéditions destinées à l’exportation."
+fr,medium,not mentioned,not mentioned,False,False,False,False,Citoyenneté et de l'Immigration (Ministère de la),Mise en oeuvre,Demandes des époux et des conjoints de la catégorie du regroupement,Family_Class_Spouses_and_Partners_Overseas_Applications_fr_1.pdf,"Le projet vise à automatiser l’approbation de la recevabilité, pour le répondant 
+et le demandeur principal, des demandes courantes d'époux et de conjoints 
+de la catégorie du regroupement familial à l’étranger."
+fr,medium,not mentioned,not mentioned,False,False,False,False,,Mise en œuvre,Griffeye,Griffeye_Tool_fr.pdf,"LOGICIEL déjà utilisé – Outil développé pour catégoriser et classer les images et les 
+vidéos d’exploitation d’enfants."
+fr,medium,not mentioned,not mentioned,False,False,False,False,Citoyenneté et de l'Immigration (Ministère de la),Mise en oeuvre,Outil d’analyse des tendances en matière d’intégrité,Integrity_trends_analysis_tool_fr.pdf,"L’Outil d’analyse des tendances en matière d’intégrité (OATI) analyse de 
+grands volumes de données et extrait divers motifs de risque et de fraude des 
+demandes présentant des caractéristiques défavorables, comme des 
+conclusions d’interdiction de territoire (p."
+fr,medium,not mentioned,not mentioned,False,False,False,False,Citoyenneté et de l'Immigration (Ministère de la),Mise en oeuvre,Modèle de recevabilité du permis de travail d’Expérience internationale,International_Experience_Canada_Work_Permit_Eligibility_Model_fr_1.pdf,"Ce projet vise à simplifier l’évaluation de la recevabilité d’un sous-ensemble de 
+demandes de permis de travail d’EIC pour aider les décideurs d’IRCC à traiter 
+plus efficacement les demandes."
+fr,medium,not mentioned,not mentioned,False,False,False,False,Anciens Combattants (Ministère des),Implémentation,Avantages pour la santé mentale,Mental_Health_Benefit_fr.pdf,"Actuellement, les vétérans doivent attendre la décision relative à leur
+demande de prestations d’invalidité avant d’être admissibles à la couverture
+en vertu du Programme d’avantages médicaux."
+fr,medium,not mentioned,not mentioned,False,False,False,False,Emploi et du Développement social (Ministère de l'),Mise en oeuvre,Priorisation des absences prolongées pour la Sécurité de la vieillesse,Old_Age_Security_Extended_Absence_Leave_Prioritization_fr.pdf,"Service Canada est responsable d’enquêter sur l’utilisation abusive ou 
+frauduleuse du programme de la Sécurité de la vieillesse (SV), y compris, mais 
+sans s’y limiter, l’identification des individus qui ne sont pas qualifiés pour 
+recevoir la SV lorsqu’ils sont hors du Canada et l’arrêt du paiemen"
+fr,medium,not mentioned,not mentioned,False,False,False,False,Citoyenneté et de l'Immigration (Ministère de la),Implémentation,Initiative de modernisation du Programme de passeport,Passport_Automated_Decision-Making_in_IRCCs_Global_Case_Management_System_GCMS_fr.pdf,"Le Décret sur les passeports canadiens a été modifié en 2019 afin d’autoriser 
+le recours à la prise de décisions automatisée, ce qui a permis au Programme 
+de passeport d’entreprendre l’automatisation du traitement au moyen du 
+Système mondial de gestion des cas."
+fr,medium,not mentioned,not mentioned,False,False,False,False,Citoyenneté et de l'Immigration (Ministère de la),Mise en oeuvre,Système de reconnaissance faciale du programme de Passeport,Passport_Program_Facial_Recognition_System_fr_1.pdf,"Le Programme de passeport (anciennement Passeport Canada) a commencé 
+à utiliser la technologie de reconnaissance faciale en 2010 pour appuyer 
+l’authentification de l’identité, aider à détecter la fraude et prévenir la 
+délivrance de passeports et de titres de voyage à des requérants 
+inadmissibles"
+fr,medium,not mentioned,yes,False,False,False,True,Transports (Ministère des),Mise en oeuvre,Ciblage du fret aérien préalable au chargement (CFAPC),Pre-load_Air_Cargo_Targeting_fr.pdf,"Le ciblage du fret aérien préalable au chargement (CFAPC) vise à déceler les 
+envois de fret aérien à haut risque, qui pourraient contenir des engins 
+explosifs improvisés dissimulés ou d’autres éléments de menace, avant le 
+chargement du fret et le départ vers le Canada, et à leur appliquer des 
+me"
+fr,medium,not mentioned,not mentioned,False,False,False,False,Emploi et du Développement social (Ministère de l'),Mise en oeuvre,Évaluation des commentaires des RE,Record_of_Employments_ROE_Comments_Assessment_fr.pdf,"La Direction générale de la dirigeante principale des données (DGDPD), les 
+Services de versement des prestations (SVP) de l’assurance-emploi (AE) et la 
+Direction générale de l’innovation, de l’information et de la technologie (DGIIT) 
+mettent en oeuvre une solution d’intelligence artificielle (IA)"
+fr,medium,not mentioned,not mentioned,False,False,False,False,Emploi  et  du  Développement  social  (Ministère  de  l'),Implémentation,Classifier les demandes de révisions d'Assurance Emploi à l’aide du Machine Learning,Reducing_Employment_Insurance_Backlog_A_Machine_Learning_Approach_fr.pdf,
+fr,medium,not mentioned,not mentioned,False,False,False,False,Emploi et du Développement social (Ministère de l'),Mise en oeuvre,le Programme d'aide au remboursement - Modèle de vérification amélioré,Repayment_Assistance_Plan_Enhanced_Verification_Model_fr.pdf,"En novembre 2023, le Programme canadien d'aide financière aux étudiants 
+(PCAFE) a introduit un changement au système de vérification des demandes 
+qui soutient le Programme d'aide au remboursement (PAR), appelé le 
+Programme d'aide au remboursement - Modèle de vérification amélioré (PAR-
+MVA)."
+fr,medium,not mentioned,not mentioned,False,False,False,False,Emploi et du Développement social (Ministère de l'),Mise en oeuvre,Algorithme de sélection des cas du Programme des travailleurs étrangers,Temporary_Foreign_Worker_Program_Case_Selection_Algorithm_fr.pdf,"Un ensemble d’algorithmes et de règles commerciales pour prioriser les cas 
+du PTET pour inspection en fonction de l’existence et de la gravité des 
+facteurs de risque établis."
+fr,medium,not mentioned,not mentioned,False,True,True,False,Treasury Board Secretariat,Implementation,Using artificial intelligence (AI) to automate candidate evaluations in the,Using_artificial_intelligence_AI_to_automate_candidate_evaluations_in_the_staffing_processs_assessme_fr.pdf,"Selection procedures are used to improve hiring decisions and enhance the 
+fairness and objectiveness of the hiring process."
+fr,medium,not mentioned,not mentioned,False,False,False,False,Gendarmerie royale du Canada,Conception,Voice2Text,Voice_2_Text_application_fr.pdf,"Le projet consiste à créer une application Web hors ligne, sur serveur local, qui 
+repose sur l’intelligence artificielle (IA) pour faciliter la transcription ou la 
+traduction d’enregistrements audio recueillis dans le cadre d’enquêtes."

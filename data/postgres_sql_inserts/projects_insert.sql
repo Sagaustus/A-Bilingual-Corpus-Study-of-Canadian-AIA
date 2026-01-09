@@ -1,0 +1,147 @@
+-- INSERT statements for projects
+-- Generated from projects.csv
+-- Total rows: 47
+-- Run in DataGrip SQL console
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('1', 'ATIP_Online_Request_Service_en_1.pdf', 'ATIP Digital Services', 'Treasury Board Secretariat', 'CIOB', 'Implementation', NULL, NULL, 'en', '2026-01-09T11:06:06.117427');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('2', 'ATIP_Online_Request_Service_en_2.pdf', 'ATIP Digital Services', 'Treasury Board Secretariat', 'CIOB', 'Implementation', NULL, NULL, 'en', '2026-01-09T11:06:14.946735');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('3', 'ATIP_Online_Request_Service_en_3.pdf', 'ATIP Digital Services', 'Treasury Board Secretariat', 'CIOB', 'Implementation', NULL, NULL, 'en', '2026-01-09T11:06:22.952056');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('4', 'Administrative_Activities_Support_Tool_en.pdf', 'Administrative Activities Support Tool (AAST)', 'Citizenship and Immigration (Department of)', 'International Platform Branch', 'Implementation', 'Visitors, International students and Temporary workers and Immigrant and Refugee Selection and Integration', NULL, 'en', '2026-01-09T11:06:41.847006');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('5', 'Advanced_Analytics_Triage_of_Visitor_Record_Applications_en_1.pdf', 'Advanced Analytics Triage of Visitor Record Applications', 'Citizenship and Immigration (Department of)', 'Various Branches at IRCC', 'Implementation', 'Visitors', NULL, 'en', '2026-01-09T11:06:59.394427');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('6', 'Algorithmic_Impact_Assessment_-_Employment_Insurance_Machine_Learning_Workload_en.pdf', 'Machine Learning Workload', 'Employment and Social Development (Department of)', 'Benefits and Integrated Services Branch (BISB)', 'Implementation', 'Employment Insurance Program', NULL, 'en', '2026-01-09T11:07:11.244830');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('7', 'ArriveCAN_Proof_of_Vaccination_Recognition_en.pdf', 'ArriveCAN Proof of Vaccination Recognition', 'Public Health Agency of Canada', 'Corporate Data and Surveillance Branch', 'Implementation', 'Quarantine Facilities and COVID-19 Border Measures', NULL, 'en', '2026-01-09T11:07:28.229932');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('8', 'Automate_the_review_of_non-complex_applications_for_Temporary_Resident_Visas_and_Work_Permits_made_u_en.pdf', 'Automate the review of non-complex applications for Temporary Resident Visas and Work Permits made under the Canada-Ukraine Authorization for Emergency Travel (CUAET)', 'Citizenship and Immigration (Department of)', 'Various Branches at IRCC', 'Implementation', 'Visitors', NULL, 'en', '2026-01-09T11:07:58.693051');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('9', 'Automation_Development_to_Support_Disability_Benefit_Decision_Making_en.pdf', 'Automation Development to Support Disability Benefit Decision Making', 'Veterans Affairs (Department of)', 'Corporate Services', 'Design', NULL, NULL, 'en', '2026-01-09T11:08:12.759734');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('10', 'Client_Reporting_and_Engagement_System_CRESReportIn_en.pdf', 'Client Reporting and Engagement System (CRES/ReportIn) / Système de Rapports et d’engagement des Clients (SREC)/JeMePrésente', 'Canada Border Services Agency', 'Intelligence and Enforcement / Renseignement et exécution de la loi', 'Implementation', 'Border Enforcement / Detentions / Exécution de la loi à la frontière / Détentions', NULL, 'en', '2026-01-09T11:08:38.962942');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('11', 'Export_Compliance_en.pdf', 'Export Compliance Dashboard', 'Canada Border Services Agency', 'Commercial and Trade', 'Implementation', NULL, NULL, 'en', '2026-01-09T11:08:48.874126');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('12', 'Family_Class_Spouses_and_Partners_Overseas_Applications_en_1.pdf', 'Family Class Spouses and Partners Overseas Applications', 'Citizenship and Immigration (Department of)', 'Various Branches at IRCC', 'Implementation', 'Family Reunification', NULL, 'en', '2026-01-09T11:09:01.249054');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('13', 'Integrity_trends_analysis_tool_en_1.pdf', 'Integrity trends analysis tool', 'Citizenship and Immigration (Department of)', 'Integrity Risk Management', 'Implementation', NULL, NULL, 'en', '2026-01-09T11:09:16.255080');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('14', 'International_Experience_Canada_Work_Permit_Eligibility_Model_en.pdf', 'International Experience Canada (IEC) Work Permit Eligibility Model', 'Citizenship and Immigration (Department of)', 'Various Branches at IRCC', 'Implementation', 'Temporary Workers', NULL, 'en', '2026-01-09T11:09:33.878700');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('15', 'Mental_Health_Benefit_en.pdf', 'Mental Health Benefit', 'Veterans Affairs (Department of)', 'Corporate Services', 'Implementation', NULL, NULL, 'en', '2026-01-09T11:09:53.039630');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('16', 'Passport_Automated_Decision-Making_in_IRCCs_Global_Case_Management_System_GCMS_en.pdf', 'Passport Program Modernization Initiative', 'Citizenship and Immigration (Department of)', 'Citizenship and Passport Programs', 'Implementation', 'Passport Program', NULL, 'en', '2026-01-09T11:10:10.646792');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('17', 'Passport_Program_Facial_Recognition_System_en_1.pdf', 'Passport Program Facial Recognition System', 'Citizenship and Immigration (Department of)', 'Visitors and Identity Management Branch', 'Implementation', 'Passport Program', NULL, 'en', '2026-01-09T11:10:28.655260');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('18', 'Pre-load_Air_Cargo_Targeting_en_1.pdf', 'Pre-load Air Cargo Targeting (PACT) Program', 'Transport (Department of)', 'Passenger Protect Program and Targeting Operations', 'Implementation', 'Pre-load Air Cargo Targeting (PACT) Program', NULL, 'en', '2026-01-09T11:10:39.933657');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('19', 'Using_artificial_intelligence_AI_to_automate_candidate_evaluations_in_the_staffing_processs_assessme_en.pdf', 'Processus de dotation avec la plateforme Knockri : un outil d’évaluation des candidatures', 'Secrétariat du Conseil du Trésor', 'Division des ressources humaines', 'Mise en oeuvre', NULL, NULL, 'en', '2026-01-09T11:10:57.959394');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('20', 'Voice_2_Text_application_en.pdf', 'Voice2Text', 'Royal Canadian Mounted Police', 'Specialized Policing Services', 'Design', 'Technical Investigation Services', NULL, 'en', '2026-01-09T11:11:09.412558');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('21', 'ATIP_Online_Request_Service_fr_1.pdf', 'Services numériques d’AIPRP', 'Secrétariat du Conseil du Trésor', 'BDPI', 'Implémentation', NULL, NULL, 'fr', '2026-01-09T11:11:19.371794');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('22', 'Administrative_Activities_Support_Tool_fr.pdf', 'Outil de soutien aux activités administratives (OSAA)', 'Citoyenneté et de l''Immigration (Ministère de la)', 'Direction générale de la plateforme internationale', 'Mise en oeuvre', 'Visiteurs, étudiants étrangers et travailleurs temporaires et sélection et intégration des immigrants et des réfugiés', NULL, 'fr', '2026-01-09T11:11:41.587751');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('23', 'Advanced_Analytics_Triage_of_Overseas_Temporary_Resident_Visa_Applications_fr.pdf', 'Triage au moyen de l’analyse avancée des demandes de visa de résident temporaire présentées depuis l’étranger', 'Citoyenneté et de l''Immigration (Ministère de la)', 'Diverses directions générales à IRCC', 'Implémentation', NULL, NULL, 'fr', '2026-01-09T11:12:11.996913');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('24', 'Advanced_Analytics_Triage_of_Visitor_Record_Applications_fr_1.pdf', 'Triage au moyen de l’analytique avancée des demandes de fiche du visiteur', 'Citoyenneté et de l''Immigration (Ministère de la)', 'Diverses directions générales à IRCC', 'Mise en oeuvre', 'Visiteurs', NULL, 'fr', '2026-01-09T11:12:37.861807');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('25', 'Algorithmic_Impact_Assessment_-_Employment_Insurance_Machine_Learning_Workload_fr.pdf', 'Utilisation de l''Apprentissage Automatique pour réduire les inventaires du programme de l''Assurance emploi.', 'Emploi et du Développement social (Ministère de l'')', 'Direction Générale des Prestations et des Services Intégrés', 'Mise en œuvre', 'Programme Assurance-Emploi', NULL, 'fr', '2026-01-09T11:12:57.509507');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('26', 'ArriveCAN_Proof_of_Vaccination_Recognition_fr.pdf', 'Reconnaissance de preuve de vaccination d’ArriveCAN', 'Agence de la santé publique du Canada', 'Direction générale surveillance et données organisationnelles', 'Implémentation', 'Installations de quarantaine et mesures frontalières liées à la COVID-19', NULL, 'fr', '2026-01-09T11:13:13.212903');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('27', 'Automate_the_review_of_non-complex_applications_for_Temporary_Resident_Visas_and_Work_Permits_made_u_fr_1.pdf', 'Automatiser l''examen des demandes non complexes de visa de résident temporaire et de permis de travail faites dans le cadre de l''Autorisation de voyage d''urgence Canada-Ukraine (AVUCU)', 'Citoyenneté et de l''Immigration (Ministère de la)', 'Diverses directions générales à IRCC', 'Implémentation', 'Visiteurs', NULL, 'fr', '2026-01-09T11:13:38.768528');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('28', 'Automated_Triage_and_Positive_Eligibility_Determinations_of_In-Canada_Work_Permit_Applications_fr.pdf', 'Triage et déterminations positives de la recevabilité automatisés des demandes de permis de travail pour les demandeurs au Canada', 'Citoyenneté et de l''Immigration (Ministère de la)', 'Planification et rendement des opérations', 'Mise en oeuvre', 'Travailleurs temporaires', NULL, 'fr', '2026-01-09T11:13:55.462432');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('29', 'Automation_Development_to_Support_Disability_Benefit_Decision_Making_fr.pdf', 'Développement de l’automatisation à l’appui de la prise de décisions en matière de prestations d’invalidité', 'Anciens Combattants (Ministère des)', 'Services Ministériels', 'Conception', NULL, NULL, 'fr', '2026-01-09T11:14:08.419108');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('30', 'Automation_Tools_to_Help_Process_Privately_Sponsored_Refugee_Applications_fr.pdf', 'Utilisation d’outils d’automatisation pour faciliter le traitement des demandes de réfugiés parrainés par le secteur privé', 'Citoyenneté et de l''Immigration (Ministère de la)', 'Diverses direction générales à l’ircc', 'Implémentation', 'réfugiés', NULL, 'fr', '2026-01-09T11:14:28.935505');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('31', 'Client_Reporting_and_Engagement_System_CRESReportIn_fr_1.pdf', 'Client Reporting and Engagement System (CRES/ReportIn) / Système de Rapports et d’engagement des Clients (SREC)/JeMePrésente', 'Agence des services frontaliers du Canada', 'Intelligence and Enforcement / Renseignement et exécution de la loi', 'Mise en oeuvre', 'Border Enforcement / Detentions / Exécution de la loi à la frontière / Détentions', NULL, 'fr', '2026-01-09T11:15:00.894236');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('32', 'Export_Compliance_fr.pdf', 'Tableau de bord de conformité des exportations', 'Agence des services frontaliers du Canada', 'Secteur commercial et échanges commerciaux', 'Mise en oeuvre', NULL, NULL, 'fr', '2026-01-09T11:15:18.411411');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('33', 'Family_Class_Spouses_and_Partners_Overseas_Applications_fr_1.pdf', 'Demandes des époux et des conjoints de la catégorie du regroupement familial à l’étranger', 'Citoyenneté et de l''Immigration (Ministère de la)', 'Diverses directions générales à IRCC', 'Mise en oeuvre', 'Regroupement familial', NULL, 'fr', '2026-01-09T11:15:45.374975');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('34', 'Griffeye_Tool_fr.pdf', 'Griffeye', 'Gendarmerie royale du Canada', 'Opérations techniques de la DG/SESND/Groupe de la technologie du CNCEE', 'Mise en œuvre', 'Griffeye CS et Di Pro', NULL, 'fr', '2026-01-09T11:16:05.622096');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('35', 'Integrity_trends_analysis_tool_fr.pdf', 'Outil d’analyse des tendances en matière d’intégrité', 'Citoyenneté et de l''Immigration (Ministère de la)', 'Direction générale de la gestion des risques pour l’intégrité', 'Mise en oeuvre', NULL, NULL, 'fr', '2026-01-09T11:16:23.408721');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('36', 'International_Experience_Canada_Work_Permit_Eligibility_Model_fr_1.pdf', 'Modèle de recevabilité du permis de travail d’Expérience internationale Canada (EIC)', 'Citoyenneté et de l''Immigration (Ministère de la)', 'Diverses directions générales d’IRCC', 'Mise en oeuvre', 'Travailleurs temporaires', NULL, 'fr', '2026-01-09T11:16:37.295246');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('37', 'Mental_Health_Benefit_fr.pdf', 'Avantages pour la santé mentale', 'Anciens Combattants (Ministère des)', 'Services Ministériels', 'Implémentation', NULL, NULL, 'fr', '2026-01-09T11:16:49.176810');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('38', 'Old_Age_Security_Extended_Absence_Leave_Prioritization_fr.pdf', 'Priorisation des absences prolongées pour la Sécurité de la vieillesse', 'Emploi et du Développement social', 'Direction de l’intégrité', 'Mise en oeuvre', 'Pensions et Avantages', NULL, 'fr', '2026-01-09T11:17:10.687679');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('39', 'Passport_Automated_Decision-Making_in_IRCCs_Global_Case_Management_System_GCMS_fr.pdf', 'Initiative de modernisation du Programme de passeport', 'Citoyenneté et de l''Immigration (Ministère de la)', 'Programmes de citoyenneté et de passeport', 'Implémentation', 'Programme de passeport', NULL, 'fr', '2026-01-09T11:17:28.503845');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('40', 'Passport_Program_Facial_Recognition_System_fr_1.pdf', 'Système de reconnaissance faciale du programme de Passeport', 'Citoyenneté et de l''Immigration', 'Programme des visiteurs et de l’identité', 'Mise en oeuvre', 'Programme de Passeport', NULL, 'fr', '2026-01-09T11:17:48.326826');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('41', 'Pre-load_Air_Cargo_Targeting_fr.pdf', 'Ciblage du fret aérien préalable au chargement (CFAPC)', 'Transports (Ministère des)', 'Programme de protection des passagers-opérations de ciblage', 'Mise en oeuvre', 'Ciblage du fret aérien préalable au chargement (CFAPC)', NULL, 'fr', '2026-01-09T11:18:10.112531');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('42', 'Record_of_Employments_ROE_Comments_Assessment_fr.pdf', 'Évaluation des commentaires des RE', 'Emploi et du Développement social', 'DGDPD', 'Mise en oeuvre', NULL, NULL, 'fr', '2026-01-09T11:18:23.964135');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('43', 'Reducing_Employment_Insurance_Backlog_A_Machine_Learning_Approach_fr.pdf', 'Classifier les demandes de révisions d''Assurance Emploi à l’aide du Machine Learning (Apprentissage Automatique)', 'Emploi et du Développement social (Ministère de l'')', 'Direction générale des prestations et des services intégrés (DGPSI)', 'Implémentation', 'Programme de l''Assurance-Emploi', NULL, 'fr', '2026-01-09T11:18:38.444449');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('44', 'Repayment_Assistance_Plan_Enhanced_Verification_Model_fr.pdf', 'le Programme d''aide au remboursement - Modèle de vérification amélioré (PAR-MVA)', 'Emploi et du Développement social', 'Apprentissage', 'Mise en oeuvre', 'le Programme canadien d''aide financière aux étudiants et le Prêt canadien aux apprentis', NULL, 'fr', '2026-01-09T11:18:53.388965');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('45', 'Temporary_Foreign_Worker_Program_Case_Selection_Algorithm_fr.pdf', 'Algorithme de sélection des cas du Programme des travailleurs étrangers temporaires', 'Emploi et du Développement social', 'Direction des services d’intégrité et Direction des travailleurs étrangers temporaires', 'Mise en oeuvre', 'PTET', NULL, 'fr', '2026-01-09T11:19:11.157872');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('46', 'Using_artificial_intelligence_AI_to_automate_candidate_evaluations_in_the_staffing_processs_assessme_fr.pdf', 'Using artificial intelligence (AI) to automate candidate evaluations in the staffing process''s assessment phase', 'Treasury Board Secretariat', 'Human Resources Division', 'Implementation', NULL, NULL, 'fr', '2026-01-09T11:19:29.374022');
+
+INSERT INTO projects (project_id, pdf_filename, project_title, department, branch, project_phase, program, annual_decisions, language, created_at)
+VALUES ('47', 'Voice_2_Text_application_fr.pdf', 'Voice2Text', 'Gendarmerie royale du Canada', 'Services de police spécialisés', 'Conception', 'Services d''enquêtes techniques', NULL, 'fr', '2026-01-09T11:19:39.153749');
+
+-- 47 rows inserted into projects

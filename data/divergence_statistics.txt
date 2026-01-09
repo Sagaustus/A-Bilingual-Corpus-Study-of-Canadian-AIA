@@ -1,0 +1,25 @@
+RELATIONAL DATABASE STATISTICS
+==================================================
+
+DOCUMENT COUNTS
+--------------------------------------------------
+Total Documents: 2
+English Documents: 2
+French Documents: 0
+
+TABLE STATISTICS
+--------------------------------------------------
+projects: 2 records
+systems: 2 records
+stakeholders: 2 records
+governance: 2 records
+risk_areas: 0 records
+mitigations: 0 records
+key_findings: 2 records
+
+
+GOVERNANCE PATTERNS
+--------------------------------------------------
+Projects with Oversight: 0/2
+Projects with Appeal Process: 1/2
+Projects with Both: 0/2
