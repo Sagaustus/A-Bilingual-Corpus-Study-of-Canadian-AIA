@@ -1,0 +1,214 @@
+submission_id,internal_stakeholders_engaged,internal_stakeholders_list,internal_stakeholders_other_en,internal_stakeholders_other_fr,external_stakeholders_engaged,external_stakeholders_list,external_stakeholders_other_en,external_stakeholders_other_fr
+3,1,"item2,item4,item5,item6,item7,item8,item9","- Integrity Risk Management 
+- Centralized Network 
+- GBA+","- Gestion des risques pour l’intégrité
+- Réseau centralisé 
+- ACS+",1,"item10,item7,item9","- Statistics Canada
+- Immigration lawyers","- Statistique Canada
+- Avocats en immigration"
+8,1,"item2,item4,item5,item6,item7,item8,item9,item3,item14","Integrity Risk Management 
+IT Security
+Centralized Network 
+Change Management","Gestion des risques pour l'intégrité
+Sécurité de la TI
+Réseau centralisé
+Gestion du changement",1,"item7,item9,item11,item12",Immigration lawyers,Avocats spécialisés en immigration
+9,1,"item3,item5,item14,item9","Chief Data Officer Branch, Privacy Management Division, Artificial Intelligence Centre of Expertise, Legal Services Unit, Office of the Privacy Commissioner of Canada. The Chief Data Officer Branch provided data governance guidance. The Privacy Management Division provided guidance on the completion of the Privacy Impact Assessment. The Artificial Intelligence Centre of Expertise provided guidance on the completion of the DADM, Legal Services provided a legal risk assessment of the AI solution, and consultations with the Office of the Privacy Commissioner provided guidance on the protection of personal information.","Direction du Responsable des Données, Division de la Gestion de la Confidentialité, Centre d’Expertise en Intelligence Artificielle, Unité des Services Juridiques, Bureau du Commissaire à la Protection de la Vie Privée du Canada. La Direction du Responsable des Données a fourni des orientations en matière de gouvernance des données. La Division de la Gestion de la Confidentialité a fourni des orientations pour la réalisation de l’Évaluation de l’Impact sur la Vie Privée. Le Centre d’Expertise en Intelligence Artificielle a fourni des orientations pour la réalisation du DPDA, les Services Juridiques ont fourni une évaluation des risques juridiques de la solution d’IA, et les consultations avec le Bureau du Commissaire à la Protection de la Vie Privée ont fourni des orientations sur la protection des informations personnelles.",0,,,
+12,1,"item2,item4,item5,item6,item7,item10,item9",Equity and GBA Plus,L’équité et l’ACS Plus,0,,,
+21,1,"item4,item5,item6,item7,item10,item2,item3,item9",Integrated Processing Network,"Réseau de traitement intégré, Direction générale des communications",1,"item7,item11,item14,item9",Union consultations/briefings,Examen externe réalisé par Statistique Canada
+22,1,"item3,item5,item4,item7,item6",,,0,,,
+28,1,"item5,item6,item11,item8,item13",,,1,"item7,item13",,
+32,1,"item3,item4,item5,item7,item6",,,0,,,
+35,1,"item2,item3,item4,item5,item6,item7,item9","Integrity Risk Management, Centralized Network, International Network, Change Management, GBA+."," Gestion des risques pour l’intégrité, Réseau centralisé, Réseau international, Gestion du changement, ACS+",1,"item7,item10,item9","National Research Council, immigration lawyers.","Conseil national de recherches, avocats en immigration"
+38,1,"item5,item6,item9,item10","Information Management, IT security, GAC Communications, Integrated Risk Management","Gestion de l'information, Sécurité TI, Communications avec AMC, Gestion intégrée du risque",0,,,
+47,1,"item2,item4,item5,item6,item7,item8,item3",,,1,"item8,item10,item2",,
+48,1,"item2,item4,item5,item6,item7,item8,item9","Training Unit
+Bureau of Pensions Advocates
+Office of the Veterans Ombudsman",,1,"item8,item9",Veterans Review and Appeal Board,
+53,1,"item2,item4,item5,item6,item7,item3,item8,item9","Resettlement Strategic Operations Division
+International Network
+Operations Planning and Performance Division
+etc",,1,"item10,item2",,
+54,1,"item3,item4,item5,item6,item7,item8,item2",,,1,"item9,item10,item8","*AIR CARRIERS*: Air Canada, WestJet, Jazz Air, Air Canada Rouge, Air Transat, Porter Airlines, United Airlines, Sunwing, Sky Regional Airlines, Delta Airlines, American Airlines, Cathy Pacific, Harbour Air, Alkan Air.
+
+*CANADA BORDER SERVICES AGENCY (CBSA)*: NEXUS Members (1.8 million), Free and Secure Trade (FAST) program (55,000 members), FAST webpage Trusted Travellers programs, CANPASS (approx. 10,500 members), Commercial Driver Registration Program - CDRP (approximately 1600 members), Pilot Project for Travelers in remote Areas, Quebec –PPTRA-Q (approx. 900 members), Air Carriers, Canadian Owners Pilot Association (COPA), Canadian Business Aviation Association (CBAA).
+
+*EMPLOYMENT AND SOCIAL DEVELOPMENT CANADA (ESDC)*: Community Airport Newcomers Network's TFW Webpage, Migrant Worker Hub (AMSSA), MOSAICs Facebook page for Migrant Workers, Service Canada offices, Passport offices.
+
+*GLOBAL AFFAIRS CANADA (GAC)*: Association of Canadian Travel Agencies (ACTA), Canadian Life and Health Insurance Association (CLHIA), Travel Health Insurance Association of Canada (THIA), Global Business Travel Association (GBTA), Canadian Association of Tour Operators (CATO), World Travel Protection Canada Inc. (WTP), Travel Professional International, Établissements d'enseignement supérieur du Qc, Association of Canadian Travel Agencies (ACTA), CAA Québec, Canadian Consular Sections - all missions, Canadians registered in ROCA.
+
+*HEALTH CANADA (HC)*: Allianz, Manulife, RBC & RBC Avion Visa, TD & TD First Class Infinite, Desjardins & Desjardin Oddysey Credit Card, Blue Cross, BMO Airmiles MasterCard & BMO World Elite, Scotiabank Passport VISA Infinite, HSBC World Elite, American Express Gold Card, AirMiles, VoyagesBergeron.com, CheapOair.ca, Costco Travel, Escapes, Expedia, Authentik, Trip Central, Just Fly, Sky Scanner, Medicpac, Tour+Med, Flight Center, Intact Insurance, AIG Travel Guard, La Capitale, PC Insurance, iA Financial Group, MBNA, National Bank, CIBC, Milesopedia, Marriot Bonvoy, Hilton Honors, IHG, Wyndham, Beltour, Sindbad, Canadaxperience.com, Parcours Canada, Groupe Voyages Quebec, Flight Network, Voyages Transat, Canada One Travel, Momondo, TravelMix, TravelGurus, Priority Pass, Sabre, HLT Advisory, TravelBrands, Park'n Fly, Tti travel.
+
+*IMMIGRATION, REFUGEES AND CITIZENSHIP CANADA (IRCC)*: Communications, Admissibility Branch, Integrity Risk Management, Passport, Communications - Social media.
+
+*INNOVATION, SCIENCE AND ECONOMIC DEVELOPMENT CANADA(ISED)*: Tourism Industry Association of Canada, Hotel Association of Canada, Restaurants Canada, Indigenous Tourism Association of Canada, Tourism HR Canada, Provincial and territorial tourism counterparts, ISED Strategic Communications and Marketing Sector.
+
+*NATURAL RESOURCES CANADA (NRCAN)*: The Mining Association of Canada, The Prospectors and Developers Association of Canada, The Mining Industry Human Resources Council, The Canadian Institute for Mining, Metallurgy and Petroleum, The Canadian Association of Mining Equipment and Services, The Coal Association of Canada, The Canadian Fertilizer Institute, Canada Mining Innovation Council, Ontario Mining Association, Ontario Prospectors Association, The Mining Association of British Columbia, Association of Mineral Exploration of British Columbia, Association minière du Québec, Saskatchewan Mining Association, Saskatchewan Potash Producers Association, Newfoundland and Labrador Chamber of Mineral Resources, The Alberta Chamber of Resources, The Mining Association of Manitoba, Yukon Chamber of Mines, The NWT & Nunavut Chamber of Mines, Canadian Diamond Drilling Association, Geological Association of Canada (GAC), Mining Industry Human Resources Council (MiHR), Saskatchewan Industry and Resources.
+
+*PUBLIC HEALTH AGENCY OF CANADA (PHAC)*: Travel Health Clinics.
+
+*TRANSPORT CANADA (TC)*: Aviation Industry Portal Amplification, Canadian Airports (Class 1, 2, 3), NAV Canada, Labour Associations (CUPE, ALPA, United Steelworkers), Nationals and Regional Industry Associations (ATAC, CAC, NATA, NACC), Aerospace Manufacturers, Air Cargo Secure Supply chain, Railway Association of Canada, Canadian National Railway, Canadian Pacific Railway, VIA Rail, Western Canada Shortlines Railway Association, Teamsters Canada Rail Conference, Canadian Trucking Alliance, Private Motor Truck Council, Private Motor Truck Council, Global Automakers Canada, Canadian Vehicle Manufacturers Association, Teamsters Canada (truck union representatives), Chamber of Marine Commerce, St. Lawrence Seaway Management Corp, Pilotage Authorities (Atlantic, Laurentian, Great Lakes, Pacific), Canadian Marine Pilots Association, International Shipowners Alliance, Cruise Lines International Association, Canadian Ferry Association, Armateurs Sept-Iles and Armateurs Saint Laurent, Shipping Federation of Canada, BC Chamber of Shipping, Council of Marine Carriers, Association of Canadian Port Authorities, Passenger Commercial Vessel Association, Canadian Passenger Vessel Association, Société de développement économique du Saint-Laurent (Sodes), Great Lakes Cruising BC Maritime Employers Association, Canadian Maritime Law Association, Halifax Employers Association, Port of Saint John Employers Association, Association des employers maritimes, BC Marine Terminal Operators Association, ILWU (National President and Local 400), CUPE 375 (Longshore Montreal), Canadian Merchant Service Guild, Seafarers International Union, BC Ferry and Marine Workers Union, International Transport Workers Federation (ITF), National Air Council of Canada (NACC), Northern Air Transport Association (NATA), Canadian Airports Council (CAC), Air Line Pilots Association, Canada (ALPA), Air Canada Pilots' Association (ACPA), Air Transport Association of Canada (ATAC), Private Motor Truck Council of Canada, Canadian Trucking Alliance, Canadian Vehicle Manufacturing Association, Global Automakers Canada.
+
+*TREASURY BOARD OF CANADA SECRETARIAT (TBS)*: Office of the Chief Information Officer (OCIO).",
+59,1,"item2,item3,item4,item5,item6",,,0,,,
+60,1,"item2,item3,item4,item5,item6",,,0,,,
+64,1,"item2,item4,item5,item6,item7,item14,item9,item8","Autre (Gestion des risques pour l’intégrité) 
+Autre (Réseau centralisé)
+Autre (Direction générale de l’orientation du programme d’immigration)
+Autre (Sécurité des TI)","Other (Integrity Risk Management)
+Other (Centralized Network)
+Other (Immigration Program Guidance Branch)
+Other (IT Security)",0,,,
+68,1,"item2,item4,item5,item6,item7,item8,item9","Integrity Risk Management
+Centralized Network
+GBA+
+Digital Journey Labs","La gestion des risques pour l’intégrité
+Réseau centralisé
+ACS+
+Laboratoires des processus numériques",0,,,
+75,1,"item3,item2,item5,item6,item7,item8,item4,item9,item13",CBSA,Agence des services frontaliers du Canada (ASFC),1,"item8,item9","AeroMexico
+Air Canada
+Air China
+Air China Cargo
+Air France
+Air New Zealand
+Air Nippon Airways
+Air Transat
+Alaska Air
+Alitalia
+ASL
+ASL Airlines
+Atlas Air
+Avianca
+British Airways
+Cargo Jet
+Caribbean Airlines
+CAS WFS
+Castle Air
+Cathay Pacific
+China Eastern
+Chine Airlines
+Chrono Aviation
+Condor Airlines
+Emirates
+Ethiopian Airlines
+EVA Air
+Fedex
+FinnAir
+Hainan Airlines
+Iceland Air
+IFL Group
+Japan Airlines JAL
+Jazz
+Kalitta Charters
+KLM
+Korean Air
+LATAM
+LOT
+Lufthansa
+MAEI
+Nolinor
+Pakistan International Airlines
+Philippine Airlines
+Qatar Airways
+Singapore Airlines
+Sky Lease
+Sunwing
+Swiss Air
+United Airlines
+UPS
+WestJet
+WFS
+Wow Airlines
+Xiamen
+Gateway				
+Swissport					
+Securitas					
+International Air Transport Association								
+Champ","AeroMexico
+Air Canada
+Air China
+Air China Cargo
+Air France
+Air New Zealand
+Air Nippon Airways
+Air Transat
+Alaska Air
+Alitalia
+ASL
+ASL Airlines
+Atlas Air
+Avianca
+British Airways
+Cargo Jet
+Caribbean Airlines
+CAS WFS
+Castle Air
+Cathay Pacific
+China Eastern
+Chine Airlines
+Chrono Aviation
+Condor Airlines
+Emirates
+Ethiopian Airlines
+EVA Air
+Fedex 
+FinnAir
+Hainan Airlines
+Iceland Air
+IFL Group
+Japan Airlines JAL
+Jazz
+Kalitta Charters
+KLM
+Korean Air
+LATAM
+LOT
+Lufthansa
+MAEI
+Nolinor
+Pakistan International Airlines
+Philippine Airlines
+Qatar Airways
+Singapore Airlines
+Sky Lease
+Sunwing
+Swiss Air
+United Airlines
+UPS
+WestJet
+WFS
+Wow Airlines
+Xiamen
+Gateway
+Swissport
+Securitas
+Association du transport aérien international
+Champ
+"
+83,1,"item7,item8,item6,item5,item4,item3,item2,item9","Cyber security, a different department (Canada School of Public Service)","Cybersécurité, un autre département (École de la fonction publique du Canada)",1,"item8,item2,item10,item9",Media technology briefings,Breffages sur la technologie aux médias
+86,1,"item2,item4,item5,item7,item9,item14",Privacy Management Division,,1,"item8,item12",,
+87,1,"item2,item4,item5,item7,item9,item14",Division de la gestion de la protection des renseignements personnels,,1,"item8,item12",,
+89,1,"item2,item3,item4,item5,item6,item7,item8,item9","Integrity Risk Management, IT Security, Centralized Network, GBA+, Change Management, etc.",,1,item10,,
+91,1,"item2,item3,item4,item5,item6,item7,item8,item9","Gestion des risques liés à l’intégrité, Sécurité des TI, Réseau centralisé, ACS+, Gestion du changement, etc.",,1,item10,,
+95,1,"item2,item3,item4,item5,item6,item13,item10",,,0,,,
+97,1,"item6,item5,item4,item7,item14,item16,item17,item10,item3,item13,item2",,,1,"item14,item13,item2,item12",,
+99,1,"item6,item5,item4,item7,item14,item16,item17,item10,item3,item13,item2",,,1,"item14,item13,item2,item12",,
+106,1,"item2,item3,item4,item5,item6,item7,item8,item9","Opérations : Programme de citoyenneté et de passeport (directions liées au passeport), Expérience client, Réseau centralisé, Réseau national, Réseau international, Planification et rendement des opérations, Gestion des risques pour l’intégrité, Orientation du programme d’immigration, Règlement des cas.
+Politiques : Dirigeant principal de l’information, Politique stratégique et planification, Admissibilité, EDSC (partenaire de prestation des services) 
+Facilitateurs : Entrepôt de données d’entreprise/Opérations de la TI, Sécurité de la TI, Secteur de la modernisation, AIPRP / vie privée, Communications, Unité des services juridiques d’IRCC",,1,item10,,
+109,1,"item2,item3,item4,item5,item6,item7,item8,item9","Operations: CPPB (PPT directorates), CEB, CN, DN, IN, OPPB, IRMB, IPG, CMB. Policy: CDO, SPPB, Admissibility Branch, ESDC (service delivery partner) 
+Enablers: EDW/IT-Ops, IT Security, Modernization Sector, ATIP/Privacy, COMMS, IRCC Legal Services Unit.",,1,item10,,
+112,1,"item2,item3,item4,item5,item6,item7,item8,item10,item9","Autre (Gestion des risques pour l’intégrité)
+• Autre (Sécurité des TI)
+• Autre (Réseau centralisé)
+• Autre (Secteur de la plateforme internationale)
+• Autres (ACS+ et politique d’équité)
+• Autre (Groupe de travail anti-racisme)
+• Autre (Services partagés Canada)","Autre (Gestion des risques pour l’intégrité)
+• Autre (Sécurité des TI)
+• Autre (Réseau centralisé)
+• Autre (Secteur de la plateforme internationale)
+• Autres (ACS+ et politique d’équité)
+• Autre (Groupe de travail anti-racisme)
+• Autre (Services partagés Canada)",1,item11,,

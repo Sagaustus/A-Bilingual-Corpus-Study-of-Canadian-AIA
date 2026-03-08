@@ -1,0 +1,134 @@
+submission_id,uses_personal_info,pib_bank_numbers,security_classification_score,data_controller_score,multiple_sources,internet_connected_input,interfaces_other_systems,training_data_collector_score,input_data_collector_score,data_description_en,data_description_fr,uses_unstructured_data,unstructured_data_types
+3,4,,4,1,3,1,4,1,0,,,0,item1-2
+8,4,PPU 068,4,1,3,1,4,1,0,"The data consists primarily of information provided directly by clients through their application and supporting documents. Medical information is obtained from the panel physician who conducts the immigration medical exam of the client. IRCC obtains enforcement records from the Canada Border Service Agency (CBSA) regarding persons who have come under examination at a port of entry or an investigation at an inland office. IRCC also obtains information gathered by Canadian or foreign law enforcement agencies or investigative bodies about persons whose entry to Canada would be dangerous to Canadian security. IRCC obtains additional information from other countries, primarily the United States, Australia and New Zealand, to better establish the identity of foreign nationals and to obtain otherwise unknown information about clients to aid in decision making.","Les données sont principalement constituées de renseignements fournis directement par les clients dans leur demande et documents à l’appui. Des renseignements médicaux sont obtenus auprès du médecin désigné qui
+effectue l’examen médical aux fins de l’immigration du client. IRCC obtient de l’Agence des services frontaliers du Canada (ASFC) les dossiers des mesures d’exécution concernant les personnes ayant fait l’objet d’un contrôle à un point d’entrée ou d’une enquête dans un bureau intérieur. IRCC obtient également des renseignements recueillis par des organismes d’application de la loi ou des organismes d’enquête canadiens ou étrangers sur des personnes dont l’entrée au Canada serait dangereuse pour la sécurité du pays. IRCC obtient des renseignements supplémentaires d’autres pays, principalement des États-Unis, de l’Australie et de la Nouvelle-Zélande, afin de mieux établir l’identité des étrangers et d’obtenir des renseignements autrement inconnus sur les clients pour faciliter la prise de décisions.",0,item1-2
+9,4,"CBSA PPU 1202, ESDC PPU 116, ESDC PPU 336, ESDC PPU 390",0,1,3,1,4,2,0,"CBSA: Data used to identify the recipient’s length of stay outside Canada
+ESDC: Recipient’s personal and OAS and eligibility information","ASFC : Données utilisées pour identifier la durée du séjour du bénéficiaire hors du Canada 
+
+EDSC : Informations personnelles du bénéficiaire et informations sur la SV et l’éligibilité",0,
+12,4,PPU 080 Certificates of Identity and Refugee Travel Documents; PPU 081 Regular and Official Passports; PPU 082 Security and Intelligence Case Management,4,4,3,1,4,1,0,"The input data collected by the system comes from client's passport and travel document applications. The information is typed and scanned into the passport issuance systems. The client's photo and biographic information is extracted and shared with the facial recognition system. Client's photos are converted into biometric templates and stored in the system's photo galleries.  On a case by case basis, when there is a clear and direct link to administering the Passport Program's mandate, the Program may also collect biographic information and photos from intelligence and security partners on individuals whose entitlement to a travel document may warrant further review. These photos are converted into biometric templates and may be stored in the facial recognition system.","Les données d’entrée recueillies par le système proviennent des demandes de passeport et de titre de voyage des clients. Les renseignements sont saisis et numérisés dans les systèmes de délivrance des passeports. Les photos et les données biographiques des clients sont extraites et transmises au système de reconnaissance faciale. Les photos des clients sont converties en modèles biométriques et stockés dans les galeries de photos du système. Lorsqu’il existe un lien clair et direct avec l’administration du mandat du Programme de passeport, le Programme peut également obtenir auprès des partenaires du renseignement et de la sécurité des données biographiques et des photos de personnes dont l’admissibilité à un titre de voyage pourrait nécessiter un examen plus approfondi. Ces photos sont converties en modèles biométriques et peuvent être stockées dans le système de reconnaissance faciale.",0,
+21,4,"PPU068, PPU051, PPU054",0,1,3,1,0,1,0,ITAT uses data elements found and recorded in IRCC’s Global Case Management System (GCMS) and the Integrated Payment Revenue Management System (IPRMS). The data consists primarily of information provided directly by clients through their TR applications and supporting documents. ITAT also uses information that CBSA and other partners have recorded in the GCMS. IRCC does not use external data sources such as social media.,"L’OATI utilise des éléments de données trouvés et enregistrés dans le Système mondial de gestion des cas (SMGC) d’IRCC et Le Système intégré de gestion des paiements et des revenus (SIGPR). Les données sont principalement constituées de renseignements fournis directement par les clients dans leurs demandes de RT et les documents à l’appui. L’OATI utilise également les renseignements que l’ASFC et d’autres partenaires ont consignés dans le SMGC. IRCC n’utilise pas de sources de données externes, comme les médias sociaux.",0,
+22,4,,0,1,1,1,4,1,0,,,0,
+28,0,PSE 902,4,4,1,1,0,4,,Input data consist of audio recordings of candidate answers to a set of structured behavioural interview questions. The input data is collected via asynchronous audio interview recordings submitted by candidates.,Les données conservées dans la plateforme consistent en des enregistrements audios des réponses des candidatures à un ensemble de questions d’ordre comportemental obtenues lors d’entrevues structurées. Les données sont recueillies par le biais d’enregistrements d’entrevues audio asynchrones soumis par les candidatures.,0,item1-2
+32,4,,4,1,1,1,4,1,0,,,0,
+35,4,,0,1,3,1,4,1,0,,,0,item1-2
+38,4,,0,1,3,1,0,1,0,"* Biometric enrolments are completed by Visa Application Centres (VACs) and IRCC offices. The client is photographed and fingerprinted using Government of Canada software and hardware. That information is then transmitted to GCMS, where basic biographic details of the client is exported and entered into the Biometric Module in AAST. 
+* Immigration medical examinations are conducted by Panel Physicians who submit the information electronically to IRCC.  That information is then transmitted to GCMS, where basic biographic details of the client are exported and entered into the Medical Module in AAST.","* Les inscriptions de données biométriques sont effectuées dans des centres de réception des demandes de visa (CRDV) et des bureaux d’IRCC. Les clients sont photographiés et font leur prise d’empreintes digitales en utilisant les logiciels et le matériel du gouvernement du Canada. Ces renseignements sont ensuite transmis au SMGC, dans lequel les détails biographiques de base des clients sont exportés et entrés dans le module des données biométriques de l’OSAA.
+
+* Les examens médicaux aux fins de l’immigration sont menés par des médecins désignés qui transmettent l’information électroniquement à IRCC. Ces renseignements sont ensuite transmis au SMGC, dans lequel les détails biographiques de base des clients sont exportés et entrés dans le module d’évaluations médicales de l’OSAA.",0,
+47,4,,4,,3,1,4,1,0,,,0,
+48,4,,4,1,3,1,4,1,0,,,0,"item2-4,item1-2"
+53,4,,0,1,3,1,4,1,0,,,0,item1-2
+54,4,,4,2,3,1,0,2,0,,,4,item2-4
+59,4,PPU 040; PPU 715,0,1,3,1,4,2,0,"The data collected comes from various Federal Departments and Provincial governments. The TFWP is a jointly administered program between IRCC, CBSA, and ESDC, with inspections conducted by Service Canada. Data primarily comes from those sources. In addition, there are other departmental data (ESDC) in use under DESDA, and Information Sharing Agreements (ISAs) with various Provincial jurisdictions for the purposes of TFWP Integrity.",,0,
+60,4,PPU 040; PPU 715,0,1,3,1,4,2,0,"Les données recueillies proviennent de divers ministères fédéraux et gouvernements provinciaux. Le PTET est un programme administré conjointement par IRCC, l’ASFC et EDSC, et les inspections sont menées par Service Canada. Les données proviennent principalement de ces sources. De plus, d’autres données ministérielles (EDSC) sont utilisées en vertu de la LMEDS, et il existe des ententes d’échange de renseignements (EER) avec diverses administrations provinciales aux fins de l’intégrité du PTET.",,0,
+64,4,PPU 054,4,1,3,1,0,1,0,"Les données sont principalement constituées d’informations fournies directement par les clients avec leur demande et leurs documents à l’appui. Les renseignements médicales sont obtenues auprès du médecin désigné qui effectue l’examen médical aux fins de l’immigration du client. IRCC obtient les dossiers des mesures d’exécution de l’Agence des services frontaliers du Canada (ASFC) concernant les personnes qui ont fait l’objet d’un contrôle à un point d’entrée ou d’une enquête dans un bureau intérieur. Il obtient également des informations recueillies par des organismes canadiens ou étrangers chargés de l’application de la loi ou d’enquêtes sur des personnes dont l’entrée au Canada représenterait un danger, principalement pour les États-Unis, l’Australie et la Nouvelle-Zélande, afin de mieux établir l’identité des étrangers et d’obtenir des informations autrement inconnues sur les clients pour aider à la prise de décision.","The data consists primarily of information provided directly by clients through their application and supporting documents. Medical information is obtained from the panel physician who conducts the immigration medical exam of the client. IRCC obtains enforcement records from the Canada Border Service Agency's (CBSA) regarding persons who have come under examination at a port of entry or an investigation at an inland office. It also obtains information gathered by Canadian or foreign law enforcement agencies or investigative bodies about persons whose entry to Canada would be dangerous to Canadian security. IRCC obtains additional information from other countries, primarily the United States, Australia and New Zealand, to better establish the identity of foreign nationals and to obtain otherwise unknown information about clients to aid in decision making.",0,item1-2
+68,4,,0,1,3,1,0,1,0,,,0,
+75,4,,4,1,1,3,4,4,0,"The input data is made up of 8 data elements found on airwaybills: shipper and consignee names and addresses, commodity description, weight, piece count, and airwaybill number. This information is shared with Transport Canada by air carriers through a web API.","Les données d’entrée sont constituées de 8 éléments de données figurant sur les lettres de transport aérien : les noms et adresses de l’expéditeur et du destinataire, la description de la marchandise, le poids, le nombre de pièces et le numéro de la lettre de transport aérien. Ces renseignements sont partagés avec Transports Canada par les transporteurs aériens par l’intermédiaire d’une interface de programmation d’application (API) Web.",0,item1-2
+83,0,,4,1,0,1,4,1,,,,0,item1-2
+86,4,"Standard ESDC PPU 030 (Student Financial Assistance), Standard ESDC PPU 709 (Canada Apprentice Loans)",0,1,3,1,4,1,0,"The input data includes personal information, gross family income, marital status, and number of dependants provided by RAP applicants during the application process. Borrowers can apply for RAP either online or by submitting paper forms. During the exchange, CRA returns a file containing SIN, date of birth, last name, first name, taxation years, income, marital status, and number of dependents.",,0,
+87,4,"Norme EDSC PPU 030 (Programme canadien d’aide financière aux étudiants), Norme EDSC PPU 709 (Prêt canadien aux apprentis)",0,1,3,1,4,1,0,"Les données saisies comprennent les renseignements personnels, le revenu familial brut, l'état civil et le nombre de personnes à charge fournis par les demandeurs du PAR lors du processus de demande. Les emprunteurs peuvent présenter une demande de PAR en ligne ou en soumettant un formulaire papier. Au cours de l'échange, l'ARC retourne un fichier contenant le NAS, la date de naissance, le nom de famille, le prénom, les années d'imposition, le revenu, l'état matrimonial et le nombre de personnes à charge.",,0,
+89,4,,0,1,3,1,0,1,0,,,0,
+91,4,,0,1,3,1,0,1,0,,,0,
+95,4,ESDC PPU 385,4,1,3,1,0,1,0,The input data is provided by Record of Employment (ROE) forms submitted to ESDC by employers. The data used for training the system was collected from the administrative database which stores these ROE forms when they are submitted.,Les données d'entrée sont fournies par les formulaires de Relevé d'emploi (RE) soumis au EDSC par les employeurs. Les données utilisées pour la formation du système ont été collectées à partir de la base de données administrative qui archive ces formulaires RE lorsqu'ils sont soumis.,0,item1-2
+97,4,CBSA PPU1801,4,4,3,1,0,1,0,"Input data collected and used: 
+
+Source: Direct input by Individual
+Method: via ReportIn app
+•	First name and family name
+•	UCI
+•	Personal email address
+•	Phone number
+•	Employment information (if applicable)
+o	Job title
+o	Company name
+o	Supervisor name
+o	Email address
+o	Phone number
+o	Address
+o	Start date
+o	End date
+•	Date of report
+•	Ad hoc report text
+•	Facial photos views (5)
+At the enrollment stage, the individual provides 5 photos taken in randomized order:
+o	Looking straight ahead
+o	Looking up
+o	Looking down
+o	Left side of the face
+o	Right side of the face
+At each report the individual provides 5 photos taken in randomize order:
+o	Looking straight ahead
+o	Looking up
+o	Looking down
+o	Left side of the face
+o	Right side of the face
+
+Source: Smartphone/mobile device 
+Method: via ReportIn app
+•	Smartphone/mobile device GPS/sensor location of report
+•	Smartphone/mobile device ID
+•	Smartphone/mobile device model
+•	Smartphone/mobile device operating system version
+•	Error message and trace information 
+(if applicable, where error happened)
+
+Source: Amazon Rekognition
+Method: Network application program interface
+•	Amazon Rekognition similarity score 
+
+Storage of information:  Client Reporting and Engagement System (CRES) on CBSA cloud servers in accordance with CBSA PPU1801.
+
+CBSA has a contract with AWS that outlines all privacy parameters including storage.",,4,item2-4
+99,4,CBSA PPU1801,4,4,3,1,0,1,0,"Données d’entrée recueillies et utilisées : 
+
+Source : Saisie directe par la personne
+Méthode : au moyen de l’application JeMePrésente
+•	Prénom et nom de famille
+•	IUC
+•	Adresse de courriel personnelle
+•	Numéro de téléphone
+•	Renseignements sur l’emploi (le cas échéant)
+o	Titre du poste
+o	Nom de l’entreprise
+o	Nom du superviseur
+o	Adresse de courriel
+o	Numéro de téléphone
+o	Adresse
+o	Date de début
+o	Date de fin
+•	Date de la déclaration
+•	Texte de la déclaration ponctuelle
+•	Vues des photos du visage (5)
+À l’étape d’inscription, la personne fournit 5 photos prises dans un ordre aléatoire :
+o	Regard droit devant
+o	Regard vers le haut
+o	Regard vers le bas
+o	Côté gauche du visage
+o	Côté droit du visage
+À chaque déclaration, la personne fournit cinq photos prises dans un ordre aléatoire :
+o	Regard droit devant
+o	Regard vers le haut
+o	Regard vers le bas
+o	Côté gauche du visage
+o	Côté droit du visage
+
+Source : Téléphone intelligent/dispositif mobile 
+Méthode : au moyen de l’application JeMePrésente
+•	Localisation GPS/capteur de position de la déclaration sur téléphone intelligent ou dispositif mobile
+•	ID du téléphone intelligent/dispositif mobile
+•	Modèle du téléphone intelligent/dispositif mobile
+•	Version du système d’exploitation du téléphone intelligent/dispositif mobile
+•	Message d’erreur et renseignements de localisation 
+(le cas échéant, lorsque l’erreur s’est produite)
+
+Source : Amazon Rekognition
+Méthode : Interface de programmation d’application réseau
+•	Cote de similarité d’Amazon Rekognition 
+
+Stockage des renseignements : Système de Rapports et d’engagement des Clients (SREC) sur les serveurs infonuagiques de l’ASFC conformément à la PPU1801 de l’ASFC.
+
+L’ASFC a un contrat avec AWS qui énonce tous les paramètres de confidentialité, y compris le stockage.",,4,item2-4
+106,4,,4,1,3,1,0,1,0,,,0,
+109,4,,4,1,3,1,0,1,0,,,0,
+112,4,FRP 013,4,1,3,1,0,1,0,"Toutes les données recueillies par les outils proviennent de l’Entrepôt de données d’entreprise d’IRCC, qui fournit des points de données pertinents pour les outils à partir des données historiques et actuelles du Système mondial de gestion des cas. Les outils ne prennent pas de données d’un autre entrepôt de données pour le moment.   Toutes les données recueillies sont fournies par le client et sont utilisées par les agents d’immigration aux fins de traitement, conformément aux lois et règlements.","Toutes les données recueillies par les outils proviennent de l’Entrepôt de données d’entreprise d’IRCC, qui fournit des points de données pertinents pour les outils à partir des données historiques et actuelles du Système mondial de gestion des cas. Les outils ne prennent pas de données d’un autre entrepôt de données pour le moment.   Toutes les données recueillies sont fournies par le client et sont utilisées par les agents d’immigration aux fins de traitement, conformément aux lois et règlements.",0,item1-2

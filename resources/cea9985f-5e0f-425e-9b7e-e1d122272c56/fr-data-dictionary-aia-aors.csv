@@ -1,0 +1,221 @@
+Numéro,Question,Réponse sélectionnée
+7,Quelles parties du processus décisionnel seront automatisées par ce système?,"7a: La cote de risque, le profilage ou la catégorisation d'un client en termes de risque
+7b: Recommandation de prendre un certain plan d'action
+7c: Rendre une décision administrative complète"
+7.1,Est-ce que la recommandation ou une décision rendue par le système d'une latitude?,"1: Oui
+2: Non"
+7.1.1,Décrire ce qui est de la décision discétionnaire,Texte libre
+7.1.2,"La décision est purement discrétionnaire? (par exemple, un examen pour des raison humanitaires)","1: Oui
+2: Non"
+7.1.3,Ont tous les points de décision qui impliquent l'exercice du pouvoir discrétionnaire humain été clairement identifiés?,"1: Oui
+2: Non"
+8,Combien de temps le système est-il censé fonctionner? (Choisissez-en un),"1: Une fois seulement
+2: Pour une durée limitée
+3: Iindéfiniment"
+9,"Cette décision peut-elle entraîner la restriction du déplacement d'une personne vers, hors du Canada ou à l'intérieur du Canada?","1: Oui
+2: Non"
+10,"Cette décision est une activité en ce qui concerne le passé de l'individu, actuel ou criminel potentiel?","1: Oui
+2: Non"
+10.1,Ce système automatisé peut augmenter la probabilité d'incarcération pour un individu? ,"1: Oui
+2: Non"
+11,"Est-ce que une décision au sujet de la prestation des soins de santé à un individu, communauté ou d'une population?","1: Oui
+2: Non"
+12,Ce système peut-il permettre d'accorder ou de restreindre l'accès à un local ou à un réseau?,"1: Oui
+2: Non"
+12.1,Quelle est la classification de la prémisse? (Choisissez-en un),"1: Aucun
+2: Protégé
+3: Protégé A
+4: Protégé B
+5: Protégé C
+6: Classifié
+7: Confidentiel
+8: Secret
+9: Très secret"
+13,"Est-ce que ce système fournit des fonds à une personne, une entreprise ou d'une collectivité?","1: Oui
+2: Non"
+13.1,Est-ce le financement d'un programme de soutien social pour un individu?,"1: Oui
+2: Non"
+13.1.1,"Si le financement devait être refusé, pourrait-il laisser le client dans une situation économique précaire? (par exemple, pourrait rendre une personne sans-abri particulier ou une entreprise de fermer)","1: Oui
+2: Non"
+13.2,Est-ce que les paiements de transfert d'émission du système à une entreprise ou d'une organisation? ,"1: Oui
+2: Non"
+13.2.1,"Est-ce don, la contribution ou les paiements de transfert au-delà de 2.000.000 $ par paiement?","1: Oui
+2: Non"
+13.3,"Ce système entraîne-t-il la délivrance d'une amende, d'une sanction administrative pécuniaire ou d'un avis de recouvrement de créances?","1: Oui
+2: Non"
+14,"Ce système entraîne-t-il la délivrance d'un permis, d'une licence ou un droit de propriété intellectuelle?","1: Oui
+2: Non"
+14.1,"Cela implique-t-il la collecte, le transport, le stockage, l’achat ou la vente d’un bien ou d’une substance réglementé?","1: Oui
+2: Non"
+14.1.1,"Est-ce que ce produit ou cette substance réglementée est dangereux, comme une arme à feu, une toxine ou un produit dangereux?","1: Oui
+2: Non"
+14.2,Est-ce un permis de construction ou d'environnement? ,"1: Oui
+2: Non"
+14.3,"Est-ce un brevet, une marque ou un droit d'auteur?","1: Oui
+2: Non"
+15,"Est-ce une décision concernant la structure du marché (par exemple fusion ou une acquisition, une limite au nombre d'entrants sur le marché)?","1: Oui
+2: Non"
+16,"Ce système confère-t-il un statut juridique qui est par ailleurs requis pour recevoir un avantage ou un service (par exemple, le statut d'Indien, le statut d'ancien combattant)? ","1: Oui
+2: Non"
+17,Est-ce une décision en ce qui concerne la prestation des services consulaires?,"1: Oui
+2: Non"
+18,Ce système implique-t-il la distribution de ressources humaines ou de matériel dans la gestion des urgences?,"1: Oui
+2: Non"
+19,Quels sont les principaux motifs pour l'automatisation du processus décisionnel adminitstif? (Cochez toutes les cases),"19a: Les décisions immédiates du système pourraient sauver des vies
+19b: Addresser du travail arrièré
+19c: Améliorer la qualité globale des décisions
+19d: Réduction des coûts de transaction d'un programme existant
+19e: Le système exécute des tâches que les humains ne pourraient accomplir dans un délai raisonnable
+19f: Améliorer la prestation de service à la clientèle
+19g: Utiliser des approches innovantes
+19h: Améliorer la prestation de service à la clientèle"
+20,Votre système prendra-t-il des décisions concernant spécifiquement les peuples ou territoires autochtones? ,"1: Oui
+2: Non"
+20.1,Avez-vous engagé des consultations avec des organisations autochtones pertinentes dans la conception du système? ,"1: Oui
+2: Non"
+21,Qui a collecté les données utilisées pour la formation du système? (Cochez toutes les cases qui s’appliquent),"21a: Votre institution
+21b: Une autre institution fédérale
+21c: Un autre niveau de gouvernement
+21d: Un gouvernement étranger
+21e: Une tierce partie non gouvernementale"
+22,Qui a collecté les données utilisées pour la formation du système? (Cochez toutes les cases qui s’appliquent),"21a: Votre institution
+21b: Une autre institution fédérale
+21c: Un autre niveau de gouvernement
+21d: Un gouvernement étranger
+21e: Une tierce partie non gouvernementale"
+23,Avez-vous consulté des groupes de parties prenantes pertinents représentant les personnes susceptibles d’être touchées par la décision?,"1: Oui
+2: Non"
+23.1,"À votre connaissance, ces acteurs ne l'automatisation de support étant inclus dans la décision?","1: Oui
+2: Non
+3: Incertain"
+24,Existe-t-il un processus pour documenter comment les problèmes de qualité des données ont été résolus lors du processus de conception?,"1: Oui
+2: Non"
+24.1,S'il vous plaît nous en dire plus sur ce processus,Texte libre
+25,Avez-vous entrepris une analyse comparative entre les sexes en plus des données de formation?,"1: Oui
+2: Non
+3: Sans objet"
+25.1,"Sur la base des résultats de l’ACS+, avez-vous documenté des stratégies d’atténuation? ","1: Oui
+2: Non
+3: Sans objet"
+26,Le système de décision automatisé utilise-t-il les informations personnelles comme données d'entrée?,"1: Oui
+2: Non"
+26.1,Le programme comporte-t-il une évaluation des facteurs relatifs à la vie privée?,"1: Oui
+2: Non"
+27,"Avez-vous attribué des responsabilités pour la conception, le développement, la maintenance et l'amélioration du système?","27a: Conception
+27b: Développement
+27c: Entretien
+27d: Amélioration"
+28,Quelle est la classification de sécurité le plus élevé des données d'entrée utilisées par le système? (Choisissez),"1: Aucun
+2: Protégé
+3: Protégé A
+4: Protégé B
+5: Protégé C
+6: Classifié
+7: Confidentiel
+8: Secret
+9: Très secret"
+29,Le système nécessite-t-il l'analyse de données non structurées pour rendre une recommandation ou une décision? ,"1: Oui
+2: Non
+3: Incertain"
+29.1,Quel types de données non structurées (Cochez toutles les cases)?,"29.1a: Audio
+29.1b: Données biologiques
+29.1c: Données géographiques
+29.1d: Écriture
+29.1e: Images
+29.1f: Texte
+29.1g: Vidéo
+29.1h: Autre"
+29.1.1,Quels sont les autres types de données non structurées?,Texte libre
+30,"Votre système a besoin de données d'entrée d'un Internet- ou périphérique connecté téléphonie? (Par exemple un capteur, drone) ","1: Oui
+2: Non"
+31,"Votre système utilise-t-il la vision artificielle sans contact pour la reconnaissance biométrique (par exemple, visage, démarche, etc)?","1: Oui
+2: Non"
+31.1,Votre système fonctionne-t-il avec des paramètres acceptables pour toutes les couleurs de peau définies par l'échelle de type de peau Fitzpatrick ou une mesure similaire?,"1: Oui
+2: Non
+3: Sans objet"
+31.2,"Le cas échéant, avez-vous testé pour vous assurer que le système fonctionne avec des paramètres acceptables pour les personnes ayant un handicap qui peuvent être indûment désavantagées par le composant de vision industrielle? (Par exemple, s'assurer qu'un outil d'analyse de la démarche ne désavantage pas indûment une personne qui utilise un fauteuil roulant)","1: Oui
+2: Non
+3: Sans objet"
+32,Des stratégies appropriées ont-elles été élaborées pour gérer le risque que des données obsolètes ou non fiables soient utilisées pour prendre une décision automatisée? ,"1: Oui
+2: Non"
+32.1,"Si vous le souhaitez, nous fournir plus de détails sur ces stratégies",Texte libre
+33,La portée du système est-elle clairement reflétée dans la documentation du projet?,"1: Oui
+2: Non"
+34,Le système est-il en interface avec d'autres systèmes informatiques?,"1: Oui
+2: Non"
+34.1,"Lorsque vous êtes en interface avec d'autres systèmes, avez-vous clairement identifié les processus qui se produisent entre les systèmes?","1: Oui
+2: Non"
+35,Le système permet-il à un humain d’outrepasser les décisions du système?,"1: Oui
+2: Non"
+36,Le système peut-il outrepasser des décisions humaines? ,"1: Oui
+2: Non"
+36.1,Est-ce nécessaire par la législation ou la réglementation? ,"1: Oui
+2: Non"
+37,Le système peut-il outrepasser d'autres systèmes de décision automatisés?,"1: Oui
+2: Non"
+38,Avez-vous des processus en place pour enregistrer les instances ou un outrepassage à eu lieu? ,"1: Oui
+2: Non"
+39,Avez-vous développé des processus de vérification pour tester les résultats non intentionnels? ,"1: Oui
+2: Non"
+39.1,Décrire les processus de vérification que vous utilisez ou d'un plan sur l'utilisation,Texte libre
+40,Le système peut-il fournir une piste d'audit qui enregistre des recommandations ou des décisions? ,"1: Oui
+2: Non"
+40.1,La piste d'audit indique-t-elle clairement tous les points de décision pris par le système?,"1: Oui
+2: Non"
+40.2,Avez-vous inclus des processus de contrôle des modifications dans la piste d'audit pour enregistrer les modifications apportées au fonctionnement ou aux performances du système?,"1: Oui
+2: Non"
+40.3,La piste de vérification montre-t-elle qui est un décideur autorisé? ,"1: Oui
+2: Non"
+41,Le système peut produire des motifs de ses décisions ou recommandations en cas de besoin?,"1: Oui
+2: Non"
+42,L'équipe de conception a-t-elle consulté les experts suivants au sein de leur organisation ,
+,Communications,"1: Oui
+2: Non"
+,Gestion des données et des informations,"1: Oui
+2: Non"
+,Politique ,"1: Oui
+2: Non"
+,Ressources humaines,"1: Oui
+2: Non"
+,Informatique / Cybersécurité,"1: Oui
+2: Non"
+,Légal ,"1: Oui
+2: Non"
+,Service de livraison ,"1: Oui
+2: Non"
+,Protection des renseignements personnels,"1: Oui
+2: Non"
+42.1,Un avis formel a-t-il été émis?,"1: Oui
+2: Non"
+42.2,Les domaines pertinents de la législation ont-ils été identifiés pendant la phase de cadrage?,"1: Oui
+2: Non"
+43,Avez-vous développé des indicateurs de performance clés et des benchmarks pour mesurer et améliorer la performance du système?,"1: Oui
+2: Non"
+44,"Mesurez-vous spécifiquement les impacts (par exemple, sociaux, économiques, environnementaux) qui peuvent résulter du système?","1: Oui
+2: Non"
+44.1,Expliquez comment vous mesurez ces impacts,Texte libre
+45,Avez-vous présenté un cas conceptuel à le Comité d’examen de l’architecture intégrée du gouvernement du Canada? ,"1: Oui
+2: Non
+3: Sans objet"
+46,Avez-vous effectué une évaluation et une autorisation de sécurité? ,"1: Oui
+2: Non
+3: Sans objet"
+46.1,Est-ce que les pleins pouvoirs accordée en vertu de la SA & A? ,"1: Oui
+2: Non
+3: Sans objet"
+47,"Y a-t-il un processus en place pour accorder, surveiller et révoquer l'autorisation d'accès? ","1: Oui
+2: Non"
+48,Le système utilisé par une autre partie de l'organisation que ceux qui l'ont développé? ,"1: Oui
+2: Non"
+49,Avez-vous élaboré des programmes de formation ou de la documentation pour vous assurer que le système est utilisé efficacement et correctement?,"1: Oui
+2: Non"
+49.1,Avez-vous des moyens pour faire en sorte que les besoins de formation sont respectées?,"1: Oui
+2: Non"
+50,Avez-vous développé un plan de communication externe?,"1: Oui
+2: Non"
+51,Avez-vous élaboré un plan de communication interne pour aborder les changements potentiels aux pratiques de travail des agents?,"1: Oui
+2: Non"
+52,Avez-vous un mécanisme pour capturer les commentaires des utilisateurs du système?,"1: Oui
+2: Non"
+53,Avez-vous un processus de recours prévu ou établi pour les clients qui souhaitent contester la décision?,"1: Oui
+2: Non"

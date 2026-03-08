@@ -1,0 +1,822 @@
+dataset_id,source_file,source_format,language,version,project_title_en,project_title_fr,department,department_code,branch,respondent,phase,phase_score,program,description,description_en,description_fr,impact_level,current_score,raw_impact_score,mitigation_score,risk_total_raw,risk_scope,risk_decision_impact,risk_automation_level,risk_data_sensitivity,risk_population_affected,safeguard_consultation,safeguard_consultation_total,safeguard_data_quality,safeguard_data_quality_total,safeguard_fairness,safeguard_fairness_total,safeguard_privacy,safeguard_privacy_total,system_capabilities,system_capabilities_count,algorithm_automation_level,algorithm_uses_ml,decision_sectors,impact_score_sum,row_count,columns,sheet_names,total_rows,full_text_len,page_count
+01396e33-2c69-47e5-9381-32e717943b96,aia-english.pdf,pdf,en,0.10.0,Advanced Analytics Triage of Visitor Record Applications,,Citizenship and Immigration (Department of),,Various Branches at IRCC,Various Stakeholders at IRCC,Implementation,0,,"This project seeks to streamline the eligibility assessment for all visitor record
+applications in order to help IRCC decision-makers process applications more
+efficiently. The advanced data analytics system identifies routine applications
+for streamlined processing. When the system finds these applications, it can
+decide that an applicant is eligible, before sending the file to an officer to
+decide if the applicant remains admissible to Canada and make the final
+decision. To do this, it uses a mix of rules developed with IRCC officers and
+rules generated through machine learning based on previous IRCC case data.
+All rules are assessed for potential bias or discrimination.
+For all other cases that are not considered routine, the tool helps to sort and
+assign cases to officers for manual review and decisions based on their level
+of complexity, using rules and criteria developed with IRCC officers. This
+means that these cases will be processed using the same process that was
+used before IRCC began using this new system. It will also provide case
+annotations, or notes for officers, which summarize basic application
+information for the officer to support faster processing. Officers still perform a
+full individual assessment of each application and its supporting documents.
+The tool never refuses or recommends refusing applications. IRCC officers
+make the final decision to approve or refuse on all applications.
+The tool is expected to result in faster processing times for all applications.
+Visitor records are one of IRCC’s most straightforward services. These
+applications are considered low impact, as clients are not applying for refugee
+status, permanent residence or citizenship, and are not entitled to study or
+work in Canada.",,,2,41,41,35,,,,,,,,,,,,,,,,,,,,,,,,,19434,10
+01396e33-2c69-47e5-9381-32e717943b96,aia-french.pdf,pdf,fr,0.10.0,,,,,,,Mise en oeuvre,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,22682,11
+01396e33-2c69-47e5-9381-32e717943b96,aia-results-bilingual.json,json,bilingual,v0.10.0,Advanced Analytics Triage of Visitor Record Applications,Triage au moyen de l’analytique avancée des demandes de fiche du visiteur,,050,Various Branches at IRCC,Various Stakeholders at IRCC,item2,,Visitors,,"This project seeks to streamline the eligibility assessment for all visitor record applications in order to help IRCC decision-makers process applications more efficiently. The advanced data analytics system identifies routine applications for streamlined processing. When the system finds these applications, it can decide that an applicant is eligible, before sending the file to an officer to decide if the applicant remains admissible to Canada and make the final decision. To do this, it uses a mix of rules developed with IRCC officers and rules generated through machine learning based on previous IRCC case data. All rules are assessed for potential bias or discrimination.
+
+For all other cases that are not considered routine, the tool helps to sort and assign cases to officers for manual review and decisions based on their level of complexity, using rules and criteria developed with IRCC officers. This means that these cases will be processed using the same process that was used before IRCC began using this new system. It will also provide case annotations, or notes for officers, which summarize basic application information for the officer to support faster processing. Officers still perform a full individual assessment of each application and its supporting documents.
+
+The tool never refuses or recommends refusing applications. IRCC officers make the final decision to approve or refuse on all applications.
+
+The tool is expected to result in faster processing times for all applications. 
+
+Visitor records are one of IRCC’s most straightforward services. These applications are considered low impact, as clients are not applying for refugee status, permanent residence or citizenship, and are not entitled to study or work in Canada.","Ce projet vise à simplifier l’évaluation de la recevabilité pour toutes les demandes de fiche de visiteurs afin d’aider les décideurs d’IRCC à traiter les demandes plus efficacement. Le système avancé d’analyse de données identifie les demandes de routine pour un traitement rationalisé. Lorsque le système trouve ces demandes, il peut décider qu’un demandeur est recevable, avant d’envoyer le dossier à un agent pour décider si le demandeur est interdit de territoire et prendre la décision finale. Pour ce faire, il utilise un mélange de règles élaborées avec les agents d’IRCC et de règles générées par l’apprentissage automatique basé sur des données de cas antérieurs d’IRCC. Toutes les règles sont évaluées pour détecter tout biais ou discrimination potentiels. 
+
+Pour tous les autres cas qui ne sont pas considérés comme routiniers, l’outil aide à trier et à assigner les demandes aux agents pour un examen manuel et les décisions en fonction de leur niveau de complexité, en utilisant des règles et des critères élaborés avec les agents d’IRCC. Cela signifie que ces demandes seront traitées selon le même processus qu’avant qu’IRCC ne commence à utiliser ce nouveau système. Il fournira également des annotations de cas, ou des notes à l’intention des agents, qui résument certains renseignements de base contenus dans la demande pour l’agent afin d’accélérer le traitement. Les agents procèdent toujours à une évaluation individuelle complète de chaque demande et de ses pièces justificatives.  
+
+L’outil ne refuse ni ne recommande jamais de refuser des demandes. Les agents d’IRCC prennent la décision finale d’approuver ou de refuser toutes les demandes.  
+
+L’outil devrait entraîner des temps de traitement plus rapides pour toutes les demandes.   
+
+Les fiches des visiteurs sont l’un des services les plus simples d’IRCC. Ces demandes sont considérées comme ayant un faible impact, car les clients ne demandent pas le statut de réfugié, la résidence permanente ou la citoyenneté, et n’ont pas le droit d’étudier ou de travailler au Canada.",,,,,3,3,0,0,0,,2,2,5,10,16,17,1,4,item5,1,0,0,item6-1,18,,,,,,
+01396e33-2c69-47e5-9381-32e717943b96,annex-a-vr-model-peer-review-summary-en.pdf,pdf,en,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6223,4
+01396e33-2c69-47e5-9381-32e717943b96,annex-a-vr-model-peer-review-summary-fr.pdf,pdf,fr,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7599,4
+04556b29-284a-4d2b-8076-928476d64553,aia-ircc-1-fr2023.pdf,pdf,fr,0.10.0,,,,,,,Mise enoeuvre,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33369,15
+04556b29-284a-4d2b-8076-928476d64553,aia-ircc1-eng.pdf,pdf,en,0.10.0,"Automated Triage and Positive Eligibility Determinations ofIn-Canada Work
+Permit Applications",,Citizenship and Immigration (Department of),,Operations Planning and Performance Branch,Various Stakeholders atIRCC,Implementation,0,,,,,2,52,52,35,,,,,,,,,,,,,,,,,,,,,,,,,27842,14
+04556b29-284a-4d2b-8076-928476d64553,aia-results-wp-ext-and-pgwp-sept-2023-bilingual-v3.json,json,bilingual,v0.10.0,Automated Triage and Positive Eligibility Determinations of In-Canada Work Permit Applications,Triage et déterminations positives de la recevabilité automatisés des demandes de permis de travail pour les demandeurs au Canada,,050,Operations Planning and Performance Branch,Various Stakeholders at IRCC,item2,,Temporary Workers,,"""This project seeks to streamline the eligibility assessment for post-graduate work permits (PGWP) and other in-Canada work permit applications in order to help IRCC decision makers process applications more efficiently. This will be achieved by implementing two tools, one for PGWP and one for other work permit extensions. Given the similarity between these tools, this AIA covers both. Each tool identifies routine applications for streamlined processing and sorts applications into tiers based on their level of complexity. When an application is deemed routine for streamlined processing, the tools can determine only that an applicant is eligible. More complex applications are assigned to officers for regular manual processing and decision, as before. For routine applications, the tools can only make positive eligibility determinations; they cannot make any ineligibility determinations, nor recommend ineligibility. The tools do not assess applications for admissibility, although known admissibility concerns form part of the triage criteria to ensure that complex applications are triaged immediately to officers having the requisite expertise to conduct the assessment. 
+
+All admissibility assessments continue to be performed by officers, who are required to review all relevant file information in processing applications, including the information provided in additional documents. Officers make the final decision on all applications. 
+
+Each application continues to receive an individualized assessment. 
+
+No artificial intelligence or machine learning was used to build these tools. They rely entirely on rules created by IRCC staff based on program eligibility and admissibility criteria.
+
+Officers are trained to not let the triage results influence their decisions. Additionally, the user manual explicitly states that the triage bins are administrative groupings to facilitate processing and that they provide no guidance whatsoever on client risk level. These measures mitigate the risk that officers could be unduly influenced by the tools' outputs (also known as “automation bias”).  
+
+An ongoing quality assurance process has been implemented to monitor whether officers make the same positive eligibility determinations as the tools. This process ensures that biases have not been introduced by the tools.
+
+As a further safeguard, the rules in both tools undergo an extensive review process. Before they are introduced, and at regular intervals afterward, rules are reviewed by experienced officers, legal, policy, and data science experts, as well as senior executives to ensure they are logical, understandable, non-discriminatory and aligned with established eligibility criteria. Regular monitoring and quality assurance measures also help make sure the tools perform as intended and that any unforeseen negative impacts such as bias or discrimination can be identified early and mitigated.
+
+The rules may not be disclosed to the public to safeguard the integrity of the immigration system. ""
+","""Ce projet a pour but de simplifier l’évaluation de la recevabilité des demandes de permis de travail postdiplôme (PTPD) et des autres demandes de permis de travail au Canada afin d’aider les décideurs d’IRCC à traiter les demandes de manière plus efficace. Pour ce faire, deux outils seront mis en oeuvre, l’un pour les PTPD et l’autre pour les autres prolongations de permis de travail. Étant donné la similitude de ces outils, cette EIA s’applique aux deux. Chaque outil identifie les demandes ordinaires qui feront l’objet d’un traitement simplifié et trie les demandes dans des bacs, selon leur niveau de complexité. Lorsqu’une demande est considérée comme une demande ordinaire pour un traitement simplifié, les outils peuvent uniquement déterminer que le demandeur est recevable. Les demandes plus complexes sont confiées à des agents qui les traitent manuellement et prennent une décision, comme auparavant. Dans le cas des demandes ordinaires, les outils peuvent seulement arriver à une détermination positive de la recevabilité; ils ne peuvent pas en déterminer l’irrecevabilité ni la recommander. Les outils n’évaluent pas l'interdiction de territoire, mais les problèmes connus d'interdiction de territoire font partie des critères de triage pour s’assurer que les demandes complexes sont immédiatement triées aux agents ayant l’expertise requise pour effectuer l’évaluation.
+
+Toutes les évaluations d'interdiction de territoire continuent d’être effectuées par les agents, qui sont tenus d’examiner tous les renseignements pertinents du dossier lors du traitement des demandes, y compris les renseignements fournis dans les documents supplémentaires. Les agents prennent la décision définitive concernant toutes les demandes.
+
+Chaque demande continue de faire l’objet d’une évaluation individualisée.
+
+Aucune intelligence artificielle ni apprentissage automatique n’ont été utilisés pour bâtir ces outils. Ils reposent entièrement sur des règles créées par le personnel d’IRCC en fonction des critères de recevabilité et d'interdiction de territoire du programme.
+
+Les agents sont formés afin de ne pas laisser les résultats du triage influencer leurs décisions. En outre, le guide de l'utilisateur énonce de manière explicite que les bacs de triage constituent des groupements administratifs afin de faciliter le traitement et qu'ils ne fournissent aucune indication du niveau de risque du client. Ces mesures atténuent le risque que les agents soient indûment influencés par les résultats des outils (ce que l’on appelle le « biais d’automatisation »).
+
+Un processus continu d’assurance de la qualité a été mis en place pour vérifier si les agents prennent les mêmes décisions favorables concernant la recevabilité que les outils. Ce processus garantit que les outils n’introduisent
+pas de biais.
+
+Comme garantie supplémentaire, les règles des deux outils font l’objet d’un processus d’examen approfondi. Avant leur mise en oeuvre, et à intervalles réguliers par la suite, les règles sont examinées par des agents expérimentés, des experts dans les domaines du droit, des politiques et de la science des données, ainsi que par des cadres supérieurs, afin de s’assurer qu’elles sont logiques, compréhensibles, non discriminatoires et harmonisées avec les critères de recevabilité établis. Une surveillance régulière et des mesures d’assurance de la qualité aident également à veiller à ce que les outils fonctionnent comme prévu, ainsi qu’à détecter rapidement et à atténuer toute répercussion négative imprévue, comme les biais ou la discrimination.
+
+Les règles ne peuvent être divulguées au public afin de préserver l’intégrité du système d’immigration. """,,,,,7,3,0,4,0,0,2,2,5,10,16,17,1,5,item5,1,0,0,item6-1,23,,,,,,
+123aefbb-c9cb-4243-9be3-7f901daf13f7,oas-eav_aia_v7.json,json,bilingual,v0.10.0,Old Age Security Extended Absence Leave Prioritization,Priorisation des absences prolongées pour la Sécurité de la vieillesse,,014,Integrity Service Branch,Adam Kowalczewski,item2,,Pensions and Benefits,,"Service Canada is responsible for investigating misuse or abuse of the Old Age Security (OAS) program including, but not limited to, identifying individuals who do not qualify to receive OAS while outside of Canada and stopping payment after a 6 month absence, as per the program’s policy. This also applies to individuals receiving the Guaranteed Income Supplement, which cannot be collected if they are outside Canada for more than 6 months. To assist in those responsibilities, Service Canada receives traveller information from the Canada Border Service Agency (CBSA), which is then compared against OAS claimants to identify individuals who have failed to report or have misreported their absence from Canada.
+
+A system was designed to identify misuse or abuse of the OAS program by applying techniques of case load prioritization and optimization with the objective to focus on priority cases. The system does not render decisions regarding the recipient’s eligibility. The decision to investigate an identified individual and render any administrative decision is performed by a human investigator. The proceeding investigations will be conducted thoroughly, and individuals identified are given an opportunity to present the necessary documentation and explanation prior to the investigators producing any decisions.  
+
+The system uses a self-organizing map and clustering model applied to data from the CBSA traveller information system, OAS pensions system, and SIN registry. This project has been conducted with oversight from the Artificial Intelligence Centre of Excellence in accordance with the Treasury Board of Canada Secretariat guidelines.
+
+Legal services were engaged to review the project under the terms of the Directive on Automated Decision-Making Systems which took effect on April 1, 2020.
+","Service Canada est responsable d’enquêter sur l’utilisation abusive ou frauduleuse du programme de la Sécurité de la vieillesse (SV), y compris, mais sans s’y limiter, l’identification des individus qui ne sont pas qualifiés pour recevoir la SV lorsqu’ils sont hors du Canada et l’arrêt du paiement après une absence de 6 mois, conformément à la politique du programme. Cela s’applique également aux individus recevant le Supplément de revenu garanti, qui ne peut être collecté s’ils sont hors du Canada pendant plus de 6 mois. Pour assister dans ces responsabilités, Service Canada reçoit des informations de voyageurs de l’Agence des services frontaliers du Canada (ASFC), qui sont ensuite comparées aux demandeurs de la SV pour identifier les individus qui n’ont pas déclaré ou ont mal déclaré leur absence du Canada.
+
+Un système a été conçu pour identifier l’utilisation abusive ou frauduleuse du programme SV en appliquant des techniques de priorisation et d’optimisation de la charge de travail avec l’objectif de se concentrer sur les cas prioritaires. Le système ne rend pas de décisions concernant l’éligibilité du bénéficiaire. La décision d’enquêter sur un individu identifié et de rendre toute décision administrative est effectuée par un enquêteur humain. Les enquêtes qui suivent seront menées de manière approfondie, et les individus identifiés se voient offrir l’opportunité de présenter la documentation nécessaire et des explications avant que les enquêteurs ne produisent des décisions.
+
+Le système utilise une carte auto-organisatrice et un modèle de regroupement appliqués aux données du système d’information des voyageurs de l’ASFC, du système de pensions de la SV, et du registre du NAS. Ce projet a été mené sous la supervision du Centre d’excellence en intelligence artificielle conformément aux directives du Secrétariat du Conseil du Trésor du Canada.
+
+Les services juridiques ont été engagés pour examiner le projet selon les termes de la Directive sur les systèmes de prise de décision automatisée qui est entrée en vigueur le 1er avril 2020.",,,,,3,0,3,0,0,0,1,2,1,10,12,17,4,5,item5,1,0,0,item3-1,9,,,,,,
+123aefbb-c9cb-4243-9be3-7f901daf13f7,oas_eav_acc_final.pdf,pdf,en,0.10.0,Old Age Security Extended Absence Leave Prioritization,,Employment and Social Development (Department of),,Integrity Service Branch,Adam Kowalczewski,Implementation,0,,"Service Canada is responsible for investigating misuse or abuse of the Old
+Age Security (OAS) program including, but not limited to, identifying
+individuals who do not qualify to receive OAS while outside of Canada and
+stopping payment after a 6 month absence, as per the program’s policy. This
+also applies to individuals receiving the Guaranteed Income Supplement,
+which cannot be collected if they are outside Canada for more than 6 months.
+To assist in those responsibilities, Service Canada receives traveller
+information from the Canada Border Service Agency (CBSA), which is then
+compared against OAS claimants to identify individuals who have failed to
+report or have misreported their absence from Canada.
+A system was designed to identify misuse or abuse of the OAS program by
+applying techniques of case load prioritization and optimization with the
+objective to focus on priority cases. The system does not render decisions
+regarding the recipient’s eligibility. The decision to investigate an identified
+individual and render any administrative decision is performed by a human
+investigator. The proceeding investigations will be conducted thoroughly, and
+individuals identified are given an opportunity to present the necessary
+documentation and explanation prior to the investigators producing any
+decisions.
+The system uses a self-organizing map and clustering model applied to data
+from the CBSA traveller information system, OAS pensions system, and SIN
+registry. This project has been conducted with oversight from the Artificial
+Intelligence Centre of Excellence in accordance with the Treasury Board of
+Canada Secretariat guidelines.
+Legal services were engaged to review the project under the terms of the
+Directive on Automated Decision-Making Systems which took effect on April
+1, 2020.",,,1,31,31,25,,,,,,,,,,,,,,,,,,,,,,,,,21552,11
+123aefbb-c9cb-4243-9be3-7f901daf13f7,oas_eav_acc_finalfr.pdf,pdf,fr,0.10.0,,,,,,,Mise en oeuvre,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25357,12
+1257e5c1-243f-4ab8-be42-e7433c8ebe70,algorithmic-impact-assessment-passport-program-facial-recognition-system-bilingual.json,json,bilingual,v0.10.0,Passport Program Facial Recognition System,Système de reconnaissance faciale du programme de Passeport,,050,Visitors and Identity Management Branch,Sean McNair,item2,,Passport Program,,"The Passport Program (formerly Passport Canada) began using facial recognition technology in 2010 to support identity authentication, help detect fraud, and prevent passport and travel document issuance to ineligible applicants. 
+Facial recognition technology is a tool that detects and analyzes the facial features of a person’s face for the purpose of assisting in the identification and verification of an individual’s identity. A facial recognition system converts facial images into facial biometric templates that may be stored within the system and used for future comparison.    The system can compare a facial biometric against a collection of other facial biometrics resulting in a list of candidates ranked by a computer evaluated similarity score; this is called a one-to-many (1:N) identification. It can also conduct a verification by comparing a facial biometric to another facial biometric in the same claimed identity; this is called a one-to-one (1:1) verification.
+For passport purposes, three comparisons are performed. First, all adult applicant facial biometrics are compared to a database of biometric templates from past passport applicants to determine if the person has previously applied for a passport and to help detect passport and travel document related fraud.  Similarly all adult applicants are compared to a collection of templates of individuals whose entitlement to a Canadian passport or travel document warrants additional review (e.g. individuals who have previously misrepresented their identity). Finally, for returning applicants, the Passport Program's facial recognition system compares the applicant's facial biometric to previous templates in the same identity (i.e. previous passport records) to verify they are the same person.
+","Le Programme de passeport (anciennement Passeport Canada) a commencé à utiliser la technologie de reconnaissance faciale en 2010 pour appuyer l’authentification de l’identité, aider à détecter la fraude et prévenir la délivrance de passeports et de titres de voyage à des requérants inadmissibles.
+La technologie de reconnaissance faciale est un outil qui détecte et analyse les traits physionomiques d’une personne en vue d’aider à l’identification d’une personne et à la vérification de son identité. Un système de reconnaissance faciale convertit les images faciales en des modèles biométriques faciaux qui peuvent être stockés dans le système et utilisés ultérieurement aux fins de comparaison. Le système peut comparer les données biométriques faciales d’une personne à un ensemble d’autres données biométriques faciales pour ainsi obtenir une liste de candidats classés selon une cote de similarité évaluée par ordinateur : c’est ce qu’on appelle une identification « un à plusieurs » (1:N). Le système peut également procéder à une vérification en comparant les données biométriques faciales d’une personne à d’autres données biométriques faciales associées à la même identité revendiquée : c’est ce qu’on appelle une vérification « un à un » (1:1).
+Pour les besoins du Programme de passeport, trois types de comparaisons sont effectuées. D’abord, les données biométriques faciales de l’ensemble des requérants adultes sont comparées à tous les modèles biométriques d’anciens requérants de passeport contenus dans une base de données pour déterminer si une personne a déjà présenté une demande de passeport et aider à détecter la fraude liée aux passeports et aux titres de voyage. De même, les données de tous les requérants adultes sont comparées à un ensemble de modèles associés à des personnes dont l’admissibilité à un passeport ou à un titre de voyage canadien doit faire l’objet d’un examen supplémentaire (p. ex., les personnes qui ont déjà fait de fausses déclarations sur leur identité). Enfin, dans le cas des requérants ayant déjà présenté une demande par le passé, le système de reconnaissance faciale du Programme de passeport compare les données biométriques faciales du requérant à d’anciens modèles associés à la même identité (c. à d. les anciens dossiers de passeport) pour vérifier qu’il s’agit bien de la même personne.
+",,,,,3,3,0,0,0,0,1,2,6,10,15,17,4,5,item1,1,3,0,item6-1,10,,,,,,
+1257e5c1-243f-4ab8-be42-e7433c8ebe70,analyse-comparative-entre-les-sexes-plus-pour-le-systeme-de-reconnaissance-faciale-du-programme-.pdf,pdf,en,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10703,4
+1257e5c1-243f-4ab8-be42-e7433c8ebe70,annex-a.-algorithmic-impact-assessment-facial-recognition-system-en.pdf,pdf,en,0.10.0,Passport Program Facial Recognition System,,Citizenship and Immigration (Department of),,Visitors and Identity Management Branch,Sean McNair,Implementation,0,,"The Passport Program (formerly Passport Canada) began using facial
+recognition technology in 2010 to support identity authentication, help detect
+fraud, and prevent passport and travel document issuance to ineligible
+applicants.
+Facial recognition technology is a tool that detects and analyzes the facial
+features of a person’s face for the purpose of assisting in the identification
+and verification of an individual’s identity. A facial recognition system converts
+facial images into facial biometric templates that may be stored within the
+system and used for future comparison. The system can compare a facial
+biometric against a collection of other facial biometrics resulting in a list of
+candidates ranked by a computer evaluated similarity score; this is called a
+one-to-many (1:N) identification. It can also conduct a verification by
+comparing a facial biometric to another facial biometric in the same claimed
+identity; this is called a one-to-one (1:1) verification.
+For passport purposes, three comparisons are performed. First, all adult
+applicant facial biometrics are compared to a database of biometric
+templates from past passport applicants to determine if the person has
+previously applied for a passport and to help detect passport and travel
+document related fraud. Similarly all adult applicants are compared to a
+collection of templates of individuals whose entitlement to a Canadian
+passport or travel document warrants additional review (e.g. individuals who
+have previously misrepresented their identity). Finally, for returning applicants,
+the Passport Program's facial recognition system compares the applicant's
+facial biometric to previous templates in the same identity (i.e. previous
+passport records) to verify they are the same person.",,,2,42,42,36,,,,,,,,,,,,,,,,,,,,,,,,,30486,14
+1257e5c1-243f-4ab8-be42-e7433c8ebe70,annex-b.-resultats-de-levaluation-de-lincidence-algorithmique-pdf.pdf,pdf,fr,0.10.0,,,,,,,Mise en oeuvre,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,37603,15
+1257e5c1-243f-4ab8-be42-e7433c8ebe70,summary-for-publication-passport-facial-recognition-system-gba-plus.pdf,pdf,en,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8557,4
+240f1dbc-a3b5-46b1-9b5f-d0d3cbec9378,3.0-annex-a-peer-review-for-itat-and-ircc-response.pdf,pdf,en,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,23478,10
+240f1dbc-a3b5-46b1-9b5f-d0d3cbec9378,3.1-annex-a-french-peer-review-for-itat-and-ircc-response.pdf,pdf,fr,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,27112,11
+240f1dbc-a3b5-46b1-9b5f-d0d3cbec9378,aia-document-in-pdf-format-en.pdf,pdf,en,0.10.0,Integrity trends analysis tool,,Citizenship and Immigration (Department of),,Integrity Risk Management,Various Stakeholders at IRCC,,,,,,,2,34,34,34,,,,,,,,,,,,,,,,,,,,,,,,,30894,14
+240f1dbc-a3b5-46b1-9b5f-d0d3cbec9378,aia-document-in-pdf-format-fr.pdf,pdf,fr,0.10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36359,15
+240f1dbc-a3b5-46b1-9b5f-d0d3cbec9378,aia-results_mar-25.json,json,bilingual,v0.10.0,Integrity trends analysis tool ,Outil d’analyse des tendances en matière d’intégrité,,050,Integrity Risk Management,Various Stakeholders at IRCC,item2,,,,"The Integrity Trends Analysis Tool (ITAT) analyzes large volumes of data and extracts various risk and fraud patterns within applications containing adverse characteristics, such as inadmissibility findings (e.g. criminality and misrepresentation) and other administrative or enforcement actions related to the Immigration and Refugee Protection Act (IRPA) and Regulations (IRPR). Risk Assessment Units are aware that an application has been flagged by the tool and decide when to initiate verification activities. However, processing officers remain not aware that an application was flagged by ITAT, only that a verification activity has taken place.
+
+Processing officers review applications and make final decisions consistent with procedural fairness and in accordance with the requirements of the IRPA/IRPR. If verification activities are performed, processing officers only see verification results and may consider the results when making final decisions. Examples of verification activities include authenticating proof of funds from a bank or verifying a letter of acceptance from a Designated Learning Institution. Consequently, a processing officer may request a verification activity, or it may be initiated independently by a Risk Assessment Unit if a fraud trend is identified. Processing officers do not know if a verification activity was prompted by an ITAT flag.
+
+Risk Assessment Units conduct verifications on a discretionary basis for Temporary Resident applications to assess the potential program risks. The Risk Assessment Units may use various techniques including telephone calls, site visits or in-person interviews as a means to validate the risks. The results of the verification activity are shared with processing officers whether or not adverse information was found. This tool is designed to assist Risk Assessment Units in prioritizing applications for verification activity by automating the detection of risk patterns associated with adverse outcomes from historical data and flagging new applications that match these patterns. 
+
+The tool’s patterns are not visible to processing officers; instead, they receive only the results of the verification activities performed by Risk Assessment Units, which may have been initiated with or without the tool. As such, the tool does not automate recommendations or decisions.
+
+In 2023, ITAT for the temporary resident programs was implemented in phases. It was first applied to study permit applications and later expanded to temporary resident visa applications and temporary foreign worker applications. The next phase will integrate electronic travel authorizations (eTAs). Continuous evaluations will ensure the tool’s performance and responsible use. ","L’Outil d’analyse des tendances en matière d’intégrité (OATI) analyse de grands volumes de données et extrait divers motifs de risque et de fraude des demandes présentant des caractéristiques défavorables, comme des conclusions d’interdiction de territoire (p. ex. criminalité et fausses déclarations) et d’autres mesures administratives ou d’exécution de la loi découlant de la Loi sur l’immigration et la protection des réfugiés (LIPR) et du Règlement sur l’immigration et la protection des réfugiés (RIPR). Les équipes d’évaluation des risques savent qu’une demande a été signalée par l’outil et ils décident quand entreprendre des activités de vérification. Cependant, les agents de traitement ne sont pas au courant.
+
+Les agents de traitement examinent les demandes et prennent des décisions définitives en respectant l’équité procédurale et les exigences de la LIPR et du RIPR. Si des activités de vérification sont réalisées, les agents de traitement ne voient que les résultats de ces vérifications et peuvent en tenir compte pour prendre des décisions définitives. Les activités de vérification comprennent l’authentification de la suffisance des fonds par une banque ou la vérification d’une lettre d’acceptation d’un établissement d’enseignement désigné. Par conséquent, un agent de traitement peut exiger une activité de vérification, ou celle-ci peut être entreprise indépendamment par une unité d’évaluation des risques, si une tendance en matière de fraude est observée. 
+
+Les équipes d’évaluation des risques effectuent des vérifications discrétionnaires pour les demandes de résidence temporaire afin d’évaluer les risques du programme. Elles utilisent divers moyens, dont les appels téléphoniques, les visites sur place ou les entrevues en personne pour confirmer les risques. Les résultats de l’activité de vérification sont communiqués aux agents de traitement, et ce, que des renseignements défavorables aient été découverts ou non. L’outil est conçu pour aider les équipes d’évaluation des risques à prioriser les demandes à soumettre à une activité de vérification, puisqu’il détecte automatiquement les motifs de risque associés aux résultats défavorables se dégageant des données historiques et signale les demandes qui correspondent à ces tendances. 
+
+Les agents de traitement ne voient pas les motifs de l’outil; ils ne reçoivent que les résultats des activités de vérification effectuées par les équipes d’évaluation des risques, qu’elles aient été lancées avec ou sans l’outil. L’outil ne rend donc pas automatique de recommandations ou de décisions.
+
+L’Outil d’analyse des tendances en matière d’intégrité (OATI) a été mis en œuvre par étapes, en commençant par les programmes de résidence temporaire, soit les étudiants, les visiteurs, les travailleurs et les clients admissibles à l’autorisation de voyage électronique. Une évaluation continue assurera en tout temps le rendement et l’utilisation responsable de l’outil.",,,,,3,3,0,0,0,0,2,2,4,10,16,17,1,5,"item3,item4,item5",3,3,0,item6-1,14,,,,,,
+24d2cab2-6a0d-4234-9239-b6ce102ebabd,aia-results_second_assesment.json,json,bilingual,v0.9.1,Classification of E.I. claim recalculations using Machine Learning ,Classifier les demandes de révisions  d'Assurance Emploi  à l’aide du Machine Learning,,014,Benefits and Integrated Services Branch (BISB),MEDOUNE BOYE ,item2,,Employment Insurance Program,,"In order to reduce a backlog of older claim recalculations, a one-shot machine 
+learning model has been used to triage them. The model classifies claim recalculations into 
+three categories of outcomes: Increase in benefit rate, Decrease in benefit rate, or No 
+Change in benefit rate. 
+This will allow the program to close claim recalculations which have no impact on the claimant and prioritize claim recalculations which have a greater likelihood of resulting in a change of benefit for the claimant.","Afin de réduire l’inventaire des prestations d’Assurance-Emploi à recalculer, un
+modèle de Machine Learning a été utilisé à des fins de classification.
+Le modèle classifie les demandes en trois catégories : a) Augmentation des
+Taux de prestations b) Diminution des Taux de prestations c) Aucun
+changement des Taux de prestations.
+
+Cette classification permet au programme de clôturer les demandes qui n’ont aucun impact sur le taux de prestation des clients et permet de se concentrer sur les demandes qui ont une plus grande probabilité de changer de taux. 
+",,,,,3,3,0,0,0,,1,2,4,10,9,17,4,4,"item4,item3",2,0,0,item3-1,9,,,,,,
+24d2cab2-6a0d-4234-9239-b6ce102ebabd,aia_ae_reduction_inventaire.pdf,pdf,fr,0.9.1,,,,,,,Implémentation,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15703,17
+24d2cab2-6a0d-4234-9239-b6ce102ebabd,aia_ei_backlog_reduction.pdf,pdf,en,0.9.1,Classification of Employment Insurance (E.I) claim recalculations using Machine Learning,,Employment and Social Development (Department of),,Benefits and Integrated Services Branch (BISB),MEDOUNE BOYE,Implementation,0,,"In order to reduce a backlog of older claim recalculations, a one-shot machine learning model
+has been used to triage them.
+The model classifies claim recalculations into three categories of outcomes:
+Increase in benefit rate,
+Decrease in benefit rate,
+No Change in benefit rate.
+This will allow the program to close claim recalculations which have no impact on the
+claimant and prioritize claim recalculations which have a greater likelihood of resulting in a
+change of benefit for the claimant.
+Business Driver / Positive Impact
+10. What is motivating your team to introduce automation into this decision-making
+process? (Check all that apply)
+Existing backlog of work or cases.",,,2,27,27,27,,,,,,,,,,,,,,,,,,,,,,,,,13054,17
+44fe9b0d-d730-43cf-ba7e-d952d55f88f2,algorithmic-impact-assessment-cbsa-assessment-and-revenue-management-carm.pdf,pdf,en,0.10.0,CBSA Assessment and Revenue Management (CARM),,Canada Border Services Agency,,Commercial & Trade Branch,Mike Leahy,Implementation,0,,"The CBSA’s mandate is to provide integrated border services that support
+national security and public safety priorities while facilitating the free flow of
+persons and goods that meet all requirements under its program legislation.
+Managing the efficient importation of commercial goods into Canada,
+including the accurate and effective assessment and collection of duties and
+taxes owed to the Government of Canada, is key to the facilitation aspect of
+the CBSA’s mandate.
+In 2009, the Office of the Auditor General (OAG) appeared before the Standing
+Committee on Public Accounts (PACP). The OAG noted that CBSA had
+difficulty in reconciling information in various reports taken from its tax
+program systems, which led to unexplained differences at year-end. The
+Committee was told that this was due to information technology systems not
+being able to share data. As a result, PACP recommended that the CBSA
+provide the Committee with a detailed plan specifying the steps it would take
+to improve its tax revenue accounting systems. It is from this
+recommendation that the CBSA Assessment and Revenue Management
+(CARM) project was created.
+The CBSA Assessment and Revenue Management Program (CARM) is a
+multi-year transformation initiative that will aid the Government of Canada in
+protecting and growing $40 billion a year in revenue for Canadians. In fiscal
+year 2022–2023, the CBSA collected $39.7 billion in duties and taxes on
+imported goods.
+The CARM project is modernizing and simplifying the accounting process
+related to imported goods, providing a more efficient means for Trade Chain
+Partners (TCPs) (e.g. importers, customs brokers, carriers, freight forwarders,
+customs bonded and sufferance warehouse operators, and duty free shop
+operators) and the CBSA to interact during the importation process and when
+accounting for commercial goods, and when corrections or amendments to
+accounting documentation are required.
+The CARM System was developed by both CBSA, and third-party consulta",,,1,28,33,37,,,,,,,,,,,,,,,,,,,,,,,,,38400,16
+44fe9b0d-d730-43cf-ba7e-d952d55f88f2,levaluation-de-lincidence-algorithmique-gestion-des-cotisations-et-des-recettes-de-lasfc-gcra.pdf,pdf,fr,0.10.0,,,,,,,Mise en oeuvre,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,46665,19
+52b8574d-5c95-463b-b375-8edd092cea30,algorithmic-impact-assessment-processus-de-dotation-avec-la-plateforme-knockri-un-outil-devaluat.pdf,pdf,fr,0.10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,54704,20
+52b8574d-5c95-463b-b375-8edd092cea30,algorithmic-impact-assessment-using-artificial-intelligence-ai-to-automate-candidate-evaluation.json,json,bilingual,v0.10.0,Using artificial intelligence (AI) to automate candidate evaluations in the staffing process's assessment phase,Processus de dotation avec la plateforme Knockri : un outil d’évaluation des candidatures,,056,Human Resources Division,"Sabrina Nandkissore, Dan Cooper",item2,,,,"Selection procedures are used to improve hiring decisions and enhance the fairness and objectiveness of the hiring process. Interviews are one of the most popular selection procedures used in the hiring process and are understood to be the most predictive of job performance when they are conducted with a high degree of structure when compared to other commonly used selection procedures. Interviews can be used to assess a range of candidate characteristics, including behavioural attributes. In the current process within the Treasury Board Secretariat (TBS), interviews for candidates applying to work are conducted in-person using a structured approach. However, the time and cost associated with conducting in-person interviews makes it difficult to interview all candidates within a reasonable amount of time and at a reasonable cost. In addition, rater bias is a concern when deploying a structured interview regardless of efforts to mitigate rater bias through rater training. These concerns have led to the exploration of solutions that can reduce the time and cost associated with conducting interviews, resolve potential issues with rater bias, and maintain a high degree of structure and rigor in the interview process. Knockri can measure behavioural attributes related to employee performance within the TBS through a structured behavioural interview that is administered and scored automatically.
+
+As part of the proposed pilot project, Knockri will be used to measure behavioural attributes of job candidates. This assessment is not intended to replace the need for in-person interviews at a later stage in the recruitment process or additional job relevant candidate inputs generally used as part of a hiring decision.
+
+The goal of the proposed pilot project is to reduce the time and cost associated with conducting interviews, resolve potential issues with rater bias, and maintain a high degree of structure and rigor in the interview process. Providing all candidates with equal opportunity for employment within the Canadian government.
+
+Knockri’s solution for talent acquisition and recruitment efforts emphasizes three key benefits. First, automation expedites the recruitment process, reducing the typical wait time from application to the assessment of behavioural attributes from months to days. For example, the behavioural assessment of 400 candidates done via in-person interviews would take more than 400 hours to complete. In many cases this would result in extremely long recruitment process times or the pre-selection of a subset of candidates for assessment, which would mean that not every candidate is given an equal opportunity to be assessed. With automation, all candidates can be given an opportunity to be assessed and the assessment process is completed much quicker. This can enhance the candidate experience and improve sourcing for external talent in a competitive job market. 
+
+The second benefit is the elimination of human errors, inconsistencies, and biases because human evaluators are removed from the assessment job relevant behavioural attributes. Finally, the platform offers a highly structured approach to scheduling assessments, administering assessments, and evaluating candidates. 
+
+The first step of the proposed pilot project involves the identification of behavioural attributes that will be measured by the interview, the development of behavioural rubrics (i.e., list of relevant attribute behaviours), and the creation of behaviourally based interview questions for each attribute being measured by the interview. This work will be completed by a Ph.D. in Industrial-Organizational Psychology that has extensive experience in the development and validation of psychometric assessments for selection and will be done in collaboration with the TBS HR team. 
+
+The next step of the proposed pilot project will involve the administration of the Knockri assessment. The TBS proposes to pilot Knockri to assess pools of AS-01/AS-02 and EX-01 candidates. The entire candidate pool will be invited to take the assessment.  Candidates will receive a link to the Knockri assessment and will be able to complete the assessment at a time that is convenient for them, so long as it is before the assessment deadline set by the TBS. In addition, the candidates will be able to take the assessment in the official language of their choice (i.e., English or French). The Knockri platform has also been tested for accessibility in both official languages. 
+
+After the assessment of candidates is complete, results will be used as one of several inputs to inform decision-making in the hiring process. For the proposed pilot project, TBS intends to review all candidates regardless of their assessment results. Before hiring managers use the system to support their decision-making, Knockri will host a training session that covers the proper interpretation of scores and how they can be used effectively in the overall decision-making process. 
+
+As part of the proposed pilot project, the HR team will engage in research, where technically feasible, to evaluate the performance of the Knockri system. Performance testing will encompass an assessment of the accuracy of interview scores in comparison to human evaluation, as well as an examination of differences in assessment scores across diverse demographic groups. Further analysis will be carried out to quantify the time and resources saved through the utilization of behavioural attribute assessment automation. 
+
+Candidates that are included in the proposed pilot project are not obligated to undergo the Knockri assessment and have the option to request accommodations or opt for an alternative assessment method. The alternative assessment will involve an in-person assessment of behavioural attributes that follows the same administration and scoring procedure used for the automated assessment. In addition to the option to request accommodations or an alternative selection procedure, candidates retain the right to challenge or appeal assessment results if they wish. After completing an assessment, candidates may also inquire about their score. This choice will be clearly communicated to candidates before they opt for the automated assessment.
+
+The proposed pilot project is not designed to change the roles or responsibilities of the existing HR staff. The purpose of the proposed pilot is to examine the viability of implementing this system to achieve the stated goals. ","Les procédures de sélection sont utilisées afin d’améliorer les décisions d’embauche et renforcer l’équité et l’objectivité du processus d’embauche. Les entrevues constituent l’une des procédures de sélection les plus utilisées dans le cadre du processus d’embauche et sont estimés comme les meilleurs indicateurs du rendement au travail lorsqu’ils sont menés avec un degré élevé de structure par rapport à d’autres procédures de sélection couramment utilisées. Les entrevues peuvent être utilisées pour évaluer une gamme de caractéristiques des candidatures, y compris les attributs comportementaux. Dans le processus actuel au sein du Secrétariat du Conseil du Trésor (SCT), les entrevues avec les candidatures postulant à un emploi se déroulent en personne selon une approche structurée. Cependant, le temps et le coût associés à la conduite d’entrevues en personne font qu’il est difficile de questionner toutes les candidatures, à la fois dans un délai et à un coût raisonnable. De plus, les biais relatifs à l’évaluation sont une préoccupation lors du déroulement d’une entrevue structurée, quels que soient les efforts visant à les atténuer grâce à de la formation. Ces préoccupations ont conduit à l’exploration de solutions susceptibles de réduire le temps et les coûts associés à la conduite des entrevues, de résoudre les enjeux potentiels relatifs aux biais et de maintenir un degré élevé de structure et de rigueur dans le cadre du processus d’entrevue. La plateforme Knockri permet de mesurer les attributs comportementaux relatifs au rendement des membres du personnel au sein du SCT grâce à une entrevues comportemental structurée qui est administrée et notée automatiquement.
+
+Dans le cadre du projet pilote proposé, la plateforme Knockri sera utilisée pour mesurer les attributs comportementaux des candidatures. Cette évaluation n’est pas destinée à remplacer la nécessité d’entrevues en personne à un stade ultérieur du processus de recrutement ou de contributions supplémentaires pertinentes sur le candidat, pour le poste, généralement utilisées dans le cadre d’une décision d’embauche.
+
+L’objectif du projet pilote proposé est de réduire le temps et les coûts associés à la conduite des entrevues, de résoudre les enjeux potentiels relatifs aux biais et de maintenir un degré élevé de structure et de rigueur dans le cadre du processus d’entrevue. Offrir à toutes les candidatures des chances égales d’emploi au sein du gouvernement canadien.
+
+La solution de l’entreprise Knockri en matière d’efforts pour l’acquisition de talents et le recrutement met l’accent sur trois avantages clés. Premièrement, l’automatisation accélère le processus de recrutement, réduisant de plusieurs mois à quelques jours le temps d’attente typique entre la candidature et l’évaluation des attributs comportementaux. Par exemple, l’évaluation comportementale de 400 candidatures effectuée au moyen d’entrevues en personne prendrait plus de 400 heures. Dans de nombreux cas, cela entraînerait des délais de recrutement extrêmement longs ou la présélection d’un sous-ensemble de candidatures à évaluer, ce qui signifierait que toutes les candidatures n’auraient pas les mêmes chances d’être évaluées. Grâce à l’automatisation, toutes les candidatures peuvent avoir la possibilité d’être évaluées et le processus d’évaluation est réalisé beaucoup plus rapidement. Cela peut améliorer l’expérience des candidatures et la recherche de talents externes sur un marché du travail concurrentiel. 
+
+Le deuxième avantage est l’élimination des erreurs humaines, des incohérences et des biais, car les évaluateurs – des personnes humaines – sont exclus de l’évaluation des attributs comportementaux pertinents du travail. Enfin, la plateforme offre une approche hautement structurée pour planifier les évaluations, les administrer et évaluer les candidatures. La première étape du projet pilote proposé implique la détermination des attributs comportementaux qui seront mesurés au moyen de l’entrevue, l’élaboration de rubriques comportementales (c’est-à-dire une liste d’attributs comportementaux pertinents) et la création de questions d’entrevues basées sur le comportement pour chaque attribut mesuré au moyen de l’entrevue. Ce travail sera réalisé par une personne détenant un Ph. D. en psychologie industrielle et organisationnelle qui possède une vaste expérience dans l’élaboration et la validation d’évaluations psychométriques pour la sélection de personnels et se fera en collaboration avec l’équipe des RH du SCT. 
+
+La prochaine étape du projet pilote proposé impliquera l’administration de l’évaluation au moyen de la plateforme Knockri. Le SCT propose de tester la plateforme Knockri pour évaluer les bassins de candidatures AS-01/AS-02 et EX-01. L’ensemble des candidatures sera invité à passer l’évaluation. Les candidatures recevront un lien vers l’évaluation au moyen de la plateforme Knockri et pourront terminer l’évaluation au moment qui leur convient, à condition que ce soit avant la date limite d’évaluation fixée par le SCT. De plus, les candidatures pourront passer l’évaluation dans la langue officielle de leur choix (c’est-à-dire l’anglais ou le français). La plateforme Knockri a également été mise à l’essai pour son accessibilité dans les deux langues officielles. 
+
+Une fois l’évaluation des candidatures terminée, les résultats seront utilisés comme l’un des nombreux éléments d’information pour éclairer la prise de décision dans le cadre du processus d’embauche. Pour le projet pilote proposé, le SCT a l’intention de réviser toutes les candidatures, quels que soient leurs résultats à l’évaluation. Avant que les gestionnaires chargés du recrutement n’utilisent la plateforme afin de soutenir leur prise de décision, l’équipe de Knockri organisera une séance de formation qui couvrira l’interprétation adéquate des notes et la manière dont elles peuvent être utilisées efficacement dans l’ensemble du processus décisionnel. 
+
+Dans le cadre du projet pilote proposé, l’équipe des RH effectuera des recherches, lorsque cela est techniquement possible, afin d’évaluer le rendement de la plateforme Knockri. Les essais concernant le rendement comprendront une évaluation de l’exactitude des notes d’entrevue par rapport à l’évaluation réalisée par des personnes humaines, ainsi qu’un examen des différences dans les notes d’évaluation entre divers groupes démographiques. Une analyse plus approfondie sera effectuée afin de quantifier les économies possibles en matière de temps et de ressources grâce à l’utilisation de l’automatisation de l’évaluation des attributs comportementaux. 
+
+Les candidatures participant au projet pilote proposé ne sont pas tenues de se soumettre à l’évaluation au moyen de la plateforme Knockri et ont la possibilité de demander des mesures d’adaptation ou d’opter pour une autre méthode d’évaluation. L’autre méthode d’évaluation impliquera une évaluation en personne des attributs comportementaux qui suit la même procédure d’administration et de notation que celle utilisée pour l’évaluation automatisée. En plus de la possibilité de demander des mesures d’adaptation ou une procédure de sélection différente, les candidatures conservent le droit de contester ou de faire appel des résultats de l’évaluation, s’ils le souhaitent. Après avoir terminé une évaluation, les candidatures peuvent également se renseigner au sujet de leur note. Ce choix sera clairement communiqué aux candidatures avant qu’elles n’optent pour l’évaluation automatisée.
+
+Le projet pilote proposé n’est pas conçu pour modifier les rôles ou les responsabilités du personnel des RH existant. Le but du projet pilote proposé est d’examiner la viabilité de la mise en œuvre de cette plateforme afin d’atteindre les objectifs énoncés. ",,,,,0,0,0,0,0,0,2,2,4,10,16,17,4,5,item2,1,3,0,item7-1,13,,,,,,
+52b8574d-5c95-463b-b375-8edd092cea30,algorithmic-impact-assessment-using-artificial-intelligence-ai-to-automate-candidate-evaluations.pdf,pdf,en,0.10.0,"Using artificial intelligence (AI) to automate candidate evaluations in the
+staffing process's assessment phase",,Treasury Board Secretariat,,Human Resources Division,"Sabrina Nandkissore, Dan Cooper",,,,,,,1,28,33,37,,,,,,,,,,,,,,,,,,,,,,,,,44814,18
+5423054a-093c-4239-85be-fa0b36ae0b2e,aia-en-fr.xlsx,xlsx,fr,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Final Draft Questionnaire,Final Draft Questionnaire FR,Final MASTER SCORE",232,,
+5423054a-093c-4239-85be-fa0b36ae0b2e,aiaen.xlsx,xlsx,bilingual,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Final Draft Questionnaire Optio,Final MASTER SCORE option 2",132,,
+5423054a-093c-4239-85be-fa0b36ae0b2e,page_en.html,html,en,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,174,
+5423054a-093c-4239-85be-fa0b36ae0b2e,page_fr.html,html,fr,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,174,
+6b429c8e-ee5b-451a-883f-b6180ada9286,1-aia_ei_ml_workload_en.pdf,pdf,en,0.10.0,Machine Learning Workload,,Employment and Social Development (Department of),,Benefits and Integrated Services Branch (BISB),MEDOUNE BOYE,Implementation,0,,"Reducing Recalculation Workload through Machine Learning
+Background:
+The recalculation of Employment Insurance (EI) benefits involves conducting a
+comprehensive review and reassessment of a claim in response to new information or
+changes in circumstances. The primary objective is to ensure accurate benefit calculations,
+whether they result in overpayment, underpayment, or no change.
+The introduction of Web and Electronic Record of Employments (ROEs) has significantly
+increased the number of recalculations. Since 2013, approximately 300,000 Recalculation
+Work Items are generated annually, and during the pandemic, the number surged to over
+1.7 million due to simplification measures.
+To address this workload, a Machine Learning (ML) algorithm is being trained to analyze EI
+production data. The ML model specifically focuses on terminated or dormant claims and
+aims to predict the potential outcomes of recalculations.
+The implementation of the ML model aims to reduce the backlog of recalculation work items,
+thereby easing the workload on officers. By prioritizing cases that have a significant impact
+on claimants or the EI program, officers can allocate their attention more effectively to
+critical tasks, resulting in improved service delivery.
+Before deploying the ML model, strict adherence to the guidelines set by the Treasury Board
+of Canada Secretariat (TBS) for Automated Decision Systems (ADS) is crucial. The TBS
+has been regulating the use of ML within the Government of Canada since April 1st, 2020.
+Compliance with the TBS Directive for ADS requires a rigorous approval process to ensure
+adherence to established standards. For more information on TBS Automated Decision
+Making, please visit: AI CoE - Home (sharepoint.com)
+In addition to the TBS approval process, there are additional risk mitigation measures in
+place. Randomized manual spot checks conducted by agents are used to review claims with
+no anticipated change in benefits. Furthermore, if a client makes an inqui",,,1,30,30,29,,,,,,,,,,,,,,,,,,,,,,,,,22073,20
+6b429c8e-ee5b-451a-883f-b6180ada9286,1-aia_ei_ml_workload_fr.pdf,pdf,fr,0.10.0,,,,,,,Mise en œuvre,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25563,21
+6b429c8e-ee5b-451a-883f-b6180ada9286,aia-results_json.json,json,bilingual,v0.10.0,Machine Learning Workload ,,,014,Benefits and Integrated Services Branch (BISB),MEDOUNE BOYE,item2,,Employment Insurance Program,,"Reducing Recalculation Workload through Machine Learning
+
+Background: 
+The recalculation of Employment Insurance (EI) benefits involves conducting a comprehensive review and reassessment of a claim in response to new information or changes in circumstances. The primary objective is to ensure accurate benefit calculations, whether they result in overpayment, underpayment, or no change.
+
+The introduction of Web and Electronic Record of Employments (ROEs) has significantly increased the number of recalculations. Since 2013, approximately 300,000 Recalculation Work Items are generated annually, and during the pandemic, the number surged to over 1.7 million due to simplification measures.
+
+To address this workload, a Machine Learning (ML) algorithm is being trained to analyze EI production data. The ML model specifically focuses on terminated or dormant claims and aims to predict the potential outcomes of recalculations.
+
+The implementation of the ML model aims to reduce the backlog of recalculation work items, thereby easing the workload on officers. By prioritizing cases that have a significant impact on claimants or the EI program, officers can allocate their attention more effectively to critical tasks, resulting in improved service delivery.
+
+Before deploying the ML model, strict adherence to the guidelines set by the Treasury Board of Canada Secretariat (TBS) for Automated Decision Systems (ADS) is crucial. The TBS has been regulating the use of ML within the Government of Canada since April 1st, 2020. Compliance with the TBS Directive for ADS requires a rigorous approval process to ensure adherence to established standards. For more information on TBS Automated Decision Making, please visit: AI CoE - Home (sharepoint.com)
+
+In addition to the TBS approval process, there are additional risk mitigation measures in place. Randomized manual spot checks conducted by agents are used to review claims with no anticipated change in benefits. Furthermore, if a client makes an inquiry about their file, officers proceed with the recalculation process. The Integrity Service Branch (ISB) is responsible for reviewing undeclared contentious issues to ensure accuracy and fairness. Additionally, the workload process is modified to prioritize active claims, allowing for efficient allocation of resources.
+",,,,,,0,0,0,0,0,0,1,2,4,10,10,17,5,5,item4,1,0,0,item3-1,13,,,,,,
+6cba99b1-ea2c-4f8a-b954-3843ecd3a7f0,peer-review-for-advanced-analytics-triage-of-overseas-temporary-resident-visa-applications-engli.pdf,pdf,en,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13525,7
+6cba99b1-ea2c-4f8a-b954-3843ecd3a7f0,peer-review-for-advanced-analytics-triage-of-overseas-temporary-resident-visa-applications-frenc.pdf,pdf,fr,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15170,8
+6cba99b1-ea2c-4f8a-b954-3843ecd3a7f0,trv-aia-en-fr-results-24-may-2022.json,json,fr,v0.9.1,Advanced Analytics Triage of Overseas Temporary Resident Visa Applications ,Triage au moyen de l’analyse avancée des demandes de visa de résident temporaire présentées depuis l’étranger,,050, Various Branches at IRCC,Various Stakeholders at IRCC,item2,,,,"This project seeks to streamline the eligibility assessment for all overseas temporary resident (visitor) visa applications in order to help IRCC decision makers process applications more efficiently. The advanced data analytics system identifies routine applications for streamlined processing and sorts applications into tiers based on their level of complexity. When an application is deemed routine for streamlined processing, advance data analytics are used to determine only that an applicant is eligible, whereas more complex applications are assigned to officers for regular manual processing and decision. The system only makes positive eligibility determinations on routine applications; it does not make any ineligibility determinations, and does not assess applications for admissibility. All applications are referred to an immigration officer for an admissibility assessment and officers are required to review all relevant fle information in processing applications, including the information provided in additional documents. Officers make the final decision on all applications."," Ce projet vise à simplifier l’évaluation de l’admissibilité pour toutes les demandes de visa de résident temporaire (visa de visiteur) présentées depuis l’étranger afin d’aider les décideurs d’IRCC à traiter les demandes plus efficacement. Le système d’analyse avancée des données cerne les demandes ordinaires qui feront l’objet d’un traitement simplifié et trie les demandes dans différents volets, selon leur niveau de complexité. Lorsqu’une demande est jugée ordinaire aux fins du traitement simplifié, l’analyse avancée des données est utilisée pour déterminer uniquement si le demandeur est admissible, alors que les demandes plus complexes sont attribuées à des agents afin qu’ils effectuent le traitement manuel régulier et prennent une décision. Le système rend uniquement des décisions favorables concernant l’admissibilité pour les demandes ordinaires. Il ne rend pas de décisions défavorables et ne réalise pas d’évaluation pour vérifier s’il y a interdiction de territoire. Toutes les demandes sont envoyées à un agent d’immigration pour l’évaluation visant à vérifier s’il y a interdiction de territoire, et les agents doivent examiner tous les renseignements pertinents au dossier lors du traitement des demandes, y compris les renseignements fournis dans les documents supplémentaires. Les agents prennent la décision définitive concernant toutes les demandes.",,,,,3,3,0,0,0,,2,2,5,10,16,17,2,4,item5,1,0,0,item6-1,18,,,,,,
+6cba99b1-ea2c-4f8a-b954-3843ecd3a7f0,trv-aia-en-may-2022.pdf,pdf,en,0.9.1,,,,,,Various Stakeholders at IRCC,,,,,,,2,34,40,36,,,,,,,,,,,,,,,,,,,,,,,,,17464,9
+6cba99b1-ea2c-4f8a-b954-3843ecd3a7f0,trv-aia-fr-may-2022.pdf,pdf,fr,0.9.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21177,10
+71b309a0-efd2-4e85-8124-37e935c23aef,aia-results-resultats-de-leia-1.json,json,bilingual,v0.10.0,Administrative Activities Support Tool (AAST) ,Outil de soutien aux activités administratives (OSAA),,050,International Platform Branch,"Various Stakeholders at Immigration, Refugees and Citizenship Canada (IRCC)",item2,,"Visitors, International students and Temporary workers and Immigrant and Refugee Selection and Integration",,"AAST is a processing aid that supports staff in completing administrative tasks for immigration applications, including data-matching and bulk email creation. Two of the modules are in scope of the Treasury Board Directive on Automated Decision Making. 
+
+The modules in question, the Biometric and Medical modules, use index matching of lists of biographical information between the biometric enrolments and immgration medical examinations, and applications pending those assessments. The processing aid does not review the results of the applicant's immigration medical examinations or biometric enrollment, and only compares basic biographical data to score a level of match. This allows staff to focus on non-routine suggested matches. Once the lists are generated, the recommended information is entered into the Global Case Management System (GCMS), which is IRCC's system of record. This helps ensure that biometric enrollments and medical assessments are connected to immigration applications in a timely manner. 
+
+AAST uses natural GCMS data points in processing. AAST does not interact with GCMS or Web browsers and it does not contain a black box algorithm. AAST does not make a decision on behalf of an employee, it makes a recommendation on matching assessments to applications. The assessments must then be entered into GCMS, and they continue to be reviewed by an immigration officer prior to a decision being rendered on the application.","L’OSAA est un soutien du traitement qui aide le personnel à effectuer des tâches administratives liées aux demandes d’immigration, y compris la correspondance d’éléments de données et la création de messages en bloc. Deux des modules entrent dans le cadre de la Directive sur la prise de décision automatisée du Conseil du Trésor.
+
+Les modules pertinents, le module médicale et le module des données biométriques, utilisent la correspondance indicielle des renseignements biographiques entre les inscriptions de données biométriques, les évaluations
+médicales, et les demandes en attente de ces évaluations. Ces fonctionnalités n’examinent pas les résultats des évaluations médicales ni des inscriptions de données biométriques, elles ne font que comparer des
+données biographiques de base des clients pour attribuer un résultat de niveau de correspondance. Ainsi, le personnel de soutien peut se concentrer sur les correspondances non habituelles suggérées. Cela permet de garantir que les inscriptions biométriques et les évaluations médicales sont liées aux demandes d’immigration en temps opportun.
+
+L’OSAA utilise des points de données naturellement du SMGC dans le cadre du traitement des demandes. L’OSAA n’interagit pas avec le SMGC, ni avec les navigateurs Internet, et ne comprend pas un algorithme en boîte noire. L’OSAA ne prend pas de décision à la place d’un employé; il fait une recommandation de correspondances d’évaluations liées aux demandes. Les évaluations doivent être entrées dans le SMGC et doivent continuer à être examinées par un agent avant qu’une décision soit rendue par rapport à la demande.",,,,,0,0,0,0,0,0,1,2,2,10,12,17,2,5,"item4,item5",2,0,0,item6-1,10,,,,,,
+71b309a0-efd2-4e85-8124-37e935c23aef,annex-a-aast-aia-2025-01-28-en.pdf.pdf,pdf,en,0.10.0,Administrative Activities Support Tool (AAST),,Citizenship and Immigration (Department of),,International Platform Branch,"Various Stakeholders at Immigration, Refugees and Citizenship Canada
+(IRCC)",Implementation,0,,"AAST is a processing aid that supports staff in completing administrative
+tasks for immigration applications, including data-matching and bulk email
+creation. Two of the modules are in scope of the Treasury Board Directive on
+Automated Decision Making.
+The modules in question, the Biometric and Medical modules, use index
+matching of lists of biographical information between the biometric
+enrolments and immgration medical examinations, and applications pending
+those assessments. The processing aid does not review the results of the
+applicant's immigration medical examinations or biometric enrollment, and
+only compares basic biographical data to score a level of match. This allows
+staff to focus on non-routine suggested matches. Once the lists are
+generated, the recommended information is entered into the Global Case
+Management System (GCMS), which is IRCC's system of record. This helps
+ensure that biometric enrollments and medical assessments are connected to
+immigration applications in a timely manner.
+AAST uses natural GCMS data points in processing. AAST does not interact
+with GCMS or Web browsers and it does not contain a black box algorithm.
+AAST does not make a decision on behalf of an employee, it makes a
+recommendation on matching assessments to applications. The
+assessments must then be entered into GCMS, and they continue to be
+reviewed by an immigration officer prior to a decision being rendered on the
+application.",,,1,27,27,25,,,,,,,,,,,,,,,,,,,,,,,,,23161,12
+71b309a0-efd2-4e85-8124-37e935c23aef,annex-b-aast-aia-2025-01-28-fr.pdf.pdf,pdf,fr,0.10.0,,,,,,,Mise en oeuvre,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,27687,13
+7612202f-1530-41ce-80c7-6e121f5fcadc,voice2text_aia-en.pdf,pdf,en,0.10.0,Voice2Text,,Royal Canadian Mounted Police,,Specialized Policing Services,Christie Sainsbury,Design,0,,"The project involves building a web-based offline, on-premise application that
+uses AI engines to assist with the transcription and/or translation of audio
+files collected during investigations. The application will process audio files
+and generate a transcription and/or translation that will then be reviewed and
+edited by transcribers/translators prior to disclosure. The goal of the project
+is to increase the efficiency of the transcription/translation process, not to
+replace it. It will help to reduce backlogs and improve operational necessity
+by allowing investigations timelier access to relevant details of their operation
+which could impact surveillance, officer safety and potential Authorization re-
+writes. Transcribers/translators will still need to review the generated
+transcriptions for accuracy and make any necessary edits.",,,1,28,28,6,,,,,,,,,,,,,,,,,,,,,,,,,17410,10
+7612202f-1530-41ce-80c7-6e121f5fcadc,voice2text_aia-fr.pdf,pdf,fr,0.10.0,,,,,,,Conception,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20892,11
+89898244-aaae-4591-ba9b-fe5cd81d5924,griffeye-aia-en.pdf,pdf,en,0.10.0,Griffeye,,Royal Canadian Mounted Police,,NHQ/Tech Ops/SSIS/NCECC/Tech Unit,Sgt Tom Guineau,Implementation,0,,"SOFTWARE already in Use -Tool designed to assist in the categorization/
+classification of Child Exploitation images and Videos. It ingests media
+derived from Seized Exhibits, Submissions from partners (NCMEC, CyberTip
+and other Law Enforcement Agencies et al) and presents all of the media and
+associated embedded meta data (EXIF etc) into a workspace where
+Categories per Sec 163 of the Criminal Code can be applied, media can be
+grouped together using various filters, and pre-categorization performed
+against hash databases of known material. This tool does offer the ability to
+use an AI implementation to evaluate images and videos and determine
+whether Child Pornography is present by applying trained Classifiers to group
+media together for human review. This AI function is also able to Face Match
+(not Face Recognize) against other media contained within the workspace to
+attempt to group individuals with similar characteristics together. The inbuilt
+Face Matching feature can be used and does not reach out to other systems
+in order to resolve a face to a specific identifiable individual. Once work is
+complete, the Hashes and associated meta data can be exported to share out
+to other compatible tools using the PVIC Format, and shared as appropriate/
+authorized.",,,2,39,39,16,,,,,,,,,,,,,,,,,,,,,,,,,23953,12
+89898244-aaae-4591-ba9b-fe5cd81d5924,griffeye-aia_fre.pdf,pdf,fr,0.10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28782,14
+9addf54a-7148-459f-b785-0e240414ef7f,mentalhealthbenefit-aia-en.pdf,pdf,en,0.9.1,Mental Health Benefit,,Veterans Affairs (Department of),,Corporate Services,Daniel Andrews,Implementation,0,,,,,2,48,48,27,,,,,,,,,,,,,,,,,,,,,,,,,11866,8
+9addf54a-7148-459f-b785-0e240414ef7f,mentalhealthbenefit-aia-fr.pdf,pdf,fr,0.9.1,,,,,,,Implémentation,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14298,9
+9addf54a-7148-459f-b785-0e240414ef7f,vac-mentalhealthbenefits-aia.json,json,bilingual,v0.9.1,Mental Health Benefit,Avantages pour la santé mentale,,021,Corporate Services,Daniel Andrews,item2,,,,"Currently, Veterans must wait for adjudication of their disability benefits application before becoming eligible for coverage for treatment benefits.  The adjudication process can take some time (target processing time of 16 weeks), delaying access to needed benefits. 
+
+The Mental Health Benefits would allow Veterans to access coverage for mental health treatment and supports immediately upon application for Disability Benefits for certain mental health conditions, for up to two years or until their disability entitlement decision is granted.
+","Actuellement, les vétérans doivent attendre la décision relative à leur demande de prestations d’invalidité avant d’être admissibles à la couverture en vertu du Programme d’avantages médicaux. Le processus peut s’avérer plutôt long (leur demande doit normalement être traitée dans les 16 semaines après qu’elle a été présentée), ce qui retarde l’accès aux avantages nécessaires.
+
+Les avantages pour la santé mentale permettraient aux vétérans d’accéder au traitement en santé mentale et au soutien dont ils ont besoin dès qu’ils présentent leur demande de prestations d’invalidité pour certains problèmes de santé mentale. Cette couverture pourrait s’échelonner sur une période allant jusqu’à deux ans ou jusqu’à ce que soit rendue une décision établissant leur admissibilité.",,,,,10,3,3,4,0,,2,2,1,10,13,17,3,4,item5,1,0,0,item1-1,16,,,,,,
+aafdfbcd-1cdb-4913-84d5-a03df727680c,aia-automation.json,json,bilingual,v0.9.1,Automation Development to Support Disability Benefit Decision Making,,,021,Corporate Services,Daniel Andrews,item1,,,,Project is to increase our use of automation technologies to improve throughput of disability decisions and reduce the overall backlog.,,,,,,10,3,3,4,0,,0,0,0,0,0,0,0,0,"item2,item5,item1,item4",4,0,0,"item1-1,item3-1",18,,,,,,
+aafdfbcd-1cdb-4913-84d5-a03df727680c,automation-aia-en.pdf,pdf,en,0.10.0,Automation Development to Support Disability Benefit Decision Making,,Veterans Affairs (Department of),,Corporate Services,Daniel Andrews,Design,0,,"Project is to increase our use of automation technologies to improve
+throughput of disability decisions and reduce the overall backlog.",,,2,55,55,30,,,,,,,,,,,,,,,,,,,,,,,,,13852,9
+aafdfbcd-1cdb-4913-84d5-a03df727680c,automation-aia-fr.pdf,pdf,fr,0.10.0,,,,,,,Conception,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16632,9
+ad4be3b8-ac97-4dc1-8dd8-231239d018f2,2.-f-01257746-annex-a-aia-en.pdf,pdf,en,0.9.1,Automation Tools to help process privately sponsored refugee applications,,Citizenship and Immigration (Department of),,Various branches at IRCC,Various Stakeholders at IRCC,Implementation,0,,"The automation system helps streamline the processing of both parts of
+Privately Sponsored Refugee applications – the sponsorship part and the
+refugee part. When reviewing an application, the system will first scan the
+sponsorship part to identify routine cases that can be automatically approved.
+All sponsorship parts that are not automatically approved by the system go
+through the existing manual officer review process. For the second part of the
+application that refers to the refugee applicant file, the system helps sort and
+assign applications to officers at migration offices overseas based on office
+capabilities and officer expertise. This better uses the network of visa officers
+and reduces differences in processing times across immigration offices.
+Decisions on the refugee part of the application are not automated. All
+decisions on this part of the application are made by an officer based on their
+assessment of the application.
+Business Driver / Positive Impact
+10. What is motivating your team to introduce automation into this decision-making process?
+(Check all that apply)
+Existing backlog of work or cases
+Use innovative approaches
+Other (please specify)
+11. Please describe
+Facilitate more efficient use of IRCC resources in the processing of
+resettlement applications, assist in managing the growing volume of
+resettlement visa applications, and improve processing times",,,2,49,49,35,,,,,,,,,,,,,,,,,,,,,,,,,15908,9
+ad4be3b8-ac97-4dc1-8dd8-231239d018f2,aia-fr-4.pdf,pdf,fr,0.9.1,,,,,,,Implémentation,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18539,10
+ad4be3b8-ac97-4dc1-8dd8-231239d018f2,aia-results-2.json,json,bilingual,v0.9.1,Automation Tools to help process privately sponsored refugee applications,Utilisation d’outils d’automatisation pour accélérer le traitement des demandes de réfugiés parrainés par le secteur privé,,050,Various branches at IRCC,Various Stakeholders at IRCC,item2,,Refugees,,"The automation system  helps streamline the processing of both parts of Privately Sponsored Refugee applications – the sponsorship part and the refugee part. When reviewing an application, the system will first scan the sponsorship part to identify routine cases that can be automatically approved.  All sponsorship parts that are not automatically approved by the system go through the existing manual officer review process. For the second part of the application that refers to the refugee applicant file, the system helps sort and assign applications to officers at migration offices overseas based on office capabilities and officer expertise. This better uses the network of visa officers and reduces differences in processing times across immigration offices. Decisions on the refugee part of the application are not automated. All decisions on this part of the application are made by an officer based on their assessment of the application.","Le système d’automatisation permet de simplifier le traitement des deux parties des demandes de réfugiés parrainés par le secteur privé : la partie concernant le parrainage et la partie concernant le réfugié. Lors de l’examen d’une demande, le système numérisera d’abord la partie concernant le parrainage afin de détecter les cas courants qui peuvent être approuvés automatiquement. Toutes les parties concernant le parrainage qui ne sont pas automatiquement approuvées par le système seront examinées par un agent lors du processus manuel actuel. Pour la deuxième partie de la demande, soit celle concernant le dossier du demandeur d’asile, le système permet de trier et d’attribuer des demandes aux agents en fonction de leur expertise et des capacités des bureaux de migration à l’étranger au sein desquels ils travaillent. Cela permet de mieux exploiter le réseau des agents des visas et de réduire les écarts liés aux délais de traitement des demandes au sein des bureaux d’immigration. Les décisions sur la partie concernant le réfugié ne sont pas automatisées; elles sont toutes prises par un agent selon l’évaluation de la demande qu’il fait.",,,,,10,3,3,4,0,,2,2,5,10,16,17,1,4,item5,1,0,0,item6-1,20,,,,,,
+afc17416-3781-422d-a4a9-cc55e3a053c8,arrivecan-2021-10-06v11.json,json,bilingual,v0.9,ArriveCAN Proof of Vaccination Recognition,,,148,Corporate Data and Surveillance Branch,Christopher Allison,item2,,Quarantine Facilities and COVID-19 Border Measures,,"ArriveCAN is a digital platform that is being used to collect travel and COVID-19-related health information from individuals traveling to Canada. By automating the scanning of travellers' proof of vaccination using Optical Character Recognition (OCR) technology, ArriveCAN augments the government's capacity to process incoming travellers and enhances its readiness to adapt to the gradual reopening of the border to international travellers. Subject to limited exceptions, all travellers must use ArriveCAN (through a mobile app or web portal) to submit their travel information and proof of vaccination. Scanned proofs of vaccination help inform whether a traveller is eligible to enter Canada and any quarantine or other requirements they may be subject to following their entry. Data collected through ArriveCAN is also used to support post-border enforcement actions. ArriveCAN is not intended to make any administrative decisions regarding a traveller's eligibility to enter Canada. Rather, it assists border services officers in assessing eligibility and applicable quarantine requirements. Where the platform fails to recognize a proof of vaccination, a traveller would undergo a manual inspection of their documentation. Border services officers can decide whether and how to leverage ArriveCAN to inform their decisions.",,,,,,3,3,0,0,0,,2,2,2,10,13,17,2,4,"item1,item5,item2",3,3,0,"item4-1,item1-1",11,,,,,,
+afc17416-3781-422d-a4a9-cc55e3a053c8,english-arrivecan-2021-10-06v11.pdf,pdf,en,0.9,,,,,,,,,,,,,2,47,47,28,,,,,,,,,,,,,,,,,,,,,,,,,20934,10
+afc17416-3781-422d-a4a9-cc55e3a053c8,francais-arrivecan-2021-10-06v11.pdf,pdf,fr,0.9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24373,10
+b3dc23b6-8c06-4c45-bc65-4cb4ec30bf80,tfwp_aia_en_0206_v3.pdf,pdf,en,0.10.0,,,,,,,,,,,,,1,30,30,22,,,,,,,,,,,,,,,,,,,,,,,,,21992,11
+b3dc23b6-8c06-4c45-bc65-4cb4ec30bf80,tfwp_aia_fr_0206_v3.pdf,pdf,fr,0.10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26527,12
+b3dc23b6-8c06-4c45-bc65-4cb4ec30bf80,tfwp_opengovernmentportal_en.json,json,en,v0.10.0,Temporary Foreign Worker Program Case Selection Algorithm,,,014,Integrity Services Branch and Temporary Foreign Worker Branch,,item2,,Temporary Foreign Worker Program (TFWP),,A set of algorithms and business rules to prioritize TFWP cases for inspection based on the existence and severity of established risk factors. ,,,,,,3,3,0,0,0,0,1,2,3,10,9,17,1,5,"item3,item5",2,0,0,item6-1,9,,,,,,
+b3dc23b6-8c06-4c45-bc65-4cb4ec30bf80,tfwp_opengovernmentportal_fr.json,json,fr,v0.10.0,Algorithme de sélection des cas du Programme des travailleurs étrangers temporaires,,,014,Direction des services d’intégrité et Direction des travailleurs étrangers temporaires,,item2,,PTET,,Un ensemble d’algorithmes et de règles commerciales pour prioriser les cas du PTET pour inspection en fonction de l’existence et de la gravité des facteurs de risque établis.,,,,,,3,3,0,0,0,0,1,2,3,10,9,17,1,5,"item3,item5",2,0,0,item6-1,9,,,,,,
+b4a417f7-5040-4328-9863-bb8bbb8568c3,aia-iec-applications-en.pdf,pdf,en,0.10.0,International Experience Canada (IEC) Work Permit Eligibility Model,,Citizenship and Immigration (Department of),,Various Branches at IRCC,Various Stakeholders at IRCC,Implementation,0,,"This project seeks to streamline the eligibility assessment for a subset of IEC
+WP applications in order to help IRCC decision-makers process applications
+more efficiently. The IEC WP model triages IEC WP applications by grouping
+files with similar characteristics based on the legislative, regulatory and
+contractual requirements for each subprogram and participating country. The
+model is designed to apply pre-defined triage criteria to triage and identify
+“light-touch” routine cases where the eligibility portion can receive an
+automated positive eligibility Assessment. For the Summer 2023 launch,
+automated eligibility assessments are based on pre-existing business rules
+for the IEC Working Holiday Program only. Advanced analytics (AA) was not
+used to generate the current model criteria. The criteria that inform the model
+are the same that currently exist and that decision makers would currently
+examine. Applications that have received an automated positive eligibility
+assessment will continue to be manually assessed for admissibility.
+Procedures for eligibility and admissibility review will remain unchanged for
+applications not triaged for automated positive eligibility assessments. This
+model never refuses or recommends refusing applications. IRCC officers
+make the final decision to approve or refuse on all applications.",,,2,36,36,34,,,,,,,,,,,,,,,,,,,,,,,,,32391,14
+b4a417f7-5040-4328-9863-bb8bbb8568c3,aia-iec-applications-fr.pdf,pdf,fr,0.10.0,,,,,,,Mise en oeuvre,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38587,16
+b4a417f7-5040-4328-9863-bb8bbb8568c3,examen-par-les-pairs-du-modele-de-recevabilite-du-permis-de-travail-dexperience-internationale-c.pdf,pdf,fr,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9655,5
+b4a417f7-5040-4328-9863-bb8bbb8568c3,iec-aia-results.json,json,bilingual,v0.10.0,Modèle de recevabilité du permis de travail d’Expérience internationale Canada (EIC),International Experience Canada (IEC) Work Permit Eligibility Model,,050,Diverses directions générales d’IRCC,Divers intervenants d’IRCC,item2,,Travailleurs temporaires,,"Ce projet vise à simplifier l’évaluation de la recevabilité d’un sous-ensemble de demandes de permis de travail d’EIC pour aider les décideurs d’IRCC à traiter plus efficacement les demandes. Le modèle de permis de travail d’EIC permet de trier les demandes en regroupant les dossiers qui présentent des caractéristiques similaires en fonction des exigences réglementaires, contractuelles ou prévues par la loi de chaque sous-programme et de chaque pays participant. Le modèle est conçu pour appliquer des critères de tri prédéfinis afin de trier et d’identifier les cas de routine « légers » pour lesquels la partie relative à la recevabilité peut être soumise à une évaluation automatisée selon des règles opérationnelles préexistantes uniquement pour le programme Vacances-Travail d’EIC. L’analyse avancée (AA) n’a pas été utilisée pour générer les critères du modèle actuel. Les critères sur lesquels repose le modèle sont identiques aux critères actuels et à ceux que les décideurs examinent présentement. Les demandes qui ont fait l’objet d’une évaluation positive automatisée de leur admissibilité continueront à faire l’objet d’une évaluation manuelle. Les procédures d’examen de la recevabilité et de l’admissibilité resteront inchangées pour les demandes qui n’ont pas fait l’objet d’un tri en vue d’une évaluation positive automatisée de la recevabilité. Ce modèle ne refuse jamais les demandes et ne recommande jamais leur refus. Les agents d’IRCC ont le dernier mot quant à l’approbation ou au refus de toutes les demandes.
+","This project seeks to streamline the eligibility assessment for a subset of IEC
+WP applications in order to help IRCC decision-makers process applications
+more efficiently. The IEC WP model triages IEC WP applications by grouping
+files with similar characteristics based on the legislative, regulatory and
+contractual requirements for each subprogram and participating country. The
+model is designed to apply pre-defined triage criteria to triage and identify
+“light-touch” routine cases where the eligibility portion can receive an
+automated positive eligibility Assessment. For the Summer 2023 launch,
+automated eligibility assessments are based on pre-existing business rules
+for the IEC Working Holiday Program only. Advanced analytics (AA) was not
+used to generate the current model criteria. The criteria that inform the model
+are the same that currently exist and that decision makers would currently
+examine. Applications that have received an automated positive eligibility
+assessment will continue to be manually assessed for admissibility.
+Procedures for eligibility and admissibility review will remain unchanged for
+applications not triaged for automated positive eligibility assessments. This
+model never refuses or recommends refusing applications. IRCC officers
+make the final decision to approve or refuse on all applications.",,,,,0,0,0,0,0,0,1,2,5,10,16,17,1,5,item5,1,0,0,item6-1,14,,,,,,
+b4a417f7-5040-4328-9863-bb8bbb8568c3,iec-wp-eligibility-model-gba-plus-analysis-public-en-accessibility-check.pdf,pdf,en,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20511,8
+b4a417f7-5040-4328-9863-bb8bbb8568c3,iec-wp-eligibility-model-gba-plus-analysis-public-fr-accessibility-check.pdf,pdf,fr,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,23919,9
+b4a417f7-5040-4328-9863-bb8bbb8568c3,peer-review-of-the-international-experience-canada-work-permit-eligibility-model-executive-summa.pdf,pdf,en,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7769,4
+b92cbf7b-3b1c-4b02-a219-ce5b9bdb030d,aia-on-cuaet-automation.json,json,bilingual,v0.9.1,Automate the review of non-complex applications for Temporary Resident Visas and Work Permits made under the Canada-Ukraine Authorization for Emergency Travel (CUAET),Automatiser l'examen des demandes non complexes de visa de résident temporaire et de permis de travail faites dans le cadre de l'Autorisation de voyage d'urgence Canada-Ukraine (AVUCU),,050,Various Branches at IRCC,Various Stakeholders at IRCC,item2,,Visitors,,"The CUAET program was designed from the beginning to respond urgently to the crisis in Ukraine by streamlining our existing temporary resident process. IRCC will now further enhance efficiency by automating certain checks and actions previously performed by IRCC officers. For CUAET applications, these tasks and activities now include automatically confirming a positive decision and generating a visa if all eligibility and admissibility criteria are met. Applicants will still be required to take all the usual steps to complete their application, including enrolling their biometrics.  An application that does not pass automated checks will be sent to an officer for a manual review. An application sent for manual review may still be approved, but only an IRCC officer can refuse an application. The system never refuses or recommends refusing applications, and does not use artificial intelligence or advanced analytics.","Ce projet permettra d'automatiser le traitement des demandes pour certains visas de résident temporaire et permis de travail faites dans le cadre de l'Autorisation de voyage d'urgence Canada-Ukraine (AVUCU). Dès le départ le programme AVUCU a été conçu pour répondre de toute urgence à la crise en Ukraine en rationalisant notre processus de résidence temporaire existant. IRCC améliorera l'efficacité en automatisant certains examens et actions précédemment effectués par les agents d'IRCC. Pour les candidatures de l’AVUCU, ces tâches et activités incluent la confirmation automatique d'une décision positive et la génération d'un visa si tous les critères de recevabilité et d'admissibilité sont remplis. Les candidats devront toujours suivre toutes les étapes habituelles pour compléter leur demande, y compris l'inscription.",,,,,10,3,3,4,0,,1,2,5,10,16,17,2,4,item5,1,0,0,item6-1,19,,,,,,
+b92cbf7b-3b1c-4b02-a219-ce5b9bdb030d,en_peer-review-of-the-automation-to-process-cuaet-tr-applications-executive-summary.pdf,pdf,bilingual,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0
+b92cbf7b-3b1c-4b02-a219-ce5b9bdb030d,f01253979-annex-a-aia-on-cuaet-automation-en.pdf,pdf,en,0.9.1,"Automate the review of non-complex applications for Temporary Resident
+Visas and Work Permits made under the Canada-Ukraine Authorization for
+Emergency Travel (CUAET)",,Citizenship and Immigration (Department of),,Various Branches at IRCC,Various Stakeholders at IRCC,Implementation,0,,"The CUAET program was designed from the beginning to respond urgently to
+the crisis in Ukraine by streamlining our existing temporary resident process.
+IRCC will now further enhance efficiency by automating certain checks and
+actions previously performed by IRCC officers. For CUAET applications, these
+tasks and activities now include automatically confirming a positive decision
+and generating a visa if all eligibility and admissibility criteria are met.
+Applicants will still be required to take all the usual steps to complete their
+application, including enrolling their biometrics. An application that does not
+pass automated checks will be sent to an officer for a manual review. An
+application sent for manual review may still be approved, but only an IRCC
+officer can refuse an application. The system never refuses or recommends
+refusing applications, and does not use artificial intelligence or advanced
+analytics.
+Business Driver / Positive Impact
+10. What is motivating your team to introduce automation into this decision-making process?
+(Check all that apply)
+Existing backlog of work or cases
+Use innovative approaches
+Other (please specify)
+11. Please describe
+Facilitate more efficient use of IRCC resources in the processing of TRV and
+WP applications, in particular in this crisis situation",,,2,42,42,35,,,,,,,,,,,,,,,,,,,,,,,,,14881,9
+b92cbf7b-3b1c-4b02-a219-ce5b9bdb030d,f01253979-annex-b-aia-on-cuaet-automation-fr.pdf,pdf,fr,0.9.1,,,,,,,Implémentation,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17423,9
+b92cbf7b-3b1c-4b02-a219-ce5b9bdb030d,fr_peer-review-of-the-automation-to-process-cuaet-tr-applications-executive-summary.pdf,pdf,bilingual,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,2
+b92cbf7b-3b1c-4b02-a219-ce5b9bdb030d,gender-based-analysis-plus-summary-automate-the-review-of-non-complex-applications-for-temporary.pdf,pdf,en,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8321,4
+b92cbf7b-3b1c-4b02-a219-ce5b9bdb030d,resume-de-lanalyse-comparative-entre-les-sexes-plus-processus-decisionnel-automatise-pour-les-de.pdf,pdf,en,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10159,4
+c088f841-2d79-4c7e-9281-cc65cbae1b06,aia-results_bilingual.json,json,bilingual,v0.10.0,Pre-load Air Cargo Targeting (PACT) Program,Ciblage du fret aérien préalable au chargement (CFAPC),,034,Passenger Protect Program and Targeting Operations,"Carrothers, Brook",item2,,Pre-load Air Cargo Targeting (PACT) Program,,"PACT aims to identify and apply risk mitigation measures to inbound high-risk air shipments that could contain concealed improvised explosive devices or other threat items prior to loading and departure to Canada. This is achieved through the risk assessment of advanced cargo information from air carriers with the assistance of emerging technologies. After exhausting manual methods for data analysis, the PACT pilot was selected by the Deputy Minister’s Committee on Policy Innovation in 2018 as a test case to determine if the use of advanced analytics powered by artificial intelligence (AI) could help manage the workload. During the 2018-2019 fiscal year, a proof of concept was carried out which demonstrated that these emerging technologies could indeed be applied to the categorization and risk assessment of advanced cargo information (i.e. shipper and consignee name and address, cargo weight, description and piece count, and air waybill number). The PACT system accepts industry standard messaging in the form of digital air waybills which contain all eight required data elements. With respect to interpreting free text fields in airwaybills – a data field that is rife with typos and industry jargon – the ability of the technology to categorize the results effectively and efficiently within a risk assessment framework made the expansion of PACT possible.
+
+The PACT system will sort and categorize the data and apply a risk algorithm to flag potentially high-risk shipments to the PACT analyst. The shipments whose characteristics fall within a pre-defined low risk scenario are auto-assessed and are not presented to a PACT analyst for review. Conversely, the shipments that fall outside these parameters are presented to PACT analysts, who then make a decision to apply a risk mitigation measure to an air cargo shipment prior to it being loaded on an aircraft destined for Canada. These take the forms of Requests for Information (RFI), Requests for Screening (RFS) or Do Not Load (DNL) notices.","Le ciblage du fret aérien préalable au chargement (CFAPC) vise à déceler les envois de fret aérien à haut risque, qui pourraient contenir des engins explosifs improvisés dissimulés ou d’autres éléments de menace, avant le chargement du fret et le départ vers le Canada, et à leur appliquer des mesures d’atténuation des risques. Pour ce faire, on procède à l’évaluation des risques à l’aide de technologies émergentes, au moyen de l’information préalable fournie par les transporteurs aériens. Après avoir épuisé les méthodes manuelles d’analyse des données, le projet pilote de CFAPC a été sélectionné par le Comité des sous-ministres sur l’innovation en matière de politiques en 2018 pour servir d’essai afin d’établir si l’utilisation d’analyses avancées alimentées par l’intelligence artificielle (IA) pourrait aider à gérer la charge de travail. Au cours de l’exercice 2018-2019, une validation de principe a été réalisée, qui a démontré que ces technologies émergentes pouvaient effectivement être appliquées à la catégorisation et à l’évaluation des risques de l’information préalable sur le fret. Cette information comprend le nom et l’adresse de l’expéditeur et du destinataire, le poids, la description et le nombre d’articles de fret, ainsi que le numéro de la lettre de transport aérien. Le système de CFAPC accepte les messages standard du secteur sous la forme de lettres de transport aérien numériques qui contiennent tous les huit éléments de données requis. Concernant l’interprétation des champs de texte libre des lettres de transport aérien — un champ de données truffé de fautes de frappe et de jargon du secteur — la capacité de la technologie à catégoriser les résultats de manière efficace et efficiente dans un cadre d’évaluation des risques a rendu possible la croissance du CFAPC.
+
+Le système de CFAPC triera et classera les données et appliquera un algorithme de risque pour signaler à l’analyste de CFAPC les envois pouvant présenter un risque potentiellement élevé. Les envois dont les caractéristiques relèvent d’un scénario prédéfini de faible risque sont évalués automatiquement et ne sont pas soumis à l’examen d’un analyste de CFAPC. Inversement, les envois qui ne correspondent pas à ces paramètres sont présentés aux analystes de CFAPC, qui peuvent alors décider d'appliquer une mesure d’atténuation des risques à un envoi de fret aérien avant qu’il ne soit chargé à bord d’un avion à destination du Canada. Ces demandes prennent la forme de demandes de renseignements (RFI), de demandes de contrôle (RFS) ou d’avis « ne pas charger » (DNL).
+",,,,,4,0,0,4,0,0,2,2,4,10,16,17,3,5,"item2,item3,item4,item5",4,0,0,item6-1,17,,,,,,
+c088f841-2d79-4c7e-9281-cc65cbae1b06,pact-aia_en.pdf,pdf,en,0.10.0,Pre-load Air Cargo Targeting (PACT) Program,,Transport (Department of),,Passenger Protect Program and Targeting Operations,"Carrothers, Brook",Implementation,0,,"PACT aims to identify and apply risk mitigation measures to inbound high-risk
+air shipments that could contain concealed improvised explosive devices or
+other threat items prior to loading and departure to Canada. This is achieved
+through the risk assessment of advanced cargo information from air carriers
+with the assistance of emerging technologies. After exhausting manual
+methods for data analysis, the PACT pilot was selected by the Deputy
+Minister’s Committee on Policy Innovation in 2018 as a test case to determine
+if the use of advanced analytics powered by artificial intelligence (AI) could
+help manage the workload. During the 2018-2019 fiscal year, a proof of
+concept was carried out which demonstrated that these emerging
+technologies could indeed be applied to the categorization and risk
+assessment of advanced cargo information (i.e. shipper and consignee name
+and address, cargo weight, description and piece count, and air waybill
+number). The PACT system accepts industry standard messaging in the form
+of digital air waybills which contain all eight required data elements. With
+respect to interpreting free text fields in airwaybills – a data field that is rife
+with typos and industry jargon – the ability of the technology to categorize the
+results effectively and efficiently within a risk assessment framework made
+the expansion of PACT possible.
+The PACT system will sort and categorize the data and apply a risk algorithm
+to flag potentially high-risk shipments to the PACT analyst. The shipments
+whose characteristics fall within a pre-defined low risk scenario are auto-
+assessed and are not presented to a PACT analyst for review. Conversely, the
+shipments that fall outside these parameters are presented to PACT analysts,
+who then make a decision to apply a risk mitigation measure to an air cargo
+shipment prior to it being loaded on an aircraft destined for Canada. These
+take the forms of Requests for Information (RFI), Requests for Screening
+(RFS) or Do Not Loa",,,2,49,49,36,,,,,,,,,,,,,,,,,,,,,,,,,32728,15
+c088f841-2d79-4c7e-9281-cc65cbae1b06,pact-aia_fr.pdf,pdf,fr,0.10.0,,,,,,,Mise en oeuvre,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,39279,17
+c088f841-2d79-4c7e-9281-cc65cbae1b06,peer-review-assessment-report-summary_for-publication.pdf,pdf,en,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3592,2
+c088f841-2d79-4c7e-9281-cc65cbae1b06,peer-review-assessment-report-summary_for-publication_tg_fr_final.pdf,pdf,fr,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4884,3
+c839bedc-0d5f-4b02-98a7-671d1f60ac51,algorithmic-impact-assessment-cst.pdf,pdf,en,1.0.1,,,,,,,,,,,,,2,56,56,56,,,,,,,,,,,,,,,,,,,,,,,,,66135,32
+c839bedc-0d5f-4b02-98a7-671d1f60ac51,resultats-de-levaluation-de-lincidence-algorithmique-ordii.pdf,pdf,fr,1.0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,80457,37
+cea9985f-5e0f-425e-9b7e-e1d122272c56,aors-aia-1.csv,csv,bilingual,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,"Question / Question,Selected answer / R�ponse s�lectionn�e,Impact on Individuals and Entities / Impact sur les individus et les entit�s,Impact on Government Institutions / Impact sur les institutions gouvernementales ,Data Management / Gestion de donn�es,Procedural Fairness / �quit� proc�durale,Complexity / Complexit�",,,,
+cea9985f-5e0f-425e-9b7e-e1d122272c56,atip-digital-services-aia-en.pdf,pdf,en,0.8,,,,,,,,,,,,,2,33,39,36,,,,,,,,,,,,,,,,,,,,,,,,,10866,8
+cea9985f-5e0f-425e-9b7e-e1d122272c56,atip-digital-services-aia.json,json,bilingual,v0.9.1,ATIP Digital Services,Services numériques d’AIPRP,,056,CIOB,W Herbert,item2,,,,Simple central website for Canadians to submit ATIP requests,Site Web central et simple permettant aux Canadiens de soumettre des demandes d'AIPRP,,,,,3,3,0,0,0,,2,2,6,10,14,17,2,4,"item2,item4",2,3,3,item6-1,14,,,,,,
+cea9985f-5e0f-425e-9b7e-e1d122272c56,en-data-dictionary-aia-aors.csv,csv,bilingual,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,93,"Number,Question,Selected answer",,,,
+cea9985f-5e0f-425e-9b7e-e1d122272c56,fr-data-dictionary-aia-aors.csv,csv,bilingual,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,91,"Num�ro,Question,R�ponse s�lectionn�e",,,,
+cea9985f-5e0f-425e-9b7e-e1d122272c56,services-numeriques-aiprp-eia-fr.pdf,pdf,fr,0.9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12192,8
+d24ae2dd-8399-4b49-8441-3e0318aaf69a,rap-evm_aia_en_2.pdf,pdf,en,0.10.0,Repayment Assistance Plan – Enhanced Verification Model (RAP-EVM),,Employment and Social Development (Department of),,Learning,Megan Ellis,Implementation,0,,"In November 2023, the Canada Student Financial Assistance (CSFA) Program
+introduced a change to the application verification system that supports the
+Repayment Assistance Plan (RAP) called the Repayment Assistance Plan -
+Enhanced Verification Model (RAP-EVM).
+RAP-EVM is designed to verify the information declared by borrowers, which
+are all factors in determining RAP eligibility and calculating RAP payment
+requirements, during the RAP application process (i.e. income, family size and
+marital status) against taxpayer information provided by the Canada Revenue
+Agency (CRA). RAP-EVM applies pre-established business rules to identify
+applications that meet the selection criteria. Selection criteria were
+determined using a risk-based sampling methodology to identify high-risk
+groups more likely to misreport information. The creation of risk group
+categories was undertaken through statistical analysis of previous cases, in
+collaboration with ESDC’s Integrity Services Branch. Based on this analysis,
+CSFA Program identified borrowers with inconsistent family size changes
+(e.g., if a borrower were to change their response between RAP applications
+to from a family size of one to a family size above one, and then revert to
+family size of one), borrowers who claim zero income, and borrowers who
+report their income just under the RAP zero payment threshold.
+Once selected for verification, a request for taxpayer information (i.e. income,
+marital status, number of dependants) on these applicants is made to the
+CRA. If the application data matches CRA taxpayer data, the application is
+adjudicated for an approval or refusal for RAP. If there are discrepancies, an
+agent with ESDC’s third-party Service Provider (SP), which operates under
+banner of the National Student Loans Service Centre (NSLSC), will undertake
+further verification directly with the borrower. The borrower will then be
+required to submit additional proof substantiating their information, which an
+agent will review bef",,,1,28,28,36,,,,,,,,,,,,,,,,,,,,,,,,,30194,14
+d24ae2dd-8399-4b49-8441-3e0318aaf69a,rap-evm_en.json,json,en,v0.10.0,Repayment Assistance Plan – Enhanced Verification Model (RAP-EVM) ,,,014,Learning,Megan Ellis ,item2,,Canada Student Financial Assistance Program and Canada Apprentice Loan,,"In November 2023, the Canada Student Financial Assistance (CSFA) Program introduced a change to the application verification system that supports the Repayment Assistance Plan (RAP) called the Repayment Assistance Plan - Enhanced Verification Model (RAP-EVM). 
+
+RAP-EVM is designed to verify the information declared by borrowers, which are all factors in determining RAP eligibility and calculating RAP payment requirements, during the RAP application process (i.e. income, family size and marital status) against taxpayer information provided by the Canada Revenue Agency (CRA). RAP-EVM applies pre-established business rules to identify applications that meet the selection criteria. Selection criteria were determined using a risk-based sampling methodology to identify high-risk groups more likely to misreport information. The creation of risk group categories was undertaken through statistical analysis of previous cases, in collaboration with ESDC’s Integrity Services Branch. Based on this analysis, CSFA Program identified borrowers with inconsistent family size changes (e.g., if a borrower were to change their response between RAP applications to from a family size of one to a family size above one, and then revert to family size of one), borrowers who claim zero income, and borrowers who report their income just under the RAP zero payment threshold. 
+
+Once selected for verification, a request for taxpayer information (i.e. income, marital status, number of dependants) on these applicants is made to the CRA. If the application data matches CRA taxpayer data, the application is adjudicated for an approval or refusal for RAP. If there are discrepancies, an agent with ESDC’s third-party Service Provider (SP), which operates under banner of the National Student Loans Service Centre (NSLSC), will undertake further verification directly with the borrower. The borrower will then be required to submit additional proof substantiating their information, which an agent will review before making a decision for approval or refusal of the application. 
+
+RAP-EVM replaces the previous, non-authoritative source verification system, which required selected applicants to provide documents to prove that their reported income was accurate; RAP-EVM only requires a borrower to submit additional proof when a discrepancy is identified following the exchange with CRA.
+
+The exchange of borrower and taxpayer information between the SP and the CRA is governed by a Memorandum of Understanding (MOU) which outlines the agreement on the information to be exchanged between ESDC and the CRA as well as the conditions and procedures that will apply to the exchange of information. RAP-EVM’s data exchange process between the SP and the CRA is handled via a secure file transfer, known as the Managed Secure File Transfer. Following the exchange of data between CRA and the SP, the RAP application adjudication takes place in a closed environment. Personal information collected and used for the purposes of RAP-EVM is safeguarded under ESDC’s and the CRA’s legal authorities and related policies and directives for collecting and using personal information.    
+
+There are two circumstances under which a borrower may wish to have their RAP decision re-evaluated. Reconsideration is for borrowers that have been refused but can show that unforeseen and unavoidable circumstances have caused them or their spouse or common-law partner to incur exceptional expenses that prevent them from fulfilling their repayment obligations. The other recourse is re-adjudication, which occurs when a borrower has been approved for RAP with a monthly Affordable Payment (AP) but indicates that their gross monthly income has significantly dropped and that they are no longer able to make their AP. 
+
+The Program has completed a Privacy Impact Assessment which was sent to the Office of the Privacy Commissioner of Canada (OPC) in November 2023. Upon review, the OPC recommended that the CFSA Program conduct an Algorithmic Impact Assessment, as the creation of risk group categories in an automated verification process falls within the scope of the Directive on Automated Decision-Making.
+",,,,,,0,0,0,0,0,0,2,2,4,10,16,17,3,5,item5,1,0,0,item2-1,9,,,,,,
+d24ae2dd-8399-4b49-8441-3e0318aaf69a,rap-evm_fr.json,json,fr,v0.10.0,le Programme d'aide au remboursement - Modèle de vérification amélioré (PAR-MVA). ,,,014,Apprentissage ,Megan Ellis ,item2,,le Programme canadien d'aide financière aux étudiants et le Prêt canadien aux apprentis ,,"En novembre 2023, le Programme canadien d'aide financière aux étudiants (PCAFE) a introduit un changement au système de vérification des demandes qui soutient le Programme d'aide au remboursement (PAR), appelé le Programme d'aide au remboursement - Modèle de vérification amélioré (PAR-MVA). 
+
+Le PAR-MVA a pour objectif de vérifier les informations déclarées par les emprunteurs lors de leur demande au PAR, en les comparant aux renseignements sur les contribuables fournis par l’Agence du revenu du Canada (ARC). Ces informations, incluant le revenu, la taille de la famille et l’état civil, sont des éléments clés pour déterminer l’admissibilité au PAR ainsi que pour le calcul des paiements requis dans le cadre du PAR. Le PAR-MVA applique des règles opérationnelles préétablies pour identifier les demandes qui répondent aux critères de sélection. Les critères de sélection ont été déterminés à l'aide d'une méthodologie d'échantillonnage fondée sur le risque, afin d’identifier les groupes à risque élevé plus susceptibles de déclarer des informations inexactes. La création de catégories de groupes de risque a été entreprise au moyen d'une analyse statistique de cas précédents, en collaboration avec la Direction générale des services d'intégrité d'EDSC. Sur la base de cette analyse, le PCAFE a identifié les emprunteurs dont la taille de la famille change de façon incohérente (p. ex., si un emprunteur changeait sa réponse entre les demandes du PAR pour passer d'une famille d'une personne à une taille de famille supérieure à une personne, puis revenait à la taille de la famille d'une personne), ceux qui déclarent un revenu nul et ceux qui rapportent un revenu juste en dessous du seuil de paiement nul du PAR. 
+
+Une fois sélectionnés pour vérification, une demande de renseignements sur les contribuables (c.-à-d. revenu, état civil, nombre de personnes à charge) est adressée à l’ARC pour ces demandeurs. Si les données de la demande correspondent aux données fiscales de l'ARC, la demande est évaluée en vue d’une approbation ou d’un refus du PAR. S'il y a des divergences, un agent du fournisseur de services (FS) tiers d'EDSC, qui exerce ses activités sous la bannière du Centre de service national de prêts aux étudiants (CSNPE), effectue une vérification plus approfondie directement auprès de l'emprunteur. Ce dernier devra alors soumettre des preuves supplémentaires à l'appui de ses informations, lesquelles seront examinées par un agent avant de rendre une décision d'approbation ou de refus de la demande. 
+
+Le PAR-MVA remplace l'ancien système de vérification reposant sur des sources non officielles, qui exigeait que les demandeurs sélectionnés fournissent des documents à l’appui de leur revenu déclaré. Désormais, le PAR-MVA exige que l'emprunteur soumette une preuve supplémentaire seulement en cas de divergence constatée après l’échange de données avec l’ARC.
+
+L’échange d’informations entre les emprunteurs et l’ARC via le FS est régi par un protocole d’entente (PE) qui définit l’accord sur les renseignements échangés entre EDSC et l’ARC, ainsi que les conditions et procédures applicables à cet échange. Le processus d'échange de données du PAR-MVA entre le FS et l'ARC est géré par le biais d'un transfert de fichiers sécurisé, connu sous le nom de transfert sécurisé de fichiers. À la suite de l'échange de données entre l'ARC et le FS, l’évaluation des demandes du PAR se déroule dans un environnement fermé. Les renseignements personnels recueillis et utilisés aux fins du PAR-MVA sont protégés en vertu des autorités légales d'EDSC et de l'ARC, ainsi que des politiques et directives connexes en matière de collecte et d'utilisation des renseignements personnels.    
+
+Il y a deux circonstances dans lesquelles un emprunteur peut souhaiter faire réévaluer sa décision relative au PAR. Le réexamen s'applique à l’emprunteur dont la demande a été refusée, mais qui peut démontrer que des circonstances imprévues et inévitables lui ont occasionné, à lui et à son époux ou conjoint de fait, des dépenses extraordinaires qui les empêchent de s’acquitter de leurs obligations de remboursement. L'autre recours est la réévaluation, qui se produit lorsqu'un emprunteur a été approuvé pour le PAR avec un paiement mensuel abordable, mais indique que son revenu mensuel brut a diminué considérablement et qu’il n’arrive plus à faire ses paiements abordables. 
+
+Le Programme a terminé une évaluation des facteurs relatifs à la vie privée qui a été envoyée au Commissariat à la protection de la vie privée du Canada en novembre 2023. Après examen, le Commissariat a recommandé que le programme PCAFE effectue une évaluation de l’incidence algorithmique, car la création de catégories de groupes de risque dans un processus de vérification automatisé relève de la portée de la Directive sur la prise de décisions automatisée.
+
+",,,,,,0,0,0,0,0,0,2,2,4,10,16,17,3,5,item5,1,0,0,item2-1,9,,,,,,
+d24ae2dd-8399-4b49-8441-3e0318aaf69a,rap_evm_aia_fr.pdf,pdf,fr,0.10.0,,,,,,,Mise en oeuvre,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35970,15
+d41f9ec2-bf01-4b2a-bd8d-1b3a8424f534,algorithmic-impact-assessment-spouse-or-common-law-partner-in-canada-advanced-analytics-english.json,json,en,v0.9.1,Spouse or Common-Law Partner in Canada Advanced Analytics ,,,050,Various Branches at IRCC,Various Stakeholders at IRCC,item2,,Family Reunification,,This project seeks to streamline the eligibility assessment for both the Sponsor and Principal Applicant of Spouse or Common-law Partner in Canada applications.,,,,,,10,3,0,4,3,,2,2,4,10,15,17,1,4,item5,1,0,0,item6-1,20,,,,,,
+d41f9ec2-bf01-4b2a-bd8d-1b3a8424f534,algorithmic-impact-assessment-spouse-or-common-law-partner-in-canada-advanced-analytics-english.pdf,pdf,en,0.9.1,,,,,,Various Stakeholders at IRCC,,,,,,,2,43,43,31,,,,,,,,,,,,,,,,,,,,,,,,,14877,9
+d41f9ec2-bf01-4b2a-bd8d-1b3a8424f534,algorithmic-impact-assessment-spouse-or-common-law-partner-in-canada-advanced-analytics-french.json,json,fr,v0.9.1,Analytique avancée pour les époux ou conjoints de fait au Canada,,,050,Divers secteurs à IRCC,Diverses parties prenantes à IRCC,item2,,Regroupement familial,,Ce projet vise à simplifier l'évaluation de l'admissibilité pour le répondant et le demandeur principal des demandes d'époux ou de conjoint de fait au Canada.,,,,,,10,3,0,4,3,,2,2,4,10,15,17,1,4,item5,1,0,0,item6-1,20,,,,,,
+d41f9ec2-bf01-4b2a-bd8d-1b3a8424f534,algorithmic-impact-assessment-spouse-or-common-law-partner-in-canada-advanced-analytics-french.pdf,pdf,fr,0.9.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17419,9
+daa9ca66-566f-4c2e-a285-d2e217c2a00f,aia_roec_en_revised3.pdf,pdf,en,0.10.0,Record of Employments (ROE) Comments Assessment,,Employment and Social Development (Department of),,CDOB,Jeff Hughes,,,,,,,1,31,37,37,,,,,,,,,,,,,,,,,,,,,,,,,22252,11
+daa9ca66-566f-4c2e-a285-d2e217c2a00f,aia_roec_fr_revised3.pdf,pdf,fr,0.10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26585,12
+daa9ca66-566f-4c2e-a285-d2e217c2a00f,roec_aia-results_2024_v7.json,json,bilingual,v0.10.0,Record of Employments (ROE) Comments Assessment ,Évaluation des commentaires des RE,,014,CDOB,Jeff Hughes,item2,,,,"The Chief Data Officer Branch (CDOB), Employment Insurance (EI) Benefits Delivery Services (BDS) and Innovation, Information and Technology Branch (IITB) are implementing an artificial intelligence (AI)/machine learning solution that will interpret and assess free text comments captured by employers when records of employment (ROE) are issued. Based on very specific business rules, the AI will assess and predict simple actions (i.e. save or ignore comments, predict a different Reason for Separation [RFS]). The actions taken following an AI prediction will be saved within the internal interpretative notes used in the process of calculating EI claims. The original document (Record of Employment [ROE]) will not be modified.","La Direction générale de la dirigeante principale des données (DGDPD), les Services de versement des prestations (SVP) de l’assurance-emploi (AE) et la Direction générale de l’innovation, de l’information et de la technologie (DGIIT) mettent en oeuvre une solution d’intelligence artificielle (IA) et d'apprentissage automatique qui interprétera et évaluera les commentaires en texte libre saisis par les employeurs quand les relevés d’emploi (RE) sont émis. Selon des règles opérationnelles très précises, l’IA évaluera et prévoira des mesures simples (c.-à-d. enregistrer ou ignorer les commentaires ou prévoir un motif de cessation d’emploi [MCE] différent). Les mesures prises à la suite de prédictions de l’IA seront enregistrées dans les notes interprétatives internes utilisées dans le traitement des demandes d'AE. Le document initial (RE) ne sera pas modifié.",,,,,0,0,0,0,0,0,1,2,6,10,15,17,5,5,item2,1,0,3,item3-1,17,,,,,,
+eaeb269c-6ac5-4429-a5aa-1fcc07c77933,client-reporting-and-engagement-system-cresreportin-aia-english-en-1.pdf,pdf,en,0.10.0,"Client Reporting and Engagement System (CRES/ReportIn) / Système de
+Rapports et d’engagement des Clients (SREC)/JeMePrésente",,Canada Border Services Agency,,Intelligence and Enforcement / Renseignement et exécution de la loi,Bradley Belanger,Implementation,0,,"Background
+Canada’s immigration detention program is governed by the Immigration and
+Refugee Protection Act (IRPA) and the Immigration and Refugee Protection
+Regulations (IRPR). The Canada Border Services Agency (CBSA) is
+responsible for monitoring and enforcing conditions imposed on individuals in
+Canada under the IRPA and the IRPR.
+The National Immigration Detention Framework (NIDF) was approved by
+Parliament in 2016 to create a better, fairer immigration detention system that
+supports the humane and dignified treatment of individuals while protecting
+public safety. Immigration detention is based on the principle that detention
+shall be used only as a measure of last resort, in limited circumstances. In
+certain cases, however, detention may be deemed necessary when:
+1. an individual presents a risk to public safety (i.e. when an individual has a
+documented history or pattern of violent or aggressive crimes/behaviour),
+2. the CBSA is unable to establish an individual’s legitimate identity, and/or
+3. the behaviour of the individual threatens program integrity (i.e. such as
+immigration proceedings or removal).
+When detention must take place, the CBSA uses improved risk assessment
+processes, developed through the NIDF, to ensure that detainees are placed in
+the most appropriate facility at the time of detention.
+Several factors must be considered when deciding to detain an individual,
+including the availability and potential use of all alternatives to detention
+(ATDs). Over the last eight years, the CBSA has reduced the use of detention
+by increasing ATDs. ATDs, such as in-person reporting, Community Case
+Management and Supervision, and Electronic Monitoring, are used to
+effectively release individuals into the communities while ensuring public
+safety and immigration program integrity.
+The CBSA has now further expanded ATDs by developing a voluntary
+smartphone app named ReportIn that allows foreign nationals and permanent
+residents subject to immigration enforcement c",,,2,63,63,31,,,,,,,,,,,,,,,,,,,,,,,,,60558,24
+eaeb269c-6ac5-4429-a5aa-1fcc07c77933,cres-reportin-aia-results.json,json,bilingual,v0.10.0,Client Reporting and Engagement System (CRES/ReportIn) / Système de Rapports et d’engagement des Clients (SREC)/JeMePrésente,,,085,Intelligence and Enforcement / Renseignement et exécution de la loi,Bradley Belanger,item2,,Border Enforcement / Detentions / Exécution de la loi à la frontière / Détentions,,"Background
+
+Canada’s immigration detention program is governed by the Immigration and Refugee Protection Act (IRPA) and the Immigration and Refugee Protection Regulations (IRPR). The Canada Border Services Agency (CBSA) is responsible for monitoring and enforcing conditions imposed on individuals in Canada under the IRPA and the IRPR.
+
+The National Immigration Detention Framework (NIDF) was approved by Parliament in 2016 to create a better, fairer immigration detention system that supports the humane and dignified treatment of individuals while protecting public safety. Immigration detention is based on the principle that detention shall be used only as a measure of last resort, in limited circumstances. In certain cases, however, detention may be deemed necessary when: 
+1.	an individual presents a risk to public safety (i.e. when an individual has a documented history or pattern of violent or aggressive crimes/behaviour), 
+2.	the CBSA is unable to establish an individual’s legitimate identity, and/or 
+3.	the behaviour of the individual threatens program integrity (i.e. such as immigration proceedings or removal). 
+
+When detention must take place, the CBSA uses improved risk assessment processes, developed through the NIDF, to ensure that detainees are placed in the most appropriate facility at the time of detention. 
+
+Several factors must be considered when deciding to detain an individual, including the availability and potential use of all alternatives to detention (ATDs). Over the last eight years, the CBSA has reduced the use of detention by increasing ATDs. ATDs, such as in-person reporting, Community Case Management and Supervision, and Electronic Monitoring, are used to effectively release individuals into the communities while ensuring public safety and immigration program integrity.  
+
+The CBSA has now further expanded ATDs by developing a voluntary smartphone app named ReportIn that allows foreign nationals and permanent residents subject to immigration enforcement conditions to report to the CBSA remotely.
+
+The app uses facial comparison and geographic data to verify the identity and location of individuals.  
+
+The app was developed in compliance with Government of Canada standards on applications for mobile devices.  In addition, feedback from the Privacy Commissioner was included in the development of the app and a Privacy Impact Assessment (PIA) has been completed.  
+
+About ReportIn/CRES
+Reporting conditions are imposed by the CBSA, Immigration, Refugees and Citizenship Canada (IRCC) or the Immigration and Refugee Board (IRB) on a case-by-case basis under the IRPA. A common condition imposed is the requirement to report on a regular reporting schedule to the CBSA. The voluntary CBSA ReportIn app will allow individuals subject to reporting conditions to report to the CBSA without physically attending a CBSA office. The ReportIn app will provide a secure process for individuals to report to the CBSA without coming in person to one of our offices while also enhancing the CBSA ability monitor individuals who report remotely.
+
+CBSA CRES/ReportIn solution consists of:
+•	A voluntary public-facing smartphone app, ReportIn, where individuals submit reports using a mobile device/smartphone and facial images as a form of authenticating the individuals’ identity. The individuals’ facial biometrics and location, provided by sensors and/or the GPS in the mobile device/smartphone, are recorded when they report through the ReportIn app and is sent to the cloud-based processing and monitoring system, CRES.
+•	A Cloud-based processing and monitoring backend system, CRES, allows CBSA immigration enforcement personnel to monitor, contact and assess an individual’s reporting facial images, locations, reporting frequency, and compliance history without individuals having to physically attend a CBSA office.
+
+Using the mobile app, the individual submits photos that are then compared to a reference photo and a similarity score is generated by a facial comparison algorithm. In addition to the automated similarity scoring, CBSA trained staff will review, for every report made by an individual, the submitted photos and a determination will be made whether the submitted photos are a match to the individual. 
+
+The individuals’ location is also collected every time they report and if the individual fails to comply with their conditions. 
+
+ReportIn also allows for one-way CBSA direct messaging with individuals, which will make communication with the individual using the ReportIn app easier.
+
+Other than facial biometric data, the supplemental types of personal information collected by ReportIn includes given and family name, Unique Client Identifier (UCI), personal email address, phone number, employment information (if applicable), facial photos, ad hoc report text, location, device ID, device model, device operating system version, error message, and trace information (where error happened).  
+
+As previously stated, an individuals’ location will be collected and recorded when the following events occur: 
+•	When an individual submits their report on their scheduled reporting date, the location, sent by sensors and/or the GPS in the mobile device/smartphone, is recorded when an individual reports through the ReportIn app and is sent to the cloud-based processing and monitoring system CRES. The EnStream location will also be used and connect only to the CRES backend system.  The EnStream service operates externally from and is not connected to the ReportIn app however may be used to collect location when an investigation is opened and the individual has not complied with remote reporting conditions. 
+
+The operational benefits of the project are:
+•	Improved management of the inventory of individuals the CBSA must monitor up until they are removed from Canada or the individual becomes a permanent resident of Canada, a Canadian Citizen, granted protected person status in Canada or their temporary resident status is restored. 
+•	The ReportIn validation process is much more time efficient than an in-person meeting and provides greater operational flexibility in light of fluctuating volumes of clients.  As such, the ReportIn app is expected to increase monitoring capability while streamlining costs. 
+
+The benefits to the individuals are:
+•	Improved communication, transparency and allowing more individuals an alternative to in-person reporting and improving the engagement with the CBSA. 
+•	Facilitating a secure process for individuals to enroll and report to the CBSA.
+•	Improving support to individuals with accessibility needs where they do not need to attend a CBSA office and providing a more accessible means to report e.g. less time off work, reduced child care cost, reduced transportation cost and/or travel time etc.  
+
+During enrollment the CBSA staff verifies the individual during an in-person or virtual meeting. 
+
+ReportIn uses Amazon Rekognition, a facial recognition software, to perform a comparison of a photo of a known individual against a reference photo. This comparison generates a similarity score, indicating if the individual who is reporting is in fact the individual on reporting conditions.  The software comparison performed is a one-to-one comparison and, to note, is not a one to many comparison. It is also important to note that the software does not compare images against a database of publicly collected images.
+
+All submissions will undergo 100% human oversight. This approach ensures that human judgment and discretion are applied to the results, promoting accountability and accuracy in the system's operation.
+
+There are three levels of review. If a facial comparison match is not confirmed, the Alternatives to Detention Monitoring Centre Officer (ATD MCO), of the Alternatives to Detention Monitoring Centre (ATD MC), may contact the individual within a day or two for a follow up investigation. If the ATD MCO is still unable to confirm a facial comparison match, they will refer the case to the Alternatives to Detention Monitoring Centre Supervisor (ATD MCS). If the ATD MCS has additional questions or they are unable to confirm a facial comparison match, they will refer the case to the Regional Inland Enforcement office for investigation by an Inland Enforcement Officer (IEO). If the follow up investigation results in the IEO determining that the individual has not complied with their conditions, the individual could be detained as per the IRPA and IRPR.
+
+The benefits to the individual and CBSA includes process optimization and workflow automation. The software provides process optimization by analyzing large images (data sets) to identify anomalies which assists in providing workflow automation. Workflow automation allows CBSA to utilize resources in other capacities due to the remote reporting option by not requiring individuals to attend the CBSA office. ",,,,,,6,3,3,0,0,0,2,2,4,10,14,17,3,5,"item1,item5",2,3,3,item6-1,18,,,,,,
+eaeb269c-6ac5-4429-a5aa-1fcc07c77933,cres-reportin-peer-review-report-and-response-final.pdf,pdf,en,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10582,5
+eaeb269c-6ac5-4429-a5aa-1fcc07c77933,srec-jemepresente-eia-resultats.json,json,bilingual,v0.10.0,Client Reporting and Engagement System (CRES/ReportIn) / Système de Rapports et d’engagement des Clients (SREC)/JeMePrésente,,,085,Intelligence and Enforcement / Renseignement et exécution de la loi,Bradley Belanger,item2,,Border Enforcement / Detentions / Exécution de la loi à la frontière / Détentions,,"Contexte
+
+L’Agence des services frontaliers du Canada (ASFC) est responsable de surveiller et d’appliquer les conditions imposées aux personnes au Canada en vertu de la Loi sur l’immigration et la protection des réfugiés (LIPR) et du Règlement sur l’immigration et la protection des réfugiés (RIPR).
+
+Le Cadre national en matière de détention liée à l’immigration (CNDI) a été approuvé par le Parlement afin de créer un système de détention liée à l’immigration amélioré et plus équitable qui favorise le traitement humain et décent des personnes tout en assurant la sécurité du public. La détention des immigrants repose sur le principe selon lequel la détention ne doit être utilisée qu'en dernier recours, dans des circonstances limitées. Dans certains cas, cependant, la détention peut être jugée nécessaire lorsque : 
+
+1. une personne présente un risque pour la sécurité publique (c'est-à-dire lorsqu'une personne a des antécédents documentés ou un modèle de crimes/comportements violents ou agressifs), 
+2. l'ASFC n'est pas en mesure d'établir l'identité légitime d'une personne, et/ou 
+3. le comportement de l'individu menace l'intégrité du programme (par exemple dans le cadre d'une procédure d'immigration ou d'un renvoi). 
+
+Lorsque la détention doit avoir lieu, l’ASFC utilise des processus améliorés d’évaluation du risque, élaborés grâce au CNDI, pour s’assurer que les détenus sont placés dans l’établissement le plus approprié au moment de la détention. 
+
+Plusieurs facteurs doivent être pris en compte lors de la décision de détenir une personne, y compris la disponibilité et l’utilisation potentielle de toutes les SRD. Au cours des huit dernières années, l'ASFC a réduit le recours à la détention en augmentant le nombre de SRD. Ces dernières, telles que le signalement en personne, gestion des cas et surveillance dans la collectivité (GCSC) et le surveillance électronique, sont utilisées pour libérer efficacement les personnes dans les communautés tout en garantissant la sécurité publique et l'intégrité du programme d'immigration.  
+
+L'ASFC a maintenant élargi les SRD en développant une application smartphone, JeMePrésente, utilisée sur une base volontaire, qui permet aux ressortissants étrangers et aux résidents permanents soumis à des conditions d'exécution de la législation sur l'immigration de se présenter à l'ASFC à distance.
+
+L'application utilise la comparaison faciale et les données géographiques pour vérifier l'identité et la localisation des personnes.  
+
+L'application a été développée en conformité avec les normes du gouvernement du Canada sur les applications pour les appareils mobiles.  En outre, les commentaires du Commissaire à la protection de la vie privée ont été pris en compte dans le développement de l'application et une évaluation de l'impact sur la vie privée (EIVP) a été réalisée.  
+
+À propos de JeMePrésente/SREC
+
+Les conditions de déclaration sont imposées par l’ASFC, à Immigration, Réfugiés et Citoyenneté Canada (IRCC) ou à la Commission de l’immigration et du statut de réfugié du Canada (CISR) au cas par cas en vertu de la LIPR. Une condition courante imposée est l’obligation de déclaration en fonction d’un calendrier de déclaration régulière à l’ASFC. L’application JeMePrésente de l’ASFC, utilisée sur une base volontaire, permettra aux personnes assujetties à des conditions de déclaration de rendre compte à l’ASFC sans se rendre physiquement dans un bureau de l’ASFC. L'application JeMePrésente permettra aux personnes de se présenter à l'ASFC en toute sécurité sans avoir à se rendre en personne dans l'un de nos bureaux, tout en améliorant la capacité de l'ASFC à surveiller les personnes qui se présentent à distance.
+
+La solution du SREC/JeMePrésente de l’ASFC comprend ce qui suit :
+•	Une application de téléphone intelligent accessible au public, JeMePrésente, utilisée sur une base volontaire, où les personnes soumettent des rapports à l’aide d’un dispositif mobile ou téléphone intelligent et d’images faciales comme moyen d’authentifier l’identité des personnes. Les données biométriques faciales et la localisation des personnes, fournies par les capteurs ou le GPS du dispositif mobile ou du téléphone intelligent, sont enregistrées lorsqu’elles effectuent une déclaration au moyen de l’application JeMePrésente, et sont envoyées au système infonuagique de traitement et de surveillance, SREC.
+•	Un système infonuagique principal de traitement et de surveillance, SREC, permet aux agents de l’ASFC chargés de l’application de la loi sur l’immigration de surveiller, de contacter et d’évaluer les images faciales, les emplacements, la fréquence de déclaration et l’historique de conformité d’une personne sans que celle-ci ait à se rendre physiquement à un bureau de l’ASFC.
+
+À l’aide de l’application mobile, la personne soumet des photos qui sont ensuite comparées à une photo de référence et une cote de similarité est générée par un algorithme de comparaison faciale. En plus de l’évaluation automatisée de similarité, le personnel formé de l’ASFC examinera, pour chaque rapport soumis par une personne, les photos fournies et déterminera si les photos soumises correspondent à la personne. 
+
+La localisation des personnes est également recueillie chaque fois qu’ils font une déclaration et si la personne ne respecte pas ses conditions. 
+
+JeMePrésente permet également la messagerie directe unidirectionnelle de l’ASFC avec les personnes; ce qui facilitera la communication avec la personne utilisant l’application JeMePrésente.
+
+Hormis les données biométriques faciales, les types supplémentaires de renseignements personnels recueillis par JeMePrésente comprennent le prénom et le nom de famille, l’identificateur unique du client (IUC), l’adresse de courriel personnelle, le numéro de téléphone, les renseignements sur l’emploi (si applicable), les photos faciales, le texte du rapport ponctuel, l’emplacement, l’ID d’appareil, le modèle de l’appareil, la version du système d’exploitation de l’appareil, le message d’erreur et les renseignements de localisation (où l’erreur s’est produite).  
+
+Comme précédemment indiqué, l’emplacement d’une personne sera recueilli et enregistré lorsque les événements suivants se produiront : 
+•	Lorsqu’une personne soumet son rapport à la date prévue, l’emplacement, envoyé par des capteurs ou le GPS du dispositif mobile ou du téléphone intelligent, est enregistré au moyen de l’application JeMePrésente et est envoyé au système infonuagique de traitement et de surveillance, SREC. L’emplacement EnStream sera également utilisé et se connectera uniquement au système principal du SREC. Le service EnStream fonctionne de manière externe et n’est pas connecté à l’application JeMePrésente, mais peut être utilisé pour recueillir la localisation lorsqu’une enquête est ouverte et que la personne n’a pas respecté les conditions de déclaration à distance. 
+
+Voici les avantages opérationnels du projet :
+•	Amélioration de la gestion de l’inventaire des personnes que l’ASFC doit surveiller jusqu’à leur expulsion du Canada ou jusqu’à ce qu’elles deviennent résident permanent du Canada, citoyen canadien, personne protégée au Canada ou que leur statut de résident temporaire soit rétabli. 
+•	Le processus de validation JeMePrésente est beaucoup plus efficace en termes de temps qu'une réunion en personne et offre une plus grande flexibilité opérationnelle compte tenu des volumes fluctuants de clients. Ainsi, l'application JeMePrésente devrait augmenter la capacité de surveillance tout en rationalisant les coûts.
+
+Voici les avantages pour les personnes :
+•	Améliorer la communication, la transparence et offrir à un plus grand nombre de personnes une solution de rechange à la déclaration en personne, tout en améliorant la collaboration avec l’ASFC. 
+•	Faciliter un processus sécurisé pour les personnes qui s’inscrivent et rendent compte à l’ASFC.
+•	Améliorer le soutien aux personnes ayant des besoins en matière d’accessibilité afin qu’elles n’aient pas à se rendre à un bureau de l’ASFC et offrir un moyen plus accessible d’effectuer une déclaration, par exemple, moins de congés, réduction des frais de garde d’enfants, réduction des frais de transport ou moins de temps de déplacement, entre autres.  
+
+Pendant l’inscription, le personnel de l’ASFC vérifie l’identité de la personne lors d’une rencontre en personne ou virtuelle. 
+
+JeMePrésente utilise Amazon Rekognition, un logiciel de reconnaissance faciale, pour effectuer une comparaison d’une photo d’une personne connue avec une photo de référence. Cette comparaison génère une cote de similarité, indiquant si la personne qui fait la déclaration est effectivement la personne qui a des conditions de déclaration. La comparaison logicielle effectuée est une comparaison un à un et, à noter, pas une comparaison un à plusieurs. Il est également important de noter que le logiciel ne compare pas les images à une base de données d’images recueillies de façon publique.
+
+Toutes les présentations feront l’objet d’une surveillance humaine à 100 %. Cette approche garantit que le jugement humain et la discrétion sont appliqués aux résultats, favorisant ainsi la responsabilité et la précision dans le fonctionnement du système.
+
+Il y a trois niveaux d’examen. Si une correspondance faciale n’est pas confirmée, l’agent du Centre de contrôle des solutions de rechange à la détention (ACCSRD) peut communiquer avec la personne dans un délai d’un ou deux jours pour une enquête de suivi. Si l’ACCSRD ne parvient toujours pas à confirmer une correspondance faciale, il transmettra le dossier au superviseur du Centre de contrôle des solutions de rechange à la détention (SCCSRD). Si le SCCSRD a des questions supplémentaires ou s’il ne peut pas confirmer une correspondance faciale, il transmettra le dossier au Bureau intérieur d’exécution de la loi régional pour enquête par un agent d’exécution de la loi dans les bureaux intérieurs (AELBI). Si l’enquête de suivi révèle que l’AELBI détermine que la personne n’a pas respecté ses conditions, elle pourrait être détenue conformément à la LIPR et au RIPR.
+
+Les avantages pour la personne et l’ASFC comprennent l’optimisation des processus et l’automatisation des flux de travail. Le logiciel offre une optimisation des processus en analysant de grandes images (jeux de données) pour trouver les anomalies, ce qui facilite l’automatisation des flux de travail. L’automatisation des flux de travail permet à l’ASFC d’utiliser ses ressources dans d’autres capacités grâce à l’option de déclaration à distance, qui n’exige pas la présence des personnes au bureau de l’ASFC.",,,,,,6,3,3,0,0,0,2,2,4,10,14,17,3,5,"item1,item5",2,3,3,item6-1,18,,,,,,
+eaeb269c-6ac5-4429-a5aa-1fcc07c77933,srec-jemepresente-evaluation-et-reponse-par-les-pairs-final.pdf,pdf,fr,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13014,5
+eaeb269c-6ac5-4429-a5aa-1fcc07c77933,systeme-de-rapports-et-dengagement-des-clients-srecjemepresente-eia-french-fr.pdf,pdf,fr,0.10.0,,,,,,,Mise en oeuvre,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,73073,27
+eed746a8-a682-47c2-86b1-b427398fa2e2,aia-export-compliance-dashboard-en.pdf,pdf,en,0.10.0,Export Compliance Dashboard,,Canada Border Services Agency,,Commercial and Trade,Martin Burtt,,,,,,,1,30,30,34,,,,,,,,,,,,,,,,,,,,,,,,,21494,11
+eed746a8-a682-47c2-86b1-b427398fa2e2,aia-export-compliance-dashboard-fr.pdf,pdf,fr,0.10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26209,12
+f028d40f-3c0e-4a36-8a38-fe18d7aaaa32,aia-en.pdf,pdf,en,0.9.1,Passport Program Modernization Initiative,,Citizenship and Immigration (Department of),,Citizenship and Passport Programs,Maxine Ifill,Implementation,0,,"In 2019, the Canadian Passport Order was amended to authorize the use of
+automated decision-making, enabling the Passport Program to begin
+automated processing through the Global Case Management System.
+Automated decision-making is only used for routine, low risk cases resulting
+in positive decisions (e.g. adult passport renewals). Cases that are considered
+more complex, including all first-time applicants, child applications, and some
+other cases, will drop out for manual officer review and decision-making. All
+decisions to refuse, revoke, or cancel a passport will also continue to be made
+by an officer.
+• First, the applicant’s identity is verified.
+• Second, validation of the applicant’s eligibility to a passport is completed,
+e.g. to ensure the applicant is a Canadian citizen.
+• Third, confirmation of the applicant’s entitlement to a passport is
+completed, e.g. whether there are any restrictions that could impact the
+applicant's right to a passport.
+Under the current process for passport renewals, passport officers run a
+series of manual checks on applications, based on the information that the
+applicant submits in their application and information available in the system
+to make a decision on issuance of the passport. The implementation of this
+automation aims to improve the efficiency of these checks through
+automated business rules that reflect the manual steps currently performed
+by a passport officer.
+Business Driver / Positive Impact
+10. What is motivating your team to introduce automation into this decision-making process?
+(Check all that apply)
+Lower transaction costs of an existing program
+Use innovative approaches
+Other (please specify)
+11. Please describe
+Scalability of production",,,1,24,28,38,,,,,,,,,,,,,,,,,,,,,,,,,14429,9
+f028d40f-3c0e-4a36-8a38-fe18d7aaaa32,aia-fr.pdf,pdf,fr,0.9.1,,,,,,,Implémentation,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17473,9
+f028d40f-3c0e-4a36-8a38-fe18d7aaaa32,aia-results-fr.json,json,fr,v0.9.1,Initiative de modernisation du Programme de passeport,,,050,Programmes de citoyenneté et de passeport ,Maxine Ifill,item2,,Programme de passeport ,,"Le Décret sur les passeports canadiens a été modifié en 2019 afin d’autoriser le recours à la prise de décisions automatisée, ce qui a permis au Programme de passeport d’entreprendre l’automatisation du traitement au moyen du Système mondial de gestion des cas. Le processus décisionnel automatisé est utilisé seulement pour les demandes de routine, pour lesquelles les risques sont faibles et qui débouchent sur des décisions positives (p. ex. le renouvellement des passeports pour adultes). Les cas complexes, les demandes initiales de passeports, les demandes de passeports pour enfants et d’autres demandes seront acheminés à un agent qui en fera lui-même l’évaluation et qui prendra une décision. Toute décision visant à refuser, à révoquer ou à annuler un passeport continuera d’être prise par un agent.
+·	D’abord, on vérifie l’identité du demandeur.
+·	Ensuite, on confirme l’admissibilité du demandeur au passeport, c’est-à-dire en validant qu’il est bel et bien citoyen canadien.
+·	Enfin, on confirme que le demandeur a le droit d’avoir un passeport, en vérifiant par exemple l’existence de restrictions susceptibles d’avoir une incidence sur ce droit.
+Dans le cadre du processus actuel de renouvellement de passeport, les agents font une série de vérifications manuelles au moyen des renseignements fournis par les demandeurs dans leurs demandes et de l’information disponible dans le système pour prendre des décisions sur la délivrance des passeports. La mise en œuvre du processus automatisé vise à améliorer l’efficacité de ces vérifications grâce à des règles opérationnelles correspondant aux étapes manuelles actuellement suivies par les agents.
+",,,,,,0,0,0,0,0,,2,2,5,10,17,17,3,4,"item4,item5,item1",3,0,0,item4-1,12,,,,,,
+f028d40f-3c0e-4a36-8a38-fe18d7aaaa32,gba-plus-summary-_fr_final.pdf,pdf,fr,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12901,5
+f028d40f-3c0e-4a36-8a38-fe18d7aaaa32,gba-plus-summary-en_final.pdf,pdf,en,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10355,4
+f028d40f-3c0e-4a36-8a38-fe18d7aaaa32,surveyresults.json,json,bilingual,v0.9.1,Passport Program Modernization Initiative ,,,050, Citizenship and Passport Programs  ,Maxine Ifill ,item2,, Passport Program ,,"In 2019, the Canadian Passport Order was amended to authorize the use of automated decision-making, enabling the Passport Program to begin automated processing through the Global Case Management System.  Automated decision-making is only used for routine, low risk cases resulting in positive decisions (e.g. adult passport renewals). Cases that are considered more complex, including all first-time applicants, child applications, and some other cases, will drop out for manual officer review and decision-making. All decisions to refuse, revoke, or cancel a passport will also continue to be made by an officer. 
+•	First, the applicant’s identity is verified. 
+•	Second, validation of the applicant’s eligibility to a passport is completed, e.g.  to ensure the applicant is a Canadian citizen. 
+•	Third, confirmation of the applicant’s entitlement to a passport is completed, e.g.  whether there are any restrictions that could impact the applicant's right to a passport. 
+Under the current process for passport renewals, passport officers run a series of manual checks on applications, based on the information that the applicant submits in their application and information available in the system to make a decision on issuance of the passport. The implementation of this automation aims to improve the efficiency of these checks through automated business rules that reflect the manual steps currently performed by a passport officer.
+
+",,,,,,0,0,0,0,0,,2,2,5,10,17,17,3,4,"item4,item5,item1",3,0,0,item4-1,11,,,,,,
+f95dbd40-1236-428c-acd1-25b7559686be,2.-annex-a-algorithm-impact-assessment.pdf,pdf,en,0.10.0,Family Class Spouses and Partners Overseas Applications,,Citizenship and Immigration (Department of),,Various Branches at IRCC,Various project stakeholders at IRCC,Implementation,0,,"The project seeks to automate the eligibility approval for both the Sponsor
+and Principal Applicant of routine Family Class overseas spouse and partner
+applications. The project also streamlines all routine and standard Family
+Class overseas spouse and partner applications by sorting them based on
+common characteristics to allow for operational efficiencies.",,,2,44,52,37,,,,,,,,,,,,,,,,,,,,,,,,,21551,11
+f95dbd40-1236-428c-acd1-25b7559686be,aia-fr-may-24.pdf,pdf,fr,0.10.0,,,,,,,Mise en oeuvre,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26118,12
+f95dbd40-1236-428c-acd1-25b7559686be,aia-results-french.json,json,fr,v0.10.0,Demandes des époux et des conjoints de la catégorie du regroupement familial à l’étranger ,,,050,Diverses directions générales à IRCC ,Divers intervenants à IRCC,item2,,Regroupement familial,,"Le projet vise à automatiser l’approbation de la recevabilité, pour le répondant et le demandeur principal, des demandes courantes d'époux et de conjoints de la catégorie du regroupement familial à l’étranger. Le projet simplifie également toutes les demandes courantes et standard de la catégorie du regroupement familial à l’étranger en les triant en fonction des caractéristiques communes, afin de favoriser l’efficacité opérationnelle. ","Le projet vise à automatiser l’approbation de la recevabilité, pour le répondant et le demandeur principal, des demandes courantes d'époux et de conjoints de la catégorie du regroupement familial à l’étranger. Le projet simplifie également toutes les demandes courantes et standard de la catégorie du regroupement familial à l’étranger en les triant en fonction des caractéristiques communes, afin de favoriser l’efficacité opérationnelle.",,,,,7,3,0,4,0,0,2,2,5,10,16,17,3,5,"item5,item3",2,3,0,item6-1,20,,,,,,
+f95dbd40-1236-428c-acd1-25b7559686be,peer-review-summary-overseas-spouse-or-partner-advanced-analytics-project-english.pdf,pdf,en,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6455,4
+f95dbd40-1236-428c-acd1-25b7559686be,resume-de-lexamen-par-les-pairs-projet-danalytique-avancee-pour-les-epoux-ou-conjoints-a-letrang.pdf,pdf,fr,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8003,4

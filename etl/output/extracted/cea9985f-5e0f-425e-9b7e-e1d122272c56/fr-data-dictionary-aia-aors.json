@@ -1,0 +1,9 @@
+{
+  "source_format": "csv",
+  "language": "bilingual",
+  "row_count": 91,
+  "columns": "Num�ro,Question,R�ponse s�lectionn�e",
+  "_raw_preview": "[{\"Num�ro\": \"7\", \"Question\": \"Quelles parties du processus d�cisionnel seront automatis�es par ce syst�me?\", \"R�ponse s�lectionn�e\": \"7a: La cote de risque, le profilage ou la cat�gorisation d'un client en termes de risque\\n7b: Recommandation de prendre un certain plan d'action\\n7c: Rendre une d�cision administrative compl�te\"}, {\"Num�ro\": \"7.1\", \"Question\": \"Est-ce que la recommandation ou une d�cision rendue par le syst�me d'une latitude?\", \"R�ponse s�lectionn�e\": \"1: Oui\\n2: Non\"}, {\"Num�ro\": \"7.1.1\", \"Question\": \"D�crire ce qui est de la d�cision disc�tionnaire\", \"R�ponse s�lectionn�e\": \"Texte libre\"}, {\"Num�ro\": \"7.1.2\", \"Question\": \"La d�cision est purement discr�tionnaire? (par exemple, un examen pour des raison humanitaires)\", \"R�ponse s�lectionn�e\": \"1: Oui\\n2: Non\"}, {\"Num�ro\": \"7.1.3\", \"Question\": \"Ont tous les points de d�cision qui impliquent l'exercice du pouvoir discr�tionnaire humain �t� clairement identifi�s?\", \"R�ponse s�lectionn�e\": \"1: Oui\\n2: Non\"}]",
+  "dataset_id": "cea9985f-5e0f-425e-9b7e-e1d122272c56",
+  "source_file": "fr-data-dictionary-aia-aors.csv"
+}

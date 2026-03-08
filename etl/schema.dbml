@@ -1,0 +1,328 @@
+// ============================================================
+// AIA Bilingual Corpus – dbdiagram.io schema (DBML)
+// Paste at: https://dbdiagram.io/d
+// ============================================================
+
+// ── Lookup / Reference Tables ────────────────────────────────
+
+Table organizations {
+  id   int  [pk, increment]
+  name text [not null, unique]
+}
+
+Table subjects {
+  id   int  [pk, increment]
+  name text [not null, unique]
+}
+
+Table keywords {
+  id   int  [pk, increment]
+  name text [not null, unique]
+}
+
+Table resource_types {
+  id   int  [pk, increment]
+  name text [not null, unique, note: 'Assessment | Dataset | Report | Tool | Guide']
+}
+
+Table languages {
+  id   int  [pk, increment]
+  name text [not null, unique, note: 'English | French | No linguistic content']
+}
+
+Table formats {
+  id   int  [pk, increment]
+  name text [not null, unique, note: 'CSV | HTML | JSON | PDF | XLS']
+}
+
+// ── Core Dataset (open.canada.ca metadata) ───────────────────
+
+Table datasets {
+  id                  uuid [pk, note: 'open.canada.ca GUID']
+  title               text [not null]
+  organization_id     int  [ref: > organizations.id]
+  publisher_section   text
+  update_frequency    text
+  contact_email       text
+  metadata_created    timestamp
+  metadata_modified   timestamp
+  homepage            text
+  related_record_type text
+  time_period_start   date
+
+  note: '32 unique AIA datasets'
+}
+
+// ── Dataset Junction Tables ──────────────────────────────────
+
+Table dataset_subjects {
+  dataset_id uuid [ref: > datasets.id, not null]
+  subject_id int  [ref: > subjects.id, not null]
+  indexes { (dataset_id, subject_id) [pk] }
+}
+
+Table dataset_keywords {
+  dataset_id uuid [ref: > datasets.id, not null]
+  keyword_id int  [ref: > keywords.id, not null]
+  indexes { (dataset_id, keyword_id) [pk] }
+}
+
+Table dataset_resource_types {
+  dataset_id       uuid [ref: > datasets.id, not null]
+  resource_type_id int  [ref: > resource_types.id, not null]
+  indexes { (dataset_id, resource_type_id) [pk] }
+}
+
+Table dataset_languages {
+  dataset_id  uuid [ref: > datasets.id, not null]
+  language_id int  [ref: > languages.id, not null]
+  indexes { (dataset_id, language_id) [pk] }
+}
+
+Table dataset_formats {
+  dataset_id uuid [ref: > datasets.id, not null]
+  format_id  int  [ref: > formats.id, not null]
+  indexes { (dataset_id, format_id) [pk] }
+}
+
+// ── Downloadable Files ───────────────────────────────────────
+
+Table resources {
+  id         int  [pk, increment]
+  dataset_id uuid [ref: > datasets.id, not null]
+  url        text [not null]
+  note: '137 individual file URLs'
+}
+
+// ── AIA Form Question Catalog ────────────────────────────────
+
+Table questions {
+  question_id     text [pk, note: 'PD-01 | IA-13 | MQ-09']
+  section_code    text [not null, note: 'PD | IA | MQ']
+  section_name    text [not null]
+  subsection      text [not null]
+  question_number int  [not null]
+  question_text   text [not null]
+  answer_type     text [not null, note: 'text | scored | boolean | multi']
+  json_key        text [note: 'JSON data.* field name']
+  max_score       int  [default: 0]
+  scores_section  text [not null, note: 'impact | mitigation | none']
+
+  note: '103 questions across 13 subsections'
+}
+
+// ── Form Submissions (one per file) ─────────────────────────
+
+Table form_submissions {
+  id                int  [pk, increment]
+  dataset_id        uuid [ref: > datasets.id, not null]
+  source_file       text [not null]
+  source_format     text [not null, note: 'json | pdf']
+  language          text [note: 'en | fr | bilingual']
+  form_version      text
+  impact_level      int  [note: '1–4; from PDF or derived']
+  current_score     int
+  raw_impact_score  int
+  mitigation_score  int
+  indexes { (dataset_id, source_file) [unique] }
+
+  note: '114 submissions: 30 JSON + 84 PDF'
+}
+
+// ── Section 1: Project Details ───────────────────────────────
+
+Table project_details {
+  submission_id      int  [pk, ref: - form_submissions.id]
+  respondent         text
+  job_title          text
+  department         text
+  branch             text
+  project_title_en   text
+  project_title_fr   text
+  project_id_it_plan text
+  program            text
+  phase              text [note: 'Discovery | Design | Implementation | Operational']
+  phase_score        int
+  description_en     text
+  description_fr     text
+  system_capabilities text [note: 'Comma-separated capability item codes']
+}
+
+// ── Section 2: Reasons for Automation ───────────────────────
+
+Table reasons_for_automation {
+  submission_id               int  [pk, ref: - form_submissions.id]
+  motivation_types            text [note: 'Multi-select item codes']
+  motivation_other_en         text
+  motivation_other_fr         text
+  client_needs_en             text
+  client_needs_fr             text
+  public_benefits_en          text
+  public_benefits_fr          text
+  effectiveness_score         int  [note: '0–4']
+  expected_improvements_en    text
+  expected_improvements_fr    text
+  system_confinement_en       text
+  system_confinement_fr       text
+  trade_offs_en               text
+  trade_offs_fr               text
+  alternatives_considered     int  [note: '0=No >0=Yes']
+  why_automation_preferred_en text
+  why_automation_preferred_fr text
+  no_deploy_consequence_types text [note: 'Multi-select']
+  no_deploy_consequence_en    text
+  no_deploy_consequence_fr    text
+}
+
+// ── Section 3: Risk Profile ──────────────────────────────────
+
+Table risk_profile {
+  submission_id             int [pk, ref: - form_submissions.id]
+  public_scrutiny_score     int [note: '0–4: riskProfile1']
+  vulnerable_clients_score  int [note: '0–4: riskProfile2']
+  high_stakes_score         int [note: '0–4: riskProfile3']
+  staff_impact_score        int [note: '0–4: riskProfile4']
+  disability_barriers_score int [note: '0–4: riskProfile5']
+  risk_total                int [note: 'Sum of 5 scores']
+}
+
+// ── Section 4: Project Authority ────────────────────────────
+
+Table project_authority {
+  submission_id              int [pk, ref: - form_submissions.id]
+  new_policy_authority_score int [note: '0=No >0=Yes']
+}
+
+// ── Section 5: About the Algorithm ──────────────────────────
+
+Table about_the_algorithm {
+  submission_id            int [pk, ref: - form_submissions.id]
+  is_trade_secret_score    int [note: '0=No >0=Yes']
+  is_hard_to_explain_score int [note: '0=No >0=Yes']
+}
+
+// ── Section 6: About the Decision ───────────────────────────
+
+Table about_the_decision {
+  submission_id               int  [pk, ref: - form_submissions.id]
+  decision_description_en     text
+  decision_description_fr     text
+  decision_sectors            text [note: 'Multi-select item codes']
+  automation_type_score       int  [note: '0=support 2=partial 4=full']
+  system_role_en              text
+  system_role_fr              text
+  requires_judgement_score    int  [note: '0=No >0=Yes']
+  evaluation_criteria_en      text
+  evaluation_criteria_fr      text
+  system_output_en            text
+  system_output_fr            text
+  superhuman_task_score       int  [note: '0=No >0=Yes']
+  used_by_different_org_score int  [note: '0–4']
+  impacts_reversible_score    int  [note: '0–4']
+  impact_duration_score       int  [note: '0–4']
+}
+
+// ── Section 7: Individual Impacts ───────────────────────────
+
+Table individual_impacts {
+  submission_id            int  [pk, ref: - form_submissions.id]
+  rights_freedoms_score    int  [note: '0–4']
+  rights_freedoms_en       text
+  rights_freedoms_fr       text
+  equality_dignity_score   int  [note: '0–4']
+  equality_dignity_en      text
+  equality_dignity_fr      text
+  health_wellbeing_score   int  [note: '0–4']
+  health_wellbeing_en      text
+  health_wellbeing_fr      text
+  economic_interests_score int  [note: '0–4']
+  economic_interests_en    text
+  economic_interests_fr    text
+}
+
+// ── Section 8: About the Data ────────────────────────────────
+
+Table about_the_data {
+  submission_id                 int  [pk, ref: - form_submissions.id]
+  uses_personal_info            int  [note: '0=No >0=Yes']
+  pib_bank_numbers              text
+  security_classification_score int  [note: '0=Unclassified → 4=Top Secret']
+  data_controller_score         int  [note: '0–4: who controls data']
+  multiple_sources              int  [note: '0=No >0=Yes']
+  internet_connected_input      int  [note: '0=No >0=Yes']
+  interfaces_other_systems      int  [note: '0=No >0=Yes']
+  training_data_collector_score int  [note: '0–4']
+  input_data_collector_score    int  [note: '0–4']
+  data_description_en           text
+  data_description_fr           text
+  uses_unstructured_data        int  [note: '0=No >0=Yes']
+  unstructured_data_types       text [note: 'Multi-select']
+}
+
+// ── Section 9: Consultation ──────────────────────────────────
+
+Table consultation {
+  submission_id                  int  [pk, ref: - form_submissions.id]
+  internal_stakeholders_engaged  int  [note: '0=No 1=Yes']
+  internal_stakeholders_list     text [note: 'Multi-select']
+  internal_stakeholders_other_en text
+  internal_stakeholders_other_fr text
+  external_stakeholders_engaged  int  [note: '0=No 1=Yes']
+  external_stakeholders_list     text [note: 'Multi-select']
+  external_stakeholders_other_en text
+  external_stakeholders_other_fr text
+}
+
+// ── Section 10: Data Quality & Bias ─────────────────────────
+
+Table data_quality_bias {
+  submission_id                   int [pk, ref: - form_submissions.id]
+  bias_testing_documented         int [note: '0/1']
+  bias_testing_public             int [note: '0/1']
+  data_quality_process_documented int [note: '0/1']
+  data_quality_process_public     int [note: '0/1']
+  gba_plus_conducted              int [note: '0/1']
+  gba_plus_public                 int [note: '0/1']
+  accountability_assigned         int [note: '0/1']
+  outdated_data_process           int [note: '0/1']
+  outdated_data_process_public    int [note: '0/1']
+  data_on_open_gov_portal         int [note: '0/1']
+}
+
+// ── Section 11: Fairness ─────────────────────────────────────
+
+Table fairness {
+  submission_id                int [pk, ref: - form_submissions.id]
+  audit_identifies_authority   int [note: '0/1']
+  audit_records_all_decisions  int [note: '0/1']
+  audit_key_decision_points    int [note: '0/1']
+  decision_points_linked_law   int [note: '0/1']
+  change_log_maintained        int [note: '0/1']
+  audit_all_system_decisions   int [note: '0/1']
+  audit_generates_notification int [note: '0/1']
+  audit_identifies_version     int [note: '0/1']
+  audit_shows_decision_maker   int [note: '0/1']
+  can_produce_reasons          int [note: '0/1']
+  access_permission_process    int [note: '0/1']
+  user_feedback_mechanism      int [note: '0/1']
+  client_recourse_process      int [note: '0/1']
+  human_override_enabled       int [note: '0/1']
+  override_log_process         int [note: '0/1']
+  audit_records_changes        int [note: '0/1']
+  gc_earb_reviewed             int [note: '0/1']
+}
+
+// ── Section 12: Privacy & Security ───────────────────────────
+
+Table privacy_security {
+  submission_id             int  [pk, ref: - form_submissions.id]
+  pia_conducted             int  [note: '0/1']
+  pia_description_en        text
+  pia_description_fr        text
+  privacy_by_design         int  [note: '0/1']
+  closed_system             int  [note: '0/1']
+  data_sharing_agreement    int  [note: '0/1']
+  de_identification_applied int  [note: '0/1']
+  de_identification_method_en text
+  de_identification_method_fr text
+}

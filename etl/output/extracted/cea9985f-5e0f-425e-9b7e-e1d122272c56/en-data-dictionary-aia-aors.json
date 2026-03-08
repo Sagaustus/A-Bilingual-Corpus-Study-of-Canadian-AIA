@@ -1,0 +1,9 @@
+{
+  "source_format": "csv",
+  "language": "bilingual",
+  "row_count": 93,
+  "columns": "Number,Question,Selected answer",
+  "_raw_preview": "[{\"Number\": \"7\", \"Question\": \"What parts of the decision-making process will be automated by this system?\", \"Selected answer\": \"7a: Risk scoring, profiling, or categorization of a client in terms of risk\\n7b: Recommendation to take a certain course of action\\n7c: Render a complete administrative decision\"}, {\"Number\": \"7.1\", \"Question\": \"Does the recommendation or decision made by the system involve discretion?\", \"Selected answer\": \"1: Yes\\n2: No\"}, {\"Number\": \"7.1.1\", \"Question\": \"Describe what is discretionary about the decision\", \"Selected answer\": \"Free Text\"}, {\"Number\": \"7.1.2\", \"Question\": \"Is the decision purely discretionary? (e.g., a review on compassionate grounds)\", \"Selected answer\": \"1: Yes\\n2: No\"}, {\"Number\": \"7.1.3\", \"Question\": \"Have all the decision points that involve the exercise of human discretion been clearly identified?\", \"Selected answer\": \"1: Yes\\n2: No\"}]",
+  "dataset_id": "cea9985f-5e0f-425e-9b7e-e1d122272c56",
+  "source_file": "en-data-dictionary-aia-aors.csv"
+}
