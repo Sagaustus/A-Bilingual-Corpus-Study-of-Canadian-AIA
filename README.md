@@ -59,6 +59,53 @@ Line to remove:
 
 Please note that we will not be removing the branding ourselves at this point but this may become more configurable as we break down the project in various components.
 
+## Local PostgreSQL Database
+
+The corpus is stored in a local PostgreSQL database named **`aia_corpus`** with 27 tables covering 1,178 rows of structured AIA data.
+
+### Quick start
+
+```bash
+# Create and populate the database
+psql -d postgres -c "CREATE DATABASE aia_corpus;"
+psql -d aia_corpus -f etl/schema.sql
+
+# Load all data (lookups → datasets → junctions → forms → sections)
+for t in organizations subjects keywords resource_types languages formats; do
+  psql -d aia_corpus -c "\COPY $t FROM 'etl/output/$t.csv' CSV HEADER"
+done
+psql -d aia_corpus -c "\COPY datasets FROM 'etl/output/datasets.csv' CSV HEADER"
+psql -d aia_corpus -c "\COPY resources FROM 'etl/output/resources.csv' CSV HEADER"
+for t in dataset_subjects dataset_keywords dataset_resource_types dataset_languages dataset_formats; do
+  psql -d aia_corpus -c "\COPY $t FROM 'etl/output/$t.csv' CSV HEADER"
+done
+psql -d aia_corpus -c "\COPY questions FROM 'etl/output/questions.csv' CSV HEADER"
+psql -d aia_corpus -c "\COPY form_submissions FROM 'etl/output/form_submissions.csv' CSV HEADER"
+for t in project_details reasons_for_automation risk_profile project_authority \
+         about_the_algorithm about_the_decision individual_impacts about_the_data \
+         consultation data_quality_bias fairness privacy_security; do
+  psql -d aia_corpus -c "\COPY $t FROM 'etl/output/section/$t.csv' CSV HEADER"
+done
+```
+
+### Connect
+
+```bash
+psql -d aia_corpus
+```
+
+### Schema overview
+
+- **6 lookup tables** — organizations (10), subjects (9), keywords (121), resource_types (6), languages (3), formats (5)
+- **1 core table** — datasets (32 AIA datasets from open.canada.ca)
+- **5 junction tables** — many-to-many links for subjects, keywords, resource types, languages, formats
+- **1 resources table** — 137 downloadable file URLs
+- **2 form tables** — questions (103 AIA form questions), form_submissions (114 source files)
+- **12 section tables** — 30 rows each, one per JSON submission, covering project details, risk profile, fairness, privacy, and more
+- **1 view** — `v_datasets_flat` denormalized view of the dataset layer
+
+See [CORPUS_PIPELINE.md](CORPUS_PIPELINE.md) for full pipeline documentation and example research queries.
+
 ## Getting Started
 
 See the [Wiki](../../wiki)

@@ -461,31 +461,56 @@ python3 etl/build_section_tables.py
 
 ### Load into PostgreSQL
 
+The local database is named **`aia_corpus`**. It contains 27 tables and 1 view, totalling 1,178 rows.
+
 ```bash
-# Create schema
-psql -d your_db -f etl/schema.sql
+# Create the database (one-time)
+psql -d postgres -c "CREATE DATABASE aia_corpus;"
+
+# Create schema (tables, indexes, views)
+psql -d aia_corpus -f etl/schema.sql
 
 # Load in dependency order: lookups → core → junctions → form layer → sections
 for table in organizations subjects keywords resource_types languages formats; do
-  psql -d your_db -c "\COPY $table FROM 'etl/output/$table.csv' CSV HEADER"
+  psql -d aia_corpus -c "\COPY $table FROM 'etl/output/$table.csv' CSV HEADER"
 done
 
-psql -d your_db -c "\COPY datasets FROM 'etl/output/datasets.csv' CSV HEADER"
-psql -d your_db -c "\COPY resources FROM 'etl/output/resources.csv' CSV HEADER"
+psql -d aia_corpus -c "\COPY datasets FROM 'etl/output/datasets.csv' CSV HEADER"
+psql -d aia_corpus -c "\COPY resources FROM 'etl/output/resources.csv' CSV HEADER"
 
 for table in dataset_subjects dataset_keywords dataset_resource_types dataset_languages dataset_formats; do
-  psql -d your_db -c "\COPY $table FROM 'etl/output/$table.csv' CSV HEADER"
+  psql -d aia_corpus -c "\COPY $table FROM 'etl/output/$table.csv' CSV HEADER"
 done
 
-psql -d your_db -c "\COPY questions FROM 'etl/output/questions.csv' CSV HEADER"
-psql -d your_db -c "\COPY form_submissions FROM 'etl/output/form_submissions.csv' CSV HEADER"
+psql -d aia_corpus -c "\COPY questions FROM 'etl/output/questions.csv' CSV HEADER"
+psql -d aia_corpus -c "\COPY form_submissions FROM 'etl/output/form_submissions.csv' CSV HEADER"
 
 for table in project_details reasons_for_automation risk_profile project_authority \
              about_the_algorithm about_the_decision individual_impacts about_the_data \
              consultation data_quality_bias fairness privacy_security; do
-  psql -d your_db -c "\COPY $table FROM 'etl/output/section/$table.csv' CSV HEADER"
+  psql -d aia_corpus -c "\COPY $table FROM 'etl/output/section/$table.csv' CSV HEADER"
 done
 ```
+
+### Verify the database
+
+```bash
+psql -d aia_corpus -c "
+SELECT relname AS table_name, n_live_tup AS row_count
+FROM pg_stat_user_tables ORDER BY relname;"
+```
+
+Expected row counts:
+
+| Category | Tables | Rows |
+|---|---|---|
+| Lookup tables | organizations, subjects, keywords, resource_types, languages, formats | 10, 9, 121, 6, 3, 5 |
+| Core | datasets | 32 |
+| Junction (M2M) | dataset_subjects, dataset_keywords, dataset_resource_types, dataset_languages, dataset_formats | 47, 222, 46, 67, 61 |
+| Resources | resources | 137 |
+| Form structure | questions, form_submissions | 103, 114 |
+| Section tables (12) | project_details through privacy_security | 30 each |
+| **Total** | **27 tables** | **1,178 rows** |
 
 ---
 
