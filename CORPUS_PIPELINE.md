@@ -13,10 +13,11 @@
 5. [Stage 3 — Structured Text Extraction](#5-stage-3--structured-text-extraction)
 6. [Stage 4 — Form Tables & Question Catalog](#6-stage-4--form-tables--question-catalog)
 7. [Stage 5 — Section Tables](#7-stage-5--section-tables)
-8. [Relational Schema](#8-relational-schema)
-9. [Repository Structure](#9-repository-structure)
-10. [Reproducing the Pipeline](#10-reproducing-the-pipeline)
-11. [Research Notes](#11-research-notes)
+8. [Stage 6 — LLM Semantic Interpretations](#8-stage-6--llm-semantic-interpretations)
+9. [Relational Schema](#9-relational-schema)
+10. [Repository Structure](#10-repository-structure)
+11. [Reproducing the Pipeline](#11-reproducing-the-pipeline)
+12. [Research Notes](#12-research-notes)
 
 ---
 
@@ -24,7 +25,7 @@
 
 This project builds a structured, bilingual research corpus from all publicly available Canadian federal **Algorithmic Impact Assessments (AIAs)** — the mandatory risk-disclosure forms required under the Treasury Board Secretariat's *Directive on Automated Decision-Making* before any federal department deploys an automated decision system.
 
-The pipeline runs in five stages:
+The pipeline runs in six stages:
 
 ```
 AIA.csv (open.canada.ca)
@@ -33,10 +34,11 @@ AIA.csv (open.canada.ca)
     ├─ Stage 2  Download all 137 source files (PDF, JSON, HTML, CSV, XLSX)
     ├─ Stage 3  Extract structured text from each file
     ├─ Stage 4  Build question catalog + form submission table
-    └─ Stage 5  Build 12 semantically-focused section tables
+    ├─ Stage 5  Build 12 semantically-focused section tables
+    └─ Stage 6  LLM semantic interpretations → 4 derived tables + thematic patterns
 ```
 
-**End result:** a fully normalized relational database covering 32 unique AIA datasets, 114 form submissions, 103 catalogued questions, and 30 fully structured assessments — in both English and French — ready for bilingual corpus analysis, LLM-driven semantic research, or quantitative policy comparison.
+**End result:** a fully normalized relational database covering 32 unique AIA datasets, 114 form submissions, 103 catalogued questions, 30 fully structured assessments, and LLM-generated semantic interpretations — in both English and French — ready for bilingual corpus analysis, LLM-driven semantic research, or quantitative policy comparison.
 
 ---
 
@@ -291,10 +293,62 @@ All 12 section tables join to `form_submissions` on `submission_id`.
 
 ---
 
-## 8. Relational Schema
+## 8. Stage 6 — LLM Semantic Interpretations
+
+**Script:** [etl/llm_semantic_etl.py](etl/llm_semantic_etl.py)
+**Schema:** [etl/schema_interpretations.sql](etl/schema_interpretations.sql)
+**Model:** `meta-llama/Llama-3.3-70B-Instruct` via IONOS inference API
+
+Sends respondent answers from the 12 section tables to an LLM with structured prompts and writes derived interpretation rows back into PostgreSQL. All outputs include the raw LLM response, model ID, and prompt version for reproducibility.
+
+### Analysis types
+
+| # | Table | Sources | What it produces |
+|---|---|---|---|
+| 1 | `interp_automation_justification` | project_details, reasons_for_automation, about_the_decision | Justification theme, strength score (1-5), public benefit clarity, trade-off adequacy, confinement assessment |
+| 2 | `interp_risk_rights_impact` | risk_profile, individual_impacts, about_the_decision | Risk level label, dominant risk dimension, rights concern summary, proportionality assessment |
+| 3 | `interp_bilingual_divergence` | All tables with _en/_fr field pairs (19 bilingual pairs per submission) | Divergence detection, divergent field details, fidelity score (0-5), untranslatable concepts |
+| 4 | `interp_safeguard_compliance` | consultation, data_quality_bias, fairness, privacy_security | Compliance label/score, per-domain assessments, gap identification |
+| 5 | `interp_thematic_patterns` | All 4 interpretation tables above | Cross-submission recurring themes with prevalence and outliers |
+
+### Key results
+
+| Analysis | Key finding |
+|---|---|
+| **Justification** | 57% of submissions cite efficiency as primary theme; client service and compliance are secondary |
+| **Risk** | Public scrutiny and high-stakes decision-making are the dominant risk dimensions |
+| **Divergence** | 97% of submissions show bilingual divergence; median fidelity score is 4/5 |
+| **Safeguard** | Most submissions score "adequate" (3/5); bias testing transparency and stakeholder engagement are the most common gaps |
+| **Themes** | 22 cross-submission themes identified across all four dimensions |
+
+### Features
+
+- **Idempotent:** skips already-processed submissions at the current prompt version
+- **Rate-limited:** configurable delay between API calls (default 1.5s)
+- **Versioned prompts:** each prompt template has a version string; re-running with a new version processes all submissions again
+- **Auditable:** every row stores `raw_llm_response` (JSONB), `model_id`, and `prompt_version`
+- **CLI interface:** `--analysis`, `--limit`, `--dry-run` flags
+
+### Usage
+
+```bash
+# Run all analyses
+python3 etl/llm_semantic_etl.py --analysis all
+
+# Run a single analysis type
+python3 etl/llm_semantic_etl.py --analysis divergence
+
+# Test with 3 submissions, no API calls
+python3 etl/llm_semantic_etl.py --analysis justification --limit 3 --dry-run
+```
+
+---
+
+## 9. Relational Schema
 
 **Files:**
-- [etl/schema.sql](etl/schema.sql) — PostgreSQL DDL
+- [etl/schema.sql](etl/schema.sql) — PostgreSQL DDL (source tables)
+- [etl/schema_interpretations.sql](etl/schema_interpretations.sql) — PostgreSQL DDL (interpretation tables)
 - [etl/schema.dbml](etl/schema.dbml) — dbdiagram.io visualization (paste at dbdiagram.io/d)
 
 ### Full table inventory
@@ -334,6 +388,14 @@ Section tables (30 rows each, from JSON submissions)
   data_quality_bias
   fairness
   privacy_security
+
+LLM interpretation layer (Stage 6)
+  interp_automation_justification (30 rows)
+  interp_risk_rights_impact       (30 rows)
+  interp_bilingual_divergence     (30 rows)
+  interp_safeguard_compliance     (30 rows)
+  interp_thematic_patterns        (22 rows)
+  interp_run_log                  (tracking)
 ```
 
 ### Entity relationships
@@ -360,12 +422,20 @@ organizations ←─ datasets ─→ dataset_subjects      → subjects
                               ├──→ consultation           (1:1)
                               ├──→ data_quality_bias      (1:1)
                               ├──→ fairness               (1:1)
-                              └──→ privacy_security       (1:1)
+                              ├──→ privacy_security       (1:1)
+                              │
+                              │  LLM-derived (Stage 6)
+                              ├──→ interp_automation_justification (1:1)
+                              ├──→ interp_risk_rights_impact       (1:1)
+                              ├──→ interp_bilingual_divergence     (1:1)
+                              └──→ interp_safeguard_compliance     (1:1)
+                                        │
+                                        └──→ interp_thematic_patterns (cross-submission)
 ```
 
 ---
 
-## 9. Repository Structure
+## 10. Repository Structure
 
 ```
 .
@@ -385,7 +455,9 @@ organizations ←─ datasets ─→ dataset_subjects      → subjects
     ├── build_question_catalog.py         # Stage 4a
     ├── build_form_tables.py              # Stage 4b
     ├── build_section_tables.py           # Stage 5
-    ├── schema.sql                        # PostgreSQL DDL
+    ├── llm_semantic_etl.py              # Stage 6 — LLM interpretations
+    ├── schema.sql                        # PostgreSQL DDL (source tables)
+    ├── schema_interpretations.sql        # PostgreSQL DDL (LLM-derived tables)
     ├── schema.dbml                       # dbdiagram.io schema
     │
     └── output/
@@ -431,12 +503,12 @@ organizations ←─ datasets ─→ dataset_subjects      → subjects
 
 ---
 
-## 10. Reproducing the Pipeline
+## 11. Reproducing the Pipeline
 
 ### Requirements
 
 ```bash
-pip install pdfplumber openpyxl pandas beautifulsoup4 requests
+pip install pdfplumber openpyxl pandas beautifulsoup4 requests psycopg2-binary python-dotenv openai
 ```
 
 ### Run stages in order
@@ -461,7 +533,7 @@ python3 etl/build_section_tables.py
 
 ### Load into PostgreSQL
 
-The local database is named **`aia_corpus`**. It contains 27 tables and 1 view, totalling 1,178 rows.
+The local database is named **`aia_corpus`**. It contains 27 source tables, 6 interpretation tables, and 1 view.
 
 ```bash
 # Create the database (one-time)
@@ -510,11 +582,34 @@ Expected row counts:
 | Resources | resources | 137 |
 | Form structure | questions, form_submissions | 103, 114 |
 | Section tables (12) | project_details through privacy_security | 30 each |
-| **Total** | **27 tables** | **1,178 rows** |
+| **Source total** | **27 tables** | **1,178 rows** |
+
+### Stage 6 — LLM Semantic Interpretations
+
+Requires IONOS API credentials in `.env` (see `.env` for format).
+
+```bash
+# Create interpretation tables
+psql -d aia_corpus -f etl/schema_interpretations.sql
+
+# Run all LLM analyses (≈120 API calls, ~3-5 minutes)
+python3 etl/llm_semantic_etl.py --analysis all
+```
+
+Expected interpretation row counts:
+
+| Table | Rows |
+|---|---|
+| interp_automation_justification | 30 |
+| interp_risk_rights_impact | 30 |
+| interp_bilingual_divergence | 30 |
+| interp_safeguard_compliance | 30 |
+| interp_thematic_patterns | 22 |
+| interp_run_log | (varies) |
 
 ---
 
-## 11. Research Notes
+## 12. Research Notes
 
 ### Item code scoring
 
