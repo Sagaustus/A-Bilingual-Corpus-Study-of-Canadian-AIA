@@ -1,0 +1,79 @@
+{
+  "corpus": {
+    "n_terms": 37,
+    "total_occurrences_en": 665,
+    "total_occurrences_fr": 465,
+    "ratio_en_fr": 1.43
+  },
+  "spearman": {
+    "r": 0.8166,
+    "p": 0.0
+  },
+  "wilcoxon_en_gt_fr": {
+    "W": 495.5,
+    "p": 0.001255,
+    "n_non_tied": 35
+  },
+  "chi_square_drift_5group": {
+    "chi2": 7.668,
+    "p": 0.104518,
+    "df": 4,
+    "cramers_v": 0.3219
+  },
+  "fisher_instrumentalized_en_gt_fr": {
+    "OR": 2.99,
+    "p": 0.03271
+  },
+  "fisher_reframed_fr_gt_en": {
+    "OR": 2.564,
+    "p": 0.078373
+  },
+  "fisher_absent_fr_gt_en": {
+    "OR": 2.145,
+    "p": 0.172345
+  },
+  "drift_counts_en": {
+    "instrumentalized": 14,
+    "narrowed": 7,
+    "reframed": 5,
+    "absent": 4,
+    "legalized": 2,
+    "unnamed": 2,
+    "hollowed": 2,
+    "bifurcated": 1
+  },
+  "drift_counts_fr": {
+    "reframed": 11,
+    "absent": 8,
+    "instrumentalized": 6,
+    "narrowed": 4,
+    "legalized": 2,
+    "faithful": 2,
+    "hollowed": 2,
+    "unnamed": 1,
+    "expanded": 1
+  },
+  "divergence_counts": {
+    "terminological": 21,
+    "asymmetric_emphasis": 6,
+    "omission": 4,
+    "conceptual_shift": 3,
+    "register": 2,
+    "faithful": 1
+  },
+  "terms_with_ratio_ge_2": [
+    "explainability",
+    "recourse",
+    "human review",
+    "inclusion",
+    "normative authority",
+    "harm",
+    "benefit",
+    "public good",
+    "duty",
+    "right",
+    "consent",
+    "virtue",
+    "justice"
+  ]
+}

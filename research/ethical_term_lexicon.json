@@ -1,0 +1,569 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2026-05-12",
+    "project": "A Bilingual Corpus Study of Canadian AIA",
+    "description": "Master Ethical Term Lexicon for the Catalogue of Ethical Terminologies. Terms are drawn from metaethics, normative ethics (consequentialist, deontological, virtue, contractarian traditions), and applied AI ethics. Each entry documents the philosophical origin and provides search variants for both English and French corpus extraction.",
+    "branches": ["metaethics", "normative_ethics", "applied_ethics"],
+    "traditions": ["consequentialist", "deontological", "virtue_ethics", "contractarian", "care_ethics", "cross_traditional"],
+    "total_terms": 37
+  },
+  "terms": [
+
+    {
+      "id": "ME001",
+      "term_en": "moral status",
+      "term_fr": ["statut moral", "valeur morale", "considération morale"],
+      "branch": "metaethics",
+      "tradition": ["cross_traditional"],
+      "key_philosophers": ["Kant, Immanuel", "Singer, Peter", "Regan, Tom", "Warren, Mary Anne"],
+      "canonical_definition_en": "The property of being an entity toward which moral agents have direct duties; determining which entities have interests that must be taken into account in moral reasoning. Kant grounds it in rational agency; Singer in sentience; Warren in a cluster of criteria including consciousness, rationality, and self-awareness.",
+      "canonical_definition_fr": "La propriété d'être une entité envers laquelle les agents moraux ont des devoirs directs; qui mérite d'être pris en compte dans le raisonnement moral. Kant le fonde sur la rationalité; Singer sur la capacité à souffrir.",
+      "aia_relevance": "Implicitly at stake whenever submissions discuss who is 'affected' by automated decisions — whether affected individuals are treated as moral ends or merely as data subjects.",
+      "expected_drift": "Likely reduced to administrative eligibility categories rather than philosophical moral standing.",
+      "variants_en": ["moral status", "moral standing", "moral considerability", "affected individual", "subject of decision"],
+      "variants_fr": ["statut moral", "considération morale", "personne concernée", "sujet de décision", "individu affecté"]
+    },
+
+    {
+      "id": "ME002",
+      "term_en": "value",
+      "term_fr": ["valeur", "valeurs"],
+      "branch": "metaethics",
+      "tradition": ["cross_traditional"],
+      "key_philosophers": ["Moore, G.E.", "Dewey, John", "Taylor, Charles", "Korsgaard, Christine"],
+      "canonical_definition_en": "In axiology, a value is a property that makes something good, desirable, or worth pursuing — either intrinsically (for its own sake: Moore's open-question argument) or instrumentally (as a means to other ends). Metaethical debates concern whether values are objective features of the world (realism) or projections of human attitudes (expressivism).",
+      "canonical_definition_fr": "En axiologie, une valeur est une propriété qui rend quelque chose bon, désirable ou digne d'être poursuivi, soit intrinsèquement (pour lui-même), soit instrumentalement. Les débats métaéthiques portent sur la question de savoir si les valeurs sont des caractéristiques objectives du monde ou des projections d'attitudes humaines.",
+      "aia_relevance": "Appears in submissions as 'organizational values' or 'Canadian values' — typically instrumentalized as institutional priorities rather than grounded in moral theory.",
+      "expected_drift": "Hollowed: 'value' becomes synonymous with organizational mandate or service delivery goal.",
+      "variants_en": ["value", "values", "core value", "public value", "organizational value", "societal value"],
+      "variants_fr": ["valeur", "valeurs", "valeur publique", "valeur organisationnelle", "valeur fondamentale"]
+    },
+
+    {
+      "id": "ME003",
+      "term_en": "moral objectivity",
+      "term_fr": ["objectivité morale", "objectivité éthique"],
+      "branch": "metaethics",
+      "tradition": ["cross_traditional"],
+      "key_philosophers": ["Parfit, Derek", "Shafer-Landau, Russ", "Mackie, J.L.", "Blackburn, Simon"],
+      "canonical_definition_en": "The thesis that some moral claims are true independently of what any individual or culture believes. Moral realists (Parfit, Shafer-Landau) hold that moral facts are objective; anti-realists (Mackie's error theory; Blackburn's quasi-realism) deny this. The debate bears on whether AI decisions can ever be 'objectively fair.'",
+      "canonical_definition_fr": "La thèse selon laquelle certaines affirmations morales sont vraies indépendamment de ce que tout individu ou culture croit. Les réalistes moraux soutiennent que les faits moraux sont objectifs; les anti-réalistes le nient.",
+      "aia_relevance": "Algorithmic systems are frequently justified on grounds of 'objectivity' and 'removing human bias' — a claim that imports specific metaethical assumptions without acknowledgement.",
+      "expected_drift": "Reframed: philosophical objectivity replaced by statistical/procedural objectivity (consistency of output).",
+      "variants_en": ["objectiv", "unbiased", "neutral", "impartial", "consistent", "objective decision"],
+      "variants_fr": ["objectif", "objectivité", "impartial", "impartialité", "neutre", "neutralité", "cohérent"]
+    },
+
+    {
+      "id": "ME004",
+      "term_en": "normative authority",
+      "term_fr": ["autorité normative", "légitimité normative"],
+      "branch": "metaethics",
+      "tradition": ["deontological", "contractarian"],
+      "key_philosophers": ["Raz, Joseph", "Korsgaard, Christine", "Darwall, Stephen"],
+      "canonical_definition_en": "The capacity of a norm, rule, or agent to give agents genuine reasons for action — not merely prudential incentives. Raz distinguishes legitimate authority (which creates content-independent reasons) from merely de facto power. Korsgaard grounds authority in self-legislation. The question for AIAs: what makes an algorithmic decision binding on an officer or citizen?",
+      "canonical_definition_fr": "La capacité d'une norme, d'une règle ou d'un agent à donner aux agents de véritables raisons d'agir — pas seulement des incitations prudentielles. La question pour les AIA: qu'est-ce qui rend une décision algorithmique contraignante?",
+      "aia_relevance": "Directly implicated when submissions describe whether human officers must follow, can override, or merely consult the algorithm's output.",
+      "expected_drift": "Reduced to legal/policy authority (legislative mandate) without engaging the philosophical question of normative bindingness.",
+      "variants_en": ["authority", "legal authority", "mandate", "legislative authority", "binding", "authoritative"],
+      "variants_fr": ["autorité", "mandat", "autorité légale", "pouvoir", "contraignant", "habilitation"]
+    },
+
+    {
+      "id": "ME005",
+      "term_en": "moral fact",
+      "term_fr": ["fait moral", "vérité morale"],
+      "branch": "metaethics",
+      "tradition": ["cross_traditional"],
+      "key_philosophers": ["Parfit, Derek", "Mackie, J.L.", "Street, Sharon"],
+      "canonical_definition_en": "A putative mind-independent fact about what is morally right, wrong, good, or bad. Moral realists treat them as genuine features of reality; Mackie's error theory holds that all moral claims implicitly assert such facts but all such facts are false (there are no moral facts); constructivists (Korsgaard, Street) hold that moral facts are constructed through rational procedures.",
+      "canonical_definition_fr": "Un fait putatif indépendant de l'esprit sur ce qui est moralement juste, faux, bon ou mauvais. Les réalistes moraux les traitent comme de véritables caractéristiques de la réalité.",
+      "aia_relevance": "Implicit when submissions treat certain outcomes (e.g., 'reducing bias') as self-evidently good without philosophical justification.",
+      "expected_drift": "Absent: moral facts are never explicitly invoked; ethical claims are instead grounded in policy compliance.",
+      "variants_en": ["ethical principle", "moral principle", "right thing", "ethically", "morally"],
+      "variants_fr": ["principe éthique", "principe moral", "éthiquement", "moralement", "valeur éthique"]
+    },
+
+    {
+      "id": "NE001",
+      "term_en": "harm",
+      "term_fr": ["préjudice", "tort", "dommage", "nuire"],
+      "branch": "normative_ethics",
+      "tradition": ["consequentialist"],
+      "key_philosophers": ["Mill, John Stuart", "Feinberg, Joel", "Parfit, Derek", "Shue, Henry"],
+      "canonical_definition_en": "A setback to a person's interests (Feinberg) or a worsening of their welfare relative to a baseline (counterfactual account). Mill's harm principle holds that harm to others is the only legitimate basis for state coercion. Distinctions: physical, psychological, economic, dignitary, and epistemic harm. Harms can be direct, indirect, cumulative, or systemic.",
+      "canonical_definition_fr": "Une atteinte aux intérêts d'une personne (Feinberg) ou une dégradation de son bien-être par rapport à une ligne de base. Le principe de tort de Mill affirme que le préjudice causé à autrui est le seul fondement légitime de la coercition de l'État.",
+      "aia_relevance": "Central to AIA risk assessment — but submissions typically restrict 'harm' to narrow, measurable, operational harms rather than dignitary or systemic harms.",
+      "expected_drift": "Narrowed: harm reduced to specific enumerated impacts (financial loss, processing delay) rather than broader moral harm including dignity violations.",
+      "variants_en": ["harm", "harmful", "damage", "injury", "adverse impact", "negative impact", "detriment", "hurt"],
+      "variants_fr": ["préjudice", "tort", "dommage", "nuisance", "impact négatif", "impact défavorable", "atteinte", "nuire"]
+    },
+
+    {
+      "id": "NE002",
+      "term_en": "benefit",
+      "term_fr": ["bienfait", "avantage", "bénéfice"],
+      "branch": "normative_ethics",
+      "tradition": ["consequentialist"],
+      "key_philosophers": ["Mill, John Stuart", "Bentham, Jeremy", "Singer, Peter"],
+      "canonical_definition_en": "An improvement in welfare, satisfaction of preferences, or increase in happiness. Utilitarians (Bentham: hedonic calculus; Mill: quality-distinctions between pleasures; Singer: preference satisfaction) hold that the rightness of actions is determined by net benefit across all affected parties. Benefit can be direct (individual) or indirect (social/systemic).",
+      "canonical_definition_fr": "Une amélioration du bien-être, de la satisfaction des préférences ou du bonheur. Les utilitaristes soutiennent que la rectitude des actions est déterminée par le bénéfice net pour toutes les parties concernées.",
+      "aia_relevance": "Invoked in submissions to justify automation — processing speed, cost savings, and accuracy gains are framed as public benefits. Rarely includes any utilitarian calculation of harms to be weighed against.",
+      "expected_drift": "Reframed: benefit reduced to operational efficiency gains rather than genuine welfare improvement; missing the balancing against harms that utilitarian ethics requires.",
+      "variants_en": ["benefit", "beneficial", "advantage", "gain", "improvement", "positive impact", "public benefit"],
+      "variants_fr": ["bienfait", "avantage", "bénéfice", "gain", "amélioration", "impact positif", "avantage public"]
+    },
+
+    {
+      "id": "NE003",
+      "term_en": "welfare",
+      "term_fr": ["bien-être", "bien-être collectif"],
+      "branch": "normative_ethics",
+      "tradition": ["consequentialist"],
+      "key_philosophers": ["Parfit, Derek", "Sumner, L.W.", "Griffin, James", "Sen, Amartya"],
+      "canonical_definition_en": "The overall quality of an individual's life — what makes a life go well for the person living it. Theories: hedonism (welfare = pleasure/pain balance), desire-satisfactionism (welfare = preference satisfaction), objective list theory (welfare includes objective goods: knowledge, friendship, achievement). Sen's capabilities approach treats welfare as the ability to function in valuable ways.",
+      "canonical_definition_fr": "La qualité globale de la vie d'un individu. Théories: hédonisme (bien-être = équilibre plaisir/douleur), théorie de la satisfaction des désirs, liste objective (bien-être comprend des biens objectifs). L'approche par les capacités de Sen traite le bien-être comme la capacité à fonctionner de manière précieuse.",
+      "aia_relevance": "Appears in individual_impacts table as a discrete field (health_wellbeing). The AIA form operationalizes welfare as a checkable impact category rather than a substantive moral criterion.",
+      "expected_drift": "Instrumentalized: welfare appears as a risk-impact checkbox ('does this affect health and well-being?') rather than a substantive measure of what makes lives go well.",
+      "variants_en": ["welfare", "well-being", "wellbeing", "health and well-being", "quality of life"],
+      "variants_fr": ["bien-être", "qualité de vie", "santé et bien-être", "épanouissement"]
+    },
+
+    {
+      "id": "NE004",
+      "term_en": "public good",
+      "term_fr": ["bien commun", "bien public", "intérêt public"],
+      "branch": "normative_ethics",
+      "tradition": ["consequentialist", "contractarian"],
+      "key_philosophers": ["Rawls, John", "Rousseau, Jean-Jacques", "Ostrom, Elinor"],
+      "canonical_definition_en": "A good shared by and beneficial to all or most members of a community. Classical liberal tradition (Locke, Smith) treats it as the aggregate of individual goods; republican tradition (Rousseau's 'volonté générale') treats it as distinct from mere majority preference; Rawlsian tradition grounds it in what principles rational persons would choose behind a veil of ignorance.",
+      "canonical_definition_fr": "Un bien partagé par et bénéfique pour tous ou la plupart des membres d'une communauté. La tradition libérale le traite comme l'agrégat des biens individuels; la tradition républicaine comme une volonté générale distincte de la simple préférence majoritaire.",
+      "aia_relevance": "Frequently invoked in submissions to justify automated systems; the claimed public benefits (efficiency, fairness, security) are rarely interrogated against a substantive theory of what constitutes the public good.",
+      "expected_drift": "Hollowed: 'public good' conflated with departmental mandate, program efficiency, or cost reduction; the distribution of benefits across affected populations is not examined.",
+      "variants_en": ["public good", "public benefit", "public interest", "societal benefit", "common good", "collective benefit"],
+      "variants_fr": ["bien commun", "bien public", "intérêt public", "bénéfice collectif", "avantage public", "utilité publique"]
+    },
+
+    {
+      "id": "NE005",
+      "term_en": "risk",
+      "term_fr": ["risque"],
+      "branch": "normative_ethics",
+      "tradition": ["consequentialist"],
+      "key_philosophers": ["Mill, John Stuart", "Rawls, John", "Sunstein, Cass", "Jonas, Hans"],
+      "canonical_definition_en": "The probability of harm weighted by its severity — risk = probability × magnitude of harm. Philosophical debates: who bears the burden of risky decisions (those who impose vs those who bear risk)? When is risk imposition permissible without consent? The precautionary principle (Jonas) holds that under uncertainty about serious harm, restraint is obligatory. Rawls's maximin principle: evaluate outcomes by the worst-case scenario for the least-advantaged.",
+      "canonical_definition_fr": "La probabilité d'un préjudice pondérée par sa gravité. Débats philosophiques: qui supporte le fardeau des décisions risquées? Quand l'imposition du risque est-elle permissible sans consentement? Le principe de précaution: sous incertitude sur un préjudice grave, la retenue est obligatoire.",
+      "aia_relevance": "The AIA form's core organizing concept — a scored risk profile determines impact level. But 'risk' in the AIA is a bureaucratic scoring mechanism, not a philosophical assessment of who bears risk and with what justification.",
+      "expected_drift": "Instrumentalized: risk reduced to an additive scoring matrix (risk_profile table) rather than a substantive ethical evaluation of risk distribution across populations.",
+      "variants_en": ["risk", "risky", "risk level", "risk profile", "risk score", "high risk", "low risk", "risk assessment"],
+      "variants_fr": ["risque", "niveau de risque", "profil de risque", "score de risque", "risque élevé", "faible risque", "évaluation des risques"]
+    },
+
+    {
+      "id": "NE006",
+      "term_en": "duty",
+      "term_fr": ["devoir", "obligation morale"],
+      "branch": "normative_ethics",
+      "tradition": ["deontological"],
+      "key_philosophers": ["Kant, Immanuel", "Ross, W.D.", "O'Neill, Onora"],
+      "canonical_definition_en": "A morally obligatory action — what one must do regardless of consequences. Kant distinguishes perfect duties (absolute prohibitions/requirements: do not lie) from imperfect duties (general obligations with latitude: be beneficent). Ross's prima facie duties are binding unless overridden by stronger duties. O'Neill emphasizes that duties are correlative to rights: every right implies someone else's duty.",
+      "canonical_definition_fr": "Une action moralement obligatoire — ce que l'on doit faire indépendamment des conséquences. Kant distingue les devoirs parfaits (interdictions/exigences absolues) des devoirs imparfaits (obligations générales avec latitude). Les devoirs prima facie de Ross sont contraignants sauf s'ils sont annulés par des devoirs plus forts.",
+      "aia_relevance": "Appears in AIA submissions as legal/statutory duty (duty to consult, duty to document) rather than Kantian moral duty. The conflation between legal and moral duty is a key site of drift.",
+      "expected_drift": "Reframed: moral duty collapses into legal obligation; the Kantian notion of unconditional duty irrespective of consequences is absent.",
+      "variants_en": ["duty", "duties", "obligat", "must", "required to", "responsible for"],
+      "variants_fr": ["devoir", "devoirs", "obligation", "doit", "tenu de", "responsable de"]
+    },
+
+    {
+      "id": "NE007",
+      "term_en": "right",
+      "term_fr": ["droit", "droits"],
+      "branch": "normative_ethics",
+      "tradition": ["deontological"],
+      "key_philosophers": ["Kant, Immanuel", "Nozick, Robert", "Dworkin, Ronald", "Feinberg, Joel"],
+      "canonical_definition_en": "A justified entitlement that creates a correlative duty in others. Dworkin's 'rights as trumps': individual rights override aggregate utility calculations. Nozick: rights as side-constraints on state action. Feinberg's 'manifesto rights' (aspirational claims not yet legally recognized). Distinction: negative rights (freedoms from interference) vs positive rights (entitlements to provision).",
+      "canonical_definition_fr": "Une habilitation justifiée qui crée un devoir corrélatif chez les autres. Les droits comme 'atouts' de Dworkin: les droits individuels l'emportent sur les calculs d'utilité agrégée. Distinction: droits négatifs (libertés contre l'ingérence) et droits positifs (droits à des prestations).",
+      "aia_relevance": "Submissions reference 'Charter rights', 'right to recourse', 'rights of appeal' — legal rights, not philosophical rights. The question of whether algorithmic decision-making respects the deeper Dworkinian sense of rights-as-trumps is unaddressed.",
+      "expected_drift": "Narrowed: rights reduced to enumerated legal rights (Charter, privacy legislation) rather than the broader philosophical sense of rights as constraints on majority/state power.",
+      "variants_en": ["right", "rights", "entitlement", "Charter right", "fundamental right", "human right"],
+      "variants_fr": ["droit", "droits", "droit fondamental", "droit à", "droits de la personne", "droits humains", "droits de l'homme"]
+    },
+
+    {
+      "id": "NE008",
+      "term_en": "autonomy",
+      "term_fr": ["autonomie"],
+      "branch": "normative_ethics",
+      "tradition": ["deontological"],
+      "key_philosophers": ["Kant, Immanuel", "Mill, John Stuart", "Christman, John", "Korsgaard, Christine"],
+      "canonical_definition_en": "The capacity for self-governance — acting according to principles one has rationally endorsed. Kant: autonomy is the source of moral law (auto-nomos: self-law); heteronomy is acting from external causes. Mill: individual autonomy as freedom from paternalistic interference. Frankfurt: autonomous action requires identification with one's motivations. In bioethics: informed, voluntary, competent decision-making.",
+      "canonical_definition_fr": "La capacité d'auto-gouvernance — agir selon des principes que l'on a rationnellement approuvés. Kant: l'autonomie est la source de la loi morale; l'hétéronomie consiste à agir à partir de causes externes. Mill: l'autonomie individuelle comme liberté contre l'ingérence paternaliste.",
+      "aia_relevance": "Appears in two senses in AIA submissions: (1) system autonomy (degree of automation) — a technical concept; (2) client/officer autonomy — rarely addressed. The philosophical sense of rational self-governance is largely absent.",
+      "expected_drift": "Bifurcated: 'autonomy' in the technical sense (system operates autonomously) is common; autonomy in the Kantian sense (respecting persons as self-governing agents) is absent.",
+      "variants_en": ["autonom", "autonomous", "self-determin", "independent decision", "discretion"],
+      "variants_fr": ["autonomie", "autonome", "autodétermination", "indépendant", "discrétion", "pouvoir discrétionnaire"]
+    },
+
+    {
+      "id": "NE009",
+      "term_en": "dignity",
+      "term_fr": ["dignité"],
+      "branch": "normative_ethics",
+      "tradition": ["deontological"],
+      "key_philosophers": ["Kant, Immanuel", "Nussbaum, Martha", "Habermas, Jürgen", "Waldron, Jeremy"],
+      "canonical_definition_en": "The inherent worth of persons that must never be treated as merely instrumental — Kant's second formulation of the categorical imperative: treat humanity always as an end, never merely as a means. Waldron: dignity as a high-rank social status equally shared by all persons. Nussbaum: dignity grounded in species membership and the capabilities it grounds. Constitutional traditions (Germany's Basic Law, Quebec Charter) give dignity foundational status.",
+      "canonical_definition_fr": "La valeur inhérente des personnes qui ne doit jamais être traitée comme purement instrumentale — la deuxième formulation de l'impératif catégorique de Kant: traiter l'humanité toujours comme une fin, jamais seulement comme un moyen. Waldron: la dignité comme statut social élevé partagé également par toutes les personnes.",
+      "aia_relevance": "Appears in the individual_impacts table as 'equality_dignity' — a combined field that conflates two distinct moral concepts. Dignity is rarely unpacked; when invoked it tends to mean 'respectful treatment' rather than the Kantian prohibition on instrumentalization.",
+      "expected_drift": "Hollowed: dignity reduced to procedural respect (polite treatment) rather than the Kantian prohibition on using persons as mere means; the equality/dignity conflation in the AIA form obscures both concepts.",
+      "variants_en": ["dignity", "dignified", "inherent worth", "respect for persons", "dehumaniz"],
+      "variants_fr": ["dignité", "valeur inhérente", "respect de la personne", "déshumanis", "traitement digne"]
+    },
+
+    {
+      "id": "NE010",
+      "term_en": "consent",
+      "term_fr": ["consentement"],
+      "branch": "normative_ethics",
+      "tradition": ["deontological", "contractarian"],
+      "key_philosophers": ["Locke, John", "Kant, Immanuel", "O'Neill, Onora", "Faden, Ruth"],
+      "canonical_definition_en": "Voluntary, informed agreement by a competent person to an action affecting them. O'Neill distinguishes real consent (autonomous, informed) from spurious consent (obtained through deception or manipulation). Locke uses consent to ground legitimate political authority. In bioethics: informed consent requires disclosure of relevant information, understanding, and voluntariness. The absence of consent is a moral wrong even if the outcome is beneficial.",
+      "canonical_definition_fr": "Un accord volontaire et éclairé d'une personne compétente à une action qui la touche. O'Neill distingue le consentement réel (autonome, éclairé) du consentement fictif (obtenu par tromperie ou manipulation). L'absence de consentement est une faute morale même si le résultat est bénéfique.",
+      "aia_relevance": "Citizens whose applications are processed algorithmically rarely give informed consent to algorithmic decision-making. Submissions almost never discuss this. Privacy impact assessments touch on data consent but not decisional consent.",
+      "expected_drift": "Absent: the question of whether affected individuals consent to algorithmic assessment of their applications is not raised; consent appears only in the narrow sense of data-use consent in PIAs.",
+      "variants_en": ["consent", "informed consent", "voluntary", "agree", "opt-in", "opt-out"],
+      "variants_fr": ["consentement", "consentement éclairé", "volontaire", "accord", "acceptation", "opter pour"]
+    },
+
+    {
+      "id": "NE011",
+      "term_en": "integrity",
+      "term_fr": ["intégrité"],
+      "branch": "normative_ethics",
+      "tradition": ["virtue_ethics"],
+      "key_philosophers": ["Aristotle", "Williams, Bernard", "Cox, Damian"],
+      "canonical_definition_en": "The quality of consistently acting in accordance with one's values and moral commitments — not merely following rules but having a unified character from which ethical action flows. Williams: integrity as the coherence between a person's commitments and their actions; its violation (being forced to act against deep commitments) is a distinctive form of moral damage. Professional integrity: alignment between stated values and institutional practice.",
+      "canonical_definition_fr": "La qualité d'agir de manière cohérente avec ses valeurs et ses engagements moraux — non pas simplement suivre des règles mais avoir un caractère unifié. Williams: l'intégrité comme cohérence entre les engagements d'une personne et ses actions.",
+      "aia_relevance": "Appears in submissions as 'program integrity' — protecting the program from fraud or abuse. This is a bureaucratic/administrative use entirely divorced from the philosophical meaning of personal moral integrity.",
+      "expected_drift": "Reframed dramatically: philosophical integrity (character coherence, moral commitment) replaced by administrative program integrity (fraud prevention, procedural consistency).",
+      "variants_en": ["integrity", "program integrity", "institutional integrity", "maintain integrity"],
+      "variants_fr": ["intégrité", "intégrité du programme", "intégrité institutionnelle", "maintenir l'intégrité"]
+    },
+
+    {
+      "id": "NE012",
+      "term_en": "trust",
+      "term_fr": ["confiance"],
+      "branch": "normative_ethics",
+      "tradition": ["virtue_ethics"],
+      "key_philosophers": ["Baier, Annette", "O'Neill, Onora", "Hardin, Russell"],
+      "canonical_definition_en": "A three-place relation: A trusts B with respect to X (where X is some domain of action or care). Baier: trust is reliance on another's goodwill, and is morally significant because betrayal wrongs the trustor. O'Neill: trust requires trustworthiness (reliability, competence, honesty) not just reliability; blind trust is not rational trust. Algorithmic trust: whether citizens can rationally trust algorithmic systems as trustworthy agents.",
+      "canonical_definition_fr": "Une relation à trois places: A fait confiance à B en ce qui concerne X. Baier: la confiance est le fait de compter sur la bienveillance d'autrui, et est moralement significative car la trahison fait du tort au fiduciaire. O'Neill: la confiance requiert la fiabilité, la compétence, l'honnêteté.",
+      "aia_relevance": "Submissions frequently invoke 'public trust' as a justification for transparency and explainability requirements. But this is instrumental trust (trust-as-reliability) rather than Baier's morally substantive relational trust.",
+      "expected_drift": "Instrumentalized: trust reduced to public confidence in the system (reputational concern) rather than genuine trustworthiness as a moral relationship between institution and citizen.",
+      "variants_en": ["trust", "trustworthy", "trustworthiness", "public trust", "confidence"],
+      "variants_fr": ["confiance", "confiance du public", "fiabilité", "digne de confiance", "confiance publique"]
+    },
+
+    {
+      "id": "NE013",
+      "term_en": "prudence",
+      "term_fr": ["prudence"],
+      "branch": "normative_ethics",
+      "tradition": ["virtue_ethics"],
+      "key_philosophers": ["Aristotle", "Aquinas, Thomas", "MacIntyre, Alasdair"],
+      "canonical_definition_en": "Phronesis (practical wisdom) in Aristotle: the intellectual virtue that enables correct deliberation about what is genuinely good and how to achieve it in particular circumstances. Not mere caution but the capacity for appropriate moral perception and judgment. MacIntyre: phronesis cannot be replaced by rule-following; it requires character formed through practice. Distinct from both technical skill (techne) and scientific knowledge (episteme).",
+      "canonical_definition_fr": "La phronésis (sagesse pratique) d'Aristote: la vertu intellectuelle qui permet une délibération correcte sur ce qui est véritablement bon et comment y parvenir dans des circonstances particulières. Distincte de la simple prudence et de la compétence technique.",
+      "aia_relevance": "The AIA's emphasis on human-in-the-loop review implicitly appeals to prudential judgment — but the form provides no framework for what makes human judgment practically wise rather than merely habitual or biased.",
+      "expected_drift": "Absent: 'prudence' in the Aristotelian sense never appears; in submissions, cautious language ('carefully', 'consider') gestures toward prudence without invoking it.",
+      "variants_en": ["prudence", "prudent", "careful", "cautious", "sound judgment", "practical wisdom", "deliberate"],
+      "variants_fr": ["prudence", "prudent", "avec précaution", "jugement sain", "sagesse pratique", "délibéré"]
+    },
+
+    {
+      "id": "NE014",
+      "term_en": "virtue",
+      "term_fr": ["vertu"],
+      "branch": "normative_ethics",
+      "tradition": ["virtue_ethics"],
+      "key_philosophers": ["Aristotle", "MacIntyre, Alasdair", "Hursthouse, Rosalind"],
+      "canonical_definition_en": "A stable disposition of character that enables its possessor to reason well and act well in a domain. Aristotle: virtues are means between vicious extremes (courage between cowardice and recklessness); they are acquired through habit and enable human flourishing (eudaimonia). MacIntyre: virtues are internal to practices and intelligible only within a narrative of a tradition. Virtue ethics asks not 'what should I do?' but 'what kind of agent should I be?'",
+      "canonical_definition_fr": "Une disposition stable du caractère qui permet à son possesseur de raisonner et d'agir bien. Aristote: les vertus sont des moyens entre des extrêmes vicieux; elles sont acquises par l'habitude et permettent l'épanouissement humain (eudaimonie). L'éthique de la vertu demande non pas 'que dois-je faire?' mais 'quel type d'agent dois-je être?'",
+      "aia_relevance": "Rarely invoked directly; the AIA form focuses on procedural compliance rather than the character of decision-makers. When 'virtues' (honesty, care, judgment) are implicitly required, they are not named or cultivated.",
+      "expected_drift": "Absent: virtue ethics as a framework is entirely absent from the AIA discourse; institutional character is not evaluated.",
+      "variants_en": ["virtue", "virtuous", "character", "conduct", "exemplary"],
+      "variants_fr": ["vertu", "vertueux", "caractère", "conduite exemplaire"]
+    },
+
+    {
+      "id": "NE015",
+      "term_en": "fairness",
+      "term_fr": ["équité", "justice"],
+      "branch": "normative_ethics",
+      "tradition": ["contractarian"],
+      "key_philosophers": ["Rawls, John", "Scanlon, T.M.", "Barry, Brian"],
+      "canonical_definition_en": "Rawls's 'justice as fairness': principles of justice are those that rational persons would choose from behind a veil of ignorance (not knowing their position in society). Two principles: equal basic liberties; inequalities must benefit the least advantaged (difference principle). Scanlon's contractualism: an act is wrong if its principle could be reasonably rejected by anyone. Fairness is procedural (impartial process) and substantive (just outcomes).",
+      "canonical_definition_fr": "La 'justice comme équité' de Rawls: les principes de justice sont ceux que des personnes rationnelles choisiraient derrière un voile d'ignorance. Deux principes: libertés de base égales; les inégalités doivent bénéficier aux moins avantagés. L'équité est procédurale (processus impartial) et substantielle (résultats justes).",
+      "aia_relevance": "The AIA form has a 'fairness' section — but operationalizes it as audit trails, recourse mechanisms, and record-keeping, not as a Rawlsian substantive criterion. 'Algorithmic fairness' in the technical ML sense (demographic parity, equalized odds) is a further departure.",
+      "expected_drift": "Bifurcated: (1) procedural fairness (correct process) is the dominant meaning; (2) algorithmic fairness (statistical parity metrics) is an emerging technical meaning; (3) Rawlsian substantive fairness is absent.",
+      "variants_en": ["fair", "fairness", "impartial", "impartiality", "equitable", "unbiased", "non-discriminatory"],
+      "variants_fr": ["équitable", "équité", "impartial", "impartialité", "juste", "non-discriminatoire", "traitement équitable"]
+    },
+
+    {
+      "id": "NE016",
+      "term_en": "justice",
+      "term_fr": ["justice"],
+      "branch": "normative_ethics",
+      "tradition": ["contractarian"],
+      "key_philosophers": ["Rawls, John", "Nozick, Robert", "Sen, Amartya", "Young, Iris Marion"],
+      "canonical_definition_en": "The moral virtue of giving each their due and ensuring just institutions. Distributive justice (how goods are distributed); procedural justice (just processes, regardless of outcome); corrective/rectificatory justice (remedying wrongs). Rawls: primary goods distributed per his two principles. Nozick: justice as entitlement (historical theory — just holdings are those acquired through just procedures). Young: justice must address structural oppression and domination, not just distribution.",
+      "canonical_definition_fr": "La vertu morale de donner à chacun ce qui lui revient et d'assurer des institutions justes. Justice distributive, procédurale, correctrice. Rawls: biens primaires distribués selon ses deux principes. Young: la justice doit traiter l'oppression structurelle, pas seulement la distribution.",
+      "aia_relevance": "Natural justice (procedural fairness in administrative law) is the dominant frame; substantive distributive justice is absent. French submissions may import a more Republican tradition of justice as shared civic standing.",
+      "expected_drift": "Narrowed: 'justice' reduced to administrative natural justice (notice, hearing, reasons) in English; in French, may carry traces of justice sociale (social justice) from Québécois civic discourse.",
+      "variants_en": ["justice", "just", "natural justice", "procedural justice", "unjust", "injustice"],
+      "variants_fr": ["justice", "juste", "justice naturelle", "justice procédurale", "injuste", "injustice", "justice sociale"]
+    },
+
+    {
+      "id": "NE017",
+      "term_en": "equality",
+      "term_fr": ["égalité"],
+      "branch": "normative_ethics",
+      "tradition": ["contractarian"],
+      "key_philosophers": ["Rawls, John", "Dworkin, Ronald", "Frankfurt, Harry", "Anderson, Elizabeth"],
+      "canonical_definition_en": "Formal equality: treating like cases alike (Aristotle). Substantive equality: same outcomes or same opportunities. Dworkin's 'equal concern and respect': the state must treat all citizens as equals (not merely equally). Anderson's 'democratic equality': equality as a social relationship among free and equal citizens, not merely a distributive pattern. Equality of opportunity vs equality of outcome.",
+      "canonical_definition_fr": "L'égalité formelle: traiter les cas similaires de manière similaire. L'égalité substantielle: mêmes résultats ou mêmes opportunités. Anderson: l'égalité comme relation sociale entre citoyens libres et égaux, pas seulement un modèle distributif.",
+      "aia_relevance": "Appears in the individual_impacts field 'equality_dignity'. The AIA form conflates equality and dignity into a single field, obscuring the philosophical distinction. GBA+ (Gender-Based Analysis Plus) is the main equality-analysis mechanism.",
+      "expected_drift": "Conflated: equality merged with dignity in the form structure; the distinction between formal and substantive equality is not made; equality tends toward formal/procedural sense.",
+      "variants_en": ["equal", "equality", "equitable", "GBA+", "gender-based analysis", "equal opportunity", "inequalit"],
+      "variants_fr": ["égal", "égalité", "équitable", "ACS+", "analyse comparative entre les sexes", "inégalité", "opportunité égale"]
+    },
+
+    {
+      "id": "NE018",
+      "term_en": "proportionality",
+      "term_fr": ["proportionnalité"],
+      "branch": "normative_ethics",
+      "tradition": ["contractarian", "deontological"],
+      "key_philosophers": ["Rawls, John", "Alexy, Robert", "Waldron, Jeremy"],
+      "canonical_definition_en": "A constraint requiring that means be proportionate to ends — that the costs or harms of an action not exceed its benefits. In constitutional law (Alexy): a three-pronged test — suitability (means achieve the end), necessity (least restrictive means), and proportionality stricto sensu (benefits outweigh costs). In just war theory: force must be proportionate to legitimate military objectives. The principle grounds constraints on state power even in pursuit of legitimate goals.",
+      "canonical_definition_fr": "Une contrainte exigeant que les moyens soient proportionnés aux fins — que les coûts ou préjudices d'une action ne dépassent pas ses avantages. En droit constitutionnel (Alexy): test en trois étapes — adéquation, nécessité et proportionnalité stricto sensu.",
+      "aia_relevance": "Implicit in the AIA's risk-scoring rationale (higher-risk systems should face greater scrutiny). But proportionality as a philosophical principle requiring formal justification of means-end relationships is not explicitly invoked.",
+      "expected_drift": "Absent as a named principle; implicit in the risk-mitigation logic but never subjected to the formal three-prong proportionality analysis used in constitutional adjudication.",
+      "variants_en": ["proportional", "proportionality", "necessary", "least restrictive", "justified", "appropriate measure"],
+      "variants_fr": ["proportionnel", "proportionnalité", "nécessaire", "moins restrictif", "mesure appropriée", "justifié"]
+    },
+
+    {
+      "id": "AE001",
+      "term_en": "accountability",
+      "term_fr": ["responsabilité", "imputabilité", "redevabilité"],
+      "branch": "applied_ethics",
+      "tradition": ["deontological", "contractarian"],
+      "key_philosophers": ["Bovens, Mark", "Schedler, Andreas", "Braithwaite, John", "Pettit, Philip"],
+      "canonical_definition_en": "A relationship in which an actor has an obligation to explain and justify their conduct to a forum, and the forum can impose consequences (Bovens). Three dimensions: answerability (obligation to provide account), enforceability (consequences for misconduct), and liability (who bears responsibility for outcomes). Accountability is prospective (role obligations) and retrospective (consequences after the fact). Distinguished from responsibility: accountability requires an identifiable agent who can be held to account.",
+      "canonical_definition_fr": "Une relation dans laquelle un acteur a l'obligation d'expliquer et de justifier sa conduite à un forum qui peut imposer des conséquences (Bovens). Trois dimensions: la responsabilité de répondre, l'applicabilité (conséquences en cas de faute) et la responsabilité pour les résultats. Distincte de la simple responsabilité: l'imputabilité requiert un agent identifiable.",
+      "aia_relevance": "The most significant finding of the prior governance terminology analysis: 'accountability' appears 15 times in English AIA submissions but is completely absent from French versions, replaced by generic 'responsabilité' (responsibility). This is the foundational case study for this catalogue.",
+      "expected_drift": "Systematic cross-linguistic omission: the Anglo-American accountability concept (answerable, enforceable, agent-specific) has no adequate French equivalent; 'responsabilité' carries collective, moral, and legal senses without the governance-specificity of accountability.",
+      "variants_en": ["accountab", "answerab", "held to account", "account for", "liable"],
+      "variants_fr": ["responsabilité", "imputabilité", "redevabilité", "rendre compte", "répondre de"]
+    },
+
+    {
+      "id": "AE002",
+      "term_en": "transparency",
+      "term_fr": ["transparence"],
+      "branch": "applied_ethics",
+      "tradition": ["deontological", "contractarian"],
+      "key_philosophers": ["O'Neill, Onora", "Floridi, Luciano", "Larmore, Charles"],
+      "canonical_definition_en": "O'Neill's distinction: transparency (making information available) is not sufficient for trust; what matters is that information be intelligible, usable, and honest — 'intelligent openness.' Floridi: informational transparency as a necessary condition for autonomy and meaningful consent in information environments. In algorithmic contexts: transparency may mean (1) disclosure of existence; (2) disclosure of logic; (3) explainability of individual decisions; (4) full model transparency.",
+      "canonical_definition_fr": "La distinction d'O'Neill: la transparence (rendre l'information disponible) ne suffit pas à la confiance; ce qui importe, c'est que l'information soit intelligible, utilisable et honnête — 'ouverture intelligente'. En contexte algorithmique: transparence peut signifier divulgation de l'existence, de la logique, ou des décisions individuelles.",
+      "aia_relevance": "One of the most frequent terms across all submissions. The AIA's transparency requirements (public posting) focus on disclosure-transparency rather than O'Neill's richer intelligible transparency. French submissions may frame transparency in terms of droit à l'information (information rights) rather than governance accountability.",
+      "expected_drift": "Instrumentalized: transparency reduced to procedural disclosure (posting the AIA publicly) rather than substantive intelligibility; the philosophical question of what transparency is for (enabling informed consent, trust, accountability) is not addressed.",
+      "variants_en": ["transparent", "transparency", "open", "openness", "disclose", "disclosure", "explainable"],
+      "variants_fr": ["transparent", "transparence", "ouvert", "ouverture", "divulguer", "divulgation", "explicable"]
+    },
+
+    {
+      "id": "AE003",
+      "term_en": "bias",
+      "term_fr": ["biais", "préjugé"],
+      "branch": "applied_ethics",
+      "tradition": ["consequentialist", "contractarian"],
+      "key_philosophers": ["Kahneman, Daniel", "Barocas, Solon", "Friedman, Batya"],
+      "canonical_definition_en": "In ethics: a systematic skew in judgment or treatment against a protected or vulnerable group without relevant moral justification. Barocas & Selbst: algorithmic bias arises through proxy variables, feedback loops, measurement errors, and historical injustice encoded in training data. Philosophical distinction: statistical bias (systematic deviation from true value) vs moral bias (unjust differential treatment). Implicit bias (Greenwald): unconscious attitudes affecting behavior.",
+      "canonical_definition_fr": "En éthique: une distorsion systématique du jugement ou du traitement à l'encontre d'un groupe protégé ou vulnérable sans justification morale pertinente. Barocas et Selbst: le biais algorithmique découle de variables proxy, de boucles de rétroaction, d'erreurs de mesure et d'injustices historiques encodées dans les données d'entraînement.",
+      "aia_relevance": "The AIA's data_quality_bias table addresses bias as a technical/statistical problem (bias_testing_documented, gba_plus_conducted). The moral dimension — that bias wrongs specific people by treating them unjustly — is not engaged.",
+      "expected_drift": "Technical displacement: philosophical/moral bias (unjust discrimination) replaced by statistical bias (systematic measurement error); the moral wrong of biased treatment is subsumed under a data quality framework.",
+      "variants_en": ["bias", "biased", "unfair", "discriminat", "skew", "GBA+"],
+      "variants_fr": ["biais", "biaisé", "préjugé", "discriminat", "ACS+", "distorsion"]
+    },
+
+    {
+      "id": "AE004",
+      "term_en": "discrimination",
+      "term_fr": ["discrimination"],
+      "branch": "applied_ethics",
+      "tradition": ["contractarian", "deontological"],
+      "key_philosophers": ["Rawls, John", "Dworkin, Ronald", "Lippert-Rasmussen, Kasper"],
+      "canonical_definition_en": "Treating persons differently on the basis of morally irrelevant characteristics (race, sex, national origin). Philosophical accounts: (1) the wrongful basis account — discrimination wrongs because it uses prohibited grounds; (2) the comparative harm account — it wrongs by making the victim comparatively worse off; (3) the expressive account (Hellman) — it wrongs by demeaning. Indirect discrimination: facially neutral rules that disproportionately disadvantage protected groups.",
+      "canonical_definition_fr": "Traiter les personnes différemment sur la base de caractéristiques moralement non pertinentes. Comptes rendus philosophiques: le compte rendu des motifs illicites, le compte rendu du tort comparatif, le compte rendu expressif (Hellman): la discrimination blesse en avilissant. Discrimination indirecte: règles apparemment neutres qui désavantagent de manière disproportionnée.",
+      "aia_relevance": "Referenced primarily in relation to the Canadian Human Rights Act and Charter s.15 equality rights — a legal frame. The philosophical question of what makes discrimination wrong (which grounds the legal prohibition) is not addressed.",
+      "expected_drift": "Legalized: discrimination treated as a legal category (prohibited grounds) rather than a moral concept; the expressive and dignitary dimensions of discrimination's wrongness are absent.",
+      "variants_en": ["discriminat", "prohibited ground", "protected characteristic", "disparate impact", "systemic"],
+      "variants_fr": ["discriminat", "motif prohibé", "caractéristique protégée", "impact disproportionné", "systémique"]
+    },
+
+    {
+      "id": "AE005",
+      "term_en": "privacy",
+      "term_fr": ["vie privée", "confidentialité", "protection de la vie privée"],
+      "branch": "applied_ethics",
+      "tradition": ["deontological"],
+      "key_philosophers": ["Warren, Samuel & Brandeis, Louis", "Nissenbaum, Helen", "Solove, Daniel", "Westin, Alan"],
+      "canonical_definition_en": "Nissenbaum's contextual integrity: privacy norms are violated when information flows inappropriately across contexts (medical information flowing to employers). Solove's taxonomy: privacy violations range from surveillance, aggregation, and identification to decisional interference and exclusion. Westin: privacy as control over personal information — the right to determine when, how, and to what extent information is communicated to others.",
+      "canonical_definition_fr": "L'intégrité contextuelle de Nissenbaum: les normes de vie privée sont violées lorsque l'information circule de manière inappropriée entre des contextes. La taxonomie de Solove: violations allant de la surveillance, l'agrégation, l'identification à l'interférence décisionnelle. Westin: la vie privée comme contrôle sur l'information personnelle.",
+      "aia_relevance": "Addressed through PIAs (Privacy Impact Assessments) in the privacy_security table. But the AIA frame treats privacy as a legal compliance matter (PIPEDA, Privacy Act) rather than engaging Nissenbaum's contextual integrity or Solove's taxonomy.",
+      "expected_drift": "Legalized and narrowed: privacy operationalized as data protection compliance rather than the philosophical right to contextual informational self-determination; the decisional interference dimension (algorithmic decisions shaping life choices) is absent.",
+      "variants_en": ["privac", "personal information", "confidential", "PIA", "data protection", "sensitive information"],
+      "variants_fr": ["vie privée", "confidentialité", "information personnelle", "ÉFVP", "protection des données", "données sensibles"]
+    },
+
+    {
+      "id": "AE006",
+      "term_en": "oversight",
+      "term_fr": ["surveillance", "contrôle", "supervision"],
+      "branch": "applied_ethics",
+      "tradition": ["contractarian", "deontological"],
+      "key_philosophers": ["Pettit, Philip", "Braithwaite, John", "Estlund, David"],
+      "canonical_definition_en": "The exercise of monitoring and control over an agent or system to ensure it acts within appropriate constraints. Pettit's republican non-domination: oversight is necessary to prevent domination (arbitrary interference in the life of citizens). Deliberative democratic theory: oversight requires that those affected have meaningful input and recourse. Technical AI oversight: 'meaningful human control' — humans must be in a position to understand, anticipate, and correct system behavior.",
+      "canonical_definition_fr": "L'exercice de surveillance et de contrôle sur un agent ou un système pour s'assurer qu'il agit dans les limites appropriées. Pettit: la surveillance est nécessaire pour prévenir la domination. Théorie démocratique délibérative: la surveillance exige que les personnes concernées aient un apport significatif et un recours.",
+      "aia_relevance": "A central prior finding: English uses 'oversight' and 'monitoring' (passive, observational) while French uses 'contrôle' (active regulatory control) — a genuine cross-linguistic conceptual divergence reflecting different governance traditions.",
+      "expected_drift": "Cross-linguistic conceptual shift: EN oversight = observational monitoring (watch); FR contrôle = active regulatory intervention (control). This is one of the most philosophically significant divergences in the corpus.",
+      "variants_en": ["oversight", "monitor", "review", "supervision", "human oversight", "human review"],
+      "variants_fr": ["surveillance", "contrôle", "supervision", "examen", "vérification", "examen humain"]
+    },
+
+    {
+      "id": "AE007",
+      "term_en": "explainability",
+      "term_fr": ["explicabilité", "interprétabilité", "transparence algorithmique"],
+      "branch": "applied_ethics",
+      "tradition": ["deontological"],
+      "key_philosophers": ["Dworkin, Ronald", "Waldron, Jeremy", "Floridi, Luciano"],
+      "canonical_definition_en": "The capacity of an algorithmic system to provide reasons for its outputs that are understandable and meaningful to affected parties. Dworkin: persons have a right to reasons — not just decisions. Waldron: law's rule requires that legal decisions be interpretable as applications of intelligible norms, not just exercises of power. GDPR's 'right to explanation': affected individuals must be able to obtain meaningful explanations of automated decisions. Distinction: interpretability (how model works) vs explainability (why this decision was made).",
+      "canonical_definition_fr": "La capacité d'un système algorithmique à fournir des raisons pour ses résultats qui soient compréhensibles pour les parties concernées. Dworkin: les personnes ont droit à des raisons — pas seulement à des décisions. Waldron: la primauté du droit exige que les décisions juridiques soient interprétables. RGPD: droit à l'explication des décisions automatisées.",
+      "aia_relevance": "The AIA form asks whether a system is 'hard to explain' (about_the_algorithm: is_hard_to_explain_score). This is framed as a technical/operational difficulty rather than a moral right of affected individuals to intelligible justification.",
+      "expected_drift": "Reframed: explainability operationalized as a technical feasibility question (can we explain it?) rather than a moral right question (do affected parties have a right to an explanation they can understand and contest?).",
+      "variants_en": ["explain", "explainability", "interpretab", "hard to explain", "black box", "reason", "justif"],
+      "variants_fr": ["explicab", "explicabilité", "interprétab", "boîte noire", "raison", "justif", "difficile à expliquer"]
+    },
+
+    {
+      "id": "AE008",
+      "term_en": "recourse",
+      "term_fr": ["recours"],
+      "branch": "applied_ethics",
+      "tradition": ["deontological", "contractarian"],
+      "key_philosophers": ["Waldron, Jeremy", "Rawls, John", "Dworkin, Ronald"],
+      "canonical_definition_en": "The availability of means by which a person who has been wrongfully harmed can seek remedy, correction, or redress. Waldron: access to legal recourse is a fundamental dimension of the rule of law — without it, legal rights are merely nominal. In algorithmic governance: effective recourse requires (1) knowledge that a decision was made algorithmically; (2) ability to contest; (3) meaningful review by a human with power to change the outcome.",
+      "canonical_definition_fr": "La disponibilité de moyens par lesquels une personne qui a été lésée peut chercher réparation, correction ou redressement. Waldron: l'accès aux recours juridiques est une dimension fondamentale de l'état de droit. En gouvernance algorithmique: un recours efficace requiert connaissance, capacité de contester et examen humain significatif.",
+      "aia_relevance": "The AIA's fairness section includes recourse mechanisms (client_recourse_process). But this is framed as administrative process (appeal pathways) rather than the deeper philosophical requirement that recourse be effective in the sense of actually capable of producing a different, corrected outcome.",
+      "expected_drift": "Proceduralized: recourse reduced to existence of an appeal pathway rather than the substantive condition that the appeal be meaningful, accessible, and capable of producing correction.",
+      "variants_en": ["recourse", "appeal", "review", "challenge", "contest", "redress", "remedy"],
+      "variants_fr": ["recours", "appel", "révision", "contestation", "redressement", "réparation", "remédier"]
+    },
+
+    {
+      "id": "AE009",
+      "term_en": "safeguard",
+      "term_fr": ["mesure de protection", "garde-fou", "sauvegarde"],
+      "branch": "applied_ethics",
+      "tradition": ["consequentialist", "deontological"],
+      "key_philosophers": ["Jonas, Hans", "Sunstein, Cass"],
+      "canonical_definition_en": "A precautionary measure put in place to prevent or mitigate anticipated harms. Jonas's 'imperative of responsibility': under conditions of technological uncertainty, we must safeguard the conditions of a genuinely human future. Sunstein's 'laws of fear': precautionary safeguards are justified by the need to protect against low-probability, high-magnitude catastrophic risks. Safeguards in AI ethics: technical (testing, monitoring), procedural (human review), and structural (governance mechanisms).",
+      "canonical_definition_fr": "Une mesure de précaution mise en place pour prévenir ou atténuer les préjudices anticipés. Jonas: sous des conditions d'incertitude technologique, nous devons sauvegarder les conditions d'un avenir véritablement humain. En éthique de l'IA: sauvegardes techniques, procédurales et structurelles.",
+      "aia_relevance": "The AIA's mitigation_score quantifies safeguards. Safeguards are framed as risk-mitigation measures (technical and procedural checkboxes) rather than as precautionary obligations grounded in moral responsibility for uncertain harms.",
+      "expected_drift": "Instrumentalized: safeguards reduced to a checklist of mitigation measures that reduce a numerical risk score; the philosophical justification for why certain safeguards are obligatory (not merely optional improvements) is absent.",
+      "variants_en": ["safeguard", "mitigation", "mitigate", "protective measure", "precaution", "protection"],
+      "variants_fr": ["mesure de protection", "garde-fou", "sauvegarde", "atténuation", "précaution", "protection", "mesure d'atténuation"]
+    },
+
+    {
+      "id": "AE010",
+      "term_en": "human review",
+      "term_fr": ["examen humain", "intervention humaine", "révision humaine"],
+      "branch": "applied_ethics",
+      "tradition": ["deontological"],
+      "key_philosophers": ["Dworkin, Ronald", "Waldron, Jeremy", "Roff, Heather"],
+      "canonical_definition_en": "The requirement that a human agent examine and potentially override the output of an automated system before or after it affects a person. Dworkin: the right to be judged by a person — not an algorithm — is an aspect of dignity. Waldron: law's empire requires that legal decisions be the product of reasoning by a responsible agent. 'Meaningful human control' (Roff): more than nominal review; requires genuine understanding of the system and real authority to change its output.",
+      "canonical_definition_fr": "L'exigence qu'un agent humain examine et puisse remplacer la décision d'un système automatisé avant ou après qu'elle affecte une personne. Dworkin: le droit d'être jugé par une personne — et non un algorithme — est un aspect de la dignité. Roff: contrôle humain significatif: plus qu'un examen nominal.",
+      "aia_relevance": "Present throughout the corpus as a key mitigation mechanism. However, 'human review' is operationalized as an organizational procedure rather than a philosophical guarantee of dignity and intelligible judgment.",
+      "expected_drift": "Proceduralized: human review is a process checkbox (human_override_enabled) rather than a substantive moral guarantee; there is no examination of whether the human reviewer has the capacity to exercise genuine judgment rather than rubber-stamp the algorithm.",
+      "variants_en": ["human review", "human override", "human decision", "officer decision", "manual review", "human in the loop", "human control"],
+      "variants_fr": ["examen humain", "intervention humaine", "décision humaine", "contrôle humain", "révision manuelle", "humain dans la boucle"]
+    },
+
+    {
+      "id": "AE011",
+      "term_en": "audit",
+      "term_fr": ["vérification", "audit"],
+      "branch": "applied_ethics",
+      "tradition": ["contractarian"],
+      "key_philosophers": ["Power, Michael", "Bovens, Mark"],
+      "canonical_definition_en": "A systematic, independent examination of records, systems, or processes to verify compliance with established standards and identify irregularities. Power's 'audit society' critique: the proliferation of audit mechanisms creates rituals of verification that substitute for substantive accountability — the audit performs accountability rather than producing it. Bovens: audit is one mechanism of accountability but is only effective if the auditing forum has genuine authority to impose consequences.",
+      "canonical_definition_fr": "Un examen systématique et indépendant des dossiers, systèmes ou processus pour vérifier la conformité aux normes établies. La critique de Power: la prolifération des mécanismes d'audit crée des rituels de vérification qui se substituent à la responsabilité substantielle. Bovens: l'audit est un mécanisme de responsabilité mais n'est efficace que si le forum d'audit a une autorité réelle.",
+      "aia_relevance": "The fairness table is structured around audit capabilities (audit_records_all_decisions, audit_key_decision_points, etc.). Power's critique is directly applicable: the AIA's audit requirements may produce ritual accountability documentation rather than substantive accountability.",
+      "expected_drift": "Ritualized: audit framed as documentation and record-keeping rather than independent examination with real consequential authority; Power's 'audit society' dynamic is visible.",
+      "variants_en": ["audit", "review trail", "audit trail", "audit log", "monitoring", "oversight mechanism"],
+      "variants_fr": ["vérification", "audit", "piste d'audit", "journal d'audit", "contrôle", "mécanisme de surveillance"]
+    },
+
+    {
+      "id": "AE012",
+      "term_en": "non-maleficence",
+      "term_fr": ["non-malfaisance", "ne pas nuire"],
+      "branch": "applied_ethics",
+      "tradition": ["consequentialist", "deontological"],
+      "key_philosophers": ["Beauchamp, Tom & Childress, James", "Gert, Bernard"],
+      "canonical_definition_en": "The obligation not to inflict harm — 'first, do no harm' (primum non nocere). Beauchamp & Childress: one of the four principles of biomedical ethics (alongside beneficence, autonomy, justice). Non-maleficence is not merely the duty to avoid intentional harm but includes foreseeable harms from negligence, incompetence, or inadequate safeguards. In AI ethics: distinguishing acceptable risk from impermissible harm.",
+      "canonical_definition_fr": "L'obligation de ne pas infliger de préjudice — 'd'abord, ne pas nuire'. Beauchamp et Childress: l'un des quatre principes de l'éthique biomédicale. La non-malfaisance n'est pas seulement le devoir d'éviter les dommages intentionnels mais comprend les dommages prévisibles découlant de la négligence ou de sauvegardes inadéquates.",
+      "aia_relevance": "The philosophical principle underlying AIA risk assessment — but it is not named. The form's risk profiling and mitigation logic embodies non-maleficence without the philosophical grounding that would clarify what 'harm' means and who counts as harmed.",
+      "expected_drift": "Unnamed: non-maleficence is operationalized through risk scores and mitigation measures without being identified as such; the philosophical clarity the principle provides (including foreseeable harms from negligence) is absent.",
+      "variants_en": ["do no harm", "prevent harm", "avoid harm", "minimize harm", "risk mitigation", "harm reduction"],
+      "variants_fr": ["ne pas nuire", "prévenir les préjudices", "éviter les préjudices", "minimiser les risques", "atténuation des risques", "réduction des méfaits"]
+    },
+
+    {
+      "id": "AE013",
+      "term_en": "inclusion",
+      "term_fr": ["inclusion"],
+      "branch": "applied_ethics",
+      "tradition": ["contractarian", "care_ethics"],
+      "key_philosophers": ["Young, Iris Marion", "Nussbaum, Martha", "Fraser, Nancy"],
+      "canonical_definition_en": "Young's 'social connection model': inclusion is not merely the absence of exclusion but the presence of full participatory parity — equal standing to participate in social institutions. Nussbaum: inclusion requires that all persons have access to the central human capabilities. Fraser: parity of participation requires redistribution (economic resources), recognition (cultural status), and representation (political voice). Inclusion is a positive obligation, not merely non-discrimination.",
+      "canonical_definition_fr": "Le modèle de connexion sociale de Young: l'inclusion n'est pas seulement l'absence d'exclusion mais la présence d'une parité de participation complète. Nussbaum: l'inclusion exige que toutes les personnes aient accès aux capacités humaines centrales. Fraser: la parité de participation requiert redistribution, reconnaissance et représentation.",
+      "aia_relevance": "Appears in AIA submissions in relation to accessible design, GBA+, and consultation with diverse communities. But inclusion is framed as a design principle (accessible interfaces) rather than Fraser/Young's deeper political-philosophical inclusion.",
+      "expected_drift": "Narrowed: inclusion as accessibility/interface design rather than as political participation parity; the redistribution and recognition dimensions of inclusion are absent.",
+      "variants_en": ["inclus", "inclusive", "accessibility", "accessible", "diversity", "equity", "representation"],
+      "variants_fr": ["inclus", "inclusif", "accessibilité", "accessible", "diversité", "représentation"]
+    },
+
+    {
+      "id": "AE014",
+      "term_en": "data protection",
+      "term_fr": ["protection des données", "protection de l'information"],
+      "branch": "applied_ethics",
+      "tradition": ["deontological"],
+      "key_philosophers": ["Westin, Alan", "Floridi, Luciano", "Solove, Daniel"],
+      "canonical_definition_en": "The obligation to protect personal data from unauthorized collection, use, disclosure, and retention — grounded in respect for persons' informational autonomy (Westin) and the right to shape one's informational identity (Floridi's 'ontological friction'). Solove's harm taxonomy identifies twelve types of privacy violations. GDPR and Canada's Privacy Act establish legal frameworks, but the philosophical grounding is the right of persons to control how information about them shapes decisions affecting them.",
+      "canonical_definition_fr": "L'obligation de protéger les données personnelles contre la collecte, l'utilisation, la divulgation et la conservation non autorisées — fondée sur le respect de l'autonomie informationnelle des personnes (Westin) et le droit de façonner son identité informationnelle (Floridi). Le RGPD et la Loi sur la protection des renseignements personnels établissent des cadres juridiques.",
+      "aia_relevance": "Addressed through PIAs and data governance provisions. Treated as a compliance requirement under the Privacy Act rather than a philosophical obligation grounded in informational autonomy.",
+      "expected_drift": "Legalized: data protection reduced to legal compliance framework (Privacy Act, PIAs) rather than grounded philosophical obligation; the informational autonomy dimension is absent.",
+      "variants_en": ["data protection", "personal information", "PII", "privacy protection", "data governance", "information security"],
+      "variants_fr": ["protection des données", "renseignements personnels", "protection de la vie privée", "gouvernance des données", "sécurité de l'information"]
+    }
+
+  ]
+}
